@@ -1,0 +1,34 @@
+* ==============================================================================
+* Geo4Cambodia v4 — 2019 Census (Camb.dic): Labor Market & WG Disability (>=3)
+* ==============================================================================
+RUNDEF Labor_Disability_2019
+    SELECTION ALL
+
+DEFINE PERSON.SECTOR_3
+    AS RECODE PERSON.P21_INDUSTRY
+        (10 - 39 = 1)      * Primary (ISIC A)
+        (40 - 439 = 2)     * Secondary (ISIC B-F)
+        (440 - 990 = 3)    * Tertiary (ISIC G-U)
+        (ELSE = MISSING)
+    TYPE INTEGER
+
+DEFINE PERSON.DISAB_WG3
+    AS (PERSON.P17_1SEE >= 3 AND PERSON.P17_1SEE <= 4) OR
+       (PERSON.P17_2HEAR >= 3 AND PERSON.P17_2HEAR <= 4) OR
+       (PERSON.P17_3WALK >= 3 AND PERSON.P17_3WALK <= 4) OR
+       (PERSON.P17_4REMEMBER >= 3 AND PERSON.P17_4REMEMBER <= 4) OR
+       (PERSON.P17_5SELF_CARE >= 3 AND PERSON.P17_5SELF_CARE <= 4) OR
+       (PERSON.P17_6USUAL >= 3 AND PERSON.P17_6USUAL <= 4)
+    TYPE INTEGER
+
+TABLE T_ACTIVITY_SEX
+    AS CROSSTABS OF COMMUNE.ID BY PERSON.P18_ACTIVITY BY PERSON.P04_SEX1
+    FOR PERSON.P05_AGE1 >= 15
+
+TABLE T_SECTOR_SEX
+    AS CROSSTABS OF COMMUNE.ID BY PERSON.SECTOR_3 BY PERSON.P04_SEX1
+    FOR PERSON.P05_AGE1 >= 15 AND PERSON.P18_ACTIVITY = 1
+
+TABLE T_DISABILITY_WG
+    AS FREQUENCY OF COMMUNE.ID BY PERSON.DISAB_WG3
+    FOR PERSON.P05_AGE1 >= 5

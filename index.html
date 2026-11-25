@@ -191,7 +191,7 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
 
 <header class="hero">
   <div class="hero-left">
-    <div class="eyebrow"><i></i><span data-i18n="eyebrow">Observatorio Subnacional · 202 distritos armonizados · 69 indicadores</span></div>
+    <div class="eyebrow"><i></i><span data-i18n="eyebrow">Observatorio Subnacional · 202 distritos armonizados · 92 indicadores</span></div>
     <h1 data-i18n="heroTitle">Camboya en tres<br><em>censos de población</em></h1>
     <div class="hero-author" data-i18n="heroAuthor"><strong>Favio Leiva</strong><span class="sep">·</span><span class="pow">Powered by Gemini 4 Neon via Antigravity</span></div>
     <p class="hero-lead" data-i18n="heroLead">Panel censal multi-variable armonizado para las 202 unidades de Quarcs Cambodia shapefile 202 (GDO-Cambodia), reconstruido desde el nivel de comuna (ADM3) para 1998, 2008 y 2019 (100% REDATAM).</p>
@@ -392,6 +392,7 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
               <a class="proj-pill" href="docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.md" target="_blank">3-Wave Trilingual Dictionary (MD) ↗</a>
               <a class="proj-pill" href="docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.csv" download>3-Wave Trilingual Dictionary (CSV) ↗</a>
               <a class="proj-pill" href="data/panel202_multivar_web.json" target="_blank">Web Observatory JSON ↗</a>
+              <a class="proj-pill" href="docs/redatam_spc/README.md" target="_blank">REDATAM 7 .spc Scripts ↗</a>
               <a class="proj-pill" href="docs/METHODOLOGY.md" target="_blank">Methodology &amp; Audit (MD) ↗</a>
               <a class="proj-pill" href="maps/cambodia_district_population_1998_2008_2019.html" target="_blank">Native Districts 1998–2019 Map ↗</a>
               <a class="proj-pill" href="maps/cambodia_commune_pop_sex_2019.html" target="_blank">2019 Communes Pop &amp; Sex Map ↗</a>
@@ -430,6 +431,10 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
           </ul>
         </div>
         <div class="method-card wide">
+          <h3 data-i18n="mLimTitle">5. Limitaciones por acceso pendiente a microdatos REDATAM (1998 y 2008)</h3>
+          <p data-i18n="mLimBody">Mientras que los indicadores de 2019 provienen directamente del censo 100% REDATAM (con scripts <code>.spc</code> replicables en <code>docs/redatam_spc/</code>), los censos de 1998 y 2008 se reconstruyen a partir de tablas comunales agregadas públicas (ODC) porque aún estamos gestionando el acceso institucional a los microdatos REDATAM de 1998 y 2008. Esto explica por qué ciertos indicadores clave —como años promedio de escolaridad (MoEYS 6–3–3–4), educación superior, desagüe conectado a red pública (alcantarillado), tenencia de vivienda y discapacidad— comienzan en 2008, por qué la mortalidad de 1998 (IMR/CMR) y 2019 (tasa bruta) no están presentes en 2008, y por qué el ajuste de hogares regulares en tamaño promedio del hogar solo puede aplicarse exactamente en 2019.</p>
+        </div>
+        <div class="method-card wide">
           <h3 data-i18n="m5Title">5. Ecosistema de proyectos y autoría</h3>
           <p data-i18n="m5Body">Este observatorio forma parte de la iniciativa <strong>Geo4Cambodia / GDO-Cambodia</strong> y sigue la arquitectura de observatorios subnacionales reproducibles desarrollados por <strong>Favio Leiva</strong> (con gobernanza contractual <code>AGENTS.md</code>), en diálogo con el repositorio abierto de QuaRCS Lab (Carlos Mendez) y los observatorios hermanos de Bolivia.</p>
           <div class="proj-links">
@@ -465,7 +470,7 @@ const I18N = {
   es: {
     brandSub: "Panel 202 · Censo Multi-Variable 1998–2019",
     navExplore: "Explorar", navRefs: "Mapas y datos", navMethod: "Método",
-    eyebrow: "Observatorio Subnacional · 202 distritos armonizados · 69 indicadores",
+    eyebrow: "Observatorio Subnacional · 202 distritos armonizados · 92 indicadores",
     heroTitle: "Camboya en tres<br><em>censos de población</em>",
     heroAuthor: "<strong>Favio Leiva</strong><span class='sep'>·</span><span class='pow'>Powered by Gemini 4 Neon via Antigravity</span>",
     heroLead: "Panel censal multi-variable armonizado para las 202 unidades de Quarcs Cambodia shapefile 202 (GDO-Cambodia), reconstruido desde el nivel de comuna (ADM3) para 1998, 2008 y 2019 (100% REDATAM).",
@@ -504,13 +509,15 @@ const I18N = {
     estBadge: "Incluye estimación oficial NIS 1998 (+{n} hab. por exclusión de conflicto)",
     naLabel: "Sin dato", waterLabel: "Tonlé Sap (Cuerpo de agua)",
     scaleLog: "escala logarítmica común", scaleLin: "escala lineal común",
-    trajLbl: "Trayectoria ({w})", only2019: "Solo Censo 2019", only9808: "Solo 1998 · 2008",
+    trajLbl: "Trayectoria ({w})", only2019: "Solo Censo 2019", only1998: "Solo Censo 1998", only9808: "Solo 1998 · 2008", only0819: "2008 · 2019 (sin microdata 1998)",
+    mLimTitle: "5. Limitaciones por acceso pendiente a microdatos REDATAM (1998 y 2008)",
+    mLimBody: "Mientras que 2019 proviene del censo 100% REDATAM (con scripts <code>.spc</code> replicables en <code>docs/redatam_spc/</code>), 1998 y 2008 provienen de tablas comunales agregadas públicas porque aún estamos gestionando el acceso a los microdatos REDATAM de 1998 y 2008. Por eso indicadores como años promedio de escolaridad (MoEYS 6–3–3–4), educación superior, desagüe conectado a red pública, tenencia y discapacidad solo cubren 2008–2019, y la mortalidad de 1998 (IMR/CMR) no tiene equivalente en 2008.",
     covWarn: "Cobertura módulo 1998: {p}%"
   },
   en: {
     brandSub: "Panel 202 · Multi-Variable Census 1998–2019",
     navExplore: "Explore", navRefs: "Maps & Data", navMethod: "Method",
-    eyebrow: "Subnational Observatory · 202 harmonized districts · 69 indicators",
+    eyebrow: "Subnational Observatory · 202 harmonized districts · 92 indicators",
     heroTitle: "Cambodia in three<br><em>population censuses</em>",
     heroAuthor: "<strong>Favio Leiva</strong><span class='sep'>·</span><span class='pow'>Powered by Gemini 4 Neon via Antigravity</span>",
     heroLead: "Harmonized multi-variable census panel across all 202 units of Quarcs Cambodia shapefile 202 (GDO-Cambodia), reconstructed from commune level (ADM3) for 1998, 2008, and 2019 (100% REDATAM).",
@@ -549,13 +556,15 @@ const I18N = {
     estBadge: "Includes official 1998 NIS estimate (+{n} conflict-excluded)",
     naLabel: "No data", waterLabel: "Tonlé Sap (Water body)",
     scaleLog: "common log scale", scaleLin: "common linear scale",
-    trajLbl: "Trajectory ({w})", only2019: "2019 Census only", only9808: "1998 · 2008 only",
+    trajLbl: "Trajectory ({w})", only2019: "2019 Census only", only1998: "1998 Census only", only9808: "1998 · 2008 only", only0819: "2008 · 2019 (no 1998 microdata)",
+    mLimTitle: "5. Limitations from pending REDATAM microdata access (1998 & 2008)",
+    mLimBody: "While 2019 is computed directly from the 100% REDATAM census (with reproducible <code>.spc</code> scripts in <code>docs/redatam_spc/</code>), 1998 and 2008 rely on public aggregated commune tables because institutional access to the 1998 and 2008 REDATAM microdata is still being pursued. This explains why mean years of schooling (MoEYS 6–3–3–4), higher education, public sewerage connection, housing tenure, and disability start in 2008, why 2008 lacks mortality, and why regular-household-only population denominators for average household size are exact only in 2019.",
     covWarn: "1998 module coverage: {p}%"
   },
   km: {
     brandSub: "បន្ទះ ២០២ · ទិន្នន័យជំរឿនពហុអថេរ ១៩៩៨–២០១៩",
     navExplore: "រុករក", navRefs: "ផែនទី និងទិន្នន័យ", navMethod: "វិធីសាស្ត្រ",
-    eyebrow: "ស្ថានីយ៍អង្កេតថ្នាក់ក្រោមជាតិ · ស្រុក/ខណ្ឌ ២០២ · សូចនាករ ៦៩",
+    eyebrow: "ស្ថានីយ៍អង្កេតថ្នាក់ក្រោមជាតិ · ស្រុក/ខណ្ឌ ២០២ · សូចនាករ 92",
     heroTitle: "កម្ពុជាក្នុងជំរឿន<br><em>ប្រជាជនទាំងបីលើក</em>",
     heroAuthor: "<strong>Favio Leiva</strong><span class='sep'>·</span><span class='pow'>Powered by Gemini 4 Neon via Antigravity</span>",
     heroLead: "បន្ទះទិន្នន័យជំរឿនពហុអថេរសម្រាប់ស្រុក/ក្រុង/ខណ្ឌចំនួន ២០២ នៃ Quarcs Cambodia shapefile 202 (GDO-Cambodia) ដោយផ្អែកលើទិន្នន័យថ្នាក់ឃុំ/សង្កាត់ (ADM3) ឆ្នាំ ១៩៩៨, ២០០៨ និង ២០១៩ (100% REDATAM)។",
@@ -594,7 +603,9 @@ const I18N = {
     estBadge: "រួមបញ្ចូលការប៉ាន់ស្មាន NIS ១៩៩៨ (+{n} នាក់ តំបន់ជម្លោះ)",
     naLabel: "គ្មានទិន្នន័យ", waterLabel: "បឹងទន្លេសាប (ផ្ទៃទឹក)",
     scaleLog: "មាត្រដ្ឋានលោការីតរួម", scaleLin: "មាត្រដ្ឋានលីនេអ៊ែររួម",
-    trajLbl: "និន្នាការ ({w})", only2019: "ជំរឿនឆ្នាំ ២០១៩ តែប៉ុណ្ណោះ", only9808: "១៩៩៨ · ២០០៨ តែប៉ុណ្ណោះ",
+    trajLbl: "និន្នាការ ({w})", only2019: "ជំរឿនឆ្នាំ ២០១៩ តែប៉ុណ្ណោះ", only1998: "ជំរឿនឆ្នាំ ១៩៩៨ តែប៉ុណ្ណោះ", only9808: "១៩៩៨ · ២០០៨ តែប៉ុណ្ណោះ", only0819: "២០០៨ · ២០១៩ (គ្មាន microdata ១៩៩៨)",
+    mLimTitle: "៥. ដែនកំណត់ដោយសារមិនទាន់មានសិទ្ធិចូលប្រើ microdata REDATAM (១៩៩៨ និង ២០០៨)",
+    mLimBody: "ទិន្នន័យឆ្នាំ ២០១៩ ត្រូវបានគណនាដោយផ្ទាល់ពីជំរឿន 100% REDATAM (មានស្គ្រីប <code>.spc</code> ក្នុង <code>docs/redatam_spc/</code>) ចំណែកឆ្នាំ ១៩៩៨ និង ២០០៨ ពឹងផ្អែកលើតារាងសរុបសាធារណៈ ដោយសារយើងកំពុងស្នើសុំសិទ្ធិចូលប្រើ microdata REDATAM ឆ្នាំ ១៩៩៨ និង ២០០៨។ ហេតុនេះសូចនាករដូចជាមធ្យមភាគឆ្នាំសិក្សា ឧត្តមសិក្សា បណ្តាញលូសាធារណៈ និងពិការភាព ចាប់ផ្តើមពីឆ្នាំ ២០០៨។",
     covWarn: "វិសាលភាពទិន្នន័យ ១៩៩៨៖ {p}%"
   }
 };
@@ -713,6 +724,12 @@ function syncYearAvailability() {
     nisWrap.style.display = "none";
     if (meta.years.length === 1 && meta.years[0] === 2019) {
       waveBadge.textContent = t.only2019;
+      waveBadge.style.display = "inline-flex";
+    } else if (meta.years.length === 1 && meta.years[0] === 1998) {
+      waveBadge.textContent = t.only1998;
+      waveBadge.style.display = "inline-flex";
+    } else if (meta.years.length === 2 && meta.years[0] === 2008) {
+      waveBadge.textContent = t.only0819;
       waveBadge.style.display = "inline-flex";
     } else if (meta.years.length === 2) {
       waveBadge.textContent = t.only9808;

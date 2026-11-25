@@ -68,3 +68,13 @@ An additional ~`2,000` people were estimated in an excluded village of Ou Chrov 
 
 ### 3.3. Tonlé Sap Lake Sectors in `Quarcs Cambodia shapefile 202`
 The 202-unit GADM 4.1 geometry (`district.geojson`) contains 197 inhabited land districts plus 5 water-body polygons named `Tonlé Sap` (`KH-02-15`, `KH-04-08`, `KH-06-09`, `KH-17-06`, `KH-21-12`). All 202 units are retained for strict compatibility with `quarcs-lab/geo4cambodia`; the interactive **Top 10 / Bottom 10** rankings and choropleth color scale lower bound (`3,500`) focus on the 197 inhabited land districts.
+
+---
+
+## v4 Methodological Audit & Microdata-Access Limitations (Contract 10)
+
+1. **Mean Years of Schooling (`2008 · 2019`, MoEYS `6–3–3–4`):** Computed for both population `15+` and `25+` using Cambodia's official school cycle durations: `0` yrs (none / never attended / `P16C=88`), `3` yrs (primary incomplete, grades 1–5 midpoint), `6` yrs (primary completed, grade 6), `9` yrs (lower secondary, grades 7–9), `12` yrs (upper secondary, grades 10–12), and `16` yrs (higher/university education).
+2. **Development-Focused Sanitation (`2008 · 2019`):** Broad "any toilet" was replaced by **public sewerage network connection (`toilet_sewer_pct`)** and **septic tank (`toilet_septic_pct`)** separately so pit latrines are never equated to public sewerage infrastructure.
+3. **Average Household Size (`2019`):** Computed strictly as `pop_in_regular_hh / households_regular` (`C8_HHTYPE = 1`), removing collective/institutional dormitory distortion (notably in Preah Sihanouk / Koh Rong).
+4. **Reproducible REDATAM 7 `.spc` Scripts:** Provided in [`docs/redatam_spc/`](redatam_spc/README.md) alongside the Python streaming pipeline.
+5. **Pending Microdata Access (`1998` & `2008`):** Wave gaps and aggregation constraints in `1998` and `2008` (absence of sewerage disaggregation in 1998, grouped/incomplete 1998 education tables, absence of mortality in 2008, and lack of regular-household-only population denominators in 1998/2008) are **limitations resulting from not yet having institutional access to the 1998 and 2008 REDATAM microdata**, which is currently being requested.

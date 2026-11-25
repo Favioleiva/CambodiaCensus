@@ -22,16 +22,16 @@ It combines:
 
 ---
 
-## v3 Release Highlights — Complete 3-Wave Multi-Variable Observatory (`1998 · 2008 · 2019`)
+## v4 Release Highlights — Audited Multi-Variable Observatory (92 Indicators · `ES` · `EN` · `ខ្មែរ`)
 
-- **Interactive Trilingual Variable Selector (`ES` · `EN` · `ខ្មែរ`):** Explore **69 harmonized indicators** across **10 thematic blocks** (Demography, Age Structure, Education, Labor Market, Housing & Services, Agro-Mechanization, ICT & Assets, Transport Assets, Religion, and Marital Status) directly on `index.html`, with all labels, legends, tooltips, trajectories, and Top 10 / Bottom 10 rankings dynamically localized in Spanish, English, and Khmer.
-- **New Harmonized Open Datasets:**
-  - [`data/harmonized_panel202/panel202_multivar_1998_2008_2019_long.csv`](data/harmonized_panel202/panel202_multivar_1998_2008_2019_long.csv) (`606` rows × `63` cols)
-  - [`data/harmonized_panel202/panel202_multivar_1998_2008_2019_wide.csv`](data/harmonized_panel202/panel202_multivar_1998_2008_2019_wide.csv) (`202` rows × `176` cols)
-  - [`data/harmonized_panel202/panel202_assets_agromech_2019.csv`](data/harmonized_panel202/panel202_assets_agromech_2019.csv) (`202` rows × `20` cols: tractors, koyaon, cellphone, home internet, motorbike, car, TV)
-  - [`data/census_2019/commune_2019_multivar_aggregated.csv`](data/census_2019/commune_2019_multivar_aggregated.csv) (`1,648` communes × `72` aggregated counters; zero microdata)
-  - [`docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.md`](docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.md) & [`docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.csv`](docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.csv) (78 variables documented in `EN`, `ES`, and `ខ្មែរ`)
-  - [`data/panel202_multivar_web.json`](data/panel202_multivar_web.json) (compact JSON payload powering the web observatory)
+- **New MoEYS `6–3–3–4` Mean Years of Schooling (`2008 · 2019`, `15+` & `25+`)** (`0, 3, 6, 9, 12, 16` years) + Higher/University Attainment (`educ_higher_15plus_pct`, `educ_higher_25plus_pct`).
+- **Development-Focused Sanitation (`2008 · 2019`):** Public sewerage network connection (`toilet_sewer_pct`) and septic tank (`toilet_septic_pct`) separated from latrines.
+- **Preah Sihanouk `avg_hh_size` 2019 Fix:** Uses regular-household population (`C8_HHTYPE = 1`) / regular households.
+- **1998 NIS `+43k` Map Fix:** Verified `11,480,656` total across all 197 land districts.
+- **Additional Indicators:** Housing tenure (`2008–2019`), disability (`2008–2019`), gendered unemployment & sectors, widowed/divorced, bought water, `IMR`/`CMR`/`ELIFE`/`TFR` (`1998`), and `crude_death_rate_2019` (`2019`).
+- **Reproducible REDATAM 7 `.spc` Scripts:** [`docs/redatam_spc/`](docs/redatam_spc/README.md).
+- **Trilingual Variable Dictionary (`EN` · `ES` · `ខ្មែរ`):** [`docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.md`](docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.md) · [`.csv`](docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.csv).
+- **Microdata Limitation Notice:** Wave gaps in `1998` and `2008` reflect pending institutional access to the `1998` and `2008` REDATAM microdata (see [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md)).
 
 ---
 

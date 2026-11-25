@@ -1,0 +1,28 @@
+* ==============================================================================
+* Geo4Cambodia v4 — 2019 Census (Camb.dic): Demography & Regular Households
+* Note: avg_hh_size uses PERSON in C8_HHTYPE=1 divided by HOUSEHOLD C8_HHTYPE=1
+* ==============================================================================
+RUNDEF Demography_2019
+    SELECTION ALL
+
+DEFINE PERSON.IN_REG_HH AS (HOUSEHOLD.C8_HHTYPE = 1)
+    TYPE INTEGER
+
+TABLE T_POP_SEX
+    AS FREQUENCY OF COMMUNE.ID BY PERSON.P04_SEX1
+
+TABLE T_REG_HH_POP
+    AS FREQUENCY OF COMMUNE.ID BY PERSON.IN_REG_HH
+
+TABLE T_HH_TYPE
+    AS FREQUENCY OF COMMUNE.ID BY HOUSEHOLD.C8_HHTYPE
+
+TABLE T_URBAN
+    AS FREQUENCY OF COMMUNE.ID BY COVER.URBRUR
+
+TABLE T_RELIGION
+    AS FREQUENCY OF COMMUNE.ID BY PERSON.P10_RELIGION
+
+TABLE T_MARITAL_15PLUS
+    AS FREQUENCY OF COMMUNE.ID BY PERSON.P07_MARITAL
+    FOR PERSON.P05_AGE1 >= 15

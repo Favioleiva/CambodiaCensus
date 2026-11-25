@@ -1,607 +1,607 @@
-geo_id,district_name,province_id,province_name,year,population,population_enumerated,includes_1998_nis_estimate
-KH-01-01,Malai,KH-01,Banteay Meanchey,1998,26079.7,26079.7,False
-KH-01-01,Malai,KH-01,Banteay Meanchey,2008,42222.4,42222.4,False
-KH-01-01,Malai,KH-01,Banteay Meanchey,2019,55941.4,55941.4,False
-KH-01-02,Mongkol Borei,KH-01,Banteay Meanchey,1998,136849.0,136849.0,False
-KH-01-02,Mongkol Borei,KH-01,Banteay Meanchey,2008,139326.8,139326.8,False
-KH-01-02,Mongkol Borei,KH-01,Banteay Meanchey,2019,188125.5,188125.5,False
-KH-01-03,Ou Chrov,KH-01,Banteay Meanchey,1998,41884.2,41884.2,False
-KH-01-03,Ou Chrov,KH-01,Banteay Meanchey,2008,47277.2,47277.2,False
-KH-01-03,Ou Chrov,KH-01,Banteay Meanchey,2019,63836.1,63836.1,False
-KH-01-04,Paoy Paet,KH-01,Banteay Meanchey,1998,57949.7,57949.7,False
-KH-01-04,Paoy Paet,KH-01,Banteay Meanchey,2008,107932.2,107932.2,False
-KH-01-04,Paoy Paet,KH-01,Banteay Meanchey,2019,100588.1,100588.1,False
-KH-01-05,Phnum Srok,KH-01,Banteay Meanchey,1998,41519.6,41519.6,False
-KH-01-05,Phnum Srok,KH-01,Banteay Meanchey,2008,47010.8,47010.8,False
-KH-01-05,Phnum Srok,KH-01,Banteay Meanchey,2019,66215.4,66215.4,False
-KH-01-06,Preah Netr Preah,KH-01,Banteay Meanchey,1998,78732.0,78732.0,False
-KH-01-06,Preah Netr Preah,KH-01,Banteay Meanchey,2008,87190.7,87190.7,False
-KH-01-06,Preah Netr Preah,KH-01,Banteay Meanchey,2019,125938.9,125938.9,False
-KH-01-07,Serei Saophoan,KH-01,Banteay Meanchey,1998,55444.9,55444.9,False
-KH-01-07,Serei Saophoan,KH-01,Banteay Meanchey,2008,90064.7,90064.7,False
-KH-01-07,Serei Saophoan,KH-01,Banteay Meanchey,2019,102470.4,102470.4,False
-KH-01-08,Svay Chek,KH-01,Banteay Meanchey,1998,63564.7,63564.7,False
-KH-01-08,Svay Chek,KH-01,Banteay Meanchey,2008,55491.4,55491.4,False
-KH-01-08,Svay Chek,KH-01,Banteay Meanchey,2019,81199.2,81199.2,False
-KH-01-09,Thma Puok,KH-01,Banteay Meanchey,1998,53511.2,53511.2,False
-KH-01-09,Thma Puok,KH-01,Banteay Meanchey,2008,61180.0,61180.0,False
-KH-01-09,Thma Puok,KH-01,Banteay Meanchey,2019,77409.2,77409.2,False
-KH-02-01,Aek Phnum,KH-02,Battambang,1998,65554.6,65554.6,False
-KH-02-01,Aek Phnum,KH-02,Battambang,2008,68430.6,68430.6,False
-KH-02-01,Aek Phnum,KH-02,Battambang,2019,72641.1,72641.1,False
-KH-02-02,Banan,KH-02,Battambang,1998,77882.8,77882.8,False
-KH-02-02,Banan,KH-02,Battambang,2008,92262.3,92262.3,False
-KH-02-02,Banan,KH-02,Battambang,2019,88277.7,88277.7,False
-KH-02-03,Battambang,KH-02,Battambang,1998,125613.6,125613.6,False
-KH-02-03,Battambang,KH-02,Battambang,2008,143607.7,143607.7,False
-KH-02-03,Battambang,KH-02,Battambang,2019,124632.0,124632.0,False
-KH-02-04,Bavel,KH-02,Battambang,1998,73537.6,73537.6,False
-KH-02-04,Bavel,KH-02,Battambang,2008,99969.4,99969.4,False
-KH-02-04,Bavel,KH-02,Battambang,2019,92928.5,92928.5,False
-KH-02-05,Kamrieng,KH-02,Battambang,1998,14360.4,14360.4,False
-KH-02-05,Kamrieng,KH-02,Battambang,2008,51002.0,51002.0,False
-KH-02-05,Kamrieng,KH-02,Battambang,2019,53572.5,53572.5,False
-KH-02-06,Koas Krala,KH-02,Battambang,1998,32305.9,30731.3,True
-KH-02-06,Koas Krala,KH-02,Battambang,2008,24809.9,24809.9,False
-KH-02-06,Koas Krala,KH-02,Battambang,2019,30373.0,30373.0,False
-KH-02-07,Moung Ruessei,KH-02,Battambang,1998,78381.7,78381.7,False
-KH-02-07,Moung Ruessei,KH-02,Battambang,2008,112721.3,112721.3,False
-KH-02-07,Moung Ruessei,KH-02,Battambang,2019,104985.4,104985.4,False
-KH-02-08,Phnum Proek,KH-02,Battambang,1998,15588.2,15588.2,False
-KH-02-08,Phnum Proek,KH-02,Battambang,2008,49638.7,49638.7,False
-KH-02-08,Phnum Proek,KH-02,Battambang,2019,45335.3,45335.3,False
-KH-02-09,Rotonak Mondol,KH-02,Battambang,1998,12953.3,12918.4,False
-KH-02-09,Rotonak Mondol,KH-02,Battambang,2008,41160.9,41160.9,False
-KH-02-09,Rotonak Mondol,KH-02,Battambang,2019,40051.1,40051.1,False
-KH-02-10,Rukh Kiri,KH-02,Battambang,1998,20664.2,20661.4,False
-KH-02-10,Rukh Kiri,KH-02,Battambang,2008,40926.1,40926.1,False
-KH-02-10,Rukh Kiri,KH-02,Battambang,2019,42683.3,42683.3,False
-KH-02-11,Samlout,KH-02,Battambang,1998,25238.9,3863.9,True
-KH-02-11,Samlout,KH-02,Battambang,2008,39730.2,39730.2,False
-KH-02-11,Samlout,KH-02,Battambang,2019,44077.4,44077.4,False
-KH-02-12,Sampov Lun,KH-02,Battambang,1998,36332.5,36332.5,False
-KH-02-12,Sampov Lun,KH-02,Battambang,2008,35317.5,35317.5,False
-KH-02-12,Sampov Lun,KH-02,Battambang,2019,38105.6,38105.6,False
-KH-02-13,Sangkae,KH-02,Battambang,1998,90385.0,90385.0,False
-KH-02-13,Sangkae,KH-02,Battambang,2008,112127.9,112127.9,False
-KH-02-13,Sangkae,KH-02,Battambang,2019,112656.7,112656.7,False
-KH-02-14,Thma Koul,KH-02,Battambang,1998,109152.1,109152.1,False
-KH-02-14,Thma Koul,KH-02,Battambang,2008,113581.6,113581.6,False
-KH-02-14,Thma Koul,KH-02,Battambang,2019,106989.6,106989.6,False
-KH-02-15,Tonlé Sap,KH-02,Battambang,1998,27.7,27.7,False
-KH-02-15,Tonlé Sap,KH-02,Battambang,2008,30.0,30.0,False
-KH-02-15,Tonlé Sap,KH-02,Battambang,2019,27.3,27.3,False
-KH-03-01,Batheay,KH-03,Kampong Cham,1998,88210.6,88210.6,False
-KH-03-01,Batheay,KH-03,Kampong Cham,2008,102905.7,102905.7,False
-KH-03-01,Batheay,KH-03,Kampong Cham,2019,108347.0,108347.0,False
-KH-03-02,Chamkar Leu,KH-03,Kampong Cham,1998,125745.3,125745.3,False
-KH-03-02,Chamkar Leu,KH-03,Kampong Cham,2008,110891.0,110891.0,False
-KH-03-02,Chamkar Leu,KH-03,Kampong Cham,2019,102269.6,102269.6,False
-KH-03-03,Cheung Prey,KH-03,Kampong Cham,1998,74580.0,74580.0,False
-KH-03-03,Cheung Prey,KH-03,Kampong Cham,2008,83767.4,83767.4,False
-KH-03-03,Cheung Prey,KH-03,Kampong Cham,2019,93552.8,93552.8,False
-KH-03-04,Kampong Cham,KH-03,Kampong Cham,1998,39018.3,39018.3,False
-KH-03-04,Kampong Cham,KH-03,Kampong Cham,2008,47177.7,47177.7,False
-KH-03-04,Kampong Cham,KH-03,Kampong Cham,2019,42949.1,42949.1,False
-KH-03-05,Kampong Siem,KH-03,Kampong Cham,1998,89182.0,89182.0,False
-KH-03-05,Kampong Siem,KH-03,Kampong Cham,2008,100109.3,100109.3,False
-KH-03-05,Kampong Siem,KH-03,Kampong Cham,2019,95840.5,95840.5,False
-KH-03-06,Kang Meas,KH-03,Kampong Cham,1998,90624.9,90624.9,False
-KH-03-06,Kang Meas,KH-03,Kampong Cham,2008,90014.8,90014.8,False
-KH-03-06,Kang Meas,KH-03,Kampong Cham,2019,86569.2,86569.2,False
-KH-03-07,Kaoh Soutin,KH-03,Kampong Cham,1998,68893.2,68893.2,False
-KH-03-07,Kaoh Soutin,KH-03,Kampong Cham,2008,60461.9,60461.9,False
-KH-03-07,Kaoh Soutin,KH-03,Kampong Cham,2019,48597.6,48597.6,False
-KH-03-08,Prey Chhor,KH-03,Kampong Cham,1998,135086.6,135086.6,False
-KH-03-08,Prey Chhor,KH-03,Kampong Cham,2008,125384.7,125384.7,False
-KH-03-08,Prey Chhor,KH-03,Kampong Cham,2019,134837.5,134837.5,False
-KH-03-09,Srei Santhor,KH-03,Kampong Cham,1998,89385.4,89385.4,False
-KH-03-09,Srei Santhor,KH-03,Kampong Cham,2008,86391.2,86391.2,False
-KH-03-09,Srei Santhor,KH-03,Kampong Cham,2019,82144.1,82144.1,False
-KH-03-10,Stueng Trang,KH-03,Kampong Cham,1998,106732.3,106732.3,False
-KH-03-10,Stueng Trang,KH-03,Kampong Cham,2008,118774.3,118774.3,False
-KH-03-10,Stueng Trang,KH-03,Kampong Cham,2019,104928.5,104928.5,False
-KH-04-01,Baribour,KH-04,Kampong Chhnang,1998,64503.9,64503.9,False
-KH-04-01,Baribour,KH-04,Kampong Chhnang,2008,56048.0,56048.0,False
-KH-04-01,Baribour,KH-04,Kampong Chhnang,2019,55856.5,55856.5,False
-KH-04-02,Chol Kiri,KH-04,Kampong Chhnang,1998,28314.6,28314.6,False
-KH-04-02,Chol Kiri,KH-04,Kampong Chhnang,2008,32067.5,32067.5,False
-KH-04-02,Chol Kiri,KH-04,Kampong Chhnang,2019,31566.5,31566.5,False
-KH-04-03,Kampong Chhnang,KH-04,Kampong Chhnang,1998,41334.6,41334.6,False
-KH-04-03,Kampong Chhnang,KH-04,Kampong Chhnang,2008,42731.2,42731.2,False
-KH-04-03,Kampong Chhnang,KH-04,Kampong Chhnang,2019,42851.4,42851.4,False
-KH-04-04,Kampong Leaeng,KH-04,Kampong Chhnang,1998,36594.3,36594.3,False
-KH-04-04,Kampong Leaeng,KH-04,Kampong Chhnang,2008,44654.1,44654.1,False
-KH-04-04,Kampong Leaeng,KH-04,Kampong Chhnang,2019,44673.3,44673.3,False
-KH-04-05,Kampong Tralach,KH-04,Kampong Chhnang,1998,82618.2,82618.2,False
-KH-04-05,Kampong Tralach,KH-04,Kampong Chhnang,2008,80809.3,80809.3,False
-KH-04-05,Kampong Tralach,KH-04,Kampong Chhnang,2019,101472.8,101472.8,False
-KH-04-06,Rolea B'ier,KH-04,Kampong Chhnang,1998,81040.2,81040.2,False
-KH-04-06,Rolea B'ier,KH-04,Kampong Chhnang,2008,92920.8,92920.8,False
-KH-04-06,Rolea B'ier,KH-04,Kampong Chhnang,2019,104786.0,104786.0,False
-KH-04-07,Sameakki Mean Chey,KH-04,Kampong Chhnang,1998,57282.0,57282.0,False
-KH-04-07,Sameakki Mean Chey,KH-04,Kampong Chhnang,2008,65868.5,65868.5,False
-KH-04-07,Sameakki Mean Chey,KH-04,Kampong Chhnang,2019,82844.2,82844.2,False
-KH-04-08,Tonlé Sap,KH-04,Kampong Chhnang,1998,1828.7,1828.7,False
-KH-04-08,Tonlé Sap,KH-04,Kampong Chhnang,2008,282.3,282.3,False
-KH-04-08,Tonlé Sap,KH-04,Kampong Chhnang,2019,197.9,197.9,False
-KH-04-09,Tuek Phos,KH-04,Kampong Chhnang,1998,50226.0,50226.0,False
-KH-04-09,Tuek Phos,KH-04,Kampong Chhnang,2008,56981.9,56981.9,False
-KH-04-09,Tuek Phos,KH-04,Kampong Chhnang,2019,62986.2,62986.2,False
-KH-05-01,Aoral,KH-05,Kampong Speu,1998,15693.9,15693.9,False
-KH-05-01,Aoral,KH-05,Kampong Speu,2008,29890.8,29890.8,False
-KH-05-01,Aoral,KH-05,Kampong Speu,2019,39805.5,39805.5,False
-KH-05-02,Basedth,KH-05,Kampong Speu,1998,108485.1,108485.1,False
-KH-05-02,Basedth,KH-05,Kampong Speu,2008,119371.4,119371.4,False
-KH-05-02,Basedth,KH-05,Kampong Speu,2019,137330.7,137330.7,False
-KH-05-03,Chbar Mon,KH-05,Kampong Speu,1998,41161.3,41161.3,False
-KH-05-03,Chbar Mon,KH-05,Kampong Speu,2008,46512.6,46512.6,False
-KH-05-03,Chbar Mon,KH-05,Kampong Speu,2019,51466.3,51466.3,False
-KH-05-04,Kong Pisei,KH-05,Kampong Speu,1998,97297.5,97297.5,False
-KH-05-04,Kong Pisei,KH-05,Kampong Speu,2008,113104.7,113104.7,False
-KH-05-04,Kong Pisei,KH-05,Kampong Speu,2019,146661.4,146661.4,False
-KH-05-05,Odongk,KH-05,Kampong Speu,1998,102629.0,102629.0,False
-KH-05-05,Odongk,KH-05,Kampong Speu,2008,119194.9,119194.9,False
-KH-05-05,Odongk,KH-05,Kampong Speu,2019,146269.4,146269.4,False
-KH-05-06,Phnum Sruoch,KH-05,Kampong Speu,1998,79993.7,79993.7,False
-KH-05-06,Phnum Sruoch,KH-05,Kampong Speu,2008,95202.8,95202.8,False
-KH-05-06,Phnum Sruoch,KH-05,Kampong Speu,2019,108479.9,108479.9,False
-KH-05-07,Samraong Tong,KH-05,Kampong Speu,1998,123064.7,123064.7,False
-KH-05-07,Samraong Tong,KH-05,Kampong Speu,2008,142961.0,142961.0,False
-KH-05-07,Samraong Tong,KH-05,Kampong Speu,2019,184478.3,184478.3,False
-KH-05-08,Thpong,KH-05,Kampong Speu,1998,39936.0,39936.0,False
-KH-05-08,Thpong,KH-05,Kampong Speu,2008,50629.9,50629.9,False
-KH-05-08,Thpong,KH-05,Kampong Speu,2019,63430.4,63430.4,False
-KH-06-01,Baray,KH-06,Kampong Thom,1998,162335.9,162335.9,False
-KH-06-01,Baray,KH-06,Kampong Thom,2008,167373.7,167373.7,False
-KH-06-01,Baray,KH-06,Kampong Thom,2019,169440.5,169440.5,False
-KH-06-02,Kampong Svay,KH-06,Kampong Thom,1998,75574.1,75574.1,False
-KH-06-02,Kampong Svay,KH-06,Kampong Thom,2008,89262.0,89262.0,False
-KH-06-02,Kampong Svay,KH-06,Kampong Thom,2019,91401.1,91401.1,False
-KH-06-03,Prasat Ballangk,KH-06,Kampong Thom,1998,38922.6,38922.6,False
-KH-06-03,Prasat Ballangk,KH-06,Kampong Thom,2008,47256.5,47256.5,False
-KH-06-03,Prasat Ballangk,KH-06,Kampong Thom,2019,48271.3,48271.3,False
-KH-06-04,Prasat Sambour,KH-06,Kampong Thom,1998,31765.1,31765.1,False
-KH-06-04,Prasat Sambour,KH-06,Kampong Thom,2008,39435.5,39435.5,False
-KH-06-04,Prasat Sambour,KH-06,Kampong Thom,2019,43656.2,43656.2,False
-KH-06-05,Sandan,KH-06,Kampong Thom,1998,37203.3,37203.3,False
-KH-06-05,Sandan,KH-06,Kampong Thom,2008,49694.5,49694.5,False
-KH-06-05,Sandan,KH-06,Kampong Thom,2019,62224.9,62224.9,False
-KH-06-06,Santuk,KH-06,Kampong Thom,1998,58258.6,58258.6,False
-KH-06-06,Santuk,KH-06,Kampong Thom,2008,80390.8,80390.8,False
-KH-06-06,Santuk,KH-06,Kampong Thom,2019,102183.5,102183.5,False
-KH-06-07,Stoung,KH-06,Kampong Thom,1998,97441.0,97441.0,False
-KH-06-07,Stoung,KH-06,Kampong Thom,2008,103936.6,103936.6,False
-KH-06-07,Stoung,KH-06,Kampong Thom,2019,109238.6,109238.6,False
-KH-06-08,Stueng Saen,KH-06,Kampong Thom,1998,51655.6,51655.6,False
-KH-06-08,Stueng Saen,KH-06,Kampong Thom,2008,53953.9,53953.9,False
-KH-06-08,Stueng Saen,KH-06,Kampong Thom,2019,55070.4,55070.4,False
-KH-06-09,Tonlé Sap,KH-06,Kampong Thom,1998,25.8,25.8,False
-KH-06-09,Tonlé Sap,KH-06,Kampong Thom,2008,26.8,26.8,False
-KH-06-09,Tonlé Sap,KH-06,Kampong Thom,2019,28.4,28.4,False
-KH-07-01,Angkor Chey,KH-07,Kampot,1998,72432.0,72432.0,False
-KH-07-01,Angkor Chey,KH-07,Kampot,2008,72633.3,72633.3,False
-KH-07-01,Angkor Chey,KH-07,Kampot,2019,73996.4,73996.4,False
-KH-07-02,Banteay Meas,KH-07,Kampot,1998,82293.8,82293.8,False
-KH-07-02,Banteay Meas,KH-07,Kampot,2008,83037.0,83037.0,False
-KH-07-02,Banteay Meas,KH-07,Kampot,2019,79406.6,79406.6,False
-KH-07-03,Chhuk,KH-07,Kampot,1998,90771.4,90771.4,False
-KH-07-03,Chhuk,KH-07,Kampot,2008,99543.3,99543.3,False
-KH-07-03,Chhuk,KH-07,Kampot,2019,102752.9,102752.9,False
-KH-07-04,Chum Kiri,KH-07,Kampot,1998,29950.5,29950.5,False
-KH-07-04,Chum Kiri,KH-07,Kampot,2008,47193.6,47193.6,False
-KH-07-04,Chum Kiri,KH-07,Kampot,2019,49131.0,49131.0,False
-KH-07-05,Dang Tong,KH-07,Kampot,1998,49132.5,49132.5,False
-KH-07-05,Dang Tong,KH-07,Kampot,2008,54268.9,54268.9,False
-KH-07-05,Dang Tong,KH-07,Kampot,2019,56386.0,56386.0,False
-KH-07-06,Kampong Trach,KH-07,Kampot,1998,83082.0,83082.0,False
-KH-07-06,Kampong Trach,KH-07,Kampot,2008,85826.6,85826.6,False
-KH-07-06,Kampong Trach,KH-07,Kampot,2019,86955.4,86955.4,False
-KH-07-07,Kampot,KH-07,Kampot,1998,32488.4,32488.4,False
-KH-07-07,Kampot,KH-07,Kampot,2008,35694.8,35694.8,False
-KH-07-07,Kampot,KH-07,Kampot,2019,33224.0,33224.0,False
-KH-07-08,Tuek Chhou,KH-07,Kampot,1998,93633.3,93633.3,False
-KH-07-08,Tuek Chhou,KH-07,Kampot,2008,107742.9,107742.9,False
-KH-07-08,Tuek Chhou,KH-07,Kampot,2019,112166.2,112166.2,False
-KH-08-01,Angk Snuol,KH-08,Kandal,1998,54178.6,54178.6,False
-KH-08-01,Angk Snuol,KH-08,Kandal,2008,82857.1,82857.1,False
-KH-08-01,Angk Snuol,KH-08,Kandal,2019,118115.6,118115.6,False
-KH-08-02,Kandal Stueng,KH-08,Kandal,1998,85318.1,85318.1,False
-KH-08-02,Kandal Stueng,KH-08,Kandal,2008,82607.4,82607.4,False
-KH-08-02,Kandal Stueng,KH-08,Kandal,2019,101613.4,101613.4,False
-KH-08-03,Kaoh Thum,KH-08,Kandal,1998,120258.2,120258.2,False
-KH-08-03,Kaoh Thum,KH-08,Kandal,2008,141524.3,141524.3,False
-KH-08-03,Kaoh Thum,KH-08,Kandal,2019,130337.8,130337.8,False
-KH-08-04,Khsach Kandal,KH-08,Kandal,1998,105975.5,105975.5,False
-KH-08-04,Khsach Kandal,KH-08,Kandal,2008,117419.5,117419.5,False
-KH-08-04,Khsach Kandal,KH-08,Kandal,2019,141930.6,141930.6,False
-KH-08-05,Kien Svay,KH-08,Kandal,1998,102514.1,102514.1,False
-KH-08-05,Kien Svay,KH-08,Kandal,2008,112059.1,112059.1,False
-KH-08-05,Kien Svay,KH-08,Kandal,2019,117239.3,117239.3,False
-KH-08-06,Leuk Daek,KH-08,Kandal,1998,53177.0,53177.0,False
-KH-08-06,Leuk Daek,KH-08,Kandal,2008,54424.9,54424.9,False
-KH-08-06,Leuk Daek,KH-08,Kandal,2019,54853.5,54853.5,False
-KH-08-07,Lvea Aem,KH-08,Kandal,1998,72991.6,72991.6,False
-KH-08-07,Lvea Aem,KH-08,Kandal,2008,66772.0,66772.0,False
-KH-08-07,Lvea Aem,KH-08,Kandal,2019,72779.0,72779.0,False
-KH-08-08,Mukh Kampul,KH-08,Kandal,1998,63830.5,63830.5,False
-KH-08-08,Mukh Kampul,KH-08,Kandal,2008,69294.1,69294.1,False
-KH-08-08,Mukh Kampul,KH-08,Kandal,2019,73091.0,73091.0,False
-KH-08-09,Ponhea Lueu,KH-08,Kandal,1998,78668.7,78668.7,False
-KH-08-09,Ponhea Lueu,KH-08,Kandal,2008,88595.8,88595.8,False
-KH-08-09,Ponhea Lueu,KH-08,Kandal,2019,105424.6,105424.6,False
-KH-08-10,S'ang,KH-08,Kandal,1998,165366.1,165366.1,False
-KH-08-10,S'ang,KH-08,Kandal,2008,195577.2,195577.2,False
-KH-08-10,S'ang,KH-08,Kandal,2019,207856.6,207856.6,False
-KH-08-11,Ta Khmau,KH-08,Kandal,1998,58200.5,58200.5,False
-KH-08-11,Ta Khmau,KH-08,Kandal,2008,80054.8,80054.8,False
-KH-08-11,Ta Khmau,KH-08,Kandal,2019,79512.8,79512.8,False
-KH-09-01,Botum Sakor,KH-09,Koh Kong,1998,17428.1,17428.1,False
-KH-09-01,Botum Sakor,KH-09,Koh Kong,2008,19982.9,19982.9,False
-KH-09-01,Botum Sakor,KH-09,Koh Kong,2019,19440.8,19440.8,False
-KH-09-02,Kaoh Kong,KH-09,Koh Kong,1998,8806.5,8806.5,False
-KH-09-02,Kaoh Kong,KH-09,Koh Kong,2008,7348.5,7348.5,False
-KH-09-02,Kaoh Kong,KH-09,Koh Kong,2019,7508.4,7508.4,False
-KH-09-03,Khemara Phoumin,KH-09,Koh Kong,1998,29166.9,29166.9,False
-KH-09-03,Khemara Phoumin,KH-09,Koh Kong,2008,25804.6,25804.6,False
-KH-09-03,Khemara Phoumin,KH-09,Koh Kong,2019,29805.5,29805.5,False
-KH-09-04,Kiri Sakor,KH-09,Koh Kong,1998,6275.7,6275.7,False
-KH-09-04,Kiri Sakor,KH-09,Koh Kong,2008,6937.6,6937.6,False
-KH-09-04,Kiri Sakor,KH-09,Koh Kong,2019,7144.9,7144.9,False
-KH-09-05,Mondol Seima,KH-09,Koh Kong,1998,12732.7,12731.3,False
-KH-09-05,Mondol Seima,KH-09,Koh Kong,2008,14735.4,14735.4,False
-KH-09-05,Mondol Seima,KH-09,Koh Kong,2019,15410.3,15410.3,False
-KH-09-06,Srae Ambel,KH-09,Koh Kong,1998,36043.8,36043.8,False
-KH-09-06,Srae Ambel,KH-09,Koh Kong,2008,36379.5,36379.5,False
-KH-09-06,Srae Ambel,KH-09,Koh Kong,2019,39505.7,39505.7,False
-KH-09-07,Thma Bang,KH-09,Koh Kong,1998,4299.8,4297.5,False
-KH-09-07,Thma Bang,KH-09,Koh Kong,2008,5047.3,5047.3,False
-KH-09-07,Thma Bang,KH-09,Koh Kong,2019,7095.1,7095.1,False
-KH-10-01,Damnak Chang'aeur,KH-10,Kep,1998,10413.3,10413.3,False
-KH-10-01,Damnak Chang'aeur,KH-10,Kep,2008,16188.5,16188.5,False
-KH-10-01,Damnak Chang'aeur,KH-10,Kep,2019,19877.3,19877.3,False
-KH-10-02,Kaeb,KH-10,Kep,1998,14468.3,14468.3,False
-KH-10-02,Kaeb,KH-10,Kep,2008,19441.1,19441.1,False
-KH-10-02,Kaeb,KH-10,Kep,2019,22627.2,22627.2,False
-KH-11-01,Chetr Borei,KH-11,Kratie,1998,59905.6,59905.6,False
-KH-11-01,Chetr Borei,KH-11,Kratie,2008,59235.4,59235.4,False
-KH-11-01,Chetr Borei,KH-11,Kratie,2019,62925.8,62925.8,False
-KH-11-02,Chhloung,KH-11,Kratie,1998,44407.3,44407.3,False
-KH-11-02,Chhloung,KH-11,Kratie,2008,52898.3,52898.3,False
-KH-11-02,Chhloung,KH-11,Kratie,2019,54411.7,54411.7,False
-KH-11-03,Kracheh,KH-11,Kratie,1998,27918.6,27918.6,False
-KH-11-03,Kracheh,KH-11,Kratie,2008,30437.1,30437.1,False
-KH-11-03,Kracheh,KH-11,Kratie,2019,29383.4,29383.4,False
-KH-11-04,Prek Prasab,KH-11,Kratie,1998,57970.6,57970.6,False
-KH-11-04,Prek Prasab,KH-11,Kratie,2008,59301.2,59301.2,False
-KH-11-04,Prek Prasab,KH-11,Kratie,2019,65417.0,65417.0,False
-KH-11-05,Sambour,KH-11,Kratie,1998,48285.2,48285.2,False
-KH-11-05,Sambour,KH-11,Kratie,2008,55674.1,55674.1,False
-KH-11-05,Sambour,KH-11,Kratie,2019,69415.3,69415.3,False
-KH-11-06,Snuol,KH-11,Kratie,1998,35175.3,35175.3,False
-KH-11-06,Snuol,KH-11,Kratie,2008,61605.8,61605.8,False
-KH-11-06,Snuol,KH-11,Kratie,2019,93158.2,93158.2,False
-KH-12-01,Pailin,KH-12,Pailin,1998,15787.1,15787.1,False
-KH-12-01,Pailin,KH-12,Pailin,2008,36313.1,36313.1,False
-KH-12-01,Pailin,KH-12,Pailin,2019,38671.8,38671.8,False
-KH-12-02,Sala Krau,KH-12,Pailin,1998,6977.2,6977.2,False
-KH-12-02,Sala Krau,KH-12,Pailin,2008,34174.8,34174.8,False
-KH-12-02,Sala Krau,KH-12,Pailin,2019,36450.4,36450.4,False
-KH-13-01,Kampong Seila,KH-13,Preah Sihanouk,1998,14941.7,14941.7,False
-KH-13-01,Kampong Seila,KH-13,Preah Sihanouk,2008,16681.5,16681.5,False
-KH-13-01,Kampong Seila,KH-13,Preah Sihanouk,2019,16083.1,16083.1,False
-KH-13-02,Preah Sihanouk,KH-13,Preah Sihanouk,1998,67175.0,67175.0,False
-KH-13-02,Preah Sihanouk,KH-13,Preah Sihanouk,2008,90917.8,90917.8,False
-KH-13-02,Preah Sihanouk,KH-13,Preah Sihanouk,2019,156732.6,156732.6,False
-KH-13-03,Prey Nob,KH-13,Preah Sihanouk,1998,104293.0,104293.0,False
-KH-13-03,Prey Nob,KH-13,Preah Sihanouk,2008,93488.6,93488.6,False
-KH-13-03,Prey Nob,KH-13,Preah Sihanouk,2019,109397.4,109397.4,False
-KH-13-04,Stueng Hav,KH-13,Preah Sihanouk,1998,15499.0,15499.0,False
-KH-13-04,Stueng Hav,KH-13,Preah Sihanouk,2008,21529.0,21529.0,False
-KH-13-04,Stueng Hav,KH-13,Preah Sihanouk,2019,27844.2,27844.2,False
-KH-14-01,Kaev Seima,KH-14,Mondulkiri,1998,7632.1,7632.1,False
-KH-14-01,Kaev Seima,KH-14,Mondulkiri,2008,15581.5,15581.5,False
-KH-14-01,Kaev Seima,KH-14,Mondulkiri,2019,29016.2,29016.2,False
-KH-14-02,Kaoh Nheaek,KH-14,Mondulkiri,1998,8930.5,8930.5,False
-KH-14-02,Kaoh Nheaek,KH-14,Mondulkiri,2008,15224.1,15224.1,False
-KH-14-02,Kaoh Nheaek,KH-14,Mondulkiri,2019,22455.0,22455.0,False
-KH-14-03,Ou Reang,KH-14,Mondulkiri,1998,3759.7,3759.7,False
-KH-14-03,Ou Reang,KH-14,Mondulkiri,2008,7176.3,7176.3,False
-KH-14-03,Ou Reang,KH-14,Mondulkiri,2019,6674.7,6674.7,False
-KH-14-04,Pech Chreada,KH-14,Mondulkiri,1998,5400.0,5400.0,False
-KH-14-04,Pech Chreada,KH-14,Mondulkiri,2008,10873.1,10873.1,False
-KH-14-04,Pech Chreada,KH-14,Mondulkiri,2019,19966.4,19966.4,False
-KH-14-05,Saen Monourom,KH-14,Mondulkiri,1998,18802.8,18802.8,False
-KH-14-05,Saen Monourom,KH-14,Mondulkiri,2008,12300.8,12300.8,False
-KH-14-05,Saen Monourom,KH-14,Mondulkiri,2019,14163.5,14163.5,False
-KH-15-01,Anlong Veaeng,KH-15,Oddar Meanchey,1998,10829.8,5735.2,True
-KH-15-01,Anlong Veaeng,KH-15,Oddar Meanchey,2008,39016.1,39016.1,False
-KH-15-01,Anlong Veaeng,KH-15,Oddar Meanchey,2019,58356.7,58356.7,False
-KH-15-02,Banteay Ampil,KH-15,Oddar Meanchey,1998,32688.9,32688.9,False
-KH-15-02,Banteay Ampil,KH-15,Oddar Meanchey,2008,46106.1,46106.1,False
-KH-15-02,Banteay Ampil,KH-15,Oddar Meanchey,2019,54767.0,54767.0,False
-KH-15-03,Chong Kal,KH-15,Oddar Meanchey,1998,17651.6,17651.6,False
-KH-15-03,Chong Kal,KH-15,Oddar Meanchey,2008,16664.1,16664.1,False
-KH-15-03,Chong Kal,KH-15,Oddar Meanchey,2019,27925.6,27925.6,False
-KH-15-04,Samraong,KH-15,Oddar Meanchey,1998,25325.6,25316.1,False
-KH-15-04,Samraong,KH-15,Oddar Meanchey,2008,51417.9,51417.9,False
-KH-15-04,Samraong,KH-15,Oddar Meanchey,2019,72830.1,72830.1,False
-KH-15-05,Trapeang Prasat,KH-15,Oddar Meanchey,1998,6698.8,1804.4,True
-KH-15-05,Trapeang Prasat,KH-15,Oddar Meanchey,2008,32582.8,32582.8,False
-KH-15-05,Trapeang Prasat,KH-15,Oddar Meanchey,2019,62182.2,62182.2,False
-KH-16-01,Chamkar Mon,KH-16,Phnom Penh,1998,195943.4,195943.4,False
-KH-16-01,Chamkar Mon,KH-16,Phnom Penh,2008,182483.0,182483.0,False
-KH-16-01,Chamkar Mon,KH-16,Phnom Penh,2019,147006.9,147006.9,False
-KH-16-02,Chbar Ampov,KH-16,Phnom Penh,1998,99150.7,99150.7,False
-KH-16-02,Chbar Ampov,KH-16,Phnom Penh,2008,132622.4,132622.4,False
-KH-16-02,Chbar Ampov,KH-16,Phnom Penh,2019,167099.0,167099.0,False
-KH-16-03,Chraoy Chongvar,KH-16,Phnom Penh,1998,49452.1,49452.1,False
-KH-16-03,Chraoy Chongvar,KH-16,Phnom Penh,2008,62076.6,62076.6,False
-KH-16-03,Chraoy Chongvar,KH-16,Phnom Penh,2019,166360.2,166360.2,False
-KH-16-04,Dangkao,KH-16,Phnom Penh,1998,57915.2,57915.2,False
-KH-16-04,Dangkao,KH-16,Phnom Penh,2008,74157.1,74157.1,False
-KH-16-04,Dangkao,KH-16,Phnom Penh,2019,174072.6,174072.6,False
-KH-16-05,Doun Penh,KH-16,Phnom Penh,1998,131713.4,131713.4,False
-KH-16-05,Doun Penh,KH-16,Phnom Penh,2008,125618.9,125618.9,False
-KH-16-05,Doun Penh,KH-16,Phnom Penh,2019,161598.5,161598.5,False
-KH-16-06,Mean Chey,KH-16,Phnom Penh,1998,95951.2,95951.2,False
-KH-16-06,Mean Chey,KH-16,Phnom Penh,2008,195726.5,195726.5,False
-KH-16-06,Mean Chey,KH-16,Phnom Penh,2019,254900.1,254900.1,False
-KH-16-07,Praek Pnov,KH-16,Phnom Penh,1998,35250.7,35250.7,False
-KH-16-07,Praek Pnov,KH-16,Phnom Penh,2008,47293.6,47293.6,False
-KH-16-07,Praek Pnov,KH-16,Phnom Penh,2019,191546.5,191546.5,False
-KH-16-08,Prampir Meakkakra,KH-16,Phnom Penh,1998,84911.8,84911.8,False
-KH-16-08,Prampir Meakkakra,KH-16,Phnom Penh,2008,92243.4,92243.4,False
-KH-16-08,Prampir Meakkakra,KH-16,Phnom Penh,2019,73883.4,73883.4,False
-KH-16-09,Pur Sen Chey,KH-16,Phnom Penh,1998,73478.7,73478.7,False
-KH-16-09,Pur Sen Chey,KH-16,Phnom Penh,2008,159416.0,159416.0,False
-KH-16-09,Pur Sen Chey,KH-16,Phnom Penh,2019,314875.4,314875.4,False
-KH-16-10,Russey Keo,KH-16,Phnom Penh,1998,89998.1,89998.1,False
-KH-16-10,Russey Keo,KH-16,Phnom Penh,2008,134423.3,134423.3,False
-KH-16-10,Russey Keo,KH-16,Phnom Penh,2019,283077.9,283077.9,False
-KH-16-11,Saensokh,KH-16,Phnom Penh,1998,31844.6,31844.6,False
-KH-16-11,Saensokh,KH-16,Phnom Penh,2008,126792.1,126792.1,False
-KH-16-11,Saensokh,KH-16,Phnom Penh,2019,193291.7,193291.7,False
-KH-16-12,Tuol Kouk,KH-16,Phnom Penh,1998,152277.1,152277.1,False
-KH-16-12,Tuol Kouk,KH-16,Phnom Penh,2008,168362.4,168362.4,False
-KH-16-12,Tuol Kouk,KH-16,Phnom Penh,2019,151708.2,151708.2,False
-KH-17-01,Bakan,KH-17,Pursat,1998,118016.2,118015.7,False
-KH-17-01,Bakan,KH-17,Pursat,2008,124834.4,124834.4,False
-KH-17-01,Bakan,KH-17,Pursat,2019,121973.4,121973.4,False
-KH-17-02,Kandieng,KH-17,Pursat,1998,63076.6,63076.6,False
-KH-17-02,Kandieng,KH-17,Pursat,2008,58269.4,58269.4,False
-KH-17-02,Kandieng,KH-17,Pursat,2019,54676.9,54676.9,False
-KH-17-03,Krakor,KH-17,Pursat,1998,63640.5,63640.5,False
-KH-17-03,Krakor,KH-17,Pursat,2008,82829.8,82829.8,False
-KH-17-03,Krakor,KH-17,Pursat,2019,90346.8,90346.8,False
-KH-17-04,Phnum Kravanh,KH-17,Pursat,1998,51416.5,51412.9,False
-KH-17-04,Phnum Kravanh,KH-17,Pursat,2008,59552.9,59552.9,False
-KH-17-04,Phnum Kravanh,KH-17,Pursat,2019,65011.8,65011.8,False
-KH-17-05,Pursat,KH-17,Pursat,1998,55964.8,55964.8,False
-KH-17-05,Pursat,KH-17,Pursat,2008,58429.5,58429.5,False
-KH-17-05,Pursat,KH-17,Pursat,2019,59376.2,59376.2,False
-KH-17-06,Tonlé Sap,KH-17,Pursat,1998,13509.7,13509.7,False
-KH-17-06,Tonlé Sap,KH-17,Pursat,2008,213.0,213.0,False
-KH-17-06,Tonlé Sap,KH-17,Pursat,2019,187.6,187.6,False
-KH-17-07,Veal Veaeng,KH-17,Pursat,1998,10117.5,112.6,True
-KH-17-07,Veal Veaeng,KH-17,Pursat,2008,13107.1,13107.1,False
-KH-17-07,Veal Veaeng,KH-17,Pursat,2019,28411.9,28411.9,False
-KH-18-01,Chey Saen,KH-18,Preah Vihear,1998,15003.0,15003.0,False
-KH-18-01,Chey Saen,KH-18,Preah Vihear,2008,20729.8,20729.8,False
-KH-18-01,Chey Saen,KH-18,Preah Vihear,2019,26067.6,26067.6,False
-KH-18-02,Chhaeb,KH-18,Preah Vihear,1998,12442.3,12442.3,False
-KH-18-02,Chhaeb,KH-18,Preah Vihear,2008,16719.0,16719.0,False
-KH-18-02,Chhaeb,KH-18,Preah Vihear,2019,26065.4,26065.4,False
-KH-18-03,Choam Ksant,KH-18,Preah Vihear,1998,17463.9,17462.4,False
-KH-18-03,Choam Ksant,KH-18,Preah Vihear,2008,25257.4,25257.4,False
-KH-18-03,Choam Ksant,KH-18,Preah Vihear,2019,56353.9,56353.9,False
-KH-18-04,Kuleaen,KH-18,Preah Vihear,1998,19166.7,19166.7,False
-KH-18-04,Kuleaen,KH-18,Preah Vihear,2008,24836.7,24836.7,False
-KH-18-04,Kuleaen,KH-18,Preah Vihear,2019,35040.0,35040.0,False
-KH-18-05,Preah Vihear,KH-18,Preah Vihear,1998,15298.1,15298.1,False
-KH-18-05,Preah Vihear,KH-18,Preah Vihear,2008,21118.1,21118.1,False
-KH-18-05,Preah Vihear,KH-18,Preah Vihear,2019,27094.4,27094.4,False
-KH-18-06,Rovieng,KH-18,Preah Vihear,1998,39899.8,39899.8,False
-KH-18-06,Rovieng,KH-18,Preah Vihear,2008,35665.6,35665.6,False
-KH-18-06,Rovieng,KH-18,Preah Vihear,2019,47107.1,47107.1,False
-KH-18-07,Sangkum Thmei,KH-18,Preah Vihear,1998,18767.8,18767.8,False
-KH-18-07,Sangkum Thmei,KH-18,Preah Vihear,2008,17277.5,17277.5,False
-KH-18-07,Sangkum Thmei,KH-18,Preah Vihear,2019,23557.3,23557.3,False
-KH-18-08,Tbaeng Mean Chey,KH-18,Preah Vihear,1998,6720.0,6720.0,False
-KH-18-08,Tbaeng Mean Chey,KH-18,Preah Vihear,2008,9572.4,9572.4,False
-KH-18-08,Tbaeng Mean Chey,KH-18,Preah Vihear,2019,13593.5,13593.5,False
-KH-19-01,Ba Phnum,KH-19,Prey Veng,1998,71803.5,71803.5,False
-KH-19-01,Ba Phnum,KH-19,Prey Veng,2008,72668.5,72668.5,False
-KH-19-01,Ba Phnum,KH-19,Prey Veng,2019,81574.7,81574.7,False
-KH-19-02,Kamchay Mear,KH-19,Prey Veng,1998,71243.0,71243.0,False
-KH-19-02,Kamchay Mear,KH-19,Prey Veng,2008,74352.0,74352.0,False
-KH-19-02,Kamchay Mear,KH-19,Prey Veng,2019,85045.0,85045.0,False
-KH-19-03,Kampong Trabaek,KH-19,Prey Veng,1998,106544.1,106544.1,False
-KH-19-03,Kampong Trabaek,KH-19,Prey Veng,2008,109368.1,109368.1,False
-KH-19-03,Kampong Trabaek,KH-19,Prey Veng,2019,115812.7,115812.7,False
-KH-19-04,Kanhchriech,KH-19,Prey Veng,1998,57205.3,57205.3,False
-KH-19-04,Kanhchriech,KH-19,Prey Veng,2008,54850.1,54850.1,False
-KH-19-04,Kanhchriech,KH-19,Prey Veng,2019,63438.3,63438.3,False
-KH-19-05,Me Sang,KH-19,Prey Veng,1998,84837.5,84837.5,False
-KH-19-05,Me Sang,KH-19,Prey Veng,2008,89851.9,89851.9,False
-KH-19-05,Me Sang,KH-19,Prey Veng,2019,98906.3,98906.3,False
-KH-19-06,Pea Reang,KH-19,Prey Veng,1998,89148.7,89148.7,False
-KH-19-06,Pea Reang,KH-19,Prey Veng,2008,93509.9,93509.9,False
-KH-19-06,Pea Reang,KH-19,Prey Veng,2019,116858.7,116858.7,False
-KH-19-07,Peam Chor,KH-19,Prey Veng,1998,66559.2,66559.2,False
-KH-19-07,Peam Chor,KH-19,Prey Veng,2008,67567.0,67567.0,False
-KH-19-07,Peam Chor,KH-19,Prey Veng,2019,61754.9,61754.9,False
-KH-19-08,Peam Ro,KH-19,Prey Veng,1998,63409.7,63409.7,False
-KH-19-08,Peam Ro,KH-19,Prey Veng,2008,60696.8,60696.8,False
-KH-19-08,Peam Ro,KH-19,Prey Veng,2019,61896.4,61896.4,False
-KH-19-09,Preah Sdach,KH-19,Prey Veng,1998,103633.9,103633.9,False
-KH-19-09,Preah Sdach,KH-19,Prey Veng,2008,110580.3,110580.3,False
-KH-19-09,Preah Sdach,KH-19,Prey Veng,2019,121825.9,121825.9,False
-KH-19-10,Prey Veng,KH-19,Prey Veng,1998,28765.0,28765.0,False
-KH-19-10,Prey Veng,KH-19,Prey Veng,2008,23848.2,23848.2,False
-KH-19-10,Prey Veng,KH-19,Prey Veng,2019,25540.4,25540.4,False
-KH-19-11,Pur Rieng,KH-19,Prey Veng,1998,44894.2,44894.2,False
-KH-19-11,Pur Rieng,KH-19,Prey Veng,2008,42980.5,42980.5,False
-KH-19-11,Pur Rieng,KH-19,Prey Veng,2019,51939.0,51939.0,False
-KH-19-12,Sithor Kandal,KH-19,Prey Veng,1998,68594.8,68594.8,False
-KH-19-12,Sithor Kandal,KH-19,Prey Veng,2008,56517.8,56517.8,False
-KH-19-12,Sithor Kandal,KH-19,Prey Veng,2019,64693.8,64693.8,False
-KH-19-13,Svay Antor,KH-19,Prey Veng,1998,94664.5,94664.5,False
-KH-19-13,Svay Antor,KH-19,Prey Veng,2008,90787.4,90787.4,False
-KH-19-13,Svay Antor,KH-19,Prey Veng,2019,108391.3,108391.3,False
-KH-20-01,Andoung Meas,KH-20,Ratanakiri,1998,6908.7,6908.7,False
-KH-20-01,Andoung Meas,KH-20,Ratanakiri,2008,10366.0,10366.0,False
-KH-20-01,Andoung Meas,KH-20,Ratanakiri,2019,17662.9,17662.9,False
-KH-20-02,Ban Lung,KH-20,Ratanakiri,1998,16981.1,16981.1,False
-KH-20-02,Ban Lung,KH-20,Ratanakiri,2008,28950.7,28950.7,False
-KH-20-02,Ban Lung,KH-20,Ratanakiri,2019,32356.1,32356.1,False
-KH-20-03,Bar Kaev,KH-20,Ratanakiri,1998,24738.3,24738.3,False
-KH-20-03,Bar Kaev,KH-20,Ratanakiri,2008,19942.7,19942.7,False
-KH-20-03,Bar Kaev,KH-20,Ratanakiri,2019,28423.3,28423.3,False
-KH-20-04,Koun Mom,KH-20,Ratanakiri,1998,8822.1,8822.1,False
-KH-20-04,Koun Mom,KH-20,Ratanakiri,2008,15518.1,15518.1,False
-KH-20-04,Koun Mom,KH-20,Ratanakiri,2019,30920.2,30920.2,False
-KH-20-05,Lumphat,KH-20,Ratanakiri,1998,10866.3,10866.3,False
-KH-20-05,Lumphat,KH-20,Ratanakiri,2008,18981.6,18981.6,False
-KH-20-05,Lumphat,KH-20,Ratanakiri,2019,28045.1,28045.1,False
-KH-20-06,Ou Chum,KH-20,Ratanakiri,1998,13525.3,13525.3,False
-KH-20-06,Ou Chum,KH-20,Ratanakiri,2008,17964.4,17964.4,False
-KH-20-06,Ou Chum,KH-20,Ratanakiri,2019,25466.3,25466.3,False
-KH-20-07,Ou Ya Dav,KH-20,Ratanakiri,1998,10945.8,10945.8,False
-KH-20-07,Ou Ya Dav,KH-20,Ratanakiri,2008,16450.5,16450.5,False
-KH-20-07,Ou Ya Dav,KH-20,Ratanakiri,2019,24034.4,24034.4,False
-KH-20-08,Ta Veaeng,KH-20,Ratanakiri,1998,4332.3,4332.3,False
-KH-20-08,Ta Veaeng,KH-20,Ratanakiri,2008,5845.2,5845.2,False
-KH-20-08,Ta Veaeng,KH-20,Ratanakiri,2019,7553.2,7553.2,False
-KH-20-09,Veun Sai,KH-20,Ratanakiri,1998,12384.2,12384.2,False
-KH-20-09,Veun Sai,KH-20,Ratanakiri,2008,16445.2,16445.2,False
-KH-20-09,Veun Sai,KH-20,Ratanakiri,2019,22980.9,22980.9,False
-KH-21-01,Angkor Chum,KH-21,Siem Reap,1998,48450.4,48450.4,False
-KH-21-01,Angkor Chum,KH-21,Siem Reap,2008,53729.8,53729.8,False
-KH-21-01,Angkor Chum,KH-21,Siem Reap,2019,55655.2,55655.2,False
-KH-21-02,Angkor Thum,KH-21,Siem Reap,1998,18830.7,18830.7,False
-KH-21-02,Angkor Thum,KH-21,Siem Reap,2008,24515.4,24515.4,False
-KH-21-02,Angkor Thum,KH-21,Siem Reap,2019,29808.2,29808.2,False
-KH-21-03,Banteay Srei,KH-21,Siem Reap,1998,41736.1,41736.1,False
-KH-21-03,Banteay Srei,KH-21,Siem Reap,2008,42700.7,42700.7,False
-KH-21-03,Banteay Srei,KH-21,Siem Reap,2019,44501.8,44501.8,False
-KH-21-04,Chi Kraeng,KH-21,Siem Reap,1998,112474.1,112474.1,False
-KH-21-04,Chi Kraeng,KH-21,Siem Reap,2008,125419.0,125419.0,False
-KH-21-04,Chi Kraeng,KH-21,Siem Reap,2019,129707.2,129707.2,False
-KH-21-05,Kralanh,KH-21,Siem Reap,1998,63120.9,63120.9,False
-KH-21-05,Kralanh,KH-21,Siem Reap,2008,57569.3,57569.3,False
-KH-21-05,Kralanh,KH-21,Siem Reap,2019,52671.9,52671.9,False
-KH-21-06,Prasat Bakong,KH-21,Siem Reap,1998,38979.5,38979.5,False
-KH-21-06,Prasat Bakong,KH-21,Siem Reap,2008,61286.4,61286.4,False
-KH-21-06,Prasat Bakong,KH-21,Siem Reap,2019,79451.3,79451.3,False
-KH-21-07,Puok,KH-21,Siem Reap,1998,94052.1,94052.1,False
-KH-21-07,Puok,KH-21,Siem Reap,2008,112967.5,112967.5,False
-KH-21-07,Puok,KH-21,Siem Reap,2019,129139.1,129139.1,False
-KH-21-08,Siem Reap,KH-21,Siem Reap,1998,115667.5,115667.5,False
-KH-21-08,Siem Reap,KH-21,Siem Reap,2008,230407.8,230407.8,False
-KH-21-08,Siem Reap,KH-21,Siem Reap,2019,256607.8,256607.8,False
-KH-21-09,Soutr Nikom,KH-21,Siem Reap,1998,88452.0,88452.0,False
-KH-21-09,Soutr Nikom,KH-21,Siem Reap,2008,98388.4,98388.4,False
-KH-21-09,Soutr Nikom,KH-21,Siem Reap,2019,111442.1,111442.1,False
-KH-21-10,Srei Snam,KH-21,Siem Reap,1998,26742.6,26742.6,False
-KH-21-10,Srei Snam,KH-21,Siem Reap,2008,31352.7,31352.7,False
-KH-21-10,Srei Snam,KH-21,Siem Reap,2019,34711.9,34711.9,False
-KH-21-11,Svay Leu,KH-21,Siem Reap,1998,12519.2,12519.2,False
-KH-21-11,Svay Leu,KH-21,Siem Reap,2008,25783.3,25783.3,False
-KH-21-11,Svay Leu,KH-21,Siem Reap,2019,43806.8,43806.8,False
-KH-21-12,Tonlé Sap,KH-21,Siem Reap,1998,4696.4,4696.4,False
-KH-21-12,Tonlé Sap,KH-21,Siem Reap,2008,173.7,173.7,False
-KH-21-12,Tonlé Sap,KH-21,Siem Reap,2019,176.3,176.3,False
-KH-21-13,Varin,KH-21,Siem Reap,1998,13631.4,13631.4,False
-KH-21-13,Varin,KH-21,Siem Reap,2008,32066.3,32066.3,False
-KH-21-13,Varin,KH-21,Siem Reap,2019,46477.0,46477.0,False
-KH-22-01,Sesan,KH-22,Stung Treng,1998,15486.7,15486.7,False
-KH-22-01,Sesan,KH-22,Stung Treng,2008,17562.9,17562.9,False
-KH-22-01,Sesan,KH-22,Stung Treng,2019,26274.7,26274.7,False
-KH-22-02,Siem Bouk,KH-22,Stung Treng,1998,10266.1,10266.1,False
-KH-22-02,Siem Bouk,KH-22,Stung Treng,2008,14450.4,14450.4,False
-KH-22-02,Siem Bouk,KH-22,Stung Treng,2019,23850.1,23850.1,False
-KH-22-03,Siem Pang,KH-22,Stung Treng,1998,13738.2,13738.2,False
-KH-22-03,Siem Pang,KH-22,Stung Treng,2008,18324.1,18324.1,False
-KH-22-03,Siem Pang,KH-22,Stung Treng,2019,26546.4,26546.4,False
-KH-22-04,Stueng Traeng,KH-22,Stung Treng,1998,24437.5,24437.5,False
-KH-22-04,Stueng Traeng,KH-22,Stung Treng,2008,30908.3,30908.3,False
-KH-22-04,Stueng Traeng,KH-22,Stung Treng,2019,40564.9,40564.9,False
-KH-22-05,Thala Barivat,KH-22,Stung Treng,1998,21563.5,21563.5,False
-KH-22-05,Thala Barivat,KH-22,Stung Treng,2008,30411.6,30411.6,False
-KH-22-05,Thala Barivat,KH-22,Stung Treng,2019,48454.7,48454.7,False
-KH-23-01,Bavet,KH-23,Svay Rieng,1998,34527.8,34527.8,False
-KH-23-01,Bavet,KH-23,Svay Rieng,2008,37079.2,37079.2,False
-KH-23-01,Bavet,KH-23,Svay Rieng,2019,45518.7,45518.7,False
-KH-23-02,Chantrea,KH-23,Svay Rieng,1998,32252.6,32252.6,False
-KH-23-02,Chantrea,KH-23,Svay Rieng,2008,24969.1,24969.1,False
-KH-23-02,Chantrea,KH-23,Svay Rieng,2019,31323.7,31323.7,False
-KH-23-03,Kampong Rou,KH-23,Svay Rieng,1998,68547.4,68547.4,False
-KH-23-03,Kampong Rou,KH-23,Svay Rieng,2008,57802.6,57802.6,False
-KH-23-03,Kampong Rou,KH-23,Svay Rieng,2019,67085.3,67085.3,False
-KH-23-04,Romeas Haek,KH-23,Svay Rieng,1998,110469.3,110469.3,False
-KH-23-04,Romeas Haek,KH-23,Svay Rieng,2008,109095.8,109095.8,False
-KH-23-04,Romeas Haek,KH-23,Svay Rieng,2019,109081.7,109081.7,False
-KH-23-05,Rumduol,KH-23,Svay Rieng,1998,48937.2,48937.2,False
-KH-23-05,Rumduol,KH-23,Svay Rieng,2008,46935.9,46935.9,False
-KH-23-05,Rumduol,KH-23,Svay Rieng,2019,48595.1,48595.1,False
-KH-23-06,Svay Chrum,KH-23,Svay Rieng,1998,121222.4,121222.4,False
-KH-23-06,Svay Chrum,KH-23,Svay Rieng,2008,120440.2,120440.2,False
-KH-23-06,Svay Chrum,KH-23,Svay Rieng,2019,121982.3,121982.3,False
-KH-23-07,Svay Rieng,KH-23,Svay Rieng,1998,39847.1,39847.1,False
-KH-23-07,Svay Rieng,KH-23,Svay Rieng,2008,40371.8,40371.8,False
-KH-23-07,Svay Rieng,KH-23,Svay Rieng,2019,41782.0,41782.0,False
-KH-23-08,Svay Teab,KH-23,Svay Rieng,1998,43230.0,43230.0,False
-KH-23-08,Svay Teab,KH-23,Svay Rieng,2008,46189.8,46189.8,False
-KH-23-08,Svay Teab,KH-23,Svay Rieng,2019,60069.7,60069.7,False
-KH-24-01,Angkor Borei,KH-24,Takeo,1998,48725.2,48725.2,False
-KH-24-01,Angkor Borei,KH-24,Takeo,2008,46518.1,46518.1,False
-KH-24-01,Angkor Borei,KH-24,Takeo,2019,41362.6,41362.6,False
-KH-24-02,Bati,KH-24,Takeo,1998,115291.5,115291.5,False
-KH-24-02,Bati,KH-24,Takeo,2008,130890.0,130890.0,False
-KH-24-02,Bati,KH-24,Takeo,2019,159244.8,159244.8,False
-KH-24-03,Borei Cholsar,KH-24,Takeo,1998,24474.6,24474.6,False
-KH-24-03,Borei Cholsar,KH-24,Takeo,2008,26082.3,26082.3,False
-KH-24-03,Borei Cholsar,KH-24,Takeo,2019,24051.6,24051.6,False
-KH-24-04,Doun Kaev,KH-24,Takeo,1998,40731.2,40731.2,False
-KH-24-04,Doun Kaev,KH-24,Takeo,2008,41246.6,41246.6,False
-KH-24-04,Doun Kaev,KH-24,Takeo,2019,44917.3,44917.3,False
-KH-24-05,Kaoh Andaet,KH-24,Takeo,1998,45657.6,45657.6,False
-KH-24-05,Kaoh Andaet,KH-24,Takeo,2008,48048.0,48048.0,False
-KH-24-05,Kaoh Andaet,KH-24,Takeo,2019,43177.6,43177.6,False
-KH-24-06,Kiri Vong,KH-24,Takeo,1998,92582.8,92582.8,False
-KH-24-06,Kiri Vong,KH-24,Takeo,2008,97846.3,97846.3,False
-KH-24-06,Kiri Vong,KH-24,Takeo,2019,88297.2,88297.2,False
-KH-24-07,Prey Kabbas,KH-24,Takeo,1998,88280.5,88280.5,False
-KH-24-07,Prey Kabbas,KH-24,Takeo,2008,95483.4,95483.4,False
-KH-24-07,Prey Kabbas,KH-24,Takeo,2019,98716.8,98716.8,False
-KH-24-08,Samraong,KH-24,Takeo,1998,99237.9,99237.9,False
-KH-24-08,Samraong,KH-24,Takeo,2008,107912.8,107912.8,False
-KH-24-08,Samraong,KH-24,Takeo,2019,127418.5,127418.5,False
-KH-24-09,Tram Kak,KH-24,Takeo,1998,140903.6,140903.6,False
-KH-24-09,Tram Kak,KH-24,Takeo,2008,151986.8,151986.8,False
-KH-24-09,Tram Kak,KH-24,Takeo,2019,171793.1,171793.1,False
-KH-24-10,Treang,KH-24,Takeo,1998,82315.5,82315.5,False
-KH-24-10,Treang,KH-24,Takeo,2008,99200.7,99200.7,False
-KH-24-10,Treang,KH-24,Takeo,2019,102033.5,102033.5,False
-KH-25-01,Dambae,KH-25,Tbong Khmum,1998,49496.7,49496.7,False
-KH-25-01,Dambae,KH-25,Tbong Khmum,2008,80467.9,80467.9,False
-KH-25-01,Dambae,KH-25,Tbong Khmum,2019,69119.4,69119.4,False
-KH-25-02,Krouch Chhmar,KH-25,Tbong Khmum,1998,96689.8,96689.8,False
-KH-25-02,Krouch Chhmar,KH-25,Tbong Khmum,2008,92829.9,92829.9,False
-KH-25-02,Krouch Chhmar,KH-25,Tbong Khmum,2019,189273.5,189273.5,False
-KH-25-03,Memot,KH-25,Tbong Khmum,1998,107163.4,107163.4,False
-KH-25-03,Memot,KH-25,Tbong Khmum,2008,148530.4,148530.4,False
-KH-25-03,Memot,KH-25,Tbong Khmum,2019,134778.5,134778.5,False
-KH-25-04,Ou Reang Ov,KH-25,Tbong Khmum,1998,74252.5,74252.5,False
-KH-25-04,Ou Reang Ov,KH-25,Tbong Khmum,2008,80790.8,80790.8,False
-KH-25-04,Ou Reang Ov,KH-25,Tbong Khmum,2019,56212.4,56212.4,False
-KH-25-05,Ponhea Kraek,KH-25,Tbong Khmum,1998,110345.6,110345.6,False
-KH-25-05,Ponhea Kraek,KH-25,Tbong Khmum,2008,135409.0,135409.0,False
-KH-25-05,Ponhea Kraek,KH-25,Tbong Khmum,2019,52694.0,52694.0,False
-KH-25-06,Suong,KH-25,Tbong Khmum,1998,28610.8,28610.8,False
-KH-25-06,Suong,KH-25,Tbong Khmum,2008,35749.5,35749.5,False
-KH-25-06,Suong,KH-25,Tbong Khmum,2019,163786.6,163786.6,False
-KH-25-07,Tboung Khmum,KH-25,Tbong Khmum,1998,176708.9,176708.9,False
-KH-25-07,Tboung Khmum,KH-25,Tbong Khmum,2008,180472.9,180472.9,False
-KH-25-07,Tboung Khmum,KH-25,Tbong Khmum,2019,110885.7,110885.7,False
+geo_id,district_name,province_id,province_name,is_water_body,year,population,population_enumerated,includes_1998_nis_estimate
+KH-01-01,Malai,KH-01,Banteay Meanchey,False,1998,19376,19376,False
+KH-01-01,Malai,KH-01,Banteay Meanchey,False,2008,42284,42284,False
+KH-01-01,Malai,KH-01,Banteay Meanchey,False,2019,55953,55953,False
+KH-01-02,Mongkol Borei,KH-01,Banteay Meanchey,False,1998,138904,138904,False
+KH-01-02,Mongkol Borei,KH-01,Banteay Meanchey,False,2008,139315,139315,False
+KH-01-02,Mongkol Borei,KH-01,Banteay Meanchey,False,2019,188311,188311,False
+KH-01-03,Ou Chrov,KH-01,Banteay Meanchey,False,1998,40448,40448,False
+KH-01-03,Ou Chrov,KH-01,Banteay Meanchey,False,2008,47196,47196,False
+KH-01-03,Ou Chrov,KH-01,Banteay Meanchey,False,2019,63723,63723,False
+KH-01-04,Paoy Paet,KH-01,Banteay Meanchey,False,1998,62479,62479,False
+KH-01-04,Paoy Paet,KH-01,Banteay Meanchey,False,2008,107989,107989,False
+KH-01-04,Paoy Paet,KH-01,Banteay Meanchey,False,2019,100600,100600,False
+KH-01-05,Phnum Srok,KH-01,Banteay Meanchey,False,1998,41448,41448,False
+KH-01-05,Phnum Srok,KH-01,Banteay Meanchey,False,2008,46935,46935,False
+KH-01-05,Phnum Srok,KH-01,Banteay Meanchey,False,2019,66140,66140,False
+KH-01-06,Preah Netr Preah,KH-01,Banteay Meanchey,False,1998,78626,78626,False
+KH-01-06,Preah Netr Preah,KH-01,Banteay Meanchey,False,2008,87089,87089,False
+KH-01-06,Preah Netr Preah,KH-01,Banteay Meanchey,False,2019,125885,125885,False
+KH-01-07,Serei Saophoan,KH-01,Banteay Meanchey,False,1998,55576,55576,False
+KH-01-07,Serei Saophoan,KH-01,Banteay Meanchey,False,2008,90279,90279,False
+KH-01-07,Serei Saophoan,KH-01,Banteay Meanchey,False,2019,102577,102577,False
+KH-01-08,Svay Chek,KH-01,Banteay Meanchey,False,1998,65236,65236,False
+KH-01-08,Svay Chek,KH-01,Banteay Meanchey,False,2008,55596,55596,False
+KH-01-08,Svay Chek,KH-01,Banteay Meanchey,False,2019,81338,81338,False
+KH-01-09,Thma Puok,KH-01,Banteay Meanchey,False,1998,53536,53536,False
+KH-01-09,Thma Puok,KH-01,Banteay Meanchey,False,2008,61189,61189,False
+KH-01-09,Thma Puok,KH-01,Banteay Meanchey,False,2019,77356,77356,False
+KH-02-01,Aek Phnum,KH-02,Battambang,False,1998,65408,65408,False
+KH-02-01,Aek Phnum,KH-02,Battambang,False,2008,68276,68276,False
+KH-02-01,Aek Phnum,KH-02,Battambang,False,2019,72516,72516,False
+KH-02-02,Banan,KH-02,Battambang,False,1998,77769,77769,False
+KH-02-02,Banan,KH-02,Battambang,False,2008,92138,92138,False
+KH-02-02,Banan,KH-02,Battambang,False,2019,88157,88157,False
+KH-02-03,Battambang,KH-02,Battambang,False,1998,126214,126214,False
+KH-02-03,Battambang,KH-02,Battambang,False,2008,144323,144323,False
+KH-02-03,Battambang,KH-02,Battambang,False,2019,125106,125106,False
+KH-02-04,Bavel,KH-02,Battambang,False,1998,73609,73609,False
+KH-02-04,Bavel,KH-02,Battambang,False,2008,100000,100000,False
+KH-02-04,Bavel,KH-02,Battambang,False,2019,92890,92890,False
+KH-02-05,Kamrieng,KH-02,Battambang,False,1998,14215,14215,False
+KH-02-05,Kamrieng,KH-02,Battambang,False,2008,51053,51053,False
+KH-02-05,Kamrieng,KH-02,Battambang,False,2019,53630,53630,False
+KH-02-06,Koas Krala,KH-02,Battambang,False,1998,35889,35889,False
+KH-02-06,Koas Krala,KH-02,Battambang,False,2008,25766,25766,False
+KH-02-06,Koas Krala,KH-02,Battambang,False,2019,30341,30341,False
+KH-02-07,Moung Ruessei,KH-02,Battambang,False,1998,80240,80240,False
+KH-02-07,Moung Ruessei,KH-02,Battambang,False,2008,112704,112704,False
+KH-02-07,Moung Ruessei,KH-02,Battambang,False,2019,104925,104925,False
+KH-02-08,Phnum Proek,KH-02,Battambang,False,1998,15355,15355,False
+KH-02-08,Phnum Proek,KH-02,Battambang,False,2008,49722,49722,False
+KH-02-08,Phnum Proek,KH-02,Battambang,False,2019,45429,45429,False
+KH-02-09,Rotonak Mondol,KH-02,Battambang,False,1998,11525,11525,False
+KH-02-09,Rotonak Mondol,KH-02,Battambang,False,2008,41170,41170,False
+KH-02-09,Rotonak Mondol,KH-02,Battambang,False,2019,40056,40056,False
+KH-02-10,Rukh Kiri,KH-02,Battambang,False,1998,14742,14742,False
+KH-02-10,Rukh Kiri,KH-02,Battambang,False,2008,39967,39967,False
+KH-02-10,Rukh Kiri,KH-02,Battambang,False,2019,42735,42735,False
+KH-02-11,Samlout,KH-02,Battambang,False,1998,27358,4358,True
+KH-02-11,Samlout,KH-02,Battambang,False,2008,39701,39701,False
+KH-02-11,Samlout,KH-02,Battambang,False,2019,44079,44079,False
+KH-02-12,Sampov Lun,KH-02,Battambang,False,1998,36613,36613,False
+KH-02-12,Sampov Lun,KH-02,Battambang,False,2008,35248,35248,False
+KH-02-12,Sampov Lun,KH-02,Battambang,False,2019,38002,38002,False
+KH-02-13,Sangkae,KH-02,Battambang,False,1998,89779,89779,False
+KH-02-13,Sangkae,KH-02,Battambang,False,2008,111663,111663,False
+KH-02-13,Sangkae,KH-02,Battambang,False,2019,112539,112539,False
+KH-02-14,Thma Koul,KH-02,Battambang,False,1998,108999,108999,False
+KH-02-14,Thma Koul,KH-02,Battambang,False,2008,113443,113443,False
+KH-02-14,Thma Koul,KH-02,Battambang,False,2019,106764,106764,False
+KH-02-15,Tonlé Sap,KH-02,Battambang,True,1998,,,False
+KH-02-15,Tonlé Sap,KH-02,Battambang,True,2008,,,False
+KH-02-15,Tonlé Sap,KH-02,Battambang,True,2019,,,False
+KH-03-01,Batheay,KH-03,Kampong Cham,False,1998,88212,88212,False
+KH-03-01,Batheay,KH-03,Kampong Cham,False,2008,102924,102924,False
+KH-03-01,Batheay,KH-03,Kampong Cham,False,2019,108300,108300,False
+KH-03-02,Chamkar Leu,KH-03,Kampong Cham,False,1998,125862,125862,False
+KH-03-02,Chamkar Leu,KH-03,Kampong Cham,False,2008,110967,110967,False
+KH-03-02,Chamkar Leu,KH-03,Kampong Cham,False,2019,102357,102357,False
+KH-03-03,Cheung Prey,KH-03,Kampong Cham,False,1998,74859,74859,False
+KH-03-03,Cheung Prey,KH-03,Kampong Cham,False,2008,83771,83771,False
+KH-03-03,Cheung Prey,KH-03,Kampong Cham,False,2019,93565,93565,False
+KH-03-04,Kampong Cham,KH-03,Kampong Cham,False,1998,39741,39741,False
+KH-03-04,Kampong Cham,KH-03,Kampong Cham,False,2008,47300,47300,False
+KH-03-04,Kampong Cham,KH-03,Kampong Cham,False,2019,43165,43165,False
+KH-03-05,Kampong Siem,KH-03,Kampong Cham,False,1998,88908,88908,False
+KH-03-05,Kampong Siem,KH-03,Kampong Cham,False,2008,100047,100047,False
+KH-03-05,Kampong Siem,KH-03,Kampong Cham,False,2019,95565,95565,False
+KH-03-06,Kang Meas,KH-03,Kampong Cham,False,1998,89107,89107,False
+KH-03-06,Kang Meas,KH-03,Kampong Cham,False,2008,89727,89727,False
+KH-03-06,Kang Meas,KH-03,Kampong Cham,False,2019,86237,86237,False
+KH-03-07,Kaoh Soutin,KH-03,Kampong Cham,False,1998,68971,68971,False
+KH-03-07,Kaoh Soutin,KH-03,Kampong Cham,False,2008,60434,60434,False
+KH-03-07,Kaoh Soutin,KH-03,Kampong Cham,False,2019,48545,48545,False
+KH-03-08,Prey Chhor,KH-03,Kampong Cham,False,1998,137033,137033,False
+KH-03-08,Prey Chhor,KH-03,Kampong Cham,False,2008,125352,125352,False
+KH-03-08,Prey Chhor,KH-03,Kampong Cham,False,2019,134808,134808,False
+KH-03-09,Srei Santhor,KH-03,Kampong Cham,False,1998,88530,88530,False
+KH-03-09,Srei Santhor,KH-03,Kampong Cham,False,2008,86563,86563,False
+KH-03-09,Srei Santhor,KH-03,Kampong Cham,False,2019,82364,82364,False
+KH-03-10,Stueng Trang,KH-03,Kampong Cham,False,1998,107425,107425,False
+KH-03-10,Stueng Trang,KH-03,Kampong Cham,False,2008,118907,118907,False
+KH-03-10,Stueng Trang,KH-03,Kampong Cham,False,2019,104885,104885,False
+KH-04-01,Baribour,KH-04,Kampong Chhnang,False,1998,65477,65477,False
+KH-04-01,Baribour,KH-04,Kampong Chhnang,False,2008,56406,56406,False
+KH-04-01,Baribour,KH-04,Kampong Chhnang,False,2019,56114,56114,False
+KH-04-02,Chol Kiri,KH-04,Kampong Chhnang,False,1998,28300,28300,False
+KH-04-02,Chol Kiri,KH-04,Kampong Chhnang,False,2008,32048,32048,False
+KH-04-02,Chol Kiri,KH-04,Kampong Chhnang,False,2019,31540,31540,False
+KH-04-03,Kampong Chhnang,KH-04,Kampong Chhnang,False,1998,41703,41703,False
+KH-04-03,Kampong Chhnang,KH-04,Kampong Chhnang,False,2008,43130,43130,False
+KH-04-03,Kampong Chhnang,KH-04,Kampong Chhnang,False,2019,43306,43306,False
+KH-04-04,Kampong Leaeng,KH-04,Kampong Chhnang,False,1998,37379,37379,False
+KH-04-04,Kampong Leaeng,KH-04,Kampong Chhnang,False,2008,44520,44520,False
+KH-04-04,Kampong Leaeng,KH-04,Kampong Chhnang,False,2019,44541,44541,False
+KH-04-05,Kampong Tralach,KH-04,Kampong Chhnang,False,1998,82612,82612,False
+KH-04-05,Kampong Tralach,KH-04,Kampong Chhnang,False,2008,80835,80835,False
+KH-04-05,Kampong Tralach,KH-04,Kampong Chhnang,False,2019,101528,101528,False
+KH-04-06,Rolea B'ier,KH-04,Kampong Chhnang,False,1998,80852,80852,False
+KH-04-06,Rolea B'ier,KH-04,Kampong Chhnang,False,2008,92715,92715,False
+KH-04-06,Rolea B'ier,KH-04,Kampong Chhnang,False,2019,104478,104478,False
+KH-04-07,Sameakki Mean Chey,KH-04,Kampong Chhnang,False,1998,57170,57170,False
+KH-04-07,Sameakki Mean Chey,KH-04,Kampong Chhnang,False,2008,65754,65754,False
+KH-04-07,Sameakki Mean Chey,KH-04,Kampong Chhnang,False,2019,82618,82618,False
+KH-04-08,Tonlé Sap,KH-04,Kampong Chhnang,True,1998,,,False
+KH-04-08,Tonlé Sap,KH-04,Kampong Chhnang,True,2008,,,False
+KH-04-08,Tonlé Sap,KH-04,Kampong Chhnang,True,2019,,,False
+KH-04-09,Tuek Phos,KH-04,Kampong Chhnang,False,1998,50190,50190,False
+KH-04-09,Tuek Phos,KH-04,Kampong Chhnang,False,2008,56933,56933,False
+KH-04-09,Tuek Phos,KH-04,Kampong Chhnang,False,2019,62902,62902,False
+KH-05-01,Aoral,KH-05,Kampong Speu,False,1998,15668,15668,False
+KH-05-01,Aoral,KH-05,Kampong Speu,False,2008,29883,29883,False
+KH-05-01,Aoral,KH-05,Kampong Speu,False,2019,39775,39775,False
+KH-05-02,Basedth,KH-05,Kampong Speu,False,1998,108648,108648,False
+KH-05-02,Basedth,KH-05,Kampong Speu,False,2008,119531,119531,False
+KH-05-02,Basedth,KH-05,Kampong Speu,False,2019,137407,137407,False
+KH-05-03,Chbar Mon,KH-05,Kampong Speu,False,1998,41478,41478,False
+KH-05-03,Chbar Mon,KH-05,Kampong Speu,False,2008,46850,46850,False
+KH-05-03,Chbar Mon,KH-05,Kampong Speu,False,2019,51795,51795,False
+KH-05-04,Kong Pisei,KH-05,Kampong Speu,False,1998,97006,97006,False
+KH-05-04,Kong Pisei,KH-05,Kampong Speu,False,2008,112921,112921,False
+KH-05-04,Kong Pisei,KH-05,Kampong Speu,False,2019,146424,146424,False
+KH-05-05,Odongk,KH-05,Kampong Speu,False,1998,102677,102677,False
+KH-05-05,Odongk,KH-05,Kampong Speu,False,2008,119213,119213,False
+KH-05-05,Odongk,KH-05,Kampong Speu,False,2019,146137,146137,False
+KH-05-06,Phnum Sruoch,KH-05,Kampong Speu,False,1998,80036,80036,False
+KH-05-06,Phnum Sruoch,KH-05,Kampong Speu,False,2008,95227,95227,False
+KH-05-06,Phnum Sruoch,KH-05,Kampong Speu,False,2019,108463,108463,False
+KH-05-07,Samraong Tong,KH-05,Kampong Speu,False,1998,122707,122707,False
+KH-05-07,Samraong Tong,KH-05,Kampong Speu,False,2008,142545,142545,False
+KH-05-07,Samraong Tong,KH-05,Kampong Speu,False,2019,183968,183968,False
+KH-05-08,Thpong,KH-05,Kampong Speu,False,1998,40035,40035,False
+KH-05-08,Thpong,KH-05,Kampong Speu,False,2008,50774,50774,False
+KH-05-08,Thpong,KH-05,Kampong Speu,False,2019,63554,63554,False
+KH-06-01,Baray,KH-06,Kampong Thom,False,1998,162558,162558,False
+KH-06-01,Baray,KH-06,Kampong Thom,False,2008,167581,167581,False
+KH-06-01,Baray,KH-06,Kampong Thom,False,2019,169602,169602,False
+KH-06-02,Kampong Svay,KH-06,Kampong Thom,False,1998,75515,75515,False
+KH-06-02,Kampong Svay,KH-06,Kampong Thom,False,2008,89206,89206,False
+KH-06-02,Kampong Svay,KH-06,Kampong Thom,False,2019,91298,91298,False
+KH-06-03,Prasat Ballangk,KH-06,Kampong Thom,False,1998,38846,38846,False
+KH-06-03,Prasat Ballangk,KH-06,Kampong Thom,False,2008,47193,47193,False
+KH-06-03,Prasat Ballangk,KH-06,Kampong Thom,False,2019,48192,48192,False
+KH-06-04,Prasat Sambour,KH-06,Kampong Thom,False,1998,31731,31731,False
+KH-06-04,Prasat Sambour,KH-06,Kampong Thom,False,2008,39402,39402,False
+KH-06-04,Prasat Sambour,KH-06,Kampong Thom,False,2019,43638,43638,False
+KH-06-05,Sandan,KH-06,Kampong Thom,False,1998,37195,37195,False
+KH-06-05,Sandan,KH-06,Kampong Thom,False,2008,49689,49689,False
+KH-06-05,Sandan,KH-06,Kampong Thom,False,2019,62229,62229,False
+KH-06-06,Santuk,KH-06,Kampong Thom,False,1998,58109,58109,False
+KH-06-06,Santuk,KH-06,Kampong Thom,False,2008,80229,80229,False
+KH-06-06,Santuk,KH-06,Kampong Thom,False,2019,102037,102037,False
+KH-06-07,Stoung,KH-06,Kampong Thom,False,1998,97600,97600,False
+KH-06-07,Stoung,KH-06,Kampong Thom,False,2008,104076,104076,False
+KH-06-07,Stoung,KH-06,Kampong Thom,False,2019,109365,109365,False
+KH-06-08,Stueng Saen,KH-06,Kampong Thom,False,1998,51728,51728,False
+KH-06-08,Stueng Saen,KH-06,Kampong Thom,False,2008,54033,54033,False
+KH-06-08,Stueng Saen,KH-06,Kampong Thom,False,2019,55188,55188,False
+KH-06-09,Tonlé Sap,KH-06,Kampong Thom,True,1998,,,False
+KH-06-09,Tonlé Sap,KH-06,Kampong Thom,True,2008,,,False
+KH-06-09,Tonlé Sap,KH-06,Kampong Thom,True,2019,,,False
+KH-07-01,Angkor Chey,KH-07,Kampot,False,1998,72459,72459,False
+KH-07-01,Angkor Chey,KH-07,Kampot,False,2008,72684,72684,False
+KH-07-01,Angkor Chey,KH-07,Kampot,False,2019,74067,74067,False
+KH-07-02,Banteay Meas,KH-07,Kampot,False,1998,82271,82271,False
+KH-07-02,Banteay Meas,KH-07,Kampot,False,2008,83022,83022,False
+KH-07-02,Banteay Meas,KH-07,Kampot,False,2019,79426,79426,False
+KH-07-03,Chhuk,KH-07,Kampot,False,1998,96018,96018,False
+KH-07-03,Chhuk,KH-07,Kampot,False,2008,99587,99587,False
+KH-07-03,Chhuk,KH-07,Kampot,False,2019,102766,102766,False
+KH-07-04,Chum Kiri,KH-07,Kampot,False,1998,23737,23737,False
+KH-07-04,Chum Kiri,KH-07,Kampot,False,2008,47176,47176,False
+KH-07-04,Chum Kiri,KH-07,Kampot,False,2019,49045,49045,False
+KH-07-05,Dang Tong,KH-07,Kampot,False,1998,48861,48861,False
+KH-07-05,Dang Tong,KH-07,Kampot,False,2008,54261,54261,False
+KH-07-05,Dang Tong,KH-07,Kampot,False,2019,56369,56369,False
+KH-07-06,Kampong Trach,KH-07,Kampot,False,1998,83061,83061,False
+KH-07-06,Kampong Trach,KH-07,Kampot,False,2008,85776,85776,False
+KH-07-06,Kampong Trach,KH-07,Kampot,False,2019,86932,86932,False
+KH-07-07,Kampot,KH-07,Kampot,False,1998,33126,33126,False
+KH-07-07,Kampot,KH-07,Kampot,False,2008,36367,36367,False
+KH-07-07,Kampot,KH-07,Kampot,False,2019,33762,33762,False
+KH-07-08,Tuek Chhou,KH-07,Kampot,False,1998,94059,94059,False
+KH-07-08,Tuek Chhou,KH-07,Kampot,False,2008,106977,106977,False
+KH-07-08,Tuek Chhou,KH-07,Kampot,False,2019,111462,111462,False
+KH-08-01,Angk Snuol,KH-08,Kandal,False,1998,54274,54274,False
+KH-08-01,Angk Snuol,KH-08,Kandal,False,2008,83203,83203,False
+KH-08-01,Angk Snuol,KH-08,Kandal,False,2019,118280,118280,False
+KH-08-02,Kandal Stueng,KH-08,Kandal,False,1998,85676,85676,False
+KH-08-02,Kandal Stueng,KH-08,Kandal,False,2008,82625,82625,False
+KH-08-02,Kandal Stueng,KH-08,Kandal,False,2019,101188,101188,False
+KH-08-03,Kaoh Thum,KH-08,Kandal,False,1998,120106,120106,False
+KH-08-03,Kaoh Thum,KH-08,Kandal,False,2008,141470,141470,False
+KH-08-03,Kaoh Thum,KH-08,Kandal,False,2019,130323,130323,False
+KH-08-04,Khsach Kandal,KH-08,Kandal,False,1998,105345,105345,False
+KH-08-04,Khsach Kandal,KH-08,Kandal,False,2008,117322,117322,False
+KH-08-04,Khsach Kandal,KH-08,Kandal,False,2019,141862,141862,False
+KH-08-05,Kien Svay,KH-08,Kandal,False,1998,102561,102561,False
+KH-08-05,Kien Svay,KH-08,Kandal,False,2008,112014,112014,False
+KH-08-05,Kien Svay,KH-08,Kandal,False,2019,117222,117222,False
+KH-08-06,Leuk Daek,KH-08,Kandal,False,1998,52976,52976,False
+KH-08-06,Leuk Daek,KH-08,Kandal,False,2008,54250,54250,False
+KH-08-06,Leuk Daek,KH-08,Kandal,False,2019,54696,54696,False
+KH-08-07,Lvea Aem,KH-08,Kandal,False,1998,73071,73071,False
+KH-08-07,Lvea Aem,KH-08,Kandal,False,2008,66734,66734,False
+KH-08-07,Lvea Aem,KH-08,Kandal,False,2019,72705,72705,False
+KH-08-08,Mukh Kampul,KH-08,Kandal,False,1998,63845,63845,False
+KH-08-08,Mukh Kampul,KH-08,Kandal,False,2008,69359,69359,False
+KH-08-08,Mukh Kampul,KH-08,Kandal,False,2019,72904,72904,False
+KH-08-09,Ponhea Lueu,KH-08,Kandal,False,1998,78721,78721,False
+KH-08-09,Ponhea Lueu,KH-08,Kandal,False,2008,88607,88607,False
+KH-08-09,Ponhea Lueu,KH-08,Kandal,False,2019,105255,105255,False
+KH-08-10,S'ang,KH-08,Kandal,False,1998,165215,165215,False
+KH-08-10,S'ang,KH-08,Kandal,False,2008,195445,195445,False
+KH-08-10,S'ang,KH-08,Kandal,False,2019,207865,207865,False
+KH-08-11,Ta Khmau,KH-08,Kandal,False,1998,58264,58264,False
+KH-08-11,Ta Khmau,KH-08,Kandal,False,2008,80141,80141,False
+KH-08-11,Ta Khmau,KH-08,Kandal,False,2019,79281,79281,False
+KH-09-01,Botum Sakor,KH-09,Koh Kong,False,1998,17420,17420,False
+KH-09-01,Botum Sakor,KH-09,Koh Kong,False,2008,19978,19978,False
+KH-09-01,Botum Sakor,KH-09,Koh Kong,False,2019,19444,19444,False
+KH-09-02,Kaoh Kong,KH-09,Koh Kong,False,1998,8817,8817,False
+KH-09-02,Kaoh Kong,KH-09,Koh Kong,False,2008,7356,7356,False
+KH-09-02,Kaoh Kong,KH-09,Koh Kong,False,2019,7516,7516,False
+KH-09-03,Khemara Phoumin,KH-09,Koh Kong,False,1998,29329,29329,False
+KH-09-03,Khemara Phoumin,KH-09,Koh Kong,False,2008,25957,25957,False
+KH-09-03,Khemara Phoumin,KH-09,Koh Kong,False,2019,29974,29974,False
+KH-09-04,Kiri Sakor,KH-09,Koh Kong,False,1998,6289,6289,False
+KH-09-04,Kiri Sakor,KH-09,Koh Kong,False,2008,6952,6952,False
+KH-09-04,Kiri Sakor,KH-09,Koh Kong,False,2019,7152,7152,False
+KH-09-05,Mondol Seima,KH-09,Koh Kong,False,1998,12569,12569,False
+KH-09-05,Mondol Seima,KH-09,Koh Kong,False,2008,14584,14584,False
+KH-09-05,Mondol Seima,KH-09,Koh Kong,False,2019,15236,15236,False
+KH-09-06,Srae Ambel,KH-09,Koh Kong,False,1998,38435,38435,False
+KH-09-06,Srae Ambel,KH-09,Koh Kong,False,2008,37623,37623,False
+KH-09-06,Srae Ambel,KH-09,Koh Kong,False,2019,39503,39503,False
+KH-09-07,Thma Bang,KH-09,Koh Kong,False,1998,4282,4282,False
+KH-09-07,Thma Bang,KH-09,Koh Kong,False,2008,5031,5031,False
+KH-09-07,Thma Bang,KH-09,Koh Kong,False,2019,7077,7077,False
+KH-10-01,Damnak Chang'aeur,KH-10,Kep,False,1998,12393,12393,False
+KH-10-01,Damnak Chang'aeur,KH-10,Kep,False,2008,16180,16180,False
+KH-10-01,Damnak Chang'aeur,KH-10,Kep,False,2019,19889,19889,False
+KH-10-02,Kaeb,KH-10,Kep,False,1998,12561,12561,False
+KH-10-02,Kaeb,KH-10,Kep,False,2008,19573,19573,False
+KH-10-02,Kaeb,KH-10,Kep,False,2019,22776,22776,False
+KH-11-01,Chetr Borei,KH-11,Kratie,False,1998,59827,59827,False
+KH-11-01,Chetr Borei,KH-11,Kratie,False,2008,59161,59161,False
+KH-11-01,Chetr Borei,KH-11,Kratie,False,2019,62843,62843,False
+KH-11-02,Chhloung,KH-11,Kratie,False,1998,44609,44609,False
+KH-11-02,Chhloung,KH-11,Kratie,False,2008,52889,52889,False
+KH-11-02,Chhloung,KH-11,Kratie,False,2019,54406,54406,False
+KH-11-03,Kracheh,KH-11,Kratie,False,1998,28027,28027,False
+KH-11-03,Kracheh,KH-11,Kratie,False,2008,30544,30544,False
+KH-11-03,Kracheh,KH-11,Kratie,False,2019,29491,29491,False
+KH-11-04,Prek Prasab,KH-11,Kratie,False,1998,56757,56757,False
+KH-11-04,Prek Prasab,KH-11,Kratie,False,2008,59324,59324,False
+KH-11-04,Prek Prasab,KH-11,Kratie,False,2019,65411,65411,False
+KH-11-05,Sambour,KH-11,Kratie,False,1998,48319,48319,False
+KH-11-05,Sambour,KH-11,Kratie,False,2008,55696,55696,False
+KH-11-05,Sambour,KH-11,Kratie,False,2019,69414,69414,False
+KH-11-06,Snuol,KH-11,Kratie,False,1998,35156,35156,False
+KH-11-06,Snuol,KH-11,Kratie,False,2008,61603,61603,False
+KH-11-06,Snuol,KH-11,Kratie,False,2019,93190,93190,False
+KH-12-01,Pailin,KH-12,Pailin,False,1998,15800,15800,False
+KH-12-01,Pailin,KH-12,Pailin,False,2008,36354,36354,False
+KH-12-01,Pailin,KH-12,Pailin,False,2019,38704,38704,False
+KH-12-02,Sala Krau,KH-12,Pailin,False,1998,7106,7106,False
+KH-12-02,Sala Krau,KH-12,Pailin,False,2008,34132,34132,False
+KH-12-02,Sala Krau,KH-12,Pailin,False,2019,36408,36408,False
+KH-13-01,Kampong Seila,KH-13,Preah Sihanouk,False,1998,14965,14965,False
+KH-13-01,Kampong Seila,KH-13,Preah Sihanouk,False,2008,16694,16694,False
+KH-13-01,Kampong Seila,KH-13,Preah Sihanouk,False,2019,16091,16091,False
+KH-13-02,Preah Sihanouk,KH-13,Preah Sihanouk,False,1998,67440,67440,False
+KH-13-02,Preah Sihanouk,KH-13,Preah Sihanouk,False,2008,91284,91284,False
+KH-13-02,Preah Sihanouk,KH-13,Preah Sihanouk,False,2019,157237,157237,False
+KH-13-03,Prey Nob,KH-13,Preah Sihanouk,False,1998,104185,104185,False
+KH-13-03,Prey Nob,KH-13,Preah Sihanouk,False,2008,93141,93141,False
+KH-13-03,Prey Nob,KH-13,Preah Sihanouk,False,2019,108986,108986,False
+KH-13-04,Stueng Hav,KH-13,Preah Sihanouk,False,1998,13108,13108,False
+KH-13-04,Stueng Hav,KH-13,Preah Sihanouk,False,2008,20277,20277,False
+KH-13-04,Stueng Hav,KH-13,Preah Sihanouk,False,2019,27758,27758,False
+KH-14-01,Kaev Seima,KH-14,Mondulkiri,False,1998,8854,8854,False
+KH-14-01,Kaev Seima,KH-14,Mondulkiri,False,2008,19218,19218,False
+KH-14-01,Kaev Seima,KH-14,Mondulkiri,False,2019,28998,28998,False
+KH-14-02,Kaoh Nheaek,KH-14,Mondulkiri,False,1998,8919,8919,False
+KH-14-02,Kaoh Nheaek,KH-14,Mondulkiri,False,2008,15209,15209,False
+KH-14-02,Kaoh Nheaek,KH-14,Mondulkiri,False,2019,22430,22430,False
+KH-14-03,Ou Reang,KH-14,Mondulkiri,False,1998,2473,2473,False
+KH-14-03,Ou Reang,KH-14,Mondulkiri,False,2008,3948,3948,False
+KH-14-03,Ou Reang,KH-14,Mondulkiri,False,2019,6645,6645,False
+KH-14-04,Pech Chreada,KH-14,Mondulkiri,False,1998,5129,5129,False
+KH-14-04,Pech Chreada,KH-14,Mondulkiri,False,2008,10392,10392,False
+KH-14-04,Pech Chreada,KH-14,Mondulkiri,False,2019,19939,19939,False
+KH-14-05,Saen Monourom,KH-14,Mondulkiri,False,1998,19116,19116,False
+KH-14-05,Saen Monourom,KH-14,Mondulkiri,False,2008,12340,12340,False
+KH-14-05,Saen Monourom,KH-14,Mondulkiri,False,2019,14201,14201,False
+KH-15-01,Anlong Veaeng,KH-15,Oddar Meanchey,False,1998,13635,8013,True
+KH-15-01,Anlong Veaeng,KH-15,Oddar Meanchey,False,2008,39045,39045,False
+KH-15-01,Anlong Veaeng,KH-15,Oddar Meanchey,False,2019,58389,58389,False
+KH-15-02,Banteay Ampil,KH-15,Oddar Meanchey,False,1998,29804,29804,False
+KH-15-02,Banteay Ampil,KH-15,Oddar Meanchey,False,2008,46115,46115,False
+KH-15-02,Banteay Ampil,KH-15,Oddar Meanchey,False,2019,54716,54716,False
+KH-15-03,Chong Kal,KH-15,Oddar Meanchey,False,1998,19434,19434,False
+KH-15-03,Chong Kal,KH-15,Oddar Meanchey,False,2008,16639,16639,False
+KH-15-03,Chong Kal,KH-15,Oddar Meanchey,False,2019,27910,27910,False
+KH-15-04,Samraong,KH-15,Oddar Meanchey,False,1998,25255,25255,False
+KH-15-04,Samraong,KH-15,Oddar Meanchey,False,2008,51414,51414,False
+KH-15-04,Samraong,KH-15,Oddar Meanchey,False,2019,72803,72803,False
+KH-15-05,Trapeang Prasat,KH-15,Oddar Meanchey,False,1998,4378,,True
+KH-15-05,Trapeang Prasat,KH-15,Oddar Meanchey,False,2008,32606,32606,False
+KH-15-05,Trapeang Prasat,KH-15,Oddar Meanchey,False,2019,62220,62220,False
+KH-16-01,Chamkar Mon,KH-16,Phnom Penh,False,1998,187082,187082,False
+KH-16-01,Chamkar Mon,KH-16,Phnom Penh,False,2008,182004,182004,False
+KH-16-01,Chamkar Mon,KH-16,Phnom Penh,False,2019,146063,146063,False
+KH-16-02,Chbar Ampov,KH-16,Phnom Penh,False,1998,108796,108796,False
+KH-16-02,Chbar Ampov,KH-16,Phnom Penh,False,2008,133165,133165,False
+KH-16-02,Chbar Ampov,KH-16,Phnom Penh,False,2019,167337,167337,False
+KH-16-03,Chraoy Chongvar,KH-16,Phnom Penh,False,1998,49301,49301,False
+KH-16-03,Chraoy Chongvar,KH-16,Phnom Penh,False,2008,61214,61214,False
+KH-16-03,Chraoy Chongvar,KH-16,Phnom Penh,False,2019,165154,165154,False
+KH-16-04,Dangkao,KH-16,Phnom Penh,False,1998,54715,54715,False
+KH-16-04,Dangkao,KH-16,Phnom Penh,False,2008,73287,73287,False
+KH-16-04,Dangkao,KH-16,Phnom Penh,False,2019,173480,173480,False
+KH-16-05,Doun Penh,KH-16,Phnom Penh,False,1998,131913,131913,False
+KH-16-05,Doun Penh,KH-16,Phnom Penh,False,2008,126550,126550,False
+KH-16-05,Doun Penh,KH-16,Phnom Penh,False,2019,163330,163330,False
+KH-16-06,Mean Chey,KH-16,Phnom Penh,False,1998,97190,97190,False
+KH-16-06,Mean Chey,KH-16,Phnom Penh,False,2008,194636,194636,False
+KH-16-06,Mean Chey,KH-16,Phnom Penh,False,2019,256577,256577,False
+KH-16-07,Praek Pnov,KH-16,Phnom Penh,False,1998,35287,35287,False
+KH-16-07,Praek Pnov,KH-16,Phnom Penh,False,2008,47313,47313,False
+KH-16-07,Praek Pnov,KH-16,Phnom Penh,False,2019,191437,191437,False
+KH-16-08,Prampir Meakkakra,KH-16,Phnom Penh,False,1998,84168,84168,False
+KH-16-08,Prampir Meakkakra,KH-16,Phnom Penh,False,2008,91895,91895,False
+KH-16-08,Prampir Meakkakra,KH-16,Phnom Penh,False,2019,73037,73037,False
+KH-16-09,Pur Sen Chey,KH-16,Phnom Penh,False,1998,73414,73414,False
+KH-16-09,Pur Sen Chey,KH-16,Phnom Penh,False,2008,159455,159455,False
+KH-16-09,Pur Sen Chey,KH-16,Phnom Penh,False,2019,315775,315775,False
+KH-16-10,Russey Keo,KH-16,Phnom Penh,False,1998,91239,91239,False
+KH-16-10,Russey Keo,KH-16,Phnom Penh,False,2008,135470,135470,False
+KH-16-10,Russey Keo,KH-16,Phnom Penh,False,2019,285237,285237,False
+KH-16-11,Saensokh,KH-16,Phnom Penh,False,1998,30797,30797,False
+KH-16-11,Saensokh,KH-16,Phnom Penh,False,2008,125536,125536,False
+KH-16-11,Saensokh,KH-16,Phnom Penh,False,2019,190750,190750,False
+KH-16-12,Tuol Kouk,KH-16,Phnom Penh,False,1998,154968,154968,False
+KH-16-12,Tuol Kouk,KH-16,Phnom Penh,False,2008,171200,171200,False
+KH-16-12,Tuol Kouk,KH-16,Phnom Penh,False,2019,153200,153200,False
+KH-17-01,Bakan,KH-17,Pursat,False,1998,119365,119365,False
+KH-17-01,Bakan,KH-17,Pursat,False,2008,124829,124829,False
+KH-17-01,Bakan,KH-17,Pursat,False,2019,121936,121936,False
+KH-17-02,Kandieng,KH-17,Pursat,False,1998,74897,74897,False
+KH-17-02,Kandieng,KH-17,Pursat,False,2008,58066,58066,False
+KH-17-02,Kandieng,KH-17,Pursat,False,2019,54465,54465,False
+KH-17-03,Krakor,KH-17,Pursat,False,1998,63693,63693,False
+KH-17-03,Krakor,KH-17,Pursat,False,2008,82902,82902,False
+KH-17-03,Krakor,KH-17,Pursat,False,2019,90435,90435,False
+KH-17-04,Phnum Kravanh,KH-17,Pursat,False,1998,51414,51414,False
+KH-17-04,Phnum Kravanh,KH-17,Pursat,False,2008,59466,59466,False
+KH-17-04,Phnum Kravanh,KH-17,Pursat,False,2019,64950,64950,False
+KH-17-05,Pursat,KH-17,Pursat,False,1998,56365,56365,False
+KH-17-05,Pursat,KH-17,Pursat,False,2008,58846,58846,False
+KH-17-05,Pursat,KH-17,Pursat,False,2019,59809,59809,False
+KH-17-06,Tonlé Sap,KH-17,Pursat,True,1998,,,False
+KH-17-06,Tonlé Sap,KH-17,Pursat,True,2008,,,False
+KH-17-06,Tonlé Sap,KH-17,Pursat,True,2019,,,False
+KH-17-07,Veal Veaeng,KH-17,Pursat,False,1998,10000,,True
+KH-17-07,Veal Veaeng,KH-17,Pursat,False,2008,13052,13052,False
+KH-17-07,Veal Veaeng,KH-17,Pursat,False,2019,28357,28357,False
+KH-18-01,Chey Saen,KH-18,Preah Vihear,False,1998,15004,15004,False
+KH-18-01,Chey Saen,KH-18,Preah Vihear,False,2008,20730,20730,False
+KH-18-01,Chey Saen,KH-18,Preah Vihear,False,2019,26068,26068,False
+KH-18-02,Chhaeb,KH-18,Preah Vihear,False,1998,12450,12450,False
+KH-18-02,Chhaeb,KH-18,Preah Vihear,False,2008,16731,16731,False
+KH-18-02,Chhaeb,KH-18,Preah Vihear,False,2019,26076,26076,False
+KH-18-03,Choam Ksant,KH-18,Preah Vihear,False,1998,17464,17464,False
+KH-18-03,Choam Ksant,KH-18,Preah Vihear,False,2008,25245,25245,False
+KH-18-03,Choam Ksant,KH-18,Preah Vihear,False,2019,56332,56332,False
+KH-18-04,Kuleaen,KH-18,Preah Vihear,False,1998,19169,19169,False
+KH-18-04,Kuleaen,KH-18,Preah Vihear,False,2008,24824,24824,False
+KH-18-04,Kuleaen,KH-18,Preah Vihear,False,2019,35018,35018,False
+KH-18-05,Preah Vihear,KH-18,Preah Vihear,False,1998,15341,15341,False
+KH-18-05,Preah Vihear,KH-18,Preah Vihear,False,2008,21179,21179,False
+KH-18-05,Preah Vihear,KH-18,Preah Vihear,False,2019,27152,27152,False
+KH-18-06,Rovieng,KH-18,Preah Vihear,False,1998,41573,41573,False
+KH-18-06,Rovieng,KH-18,Preah Vihear,False,2008,35633,35633,False
+KH-18-06,Rovieng,KH-18,Preah Vihear,False,2019,47083,47083,False
+KH-18-07,Sangkum Thmei,KH-18,Preah Vihear,False,1998,18770,18770,False
+KH-18-07,Sangkum Thmei,KH-18,Preah Vihear,False,2008,17279,17279,False
+KH-18-07,Sangkum Thmei,KH-18,Preah Vihear,False,2019,23556,23556,False
+KH-18-08,Tbaeng Mean Chey,KH-18,Preah Vihear,False,1998,4968,4968,False
+KH-18-08,Tbaeng Mean Chey,KH-18,Preah Vihear,False,2008,9518,9518,False
+KH-18-08,Tbaeng Mean Chey,KH-18,Preah Vihear,False,2019,13542,13542,False
+KH-19-01,Ba Phnum,KH-19,Prey Veng,False,1998,71662,71662,False
+KH-19-01,Ba Phnum,KH-19,Prey Veng,False,2008,72576,72576,False
+KH-19-01,Ba Phnum,KH-19,Prey Veng,False,2019,81485,81485,False
+KH-19-02,Kamchay Mear,KH-19,Prey Veng,False,1998,71284,71284,False
+KH-19-02,Kamchay Mear,KH-19,Prey Veng,False,2008,74407,74407,False
+KH-19-02,Kamchay Mear,KH-19,Prey Veng,False,2019,85138,85138,False
+KH-19-03,Kampong Trabaek,KH-19,Prey Veng,False,1998,106491,106491,False
+KH-19-03,Kampong Trabaek,KH-19,Prey Veng,False,2008,109291,109291,False
+KH-19-03,Kampong Trabaek,KH-19,Prey Veng,False,2019,115757,115757,False
+KH-19-04,Kanhchriech,KH-19,Prey Veng,False,1998,57159,57159,False
+KH-19-04,Kanhchriech,KH-19,Prey Veng,False,2008,54791,54791,False
+KH-19-04,Kanhchriech,KH-19,Prey Veng,False,2019,63386,63386,False
+KH-19-05,Me Sang,KH-19,Prey Veng,False,1998,84845,84845,False
+KH-19-05,Me Sang,KH-19,Prey Veng,False,2008,89885,89885,False
+KH-19-05,Me Sang,KH-19,Prey Veng,False,2019,98934,98934,False
+KH-19-06,Pea Reang,KH-19,Prey Veng,False,1998,89122,89122,False
+KH-19-06,Pea Reang,KH-19,Prey Veng,False,2008,93471,93471,False
+KH-19-06,Pea Reang,KH-19,Prey Veng,False,2019,116859,116859,False
+KH-19-07,Peam Chor,KH-19,Prey Veng,False,1998,66529,66529,False
+KH-19-07,Peam Chor,KH-19,Prey Veng,False,2008,67531,67531,False
+KH-19-07,Peam Chor,KH-19,Prey Veng,False,2019,61721,61721,False
+KH-19-08,Peam Ro,KH-19,Prey Veng,False,1998,63534,63534,False
+KH-19-08,Peam Ro,KH-19,Prey Veng,False,2008,60791,60791,False
+KH-19-08,Peam Ro,KH-19,Prey Veng,False,2019,62000,62000,False
+KH-19-09,Preah Sdach,KH-19,Prey Veng,False,1998,103669,103669,False
+KH-19-09,Preah Sdach,KH-19,Prey Veng,False,2008,110571,110571,False
+KH-19-09,Preah Sdach,KH-19,Prey Veng,False,2019,121867,121867,False
+KH-19-10,Prey Veng,KH-19,Prey Veng,False,1998,28864,28864,False
+KH-19-10,Prey Veng,KH-19,Prey Veng,False,2008,23890,23890,False
+KH-19-10,Prey Veng,KH-19,Prey Veng,False,2019,25582,25582,False
+KH-19-11,Pur Rieng,KH-19,Prey Veng,False,1998,44705,44705,False
+KH-19-11,Pur Rieng,KH-19,Prey Veng,False,2008,42874,42874,False
+KH-19-11,Pur Rieng,KH-19,Prey Veng,False,2019,51816,51816,False
+KH-19-12,Sithor Kandal,KH-19,Prey Veng,False,1998,68633,68633,False
+KH-19-12,Sithor Kandal,KH-19,Prey Veng,False,2008,56486,56486,False
+KH-19-12,Sithor Kandal,KH-19,Prey Veng,False,2019,64743,64743,False
+KH-19-13,Svay Antor,KH-19,Prey Veng,False,1998,94698,94698,False
+KH-19-13,Svay Antor,KH-19,Prey Veng,False,2008,90808,90808,False
+KH-19-13,Svay Antor,KH-19,Prey Veng,False,2019,108432,108432,False
+KH-20-01,Andoung Meas,KH-20,Ratanakiri,False,1998,6896,6896,False
+KH-20-01,Andoung Meas,KH-20,Ratanakiri,False,2008,10365,10365,False
+KH-20-01,Andoung Meas,KH-20,Ratanakiri,False,2019,17662,17662,False
+KH-20-02,Ban Lung,KH-20,Ratanakiri,False,1998,16999,16999,False
+KH-20-02,Ban Lung,KH-20,Ratanakiri,False,2008,28982,28982,False
+KH-20-02,Ban Lung,KH-20,Ratanakiri,False,2019,32388,32388,False
+KH-20-03,Bar Kaev,KH-20,Ratanakiri,False,1998,24788,24788,False
+KH-20-03,Bar Kaev,KH-20,Ratanakiri,False,2008,19953,19953,False
+KH-20-03,Bar Kaev,KH-20,Ratanakiri,False,2019,28454,28454,False
+KH-20-04,Koun Mom,KH-20,Ratanakiri,False,1998,8814,8814,False
+KH-20-04,Koun Mom,KH-20,Ratanakiri,False,2008,15505,15505,False
+KH-20-04,Koun Mom,KH-20,Ratanakiri,False,2019,30911,30911,False
+KH-20-05,Lumphat,KH-20,Ratanakiri,False,1998,10864,10864,False
+KH-20-05,Lumphat,KH-20,Ratanakiri,False,2008,18975,18975,False
+KH-20-05,Lumphat,KH-20,Ratanakiri,False,2019,28059,28059,False
+KH-20-06,Ou Chum,KH-20,Ratanakiri,False,1998,13533,13533,False
+KH-20-06,Ou Chum,KH-20,Ratanakiri,False,2008,17982,17982,False
+KH-20-06,Ou Chum,KH-20,Ratanakiri,False,2019,25474,25474,False
+KH-20-07,Ou Ya Dav,KH-20,Ratanakiri,False,1998,10898,10898,False
+KH-20-07,Ou Ya Dav,KH-20,Ratanakiri,False,2008,16420,16420,False
+KH-20-07,Ou Ya Dav,KH-20,Ratanakiri,False,2019,24003,24003,False
+KH-20-08,Ta Veaeng,KH-20,Ratanakiri,False,1998,4325,4325,False
+KH-20-08,Ta Veaeng,KH-20,Ratanakiri,False,2008,5835,5835,False
+KH-20-08,Ta Veaeng,KH-20,Ratanakiri,False,2019,7533,7533,False
+KH-20-09,Veun Sai,KH-20,Ratanakiri,False,1998,12389,12389,False
+KH-20-09,Veun Sai,KH-20,Ratanakiri,False,2008,16449,16449,False
+KH-20-09,Veun Sai,KH-20,Ratanakiri,False,2019,22969,22969,False
+KH-21-01,Angkor Chum,KH-21,Siem Reap,False,1998,48476,48476,False
+KH-21-01,Angkor Chum,KH-21,Siem Reap,False,2008,53768,53768,False
+KH-21-01,Angkor Chum,KH-21,Siem Reap,False,2019,55694,55694,False
+KH-21-02,Angkor Thum,KH-21,Siem Reap,False,1998,18740,18740,False
+KH-21-02,Angkor Thum,KH-21,Siem Reap,False,2008,24335,24335,False
+KH-21-02,Angkor Thum,KH-21,Siem Reap,False,2019,29565,29565,False
+KH-21-03,Banteay Srei,KH-21,Siem Reap,False,1998,41799,41799,False
+KH-21-03,Banteay Srei,KH-21,Siem Reap,False,2008,42773,42773,False
+KH-21-03,Banteay Srei,KH-21,Siem Reap,False,2019,44554,44554,False
+KH-21-04,Chi Kraeng,KH-21,Siem Reap,False,1998,112445,112445,False
+KH-21-04,Chi Kraeng,KH-21,Siem Reap,False,2008,125367,125367,False
+KH-21-04,Chi Kraeng,KH-21,Siem Reap,False,2019,129707,129707,False
+KH-21-05,Kralanh,KH-21,Siem Reap,False,1998,63275,63275,False
+KH-21-05,Kralanh,KH-21,Siem Reap,False,2008,57690,57690,False
+KH-21-05,Kralanh,KH-21,Siem Reap,False,2019,52754,52754,False
+KH-21-06,Prasat Bakong,KH-21,Siem Reap,False,1998,39074,39074,False
+KH-21-06,Prasat Bakong,KH-21,Siem Reap,False,2008,61425,61425,False
+KH-21-06,Prasat Bakong,KH-21,Siem Reap,False,2019,79690,79690,False
+KH-21-07,Puok,KH-21,Siem Reap,False,1998,93945,93945,False
+KH-21-07,Puok,KH-21,Siem Reap,False,2008,112882,112882,False
+KH-21-07,Puok,KH-21,Siem Reap,False,2019,128984,128984,False
+KH-21-08,Siem Reap,KH-21,Siem Reap,False,1998,115824,115824,False
+KH-21-08,Siem Reap,KH-21,Siem Reap,False,2008,230714,230714,False
+KH-21-08,Siem Reap,KH-21,Siem Reap,False,2019,256995,256995,False
+KH-21-09,Soutr Nikom,KH-21,Siem Reap,False,1998,93052,93052,False
+KH-21-09,Soutr Nikom,KH-21,Siem Reap,False,2008,98378,98378,False
+KH-21-09,Soutr Nikom,KH-21,Siem Reap,False,2019,111394,111394,False
+KH-21-10,Srei Snam,KH-21,Siem Reap,False,1998,26738,26738,False
+KH-21-10,Srei Snam,KH-21,Siem Reap,False,2008,31359,31359,False
+KH-21-10,Srei Snam,KH-21,Siem Reap,False,2019,34694,34694,False
+KH-21-11,Svay Leu,KH-21,Siem Reap,False,1998,12869,12869,False
+KH-21-11,Svay Leu,KH-21,Siem Reap,False,2008,25726,25726,False
+KH-21-11,Svay Leu,KH-21,Siem Reap,False,2019,43752,43752,False
+KH-21-12,Tonlé Sap,KH-21,Siem Reap,True,1998,,,False
+KH-21-12,Tonlé Sap,KH-21,Siem Reap,True,2008,,,False
+KH-21-12,Tonlé Sap,KH-21,Siem Reap,True,2019,,,False
+KH-21-13,Varin,KH-21,Siem Reap,False,1998,13882,13882,False
+KH-21-13,Varin,KH-21,Siem Reap,False,2008,32026,32026,False
+KH-21-13,Varin,KH-21,Siem Reap,False,2019,46451,46451,False
+KH-22-01,Sesan,KH-22,Stung Treng,False,1998,15455,15455,False
+KH-22-01,Sesan,KH-22,Stung Treng,False,2008,17506,17506,False
+KH-22-01,Sesan,KH-22,Stung Treng,False,2019,26209,26209,False
+KH-22-02,Siem Bouk,KH-22,Stung Treng,False,1998,10235,10235,False
+KH-22-02,Siem Bouk,KH-22,Stung Treng,False,2008,14444,14444,False
+KH-22-02,Siem Bouk,KH-22,Stung Treng,False,2019,23885,23885,False
+KH-22-03,Siem Pang,KH-22,Stung Treng,False,1998,13738,13738,False
+KH-22-03,Siem Pang,KH-22,Stung Treng,False,2008,18323,18323,False
+KH-22-03,Siem Pang,KH-22,Stung Treng,False,2019,26538,26538,False
+KH-22-04,Stueng Traeng,KH-22,Stung Treng,False,1998,24493,24493,False
+KH-22-04,Stueng Traeng,KH-22,Stung Treng,False,2008,30959,30959,False
+KH-22-04,Stueng Traeng,KH-22,Stung Treng,False,2019,40612,40612,False
+KH-22-05,Thala Barivat,KH-22,Stung Treng,False,1998,21577,21577,False
+KH-22-05,Thala Barivat,KH-22,Stung Treng,False,2008,30439,30439,False
+KH-22-05,Thala Barivat,KH-22,Stung Treng,False,2019,48469,48469,False
+KH-23-01,Bavet,KH-23,Svay Rieng,False,1998,34558,34558,False
+KH-23-01,Bavet,KH-23,Svay Rieng,False,2008,37123,37123,False
+KH-23-01,Bavet,KH-23,Svay Rieng,False,2019,45578,45578,False
+KH-23-02,Chantrea,KH-23,Svay Rieng,False,1998,32195,32195,False
+KH-23-02,Chantrea,KH-23,Svay Rieng,False,2008,24904,24904,False
+KH-23-02,Chantrea,KH-23,Svay Rieng,False,2019,31295,31295,False
+KH-23-03,Kampong Rou,KH-23,Svay Rieng,False,1998,68559,68559,False
+KH-23-03,Kampong Rou,KH-23,Svay Rieng,False,2008,57732,57732,False
+KH-23-03,Kampong Rou,KH-23,Svay Rieng,False,2019,67011,67011,False
+KH-23-04,Romeas Haek,KH-23,Svay Rieng,False,1998,110457,110457,False
+KH-23-04,Romeas Haek,KH-23,Svay Rieng,False,2008,109068,109068,False
+KH-23-04,Romeas Haek,KH-23,Svay Rieng,False,2019,109078,109078,False
+KH-23-05,Rumduol,KH-23,Svay Rieng,False,1998,48883,48883,False
+KH-23-05,Rumduol,KH-23,Svay Rieng,False,2008,46944,46944,False
+KH-23-05,Rumduol,KH-23,Svay Rieng,False,2019,48613,48613,False
+KH-23-06,Svay Chrum,KH-23,Svay Rieng,False,1998,121119,121119,False
+KH-23-06,Svay Chrum,KH-23,Svay Rieng,False,2008,120318,120318,False
+KH-23-06,Svay Chrum,KH-23,Svay Rieng,False,2019,121920,121920,False
+KH-23-07,Svay Rieng,KH-23,Svay Rieng,False,1998,40000,40000,False
+KH-23-07,Svay Rieng,KH-23,Svay Rieng,False,2008,40536,40536,False
+KH-23-07,Svay Rieng,KH-23,Svay Rieng,False,2019,41955,41955,False
+KH-23-08,Svay Teab,KH-23,Svay Rieng,False,1998,43166,43166,False
+KH-23-08,Svay Teab,KH-23,Svay Rieng,False,2008,46163,46163,False
+KH-23-08,Svay Teab,KH-23,Svay Rieng,False,2019,60047,60047,False
+KH-24-01,Angkor Borei,KH-24,Takeo,False,1998,48591,48591,False
+KH-24-01,Angkor Borei,KH-24,Takeo,False,2008,46261,46261,False
+KH-24-01,Angkor Borei,KH-24,Takeo,False,2019,41117,41117,False
+KH-24-02,Bati,KH-24,Takeo,False,1998,115237,115237,False
+KH-24-02,Bati,KH-24,Takeo,False,2008,131031,131031,False
+KH-24-02,Bati,KH-24,Takeo,False,2019,159407,159407,False
+KH-24-03,Borei Cholsar,KH-24,Takeo,False,1998,24460,24460,False
+KH-24-03,Borei Cholsar,KH-24,Takeo,False,2008,26055,26055,False
+KH-24-03,Borei Cholsar,KH-24,Takeo,False,2019,24056,24056,False
+KH-24-04,Doun Kaev,KH-24,Takeo,False,1998,40398,40398,False
+KH-24-04,Doun Kaev,KH-24,Takeo,False,2008,41383,41383,False
+KH-24-04,Doun Kaev,KH-24,Takeo,False,2019,45086,45086,False
+KH-24-05,Kaoh Andaet,KH-24,Takeo,False,1998,45650,45650,False
+KH-24-05,Kaoh Andaet,KH-24,Takeo,False,2008,48039,48039,False
+KH-24-05,Kaoh Andaet,KH-24,Takeo,False,2019,43197,43197,False
+KH-24-06,Kiri Vong,KH-24,Takeo,False,1998,92446,92446,False
+KH-24-06,Kiri Vong,KH-24,Takeo,False,2008,97711,97711,False
+KH-24-06,Kiri Vong,KH-24,Takeo,False,2019,88220,88220,False
+KH-24-07,Prey Kabbas,KH-24,Takeo,False,1998,87522,87522,False
+KH-24-07,Prey Kabbas,KH-24,Takeo,False,2008,95416,95416,False
+KH-24-07,Prey Kabbas,KH-24,Takeo,False,2019,98682,98682,False
+KH-24-08,Samraong,KH-24,Takeo,False,1998,100150,100150,False
+KH-24-08,Samraong,KH-24,Takeo,False,2008,107807,107807,False
+KH-24-08,Samraong,KH-24,Takeo,False,2019,127295,127295,False
+KH-24-09,Tram Kak,KH-24,Takeo,False,1998,141333,141333,False
+KH-24-09,Tram Kak,KH-24,Takeo,False,2008,152170,152170,False
+KH-24-09,Tram Kak,KH-24,Takeo,False,2019,171985,171985,False
+KH-24-10,Treang,KH-24,Takeo,False,1998,82108,82108,False
+KH-24-10,Treang,KH-24,Takeo,False,2008,99033,99033,False
+KH-24-10,Treang,KH-24,Takeo,False,2019,101869,101869,False
+KH-25-01,Dambae,KH-25,Tbong Khmum,False,1998,49457,49457,False
+KH-25-01,Dambae,KH-25,Tbong Khmum,False,2008,80490,80490,False
+KH-25-01,Dambae,KH-25,Tbong Khmum,False,2019,102778,102778,False
+KH-25-02,Krouch Chhmar,KH-25,Tbong Khmum,False,1998,97114,97114,False
+KH-25-02,Krouch Chhmar,KH-25,Tbong Khmum,False,2008,92845,92845,False
+KH-25-02,Krouch Chhmar,KH-25,Tbong Khmum,False,2019,185260,185260,False
+KH-25-03,Memot,KH-25,Tbong Khmum,False,1998,107099,107099,False
+KH-25-03,Memot,KH-25,Tbong Khmum,False,2008,148463,148463,False
+KH-25-03,Memot,KH-25,Tbong Khmum,False,2019,142294,142294,False
+KH-25-04,Ou Reang Ov,KH-25,Tbong Khmum,False,1998,74179,74179,False
+KH-25-04,Ou Reang Ov,KH-25,Tbong Khmum,False,2008,80947,80947,False
+KH-25-04,Ou Reang Ov,KH-25,Tbong Khmum,False,2019,60648,60648,False
+KH-25-05,Ponhea Kraek,KH-25,Tbong Khmum,False,1998,110271,110271,False
+KH-25-05,Ponhea Kraek,KH-25,Tbong Khmum,False,2008,135318,135318,False
+KH-25-05,Ponhea Kraek,KH-25,Tbong Khmum,False,2019,24559,24559,False
+KH-25-06,Suong,KH-25,Tbong Khmum,False,1998,28736,28736,False
+KH-25-06,Suong,KH-25,Tbong Khmum,False,2008,35896,35896,False
+KH-25-06,Suong,KH-25,Tbong Khmum,False,2019,164550,164550,False
+KH-25-07,Tboung Khmum,KH-25,Tbong Khmum,False,1998,176058,176058,False
+KH-25-07,Tboung Khmum,KH-25,Tbong Khmum,False,2008,180041,180041,False
+KH-25-07,Tboung Khmum,KH-25,Tbong Khmum,False,2019,96752,96752,False

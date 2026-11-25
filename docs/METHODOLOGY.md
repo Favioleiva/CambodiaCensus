@@ -24,7 +24,7 @@ Administrative boundaries in Cambodia evolved significantly between 1998 (183 un
 To avoid coarse district-to-district interpolation, all three censuses are harmonized **from commune level (ADM3)**:
 
 1. **Metric Projection (`EPSG:32648`):** Native commune polygons from 1998 (`1,609` rows / `1,607` dissolved codes), 2008 (`1,621` communes), and 2019 (`1,616` dissolved ADM3 codes from `khm_adm3_un.shp`) are projected to WGS84 / UTM Zone 48N (`EPSG:32648`) alongside `district.geojson` (202 units).
-2. **Exact Area-Weighted Crosswalk:** For each source commune $c$ and target district $d$, intersection area $A_{c,d} = \text{Area}(c \cap d)$ is computed in square meters and normalized so $\sum_d w_{c,d} = 1.0$, guaranteeing **100% conservation of national territorial population**.
+2. **Discrete 1-to-1 Majority-Area Crosswalk (No Commune Splitting):** For each source commune $c$, metric intersection areas $A_{c,d} = \text{Area}(c \cap d)$ are computed across the 197 inhabited land districts in `EPSG:32648`, and the commune is assigned **100% (`weight = 1.0`, no splitting)** to the single district $d^* = \arg\max_d A_{c,d}$. This guarantees **exact integer national population conservation** and leaves the 5 `Tonlé Sap` lake sectors cleanly as `NA` (water body).
    - **1998:** `97.20%` of communes fall `≥90%` inside a single target district (`99.97%` mean raw overlap).
    - **2008:** `99.63%` of communes fall `≥90%` inside a single target district (`99.98%` mean raw overlap).
    - **2019 (ADM3):** `99.07%` of communes fall `≥90%` inside a single target district (`99.88%` mean raw overlap).

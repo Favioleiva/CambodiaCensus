@@ -59,7 +59,7 @@ CambodiaCensus/
 | [`data/census_2019/commune_sex_pop_2019.csv`](data/census_2019/commune_sex_pop_2019.csv) | 2019 · 1,633 commune polygons (ADM3, pop & sex) | `1,633` | `19` | 306.4 KB |
 | [`data/census_2019/district_population_2019.csv`](data/census_2019/district_population_2019.csv) | 2019 · 197 native districts (ADM2) | `197` | `10` | 14.0 KB |
 | [`data/census_2019/unmatched_codes_audit_2019.csv`](data/census_2019/unmatched_codes_audit_2019.csv) | 2019 · ADM3 code audit | `33` | `12` | 2.6 KB |
-| [`data/harmonized_panel202/crosswalk_communes_to_mendez202.csv`](data/harmonized_panel202/crosswalk_communes_to_mendez202.csv) | 1998–2019 · ADM3/ADM2 → 202 area weights | `11,972` | `8` | 1307.8 KB |
+| [`data/harmonized_panel202/crosswalk_communes_to_quarcs202_discrete.csv`](data/harmonized_panel202/crosswalk_communes_to_quarcs202_discrete.csv) | 1998–2019 · ADM3/ADM2 → 202 area weights | `11,972` | `8` | 1307.8 KB |
 | [`data/harmonized_panel202/population_panel_1998_2019_long.csv`](data/harmonized_panel202/population_panel_1998_2019_long.csv) | 1998, 2008, 2019 · 202 harmonized units (long) | `606` | `8` | 38.5 KB |
 | [`data/harmonized_panel202/population_panel_1998_2019_wide.csv`](data/harmonized_panel202/population_panel_1998_2019_wide.csv) | 1998, 2008, 2019 · 202 harmonized units (wide) | `202` | `14` | 20.2 KB |
 | [`data/native_districts/district_population_1998.csv`](data/native_districts/district_population_1998.csv) | 1998 · 184 native district polygons (+NIS estimates) | `184` | `14` | 21.2 KB |

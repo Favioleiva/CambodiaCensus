@@ -32,7 +32,7 @@ This dictionary documents all aggregated tabular datasets published in `data/`.
 | `population_enumerated` | float / NA | Strictly enumerated population (`NA` for conflict-excluded areas in 1998) |
 | `includes_1998_nis_estimate` | bool | Indicator flagging 1998 conflict-adjusted observations |
 
-### `crosswalk_communes_to_mendez202.csv`
+### `crosswalk_communes_to_quarcs202_discrete.csv`
 | Column | Type | Description |
 | :--- | :--- | :--- |
 | `year` | int | Source census year (`1998`, `2008`, `2019`) |
@@ -111,7 +111,7 @@ This dictionary documents all aggregated tabular datasets published in `data/`.
 - **Dimensions:** `33` rows × `12` columns (`2,636` bytes)
 - **Columns:** `SOURCE_ADM, ADM3_NAME, ADM3_ID, ADM2_ID, ADM1_ID, issue, code_raw, code_6, commune_name_census, male, female, total`
 
-### `data/harmonized_panel202/crosswalk_communes_to_mendez202.csv`
+### `data/harmonized_panel202/crosswalk_communes_to_quarcs202_discrete.csv`
 - **Dimensions:** `11,972` rows × `8` columns (`1,339,223` bytes)
 - **Columns:** `year, source_level, source_code, geo_id, inter_area_m2, src_area_m2, raw_share, weight`
 

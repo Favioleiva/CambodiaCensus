@@ -22,7 +22,7 @@ It combines:
 
 ---
 
-## v4 Release Highlights — Audited Multi-Variable Observatory (92 Indicators · `ES` · `EN` · `ខ្មែរ`)
+## v4 Release Highlights — Audited Multi-Variable Observatory (88 Indicators · `ES` · `EN` · `ខ្មែរ`)
 
 - **New MoEYS `6–3–3–4` Mean Years of Schooling (`2008 · 2019`, `15+` & `25+`)** (`0, 3, 6, 9, 12, 16` years) + Higher/University Attainment (`educ_higher_15plus_pct`, `educ_higher_25plus_pct`).
 - **Development-Focused Sanitation (`2008 · 2019`):** Public sewerage network connection (`toilet_sewer_pct`) and septic tank (`toilet_septic_pct`) separated from latrines.

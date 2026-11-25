@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="author" content="Favio Leiva">
 <meta name="theme-color" content="#060d1f">
-<title>GDO-Cambodia · Panel 202 (1998–2019) · Favio Leiva</title>
+<title>GDO-Cambodia · Panel 202 (1998–2019) · Multi-Variable Observatory · Favio Leiva</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+Khmer:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -27,9 +27,9 @@
 html{scroll-behavior:smooth;scroll-padding-top:86px;color-scheme:dark}
 body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 Inter,'Noto Sans Khmer',ui-sans-serif,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:var(--sky);text-underline-offset:4px}
-button,input{font:inherit}
+button,input,select{font:inherit}
 button{cursor:pointer;color:inherit}
-button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--sky);outline-offset:3px;border-radius:4px}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--sky);outline-offset:3px;border-radius:4px}
 .topbar{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;width:100%;max-width:1680px;margin:auto;padding:12px 28px;border-bottom:1px solid var(--line);background:#060d1fed;backdrop-filter:blur(10px);gap:14px}
 .brand{display:flex;align-items:center;gap:11px;color:var(--sky);text-decoration:none}
 .brand-dot{width:11px;height:11px;border-radius:50%;background:linear-gradient(135deg,var(--sky),var(--red));box-shadow:0 0 12px #7cc4ff70}
@@ -57,7 +57,7 @@ html[lang="km"] h1 em,html[lang="km"] h2 em{font-style:normal}
 .hero-author strong{color:var(--cream);font-weight:700}
 .hero-author .sep{color:var(--sky);font-weight:700}
 .hero-author .pow{color:var(--sky);font-weight:600}
-.hero-lead{max-width:740px;font-size:13.8px;line-height:1.55;color:#cbd5e1;margin:0}
+.hero-lead{max-width:760px;font-size:13.8px;line-height:1.55;color:#cbd5e1;margin:0}
 .hero-actions{display:flex;gap:10px;flex-wrap:wrap}
 .button{display:inline-flex;gap:8px;align-items:center;padding:8px 15px;border-radius:7px;text-decoration:none;font-weight:650;font-size:13px;transition:transform .16s,background .16s}
 .button:hover{transform:translateY(-1px)}
@@ -68,11 +68,18 @@ html[lang="km"] h1 em,html[lang="km"] h2 em{font-style:normal}
 .ribbon-inline{display:flex;flex-wrap:wrap;gap:14px;font:11.5px ui-monospace,'Noto Sans Khmer',monospace;color:#cbd5e1}
 .ribbon-inline b{color:var(--sky);font-weight:700}
 main{width:100%;max-width:1680px;margin:auto;padding:14px 28px 40px}
-.controls{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 12px;flex-wrap:wrap}
-.years,.mode-toggle{display:flex;gap:6px;flex-wrap:wrap}
-.years button,.mode-toggle button{border:1px solid var(--line);background:var(--card);border-radius:30px;padding:6px 18px;font-weight:600;font-size:13px;color:var(--ink);transition:all .15s}
+.controls{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 0 12px;flex-wrap:wrap}
+.var-selectors{display:flex;align-items:center;gap:8px;flex-wrap:wrap;flex:1 1 460px}
+.sel-group{display:flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--line);border-radius:30px;padding:3px 12px 3px 12px;min-height:36px}
+.sel-group label{font:10.5px ui-monospace,'Noto Sans Khmer',monospace;text-transform:uppercase;letter-spacing:.06em;color:var(--sky);white-space:nowrap}
+.sel-group select{background:transparent;border:0;color:var(--cream);font-size:13px;font-weight:600;padding:3px 4px;cursor:pointer;max-width:340px}
+.sel-group select option{background:var(--card);color:var(--cream)}
+.years,.mode-toggle{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.years button,.mode-toggle button{border:1px solid var(--line);background:var(--card);border-radius:30px;padding:6px 16px;font-weight:600;font-size:13px;color:var(--ink);transition:all .15s}
 .years button[aria-pressed=true]{background:var(--sky);border-color:var(--sky);color:var(--paper)}
+.years button:disabled{opacity:.32;cursor:not-allowed}
 .mode-toggle button[aria-pressed=true]{background:var(--red);border-color:var(--red);color:var(--cream)}
+.wave-pill{display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:30px;background:var(--card);border:1px solid var(--line);font:11.5px ui-monospace,'Noto Sans Khmer',monospace;color:var(--sky)}
 .explore-grid{display:grid;grid-template-columns:minmax(0,1.28fr) minmax(430px,1.02fr);gap:16px;align-items:stretch}
 .panel-card{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:16px;display:flex;flex-direction:column}
 .map-header{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:6px;flex-wrap:wrap}
@@ -95,7 +102,7 @@ h3{margin:0;font-size:15.5px;line-height:1.3;letter-spacing:-.015em;color:var(--
 .legend-block{margin-top:8px;padding-top:8px;border-top:1px solid var(--line)}
 .legend-grad{width:100%;height:9px;border-radius:5px;background:linear-gradient(90deg,#2b5c9f 0%,#74add1 25%,#fee090 50%,#f46d43 75%,#d73027 100%);border:1px solid var(--line)}
 .legend-ticks{display:flex;justify-content:space-between;margin-top:5px;font:10.5px ui-monospace,monospace;color:var(--muted)}
-.legend-caption{display:flex;justify-content:space-between;margin-top:3px;font-size:11px;color:var(--sky)}
+.legend-caption{display:flex;justify-content:space-between;gap:8px;margin-top:3px;font-size:11px;color:var(--sky);flex-wrap:wrap}
 .sidebar{gap:12px}
 .search-wrap{position:relative}
 .search-box{width:100%;padding:8px 12px;border-radius:8px;border:1px solid var(--line);background:var(--paper);color:var(--cream);font-size:13px}
@@ -137,7 +144,7 @@ h3{margin:0;font-size:15.5px;line-height:1.3;letter-spacing:-.015em;color:var(--
 .rank .rbar{height:100%;border-radius:2px;background:linear-gradient(90deg,#f46d43,#d73027)}
 .ranking-pair section:last-child .rank .rbar{background:linear-gradient(90deg,#2b5c9f,#74add1)}
 .rank .rval{font:10.8px ui-monospace,monospace;font-weight:650;color:var(--ink);white-space:nowrap}
-/* Collapsible secondary sections (BoliviaSatellites style) */
+/* Collapsible secondary sections */
 details.drawer{margin-top:14px;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
 details.drawer>summary{list-style:none;cursor:pointer;padding:14px 18px;font-weight:650;font-size:14.5px;color:var(--cream);display:flex;align-items:center;justify-content:space-between;gap:12px}
 details.drawer>summary::-webkit-details-marker{display:none}
@@ -159,16 +166,16 @@ details.drawer[open]>summary{border-bottom:1px solid var(--line)}
 .proj-pill:hover{border-color:var(--sky);color:var(--sky)}
 footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
 .foot-credits strong{color:var(--cream)}
-.tooltip{position:fixed;pointer-events:none;z-index:50;background:#060d1ff5;border:1px solid var(--sky);border-radius:8px;padding:8px 11px;font-size:12.5px;color:var(--cream);box-shadow:0 8px 24px #000a;display:none;max-width:250px}
+.tooltip{position:fixed;pointer-events:none;z-index:50;background:#060d1ff5;border:1px solid var(--sky);border-radius:8px;padding:8px 11px;font-size:12.5px;color:var(--cream);box-shadow:0 8px 24px #000a;display:none;max-width:290px}
 @media(max-width:1100px){.explore-grid{grid-template-columns:1fr}.ranking-pair{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:760px){.ranking-pair,.gallery,.method-grid{grid-template-columns:1fr}.topbar,.hero,main,footer{padding-inline:16px}}
+@media(max-width:760px){.ranking-pair,.gallery,.method-grid{grid-template-columns:1fr}.topbar,.hero,main,footer{padding-inline:16px}.sel-group select{max-width:220px}}
 </style>
 </head>
 <body>
 <nav class="topbar">
   <a class="brand" href="#">
     <span class="brand-dot"></span>
-    <span>GDO-Cambodia<span data-i18n="brandSub">Panel 202 · Población 1998–2019</span></span>
+    <span>GDO-Cambodia<span data-i18n="brandSub">Panel 202 · Censo Multi-Variable 1998–2019</span></span>
   </a>
   <div class="navright">
     <a href="#explore" data-i18n="navExplore">Explorar</a>
@@ -184,10 +191,10 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
 
 <header class="hero">
   <div class="hero-left">
-    <div class="eyebrow"><i></i><span data-i18n="eyebrow">Observatorio Subnacional · 202 distritos armonizados</span></div>
+    <div class="eyebrow"><i></i><span data-i18n="eyebrow">Observatorio Subnacional · 202 distritos armonizados · 69 indicadores</span></div>
     <h1 data-i18n="heroTitle">Camboya en tres<br><em>censos de población</em></h1>
     <div class="hero-author" data-i18n="heroAuthor"><strong>Favio Leiva</strong><span class="sep">·</span><span class="pow">Powered by Gemini 4 Neon via Antigravity</span></div>
-    <p class="hero-lead" data-i18n="heroLead">Panel demográfico armonizado para las 202 unidades de Quarcs Cambodia shapefile 202 (GDO-Cambodia), reconstruido desde el nivel de comuna (ADM3) para los censos nacionales de 1998, 2008 y 2019.</p>
+    <p class="hero-lead" data-i18n="heroLead">Panel censal multi-variable armonizado para las 202 unidades de Quarcs Cambodia shapefile 202 (GDO-Cambodia), reconstruido desde el nivel de comuna (ADM3) para 1998, 2008 y 2019 (100% REDATAM).</p>
   </div>
   <div class="hero-right">
     <div class="ribbon-inline">
@@ -195,8 +202,8 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
       <span><b>11.44M → 13.40M → 15.55M</b> <span data-i18n="ribPop">hab.</span></span>
     </div>
     <div class="hero-actions">
-      <a class="button primary" href="data/harmonized_panel202/population_panel_1998_2019_long.csv" download data-i18n="ctaDownload">Descargar datos CSV ↗</a>
-      <a class="button secondary" href="#method" data-i18n="navMethod">Método</a>
+      <a class="button primary" href="data/harmonized_panel202/panel202_multivar_1998_2008_2019_long.csv" download data-i18n="ctaDownload">Descargar Panel 3 Olas CSV ↗</a>
+      <a class="button secondary" href="docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.md" target="_blank" data-i18n="ctaDict">Diccionario (ES/EN/ខ្មែរ) ↗</a>
     </div>
     <p class="hero-caption" data-i18n="heroCaption">Ilustración editorial generada con IA; no es una fotografía satelital.</p>
   </div>
@@ -205,22 +212,33 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
 <main>
   <section id="explore">
     <div class="controls">
+      <div class="var-selectors">
+        <div class="sel-group">
+          <label for="blockSelect" data-i18n="lblBlock">Bloque</label>
+          <select id="blockSelect" aria-label="Thematic block"></select>
+        </div>
+        <div class="sel-group">
+          <label for="varSelect" data-i18n="lblVar">Variable</label>
+          <select id="varSelect" aria-label="Census variable"></select>
+        </div>
+      </div>
       <div class="years" role="group" aria-label="Census year">
         <button data-year="1998" aria-pressed="false">1998</button>
         <button data-year="2008" aria-pressed="false">2008</button>
         <button data-year="2019" aria-pressed="true">2019</button>
       </div>
-      <div class="mode-toggle" role="group" aria-label="1998 conflict areas mode">
+      <div class="mode-toggle" id="nisToggleWrap" role="group" aria-label="1998 conflict areas mode">
         <button id="btnNisAdj" aria-pressed="true" data-i18n="modeAdj">1998: con estimación NIS (+43k)</button>
         <button id="btnNisEnum" aria-pressed="false" data-i18n="modeEnum">1998: solo enumerado (NA conflicto)</button>
       </div>
+      <div id="waveBadge" class="wave-pill" style="display:none"></div>
     </div>
 
     <div class="explore-grid">
       <div class="panel-card">
         <div class="map-header">
           <div>
-            <h3 id="mapTitle">Censo 2019 · 202 distritos armonizados</h3>
+            <h3 id="mapTitle">Población total · 2019</h3>
             <div class="map-meta" id="mapMeta">Total territorial: 15,551,637 hab.</div>
           </div>
           <a id="downloadMap" class="button secondary" style="padding:6px 12px;font-size:12px" href="population_2019.png" download data-i18n="dlPng">Mapa PNG ↗</a>
@@ -245,12 +263,12 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
         </div>
         <div class="legend-block">
           <div class="legend-grad"></div>
-          <div class="legend-ticks">
+          <div class="legend-ticks" id="legendTicks">
             <span>5,000</span><span>10,000</span><span>25,000</span><span>50,000</span><span>100,000</span><span>250,000</span>
           </div>
           <div class="legend-caption">
-            <span data-i18n="legLabel">Población por distrito (escala logarítmica común, 1998–2019)</span>
-            <span>3,500 – 320,000</span>
+            <span id="legendLabel">Población total (escala logarítmica común, 1998–2019)</span>
+            <span id="legendRange">3,500 – 320,000</span>
           </div>
         </div>
       </div>
@@ -263,7 +281,7 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
 
         <div>
           <div class="insp-head">
-            <div class="eyebrow"><i></i><span id="inspGeoId">KH-12-01</span></div>
+            <div class="eyebrow"><i></i><span id="inspGeoId">KH-16-09</span></div>
             <span class="insp-prov" id="inspProv">—</span>
           </div>
           <div class="insp-title" id="inspName">—</div>
@@ -283,7 +301,7 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
             <div class="traj-col"><div class="traj-bar" id="b19" style="height:90%"></div></div>
           </div>
           <div class="traj-meta">
-            <span data-i18n="trajTitle">Trayectoria demográfica (1998 · 2008 · 2019)</span>
+            <span id="trajTitle">Trayectoria (1998 · 2008 · 2019)</span>
             <strong id="inspGrowth">—</strong>
           </div>
         </div>
@@ -329,14 +347,15 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
         </div>
       </div>
       <div class="downloads-row">
-        <a class="button secondary" href="data/harmonized_panel202/population_panel_1998_2019_long.csv" download data-i18n="dlLong">Panel 202 Long CSV (606) ↗</a>
-        <a class="button secondary" href="data/harmonized_panel202/population_panel_1998_2019_wide.csv" download data-i18n="dlWide">Panel 202 Wide CSV (202) ↗</a>
+        <a class="button primary" href="data/harmonized_panel202/panel202_multivar_1998_2008_2019_long.csv" download data-i18n="dlMultiLong">Panel Multi-Var 3 Olas Long CSV (606×63) ↗</a>
+        <a class="button secondary" href="data/harmonized_panel202/panel202_multivar_1998_2008_2019_wide.csv" download data-i18n="dlMultiWide">Panel Multi-Var Wide CSV (202×176) ↗</a>
+        <a class="button secondary" href="data/harmonized_panel202/panel202_assets_agromech_2019.csv" download data-i18n="dlAssets">Activos &amp; Mecanización 2019 CSV ↗</a>
+        <a class="button secondary" href="docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.csv" download data-i18n="dlDictCsv">Diccionario Trilingüe CSV ↗</a>
         <a class="button secondary" href="data/harmonized_panel202/crosswalk_communes_to_quarcs202_discrete.csv" download data-i18n="dlCw">Crosswalk ADM3 → 202 CSV ↗</a>
         <a class="button secondary" href="data/boundaries/district.geojson" download>Quarcs 202 GeoJSON ↗</a>
-        <a class="button secondary" href="data/boundaries/province.geojson" download>Provinces 25 GeoJSON ↗</a>
       </div>
       <div style="margin-top:16px;padding-top:14px;border-top:1px solid var(--line)">
-        <div class="eyebrow" style="margin-bottom:10px"><i></i><span>Complete Aggregated Census Datasets (Direct Download · CSV / Docs / Exploratory Maps)</span></div>
+        <div class="eyebrow" style="margin-bottom:10px"><i></i><span>Complete Aggregated Census Datasets (Direct Download · CSV / JSON / Docs / Exploratory Maps)</span></div>
         <div class="method-grid">
           <div class="method-card">
             <h3>1998 Population Census (ODC · 126–135 vars)</h3>
@@ -359,6 +378,7 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
           <div class="method-card">
             <h3>2019 Population Census (NIS 100% REDATAM) &amp; Native Districts</h3>
             <div class="proj-links">
+              <a class="proj-pill" href="data/census_2019/commune_2019_multivar_aggregated.csv" download>2019 Communes Multi-Var (1,648×72) CSV ↗</a>
               <a class="proj-pill" href="data/census_2019/commune_sex_pop_2019.csv" download>2019 Communes Pop &amp; Sex CSV ↗</a>
               <a class="proj-pill" href="data/census_2019/commune_mortality_2019.csv" download>2019 Communes Mortality CSV ↗</a>
               <a class="proj-pill" href="data/census_2019/district_population_2019.csv" download>2019 Districts CSV ↗</a>
@@ -367,9 +387,11 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
             </div>
           </div>
           <div class="method-card">
-            <h3>Documentation &amp; Exploratory Interactive Maps</h3>
+            <h3>Documentation, JSON API &amp; Exploratory Maps</h3>
             <div class="proj-links">
-              <a class="proj-pill" href="docs/VARIABLE_DICTIONARY.md" target="_blank">Variable Dictionary (MD) ↗</a>
+              <a class="proj-pill" href="docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.md" target="_blank">3-Wave Trilingual Dictionary (MD) ↗</a>
+              <a class="proj-pill" href="docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.csv" download>3-Wave Trilingual Dictionary (CSV) ↗</a>
+              <a class="proj-pill" href="data/panel202_multivar_web.json" target="_blank">Web Observatory JSON ↗</a>
               <a class="proj-pill" href="docs/METHODOLOGY.md" target="_blank">Methodology &amp; Audit (MD) ↗</a>
               <a class="proj-pill" href="maps/cambodia_district_population_1998_2008_2019.html" target="_blank">Native Districts 1998–2019 Map ↗</a>
               <a class="proj-pill" href="maps/cambodia_commune_pop_sex_2019.html" target="_blank">2019 Communes Pop &amp; Sex Map ↗</a>
@@ -386,7 +408,7 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
     <div class="drawer-body">
       <div class="method-grid">
         <div class="method-card">
-          <h3 data-i18n="m1Title">1. Crosswalk métrico ADM3 → Quarcs Cambodia shapefile 202</h3>
+          <h3 data-i18n="m1Title">1. Crosswalk métrico discreto ADM3 → Quarcs Cambodia shapefile 202</h3>
           <p data-i18n="m1Body">Las comunas nativas de 1998 (1,609), 2008 (1,621) y 2019 (1,633 polígonos ADM3 + resolución por distrito padre de las 31 comunas territoriales sin polígono en khm_adm3_un) se proyectan a UTM Zona 48N (EPSG:32648) y se intersectan con Quarcs Cambodia shapefile 202. Cada comuna se asigna íntegramente (100%, sin partir comunas) al único distrito terrestre donde tiene mayor porcentaje de área, garantizando conteos enteros exactos y dejando los 5 sectores lacustres de Tonlé Sap en NA (cuerpo de agua).</p>
         </div>
         <div class="method-card">
@@ -394,17 +416,17 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
           <p data-i18n="m2Body">En marzo de 1998, tres distritos fronterizos (Anlong Veaeng, Samlout y Veal Veng) no fueron enumerados por operaciones militares asociadas al Jemer Rojo (registrados como 0). El panel conserva la serie estrictamente enumerada (NA en esos territorios, total 11,437,656) y una serie ajustada con las estimaciones oficiales del NIS (+43,000; total 11,480,656).</p>
         </div>
         <div class="method-card">
-          <h3 data-i18n="m3Title">3. Censo 2019 y código especial 269999</h3>
-          <p data-i18n="m3Body">El Censo 2019 proviene de la base 100% REDATAM del NIS (15,552,211 habitantes). Se mapean 15,551,637 habitantes territoriales (99.996%); los 574 habitantes restantes corresponden al código institucional no territorial 269999 y se documentan aparte.</p>
+          <h3 data-i18n="m3Title">3. Censo 2019 (100% REDATAM) y empalme multi-variable</h3>
+          <p data-i18n="m3Body">Los indicadores de 2019 se agregan en streaming directo desde la base 100% REDATAM del NIS (19,147,696 registros, 15,552,211 habitantes; cero microdatos publicados) usando el diccionario oficial Camb.dcf. Se mapean 15,551,637 habitantes territoriales (99.996%); los 574 restantes corresponden al código institucional no territorial 269999.</p>
         </div>
         <div class="method-card">
           <h3 data-i18n="m4Title">4. Fuentes exactas de datos y mapas</h3>
           <ul data-i18n="m4List">
-            <li><strong>Censo 1998 (CSV y shapefiles comunales/distritales):</strong> <a href="https://data.opendevelopmentcambodia.net/dataset/census-1998" target="_blank" rel="noopener">Open Development Cambodia — Census 1998 ↗</a>.</li>
-            <li><strong>Censo 2008 (CSV y shapefiles comunales/distritales):</strong> <a href="https://data.opendevelopmentcambodia.net/en/dataset/census-2008" target="_blank" rel="noopener">Open Development Cambodia — Census 2008 ↗</a>.</li>
-            <li><strong>Censo 2019 (población 100% REDATAM y shapefiles ADM2/ADM3):</strong> <a href="https://nis.gov.kh/en/statistical-table/" target="_blank" rel="noopener">National Institute of Statistics (NIS Cambodia) — REDATAM 2019 ↗</a>.</li>
-            <li><strong>Geometría de referencia (Quarcs Cambodia shapefile 202):</strong> <a href="https://github.com/quarcs-lab/geo4cambodia" target="_blank" rel="noopener">QuaRCS Lab / GDO-Cambodia (district.geojson &amp; province.geojson) ↗</a>.</li>
-            <li><strong>Documentación histórica de exclusión por conflicto (1998, solo para las estimaciones +43,000):</strong> <a href="https://nis.gov.kh/wp-content/uploads/2025/09/General-Population-Census1998.pdf" target="_blank" rel="noopener">NIS 1998 Final Results (PDF)</a>, <a href="https://nis.gov.kh/nis/census2008/GPC2008_Report_ENG.pdf" target="_blank" rel="noopener">NIS 2008 National Report (PDF)</a> y nota documental de <a href="https://international.ipums.org/international-action/variables/GEO2_KH1998" target="_blank" rel="noopener">IPUMS GEO2_KH1998</a> (no es fuente de los mapas).</li>
+            <li><strong>Censo 1998 (CSV y shapefiles):</strong> <a href="https://data.opendevelopmentcambodia.net/dataset/census-1998" target="_blank" rel="noopener">Open Development Cambodia — Census 1998 ↗</a>.</li>
+            <li><strong>Censo 2008 (CSV y shapefiles):</strong> <a href="https://data.opendevelopmentcambodia.net/en/dataset/census-2008" target="_blank" rel="noopener">Open Development Cambodia — Census 2008 ↗</a>.</li>
+            <li><strong>Censo 2019 (100% REDATAM y shapefiles):</strong> <a href="https://nis.gov.kh/en/statistical-table/" target="_blank" rel="noopener">National Institute of Statistics (NIS Cambodia) — REDATAM 2019 ↗</a>.</li>
+            <li><strong>Geometría base (Quarcs Cambodia shapefile 202):</strong> <a href="https://github.com/quarcs-lab/geo4cambodia" target="_blank" rel="noopener">QuaRCS Lab / GDO-Cambodia ↗</a>.</li>
+            <li><strong>Nota histórica conflicto 1998 (+43,000):</strong> <a href="https://nis.gov.kh/wp-content/uploads/2025/09/General-Population-Census1998.pdf" target="_blank" rel="noopener">NIS 1998 Final Results</a>, <a href="https://nis.gov.kh/nis/census2008/GPC2008_Report_ENG.pdf" target="_blank" rel="noopener">NIS 2008 National Report</a> y <a href="https://international.ipums.org/international-action/variables/GEO2_KH1998" target="_blank" rel="noopener">IPUMS GEO2_KH1998</a> (solo referencia documental).</li>
           </ul>
         </div>
         <div class="method-card wide">
@@ -431,159 +453,158 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
 
 <div id="tooltip" class="tooltip"></div>
 
+<script src="data/panel202_multivar_web.js"></script>
 <script>
-const DATA = [{"id":"KH-01-01","name":"Malai","prov":"Banteay Meanchey","water":false,"p98":19376,"p98a":19376,"p08":42284,"p19":55953,"est98":false,"est98_add":0,"g9808":118.2,"g0819":32.3,"g9819":188.8,"r19":114},{"id":"KH-01-02","name":"Mongkol Borei","prov":"Banteay Meanchey","water":false,"p98":138904,"p98a":138904,"p08":139315,"p19":188311,"est98":false,"est98_add":0,"g9808":0.3,"g0819":35.2,"g9819":35.6,"r19":8},{"id":"KH-01-03","name":"Ou Chrov","prov":"Banteay Meanchey","water":false,"p98":40448,"p98a":40448,"p08":47196,"p19":63723,"est98":false,"est98_add":0,"g9808":16.7,"g0819":35.0,"g9819":57.5,"r19":98},{"id":"KH-01-04","name":"Paoy Paet","prov":"Banteay Meanchey","water":false,"p98":62479,"p98a":62479,"p08":107989,"p19":100600,"est98":false,"est98_add":0,"g9808":72.8,"g0819":-6.8,"g9819":61.0,"r19":63},{"id":"KH-01-05","name":"Phnum Srok","prov":"Banteay Meanchey","water":false,"p98":41448,"p98a":41448,"p08":46935,"p19":66140,"est98":false,"est98_add":0,"g9808":13.2,"g0819":40.9,"g9819":59.6,"r19":94},{"id":"KH-01-06","name":"Preah Netr Preah","prov":"Banteay Meanchey","water":false,"p98":78626,"p98a":78626,"p08":87089,"p19":125885,"est98":false,"est98_add":0,"g9808":10.8,"g0819":44.5,"g9819":60.1,"r19":32},{"id":"KH-01-07","name":"Serei Saophoan","prov":"Banteay Meanchey","water":false,"p98":55576,"p98a":55576,"p08":90279,"p19":102577,"est98":false,"est98_add":0,"g9808":62.4,"g0819":13.6,"g9819":84.6,"r19":57},{"id":"KH-01-08","name":"Svay Chek","prov":"Banteay Meanchey","water":false,"p98":65236,"p98a":65236,"p08":55596,"p19":81338,"est98":false,"est98_add":0,"g9808":-14.8,"g0819":46.3,"g9819":24.7,"r19":81},{"id":"KH-01-09","name":"Thma Puok","prov":"Banteay Meanchey","water":false,"p98":53536,"p98a":53536,"p08":61189,"p19":77356,"est98":false,"est98_add":0,"g9808":14.3,"g0819":26.4,"g9819":44.5,"r19":85},{"id":"KH-02-01","name":"Aek Phnum","prov":"Battambang","water":false,"p98":65408,"p98a":65408,"p08":68276,"p19":72516,"est98":false,"est98_add":0,"g9808":4.4,"g0819":6.2,"g9819":10.9,"r19":91},{"id":"KH-02-02","name":"Banan","prov":"Battambang","water":false,"p98":77769,"p98a":77769,"p08":92138,"p19":88157,"est98":false,"est98_add":0,"g9808":18.5,"g0819":-4.3,"g9819":13.4,"r19":74},{"id":"KH-02-03","name":"Battambang","prov":"Battambang","water":false,"p98":126214,"p98a":126214,"p08":144323,"p19":125106,"est98":false,"est98_add":0,"g9808":14.3,"g0819":-13.3,"g9819":-0.9,"r19":33},{"id":"KH-02-04","name":"Bavel","prov":"Battambang","water":false,"p98":73609,"p98a":73609,"p08":100000,"p19":92890,"est98":false,"est98_add":0,"g9808":35.9,"g0819":-7.1,"g9819":26.2,"r19":70},{"id":"KH-02-05","name":"Kamrieng","prov":"Battambang","water":false,"p98":14215,"p98a":14215,"p08":51053,"p19":53630,"est98":false,"est98_add":0,"g9808":259.1,"g0819":5.0,"g9819":277.3,"r19":121},{"id":"KH-02-06","name":"Koas Krala","prov":"Battambang","water":false,"p98":35889,"p98a":35889,"p08":25766,"p19":30341,"est98":false,"est98_add":0,"g9808":-28.2,"g0819":17.8,"g9819":-15.5,"r19":160},{"id":"KH-02-07","name":"Moung Ruessei","prov":"Battambang","water":false,"p98":80240,"p98a":80240,"p08":112704,"p19":104925,"est98":false,"est98_add":0,"g9808":40.5,"g0819":-6.9,"g9819":30.8,"r19":52},{"id":"KH-02-08","name":"Phnum Proek","prov":"Battambang","water":false,"p98":15355,"p98a":15355,"p08":49722,"p19":45429,"est98":false,"est98_add":0,"g9808":223.8,"g0819":-8.6,"g9819":195.9,"r19":133},{"id":"KH-02-09","name":"Rotonak Mondol","prov":"Battambang","water":false,"p98":11525,"p98a":11525,"p08":41170,"p19":40056,"est98":false,"est98_add":0,"g9808":257.2,"g0819":-2.7,"g9819":247.6,"r19":147},{"id":"KH-02-10","name":"Rukh Kiri","prov":"Battambang","water":false,"p98":14742,"p98a":14742,"p08":39967,"p19":42735,"est98":false,"est98_add":0,"g9808":171.1,"g0819":6.9,"g9819":189.9,"r19":143},{"id":"KH-02-11","name":"Samlout","prov":"Battambang","water":false,"p98":4358,"p98a":27358,"p08":39701,"p19":44079,"est98":true,"est98_add":23000,"g9808":45.1,"g0819":11.0,"g9819":61.1,"r19":137},{"id":"KH-02-12","name":"Sampov Lun","prov":"Battambang","water":false,"p98":36613,"p98a":36613,"p08":35248,"p19":38002,"est98":false,"est98_add":0,"g9808":-3.7,"g0819":7.8,"g9819":3.8,"r19":151},{"id":"KH-02-13","name":"Sangkae","prov":"Battambang","water":false,"p98":89779,"p98a":89779,"p08":111663,"p19":112539,"est98":false,"est98_add":0,"g9808":24.4,"g0819":0.8,"g9819":25.4,"r19":41},{"id":"KH-02-14","name":"Thma Koul","prov":"Battambang","water":false,"p98":108999,"p98a":108999,"p08":113443,"p19":106764,"est98":false,"est98_add":0,"g9808":4.1,"g0819":-5.9,"g9819":-2.1,"r19":50},{"id":"KH-02-15","name":"Tonlé Sap","prov":"Battambang","water":true,"p98":null,"p98a":null,"p08":null,"p19":null,"est98":false,"est98_add":0,"g9808":null,"g0819":null,"g9819":null,"r19":null},{"id":"KH-03-01","name":"Batheay","prov":"Kampong Cham","water":false,"p98":88212,"p98a":88212,"p08":102924,"p19":108300,"est98":false,"est98_add":0,"g9808":16.7,"g0819":5.2,"g9819":22.8,"r19":49},{"id":"KH-03-02","name":"Chamkar Leu","prov":"Kampong Cham","water":false,"p98":125862,"p98a":125862,"p08":110967,"p19":102357,"est98":false,"est98_add":0,"g9808":-11.8,"g0819":-7.8,"g9819":-18.7,"r19":58},{"id":"KH-03-03","name":"Cheung Prey","prov":"Kampong Cham","water":false,"p98":74859,"p98a":74859,"p08":83771,"p19":93565,"est98":false,"est98_add":0,"g9808":11.9,"g0819":11.7,"g9819":25.0,"r19":68},{"id":"KH-03-04","name":"Kampong Cham","prov":"Kampong Cham","water":false,"p98":39741,"p98a":39741,"p08":47300,"p19":43165,"est98":false,"est98_add":0,"g9808":19.0,"g0819":-8.7,"g9819":8.6,"r19":142},{"id":"KH-03-05","name":"Kampong Siem","prov":"Kampong Cham","water":false,"p98":88908,"p98a":88908,"p08":100047,"p19":95565,"est98":false,"est98_add":0,"g9808":12.5,"g0819":-4.5,"g9819":7.5,"r19":67},{"id":"KH-03-06","name":"Kang Meas","prov":"Kampong Cham","water":false,"p98":89107,"p98a":89107,"p08":89727,"p19":86237,"est98":false,"est98_add":0,"g9808":0.7,"g0819":-3.9,"g9819":-3.2,"r19":76},{"id":"KH-03-07","name":"Kaoh Soutin","prov":"Kampong Cham","water":false,"p98":68971,"p98a":68971,"p08":60434,"p19":48545,"est98":false,"est98_add":0,"g9808":-12.4,"g0819":-19.7,"g9819":-29.6,"r19":127},{"id":"KH-03-08","name":"Prey Chhor","prov":"Kampong Cham","water":false,"p98":137033,"p98a":137033,"p08":125352,"p19":134808,"est98":false,"est98_add":0,"g9808":-8.5,"g0819":7.5,"g9819":-1.6,"r19":27},{"id":"KH-03-09","name":"Srei Santhor","prov":"Kampong Cham","water":false,"p98":88530,"p98a":88530,"p08":86563,"p19":82364,"est98":false,"est98_add":0,"g9808":-2.2,"g0819":-4.9,"g9819":-7.0,"r19":79},{"id":"KH-03-10","name":"Stueng Trang","prov":"Kampong Cham","water":false,"p98":107425,"p98a":107425,"p08":118907,"p19":104885,"est98":false,"est98_add":0,"g9808":10.7,"g0819":-11.8,"g9819":-2.4,"r19":53},{"id":"KH-04-01","name":"Baribour","prov":"Kampong Chhnang","water":false,"p98":65477,"p98a":65477,"p08":56406,"p19":56114,"est98":false,"est98_add":0,"g9808":-13.9,"g0819":-0.5,"g9819":-14.3,"r19":113},{"id":"KH-04-02","name":"Chol Kiri","prov":"Kampong Chhnang","water":false,"p98":28300,"p98a":28300,"p08":32048,"p19":31540,"est98":false,"est98_add":0,"g9808":13.2,"g0819":-1.6,"g9819":11.4,"r19":157},{"id":"KH-04-03","name":"Kampong Chhnang","prov":"Kampong Chhnang","water":false,"p98":41703,"p98a":41703,"p08":43130,"p19":43306,"est98":false,"est98_add":0,"g9808":3.4,"g0819":0.4,"g9819":3.8,"r19":140},{"id":"KH-04-04","name":"Kampong Leaeng","prov":"Kampong Chhnang","water":false,"p98":37379,"p98a":37379,"p08":44520,"p19":44541,"est98":false,"est98_add":0,"g9808":19.1,"g0819":0.0,"g9819":19.2,"r19":136},{"id":"KH-04-05","name":"Kampong Tralach","prov":"Kampong Chhnang","water":false,"p98":82612,"p98a":82612,"p08":80835,"p19":101528,"est98":false,"est98_add":0,"g9808":-2.2,"g0819":25.6,"g9819":22.9,"r19":61},{"id":"KH-04-06","name":"Rolea B'ier","prov":"Kampong Chhnang","water":false,"p98":80852,"p98a":80852,"p08":92715,"p19":104478,"est98":false,"est98_add":0,"g9808":14.7,"g0819":12.7,"g9819":29.2,"r19":54},{"id":"KH-04-07","name":"Sameakki Mean Chey","prov":"Kampong Chhnang","water":false,"p98":57170,"p98a":57170,"p08":65754,"p19":82618,"est98":false,"est98_add":0,"g9808":15.0,"g0819":25.6,"g9819":44.5,"r19":78},{"id":"KH-04-08","name":"Tonlé Sap","prov":"Kampong Chhnang","water":true,"p98":null,"p98a":null,"p08":null,"p19":null,"est98":false,"est98_add":0,"g9808":null,"g0819":null,"g9819":null,"r19":null},{"id":"KH-04-09","name":"Tuek Phos","prov":"Kampong Chhnang","water":false,"p98":50190,"p98a":50190,"p08":56933,"p19":62902,"est98":false,"est98_add":0,"g9808":13.4,"g0819":10.5,"g9819":25.3,"r19":101},{"id":"KH-05-01","name":"Aoral","prov":"Kampong Speu","water":false,"p98":15668,"p98a":15668,"p08":29883,"p19":39775,"est98":false,"est98_add":0,"g9808":90.7,"g0819":33.1,"g9819":153.9,"r19":148},{"id":"KH-05-02","name":"Basedth","prov":"Kampong Speu","water":false,"p98":108648,"p98a":108648,"p08":119531,"p19":137407,"est98":false,"est98_add":0,"g9808":10.0,"g0819":15.0,"g9819":26.5,"r19":26},{"id":"KH-05-03","name":"Chbar Mon","prov":"Kampong Speu","water":false,"p98":41478,"p98a":41478,"p08":46850,"p19":51795,"est98":false,"est98_add":0,"g9808":13.0,"g0819":10.6,"g9819":24.9,"r19":124},{"id":"KH-05-04","name":"Kong Pisei","prov":"Kampong Speu","water":false,"p98":97006,"p98a":97006,"p08":112921,"p19":146424,"est98":false,"est98_add":0,"g9808":16.4,"g0819":29.7,"g9819":50.9,"r19":21},{"id":"KH-05-05","name":"Odongk","prov":"Kampong Speu","water":false,"p98":102677,"p98a":102677,"p08":119213,"p19":146137,"est98":false,"est98_add":0,"g9808":16.1,"g0819":22.6,"g9819":42.3,"r19":22},{"id":"KH-05-06","name":"Phnum Sruoch","prov":"Kampong Speu","water":false,"p98":80036,"p98a":80036,"p08":95227,"p19":108463,"est98":false,"est98_add":0,"g9808":19.0,"g0819":13.9,"g9819":35.5,"r19":47},{"id":"KH-05-07","name":"Samraong Tong","prov":"Kampong Speu","water":false,"p98":122707,"p98a":122707,"p08":142545,"p19":183968,"est98":false,"est98_add":0,"g9808":16.2,"g0819":29.1,"g9819":49.9,"r19":10},{"id":"KH-05-08","name":"Thpong","prov":"Kampong Speu","water":false,"p98":40035,"p98a":40035,"p08":50774,"p19":63554,"est98":false,"est98_add":0,"g9808":26.8,"g0819":25.2,"g9819":58.7,"r19":99},{"id":"KH-06-01","name":"Baray","prov":"Kampong Thom","water":false,"p98":162558,"p98a":162558,"p08":167581,"p19":169602,"est98":false,"est98_add":0,"g9808":3.1,"g0819":1.2,"g9819":4.3,"r19":13},{"id":"KH-06-02","name":"Kampong Svay","prov":"Kampong Thom","water":false,"p98":75515,"p98a":75515,"p08":89206,"p19":91298,"est98":false,"est98_add":0,"g9808":18.1,"g0819":2.3,"g9819":20.9,"r19":71},{"id":"KH-06-03","name":"Prasat Ballangk","prov":"Kampong Thom","water":false,"p98":38846,"p98a":38846,"p08":47193,"p19":48192,"est98":false,"est98_add":0,"g9808":21.5,"g0819":2.1,"g9819":24.1,"r19":129},{"id":"KH-06-04","name":"Prasat Sambour","prov":"Kampong Thom","water":false,"p98":31731,"p98a":31731,"p08":39402,"p19":43638,"est98":false,"est98_add":0,"g9808":24.2,"g0819":10.8,"g9819":37.5,"r19":139},{"id":"KH-06-05","name":"Sandan","prov":"Kampong Thom","water":false,"p98":37195,"p98a":37195,"p08":49689,"p19":62229,"est98":false,"est98_add":0,"g9808":33.6,"g0819":25.2,"g9819":67.3,"r19":103},{"id":"KH-06-06","name":"Santuk","prov":"Kampong Thom","water":false,"p98":58109,"p98a":58109,"p08":80229,"p19":102037,"est98":false,"est98_add":0,"g9808":38.1,"g0819":27.2,"g9819":75.6,"r19":59},{"id":"KH-06-07","name":"Stoung","prov":"Kampong Thom","water":false,"p98":97600,"p98a":97600,"p08":104076,"p19":109365,"est98":false,"est98_add":0,"g9808":6.6,"g0819":5.1,"g9819":12.1,"r19":44},{"id":"KH-06-08","name":"Stueng Saen","prov":"Kampong Thom","water":false,"p98":51728,"p98a":51728,"p08":54033,"p19":55188,"est98":false,"est98_add":0,"g9808":4.5,"g0819":2.1,"g9819":6.7,"r19":116},{"id":"KH-06-09","name":"Tonlé Sap","prov":"Kampong Thom","water":true,"p98":null,"p98a":null,"p08":null,"p19":null,"est98":false,"est98_add":0,"g9808":null,"g0819":null,"g9819":null,"r19":null},{"id":"KH-07-01","name":"Angkor Chey","prov":"Kampot","water":false,"p98":72459,"p98a":72459,"p08":72684,"p19":74067,"est98":false,"est98_add":0,"g9808":0.3,"g0819":1.9,"g9819":2.2,"r19":86},{"id":"KH-07-02","name":"Banteay Meas","prov":"Kampot","water":false,"p98":82271,"p98a":82271,"p08":83022,"p19":79426,"est98":false,"est98_add":0,"g9808":0.9,"g0819":-4.3,"g9819":-3.5,"r19":83},{"id":"KH-07-03","name":"Chhuk","prov":"Kampot","water":false,"p98":96018,"p98a":96018,"p08":99587,"p19":102766,"est98":false,"est98_add":0,"g9808":3.7,"g0819":3.2,"g9819":7.0,"r19":56},{"id":"KH-07-04","name":"Chum Kiri","prov":"Kampot","water":false,"p98":23737,"p98a":23737,"p08":47176,"p19":49045,"est98":false,"est98_add":0,"g9808":98.7,"g0819":4.0,"g9819":106.6,"r19":125},{"id":"KH-07-05","name":"Dang Tong","prov":"Kampot","water":false,"p98":48861,"p98a":48861,"p08":54261,"p19":56369,"est98":false,"est98_add":0,"g9808":11.1,"g0819":3.9,"g9819":15.4,"r19":111},{"id":"KH-07-06","name":"Kampong Trach","prov":"Kampot","water":false,"p98":83061,"p98a":83061,"p08":85776,"p19":86932,"est98":false,"est98_add":0,"g9808":3.3,"g0819":1.3,"g9819":4.7,"r19":75},{"id":"KH-07-07","name":"Kampot","prov":"Kampot","water":false,"p98":33126,"p98a":33126,"p08":36367,"p19":33762,"est98":false,"est98_add":0,"g9808":9.8,"g0819":-7.2,"g9819":1.9,"r19":155},{"id":"KH-07-08","name":"Tuek Chhou","prov":"Kampot","water":false,"p98":94059,"p98a":94059,"p08":106977,"p19":111462,"est98":false,"est98_add":0,"g9808":13.7,"g0819":4.2,"g9819":18.5,"r19":42},{"id":"KH-08-01","name":"Angk Snuol","prov":"Kandal","water":false,"p98":54274,"p98a":54274,"p08":83203,"p19":118280,"est98":false,"est98_add":0,"g9808":53.3,"g0819":42.2,"g9819":117.9,"r19":37},{"id":"KH-08-02","name":"Kandal Stueng","prov":"Kandal","water":false,"p98":85676,"p98a":85676,"p08":82625,"p19":101188,"est98":false,"est98_add":0,"g9808":-3.6,"g0819":22.5,"g9819":18.1,"r19":62},{"id":"KH-08-03","name":"Kaoh Thum","prov":"Kandal","water":false,"p98":120106,"p98a":120106,"p08":141470,"p19":130323,"est98":false,"est98_add":0,"g9808":17.8,"g0819":-7.9,"g9819":8.5,"r19":28},{"id":"KH-08-04","name":"Khsach Kandal","prov":"Kandal","water":false,"p98":105345,"p98a":105345,"p08":117322,"p19":141862,"est98":false,"est98_add":0,"g9808":11.4,"g0819":20.9,"g9819":34.7,"r19":25},{"id":"KH-08-05","name":"Kien Svay","prov":"Kandal","water":false,"p98":102561,"p98a":102561,"p08":112014,"p19":117222,"est98":false,"est98_add":0,"g9808":9.2,"g0819":4.6,"g9819":14.3,"r19":38},{"id":"KH-08-06","name":"Leuk Daek","prov":"Kandal","water":false,"p98":52976,"p98a":52976,"p08":54250,"p19":54696,"est98":false,"est98_add":0,"g9808":2.4,"g0819":0.8,"g9819":3.2,"r19":118},{"id":"KH-08-07","name":"Lvea Aem","prov":"Kandal","water":false,"p98":73071,"p98a":73071,"p08":66734,"p19":72705,"est98":false,"est98_add":0,"g9808":-8.7,"g0819":8.9,"g9819":-0.5,"r19":90},{"id":"KH-08-08","name":"Mukh Kampul","prov":"Kandal","water":false,"p98":63845,"p98a":63845,"p08":69359,"p19":72904,"est98":false,"est98_add":0,"g9808":8.6,"g0819":5.1,"g9819":14.2,"r19":88},{"id":"KH-08-09","name":"Ponhea Lueu","prov":"Kandal","water":false,"p98":78721,"p98a":78721,"p08":88607,"p19":105255,"est98":false,"est98_add":0,"g9808":12.6,"g0819":18.8,"g9819":33.7,"r19":51},{"id":"KH-08-10","name":"S'ang","prov":"Kandal","water":false,"p98":165215,"p98a":165215,"p08":195445,"p19":207865,"est98":false,"est98_add":0,"g9808":18.3,"g0819":6.4,"g9819":25.8,"r19":5},{"id":"KH-08-11","name":"Ta Khmau","prov":"Kandal","water":false,"p98":58264,"p98a":58264,"p08":80141,"p19":79281,"est98":false,"est98_add":0,"g9808":37.5,"g0819":-1.1,"g9819":36.1,"r19":84},{"id":"KH-09-01","name":"Botum Sakor","prov":"Koh Kong","water":false,"p98":17420,"p98a":17420,"p08":19978,"p19":19444,"est98":false,"est98_add":0,"g9808":14.7,"g0819":-2.7,"g9819":11.6,"r19":187},{"id":"KH-09-02","name":"Kaoh Kong","prov":"Koh Kong","water":false,"p98":8817,"p98a":8817,"p08":7356,"p19":7516,"est98":false,"est98_add":0,"g9808":-16.6,"g0819":2.2,"g9819":-14.8,"r19":194},{"id":"KH-09-03","name":"Khemara Phoumin","prov":"Koh Kong","water":false,"p98":29329,"p98a":29329,"p08":25957,"p19":29974,"est98":false,"est98_add":0,"g9808":-11.5,"g0819":15.5,"g9819":2.2,"r19":161},{"id":"KH-09-04","name":"Kiri Sakor","prov":"Koh Kong","water":false,"p98":6289,"p98a":6289,"p08":6952,"p19":7152,"est98":false,"est98_add":0,"g9808":10.5,"g0819":2.9,"g9819":13.7,"r19":195},{"id":"KH-09-05","name":"Mondol Seima","prov":"Koh Kong","water":false,"p98":12569,"p98a":12569,"p08":14584,"p19":15236,"est98":false,"est98_add":0,"g9808":16.0,"g0819":4.5,"g9819":21.2,"r19":190},{"id":"KH-09-06","name":"Srae Ambel","prov":"Koh Kong","water":false,"p98":38435,"p98a":38435,"p08":37623,"p19":39503,"est98":false,"est98_add":0,"g9808":-2.1,"g0819":5.0,"g9819":2.8,"r19":149},{"id":"KH-09-07","name":"Thma Bang","prov":"Koh Kong","water":false,"p98":4282,"p98a":4282,"p08":5031,"p19":7077,"est98":false,"est98_add":0,"g9808":17.5,"g0819":40.7,"g9819":65.3,"r19":196},{"id":"KH-10-01","name":"Damnak Chang'aeur","prov":"Kep","water":false,"p98":12393,"p98a":12393,"p08":16180,"p19":19889,"est98":false,"est98_add":0,"g9808":30.6,"g0819":22.9,"g9819":60.5,"r19":186},{"id":"KH-10-02","name":"Kaeb","prov":"Kep","water":false,"p98":12561,"p98a":12561,"p08":19573,"p19":22776,"est98":false,"est98_add":0,"g9808":55.8,"g0819":16.4,"g9819":81.3,"r19":183},{"id":"KH-11-01","name":"Chetr Borei","prov":"Kratie","water":false,"p98":59827,"p98a":59827,"p08":59161,"p19":62843,"est98":false,"est98_add":0,"g9808":-1.1,"g0819":6.2,"g9819":5.0,"r19":102},{"id":"KH-11-02","name":"Chhloung","prov":"Kratie","water":false,"p98":44609,"p98a":44609,"p08":52889,"p19":54406,"est98":false,"est98_add":0,"g9808":18.6,"g0819":2.9,"g9819":22.0,"r19":120},{"id":"KH-11-03","name":"Kracheh","prov":"Kratie","water":false,"p98":28027,"p98a":28027,"p08":30544,"p19":29491,"est98":false,"est98_add":0,"g9808":9.0,"g0819":-3.4,"g9819":5.2,"r19":163},{"id":"KH-11-04","name":"Prek Prasab","prov":"Kratie","water":false,"p98":56757,"p98a":56757,"p08":59324,"p19":65411,"est98":false,"est98_add":0,"g9808":4.5,"g0819":10.3,"g9819":15.2,"r19":95},{"id":"KH-11-05","name":"Sambour","prov":"Kratie","water":false,"p98":48319,"p98a":48319,"p08":55696,"p19":69414,"est98":false,"est98_add":0,"g9808":15.3,"g0819":24.6,"g9819":43.7,"r19":92},{"id":"KH-11-06","name":"Snuol","prov":"Kratie","water":false,"p98":35156,"p98a":35156,"p08":61603,"p19":93190,"est98":false,"est98_add":0,"g9808":75.2,"g0819":51.3,"g9819":165.1,"r19":69},{"id":"KH-12-01","name":"Pailin","prov":"Pailin","water":false,"p98":15800,"p98a":15800,"p08":36354,"p19":38704,"est98":false,"est98_add":0,"g9808":130.1,"g0819":6.5,"g9819":145.0,"r19":150},{"id":"KH-12-02","name":"Sala Krau","prov":"Pailin","water":false,"p98":7106,"p98a":7106,"p08":34132,"p19":36408,"est98":false,"est98_add":0,"g9808":380.3,"g0819":6.7,"g9819":412.4,"r19":152},{"id":"KH-13-01","name":"Kampong Seila","prov":"Preah Sihanouk","water":false,"p98":14965,"p98a":14965,"p08":16694,"p19":16091,"est98":false,"est98_add":0,"g9808":11.6,"g0819":-3.6,"g9819":7.5,"r19":189},{"id":"KH-13-02","name":"Preah Sihanouk","prov":"Preah Sihanouk","water":false,"p98":67440,"p98a":67440,"p08":91284,"p19":157237,"est98":false,"est98_add":0,"g9808":35.4,"g0819":72.3,"g9819":133.2,"r19":19},{"id":"KH-13-03","name":"Prey Nob","prov":"Preah Sihanouk","water":false,"p98":104185,"p98a":104185,"p08":93141,"p19":108986,"est98":false,"est98_add":0,"g9808":-10.6,"g0819":17.0,"g9819":4.6,"r19":46},{"id":"KH-13-04","name":"Stueng Hav","prov":"Preah Sihanouk","water":false,"p98":13108,"p98a":13108,"p08":20277,"p19":27758,"est98":false,"est98_add":0,"g9808":54.7,"g0819":36.9,"g9819":111.8,"r19":169},{"id":"KH-14-01","name":"Kaev Seima","prov":"Mondulkiri","water":false,"p98":8854,"p98a":8854,"p08":19218,"p19":28998,"est98":false,"est98_add":0,"g9808":117.1,"g0819":50.9,"g9819":227.5,"r19":164},{"id":"KH-14-02","name":"Kaoh Nheaek","prov":"Mondulkiri","water":false,"p98":8919,"p98a":8919,"p08":15209,"p19":22430,"est98":false,"est98_add":0,"g9808":70.5,"g0819":47.5,"g9819":151.5,"r19":184},{"id":"KH-14-03","name":"Ou Reang","prov":"Mondulkiri","water":false,"p98":2473,"p98a":2473,"p08":3948,"p19":6645,"est98":false,"est98_add":0,"g9808":59.6,"g0819":68.3,"g9819":168.7,"r19":197},{"id":"KH-14-04","name":"Pech Chreada","prov":"Mondulkiri","water":false,"p98":5129,"p98a":5129,"p08":10392,"p19":19939,"est98":false,"est98_add":0,"g9808":102.6,"g0819":91.9,"g9819":288.8,"r19":185},{"id":"KH-14-05","name":"Saen Monourom","prov":"Mondulkiri","water":false,"p98":19116,"p98a":19116,"p08":12340,"p19":14201,"est98":false,"est98_add":0,"g9808":-35.4,"g0819":15.1,"g9819":-25.7,"r19":191},{"id":"KH-15-01","name":"Anlong Veaeng","prov":"Oddar Meanchey","water":false,"p98":8013,"p98a":13635,"p08":39045,"p19":58389,"est98":true,"est98_add":5622,"g9808":186.4,"g0819":49.5,"g9819":328.2,"r19":110},{"id":"KH-15-02","name":"Banteay Ampil","prov":"Oddar Meanchey","water":false,"p98":29804,"p98a":29804,"p08":46115,"p19":54716,"est98":false,"est98_add":0,"g9808":54.7,"g0819":18.7,"g9819":83.6,"r19":117},{"id":"KH-15-03","name":"Chong Kal","prov":"Oddar Meanchey","water":false,"p98":19434,"p98a":19434,"p08":16639,"p19":27910,"est98":false,"est98_add":0,"g9808":-14.4,"g0819":67.7,"g9819":43.6,"r19":168},{"id":"KH-15-04","name":"Samraong","prov":"Oddar Meanchey","water":false,"p98":25255,"p98a":25255,"p08":51414,"p19":72803,"est98":false,"est98_add":0,"g9808":103.6,"g0819":41.6,"g9819":188.3,"r19":89},{"id":"KH-15-05","name":"Trapeang Prasat","prov":"Oddar Meanchey","water":false,"p98":null,"p98a":4378,"p08":32606,"p19":62220,"est98":true,"est98_add":4378,"g9808":644.8,"g0819":90.8,"g9819":1321.2,"r19":104},{"id":"KH-16-01","name":"Chamkar Mon","prov":"Phnom Penh","water":false,"p98":187082,"p98a":187082,"p08":182004,"p19":146063,"est98":false,"est98_add":0,"g9808":-2.7,"g0819":-19.7,"g9819":-21.9,"r19":23},{"id":"KH-16-02","name":"Chbar Ampov","prov":"Phnom Penh","water":false,"p98":108796,"p98a":108796,"p08":133165,"p19":167337,"est98":false,"est98_add":0,"g9808":22.4,"g0819":25.7,"g9819":53.8,"r19":14},{"id":"KH-16-03","name":"Chraoy Chongvar","prov":"Phnom Penh","water":false,"p98":49301,"p98a":49301,"p08":61214,"p19":165154,"est98":false,"est98_add":0,"g9808":24.2,"g0819":169.8,"g9819":235.0,"r19":15},{"id":"KH-16-04","name":"Dangkao","prov":"Phnom Penh","water":false,"p98":54715,"p98a":54715,"p08":73287,"p19":173480,"est98":false,"est98_add":0,"g9808":33.9,"g0819":136.7,"g9819":217.1,"r19":11},{"id":"KH-16-05","name":"Doun Penh","prov":"Phnom Penh","water":false,"p98":131913,"p98a":131913,"p08":126550,"p19":163330,"est98":false,"est98_add":0,"g9808":-4.1,"g0819":29.1,"g9819":23.8,"r19":17},{"id":"KH-16-06","name":"Mean Chey","prov":"Phnom Penh","water":false,"p98":97190,"p98a":97190,"p08":194636,"p19":256577,"est98":false,"est98_add":0,"g9808":100.3,"g0819":31.8,"g9819":164.0,"r19":4},{"id":"KH-16-07","name":"Praek Pnov","prov":"Phnom Penh","water":false,"p98":35287,"p98a":35287,"p08":47313,"p19":191437,"est98":false,"est98_add":0,"g9808":34.1,"g0819":304.6,"g9819":442.5,"r19":6},{"id":"KH-16-08","name":"Prampir Meakkakra","prov":"Phnom Penh","water":false,"p98":84168,"p98a":84168,"p08":91895,"p19":73037,"est98":false,"est98_add":0,"g9808":9.2,"g0819":-20.5,"g9819":-13.2,"r19":87},{"id":"KH-16-09","name":"Pur Sen Chey","prov":"Phnom Penh","water":false,"p98":73414,"p98a":73414,"p08":159455,"p19":315775,"est98":false,"est98_add":0,"g9808":117.2,"g0819":98.0,"g9819":330.1,"r19":1},{"id":"KH-16-10","name":"Russey Keo","prov":"Phnom Penh","water":false,"p98":91239,"p98a":91239,"p08":135470,"p19":285237,"est98":false,"est98_add":0,"g9808":48.5,"g0819":110.6,"g9819":212.6,"r19":2},{"id":"KH-16-11","name":"Saensokh","prov":"Phnom Penh","water":false,"p98":30797,"p98a":30797,"p08":125536,"p19":190750,"est98":false,"est98_add":0,"g9808":307.6,"g0819":51.9,"g9819":519.4,"r19":7},{"id":"KH-16-12","name":"Tuol Kouk","prov":"Phnom Penh","water":false,"p98":154968,"p98a":154968,"p08":171200,"p19":153200,"est98":false,"est98_add":0,"g9808":10.5,"g0819":-10.5,"g9819":-1.1,"r19":20},{"id":"KH-17-01","name":"Bakan","prov":"Pursat","water":false,"p98":119365,"p98a":119365,"p08":124829,"p19":121936,"est98":false,"est98_add":0,"g9808":4.6,"g0819":-2.3,"g9819":2.2,"r19":34},{"id":"KH-17-02","name":"Kandieng","prov":"Pursat","water":false,"p98":74897,"p98a":74897,"p08":58066,"p19":54465,"est98":false,"est98_add":0,"g9808":-22.5,"g0819":-6.2,"g9819":-27.3,"r19":119},{"id":"KH-17-03","name":"Krakor","prov":"Pursat","water":false,"p98":63693,"p98a":63693,"p08":82902,"p19":90435,"est98":false,"est98_add":0,"g9808":30.2,"g0819":9.1,"g9819":42.0,"r19":72},{"id":"KH-17-04","name":"Phnum Kravanh","prov":"Pursat","water":false,"p98":51414,"p98a":51414,"p08":59466,"p19":64950,"est98":false,"est98_add":0,"g9808":15.7,"g0819":9.2,"g9819":26.3,"r19":96},{"id":"KH-17-05","name":"Pursat","prov":"Pursat","water":false,"p98":56365,"p98a":56365,"p08":58846,"p19":59809,"est98":false,"est98_add":0,"g9808":4.4,"g0819":1.6,"g9819":6.1,"r19":109},{"id":"KH-17-06","name":"Tonlé Sap","prov":"Pursat","water":true,"p98":null,"p98a":null,"p08":null,"p19":null,"est98":false,"est98_add":0,"g9808":null,"g0819":null,"g9819":null,"r19":null},{"id":"KH-17-07","name":"Veal Veaeng","prov":"Pursat","water":false,"p98":null,"p98a":10000,"p08":13052,"p19":28357,"est98":true,"est98_add":10000,"g9808":30.5,"g0819":117.3,"g9819":183.6,"r19":166},{"id":"KH-18-01","name":"Chey Saen","prov":"Preah Vihear","water":false,"p98":15004,"p98a":15004,"p08":20730,"p19":26068,"est98":false,"est98_add":0,"g9808":38.2,"g0819":25.8,"g9819":73.7,"r19":174},{"id":"KH-18-02","name":"Chhaeb","prov":"Preah Vihear","water":false,"p98":12450,"p98a":12450,"p08":16731,"p19":26076,"est98":false,"est98_add":0,"g9808":34.4,"g0819":55.9,"g9819":109.4,"r19":173},{"id":"KH-18-03","name":"Choam Ksant","prov":"Preah Vihear","water":false,"p98":17464,"p98a":17464,"p08":25245,"p19":56332,"est98":false,"est98_add":0,"g9808":44.6,"g0819":123.1,"g9819":222.6,"r19":112},{"id":"KH-18-04","name":"Kuleaen","prov":"Preah Vihear","water":false,"p98":19169,"p98a":19169,"p08":24824,"p19":35018,"est98":false,"est98_add":0,"g9808":29.5,"g0819":41.1,"g9819":82.7,"r19":153},{"id":"KH-18-05","name":"Preah Vihear","prov":"Preah Vihear","water":false,"p98":15341,"p98a":15341,"p08":21179,"p19":27152,"est98":false,"est98_add":0,"g9808":38.1,"g0819":28.2,"g9819":77.0,"r19":170},{"id":"KH-18-06","name":"Rovieng","prov":"Preah Vihear","water":false,"p98":41573,"p98a":41573,"p08":35633,"p19":47083,"est98":false,"est98_add":0,"g9808":-14.3,"g0819":32.1,"g9819":13.3,"r19":130},{"id":"KH-18-07","name":"Sangkum Thmei","prov":"Preah Vihear","water":false,"p98":18770,"p98a":18770,"p08":17279,"p19":23556,"est98":false,"est98_add":0,"g9808":-7.9,"g0819":36.3,"g9819":25.5,"r19":181},{"id":"KH-18-08","name":"Tbaeng Mean Chey","prov":"Preah Vihear","water":false,"p98":4968,"p98a":4968,"p08":9518,"p19":13542,"est98":false,"est98_add":0,"g9808":91.6,"g0819":42.3,"g9819":172.6,"r19":192},{"id":"KH-19-01","name":"Ba Phnum","prov":"Prey Veng","water":false,"p98":71662,"p98a":71662,"p08":72576,"p19":81485,"est98":false,"est98_add":0,"g9808":1.3,"g0819":12.3,"g9819":13.7,"r19":80},{"id":"KH-19-02","name":"Kamchay Mear","prov":"Prey Veng","water":false,"p98":71284,"p98a":71284,"p08":74407,"p19":85138,"est98":false,"est98_add":0,"g9808":4.4,"g0819":14.4,"g9819":19.4,"r19":77},{"id":"KH-19-03","name":"Kampong Trabaek","prov":"Prey Veng","water":false,"p98":106491,"p98a":106491,"p08":109291,"p19":115757,"est98":false,"est98_add":0,"g9808":2.6,"g0819":5.9,"g9819":8.7,"r19":40},{"id":"KH-19-04","name":"Kanhchriech","prov":"Prey Veng","water":false,"p98":57159,"p98a":57159,"p08":54791,"p19":63386,"est98":false,"est98_add":0,"g9808":-4.1,"g0819":15.7,"g9819":10.9,"r19":100},{"id":"KH-19-05","name":"Me Sang","prov":"Prey Veng","water":false,"p98":84845,"p98a":84845,"p08":89885,"p19":98934,"est98":false,"est98_add":0,"g9808":5.9,"g0819":10.1,"g9819":16.6,"r19":64},{"id":"KH-19-06","name":"Pea Reang","prov":"Prey Veng","water":false,"p98":89122,"p98a":89122,"p08":93471,"p19":116859,"est98":false,"est98_add":0,"g9808":4.9,"g0819":25.0,"g9819":31.1,"r19":39},{"id":"KH-19-07","name":"Peam Chor","prov":"Prey Veng","water":false,"p98":66529,"p98a":66529,"p08":67531,"p19":61721,"est98":false,"est98_add":0,"g9808":1.5,"g0819":-8.6,"g9819":-7.2,"r19":106},{"id":"KH-19-08","name":"Peam Ro","prov":"Prey Veng","water":false,"p98":63534,"p98a":63534,"p08":60791,"p19":62000,"est98":false,"est98_add":0,"g9808":-4.3,"g0819":2.0,"g9819":-2.4,"r19":105},{"id":"KH-19-09","name":"Preah Sdach","prov":"Prey Veng","water":false,"p98":103669,"p98a":103669,"p08":110571,"p19":121867,"est98":false,"est98_add":0,"g9808":6.7,"g0819":10.2,"g9819":17.6,"r19":36},{"id":"KH-19-10","name":"Prey Veng","prov":"Prey Veng","water":false,"p98":28864,"p98a":28864,"p08":23890,"p19":25582,"est98":false,"est98_add":0,"g9808":-17.2,"g0819":7.1,"g9819":-11.4,"r19":175},{"id":"KH-19-11","name":"Pur Rieng","prov":"Prey Veng","water":false,"p98":44705,"p98a":44705,"p08":42874,"p19":51816,"est98":false,"est98_add":0,"g9808":-4.1,"g0819":20.9,"g9819":15.9,"r19":123},{"id":"KH-19-12","name":"Sithor Kandal","prov":"Prey Veng","water":false,"p98":68633,"p98a":68633,"p08":56486,"p19":64743,"est98":false,"est98_add":0,"g9808":-17.7,"g0819":14.6,"g9819":-5.7,"r19":97},{"id":"KH-19-13","name":"Svay Antor","prov":"Prey Veng","water":false,"p98":94698,"p98a":94698,"p08":90808,"p19":108432,"est98":false,"est98_add":0,"g9808":-4.1,"g0819":19.4,"g9819":14.5,"r19":48},{"id":"KH-20-01","name":"Andoung Meas","prov":"Ratanakiri","water":false,"p98":6896,"p98a":6896,"p08":10365,"p19":17662,"est98":false,"est98_add":0,"g9808":50.3,"g0819":70.4,"g9819":156.1,"r19":188},{"id":"KH-20-02","name":"Ban Lung","prov":"Ratanakiri","water":false,"p98":16999,"p98a":16999,"p08":28982,"p19":32388,"est98":false,"est98_add":0,"g9808":70.5,"g0819":11.8,"g9819":90.5,"r19":156},{"id":"KH-20-03","name":"Bar Kaev","prov":"Ratanakiri","water":false,"p98":24788,"p98a":24788,"p08":19953,"p19":28454,"est98":false,"est98_add":0,"g9808":-19.5,"g0819":42.6,"g9819":14.8,"r19":165},{"id":"KH-20-04","name":"Koun Mom","prov":"Ratanakiri","water":false,"p98":8814,"p98a":8814,"p08":15505,"p19":30911,"est98":false,"est98_add":0,"g9808":75.9,"g0819":99.4,"g9819":250.7,"r19":159},{"id":"KH-20-05","name":"Lumphat","prov":"Ratanakiri","water":false,"p98":10864,"p98a":10864,"p08":18975,"p19":28059,"est98":false,"est98_add":0,"g9808":74.7,"g0819":47.9,"g9819":158.3,"r19":167},{"id":"KH-20-06","name":"Ou Chum","prov":"Ratanakiri","water":false,"p98":13533,"p98a":13533,"p08":17982,"p19":25474,"est98":false,"est98_add":0,"g9808":32.9,"g0819":41.7,"g9819":88.2,"r19":176},{"id":"KH-20-07","name":"Ou Ya Dav","prov":"Ratanakiri","water":false,"p98":10898,"p98a":10898,"p08":16420,"p19":24003,"est98":false,"est98_add":0,"g9808":50.7,"g0819":46.2,"g9819":120.3,"r19":179},{"id":"KH-20-08","name":"Ta Veaeng","prov":"Ratanakiri","water":false,"p98":4325,"p98a":4325,"p08":5835,"p19":7533,"est98":false,"est98_add":0,"g9808":34.9,"g0819":29.1,"g9819":74.2,"r19":193},{"id":"KH-20-09","name":"Veun Sai","prov":"Ratanakiri","water":false,"p98":12389,"p98a":12389,"p08":16449,"p19":22969,"est98":false,"est98_add":0,"g9808":32.8,"g0819":39.6,"g9819":85.4,"r19":182},{"id":"KH-21-01","name":"Angkor Chum","prov":"Siem Reap","water":false,"p98":48476,"p98a":48476,"p08":53768,"p19":55694,"est98":false,"est98_add":0,"g9808":10.9,"g0819":3.6,"g9819":14.9,"r19":115},{"id":"KH-21-02","name":"Angkor Thum","prov":"Siem Reap","water":false,"p98":18740,"p98a":18740,"p08":24335,"p19":29565,"est98":false,"est98_add":0,"g9808":29.9,"g0819":21.5,"g9819":57.8,"r19":162},{"id":"KH-21-03","name":"Banteay Srei","prov":"Siem Reap","water":false,"p98":41799,"p98a":41799,"p08":42773,"p19":44554,"est98":false,"est98_add":0,"g9808":2.3,"g0819":4.2,"g9819":6.6,"r19":135},{"id":"KH-21-04","name":"Chi Kraeng","prov":"Siem Reap","water":false,"p98":112445,"p98a":112445,"p08":125367,"p19":129707,"est98":false,"est98_add":0,"g9808":11.5,"g0819":3.5,"g9819":15.4,"r19":29},{"id":"KH-21-05","name":"Kralanh","prov":"Siem Reap","water":false,"p98":63275,"p98a":63275,"p08":57690,"p19":52754,"est98":false,"est98_add":0,"g9808":-8.8,"g0819":-8.6,"g9819":-16.6,"r19":122},{"id":"KH-21-06","name":"Prasat Bakong","prov":"Siem Reap","water":false,"p98":39074,"p98a":39074,"p08":61425,"p19":79690,"est98":false,"est98_add":0,"g9808":57.2,"g0819":29.7,"g9819":103.9,"r19":82},{"id":"KH-21-07","name":"Puok","prov":"Siem Reap","water":false,"p98":93945,"p98a":93945,"p08":112882,"p19":128984,"est98":false,"est98_add":0,"g9808":20.2,"g0819":14.3,"g9819":37.3,"r19":30},{"id":"KH-21-08","name":"Siem Reap","prov":"Siem Reap","water":false,"p98":115824,"p98a":115824,"p08":230714,"p19":256995,"est98":false,"est98_add":0,"g9808":99.2,"g0819":11.4,"g9819":121.9,"r19":3},{"id":"KH-21-09","name":"Soutr Nikom","prov":"Siem Reap","water":false,"p98":93052,"p98a":93052,"p08":98378,"p19":111394,"est98":false,"est98_add":0,"g9808":5.7,"g0819":13.2,"g9819":19.7,"r19":43},{"id":"KH-21-10","name":"Srei Snam","prov":"Siem Reap","water":false,"p98":26738,"p98a":26738,"p08":31359,"p19":34694,"est98":false,"est98_add":0,"g9808":17.3,"g0819":10.6,"g9819":29.8,"r19":154},{"id":"KH-21-11","name":"Svay Leu","prov":"Siem Reap","water":false,"p98":12869,"p98a":12869,"p08":25726,"p19":43752,"est98":false,"est98_add":0,"g9808":99.9,"g0819":70.1,"g9819":240.0,"r19":138},{"id":"KH-21-12","name":"Tonlé Sap","prov":"Siem Reap","water":true,"p98":null,"p98a":null,"p08":null,"p19":null,"est98":false,"est98_add":0,"g9808":null,"g0819":null,"g9819":null,"r19":null},{"id":"KH-21-13","name":"Varin","prov":"Siem Reap","water":false,"p98":13882,"p98a":13882,"p08":32026,"p19":46451,"est98":false,"est98_add":0,"g9808":130.7,"g0819":45.0,"g9819":234.6,"r19":131},{"id":"KH-22-01","name":"Sesan","prov":"Stung Treng","water":false,"p98":15455,"p98a":15455,"p08":17506,"p19":26209,"est98":false,"est98_add":0,"g9808":13.3,"g0819":49.7,"g9819":69.6,"r19":172},{"id":"KH-22-02","name":"Siem Bouk","prov":"Stung Treng","water":false,"p98":10235,"p98a":10235,"p08":14444,"p19":23885,"est98":false,"est98_add":0,"g9808":41.1,"g0819":65.4,"g9819":133.4,"r19":180},{"id":"KH-22-03","name":"Siem Pang","prov":"Stung Treng","water":false,"p98":13738,"p98a":13738,"p08":18323,"p19":26538,"est98":false,"est98_add":0,"g9808":33.4,"g0819":44.8,"g9819":93.2,"r19":171},{"id":"KH-22-04","name":"Stueng Traeng","prov":"Stung Treng","water":false,"p98":24493,"p98a":24493,"p08":30959,"p19":40612,"est98":false,"est98_add":0,"g9808":26.4,"g0819":31.2,"g9819":65.8,"r19":146},{"id":"KH-22-05","name":"Thala Barivat","prov":"Stung Treng","water":false,"p98":21577,"p98a":21577,"p08":30439,"p19":48469,"est98":false,"est98_add":0,"g9808":41.1,"g0819":59.2,"g9819":124.6,"r19":128},{"id":"KH-23-01","name":"Bavet","prov":"Svay Rieng","water":false,"p98":34558,"p98a":34558,"p08":37123,"p19":45578,"est98":false,"est98_add":0,"g9808":7.4,"g0819":22.8,"g9819":31.9,"r19":132},{"id":"KH-23-02","name":"Chantrea","prov":"Svay Rieng","water":false,"p98":32195,"p98a":32195,"p08":24904,"p19":31295,"est98":false,"est98_add":0,"g9808":-22.6,"g0819":25.7,"g9819":-2.8,"r19":158},{"id":"KH-23-03","name":"Kampong Rou","prov":"Svay Rieng","water":false,"p98":68559,"p98a":68559,"p08":57732,"p19":67011,"est98":false,"est98_add":0,"g9808":-15.8,"g0819":16.1,"g9819":-2.3,"r19":93},{"id":"KH-23-04","name":"Romeas Haek","prov":"Svay Rieng","water":false,"p98":110457,"p98a":110457,"p08":109068,"p19":109078,"est98":false,"est98_add":0,"g9808":-1.3,"g0819":0.0,"g9819":-1.2,"r19":45},{"id":"KH-23-05","name":"Rumduol","prov":"Svay Rieng","water":false,"p98":48883,"p98a":48883,"p08":46944,"p19":48613,"est98":false,"est98_add":0,"g9808":-4.0,"g0819":3.6,"g9819":-0.6,"r19":126},{"id":"KH-23-06","name":"Svay Chrum","prov":"Svay Rieng","water":false,"p98":121119,"p98a":121119,"p08":120318,"p19":121920,"est98":false,"est98_add":0,"g9808":-0.7,"g0819":1.3,"g9819":0.7,"r19":35},{"id":"KH-23-07","name":"Svay Rieng","prov":"Svay Rieng","water":false,"p98":40000,"p98a":40000,"p08":40536,"p19":41955,"est98":false,"est98_add":0,"g9808":1.3,"g0819":3.5,"g9819":4.9,"r19":144},{"id":"KH-23-08","name":"Svay Teab","prov":"Svay Rieng","water":false,"p98":43166,"p98a":43166,"p08":46163,"p19":60047,"est98":false,"est98_add":0,"g9808":6.9,"g0819":30.1,"g9819":39.1,"r19":108},{"id":"KH-24-01","name":"Angkor Borei","prov":"Takeo","water":false,"p98":48591,"p98a":48591,"p08":46261,"p19":41117,"est98":false,"est98_add":0,"g9808":-4.8,"g0819":-11.1,"g9819":-15.4,"r19":145},{"id":"KH-24-02","name":"Bati","prov":"Takeo","water":false,"p98":115237,"p98a":115237,"p08":131031,"p19":159407,"est98":false,"est98_add":0,"g9808":13.7,"g0819":21.7,"g9819":38.3,"r19":18},{"id":"KH-24-03","name":"Borei Cholsar","prov":"Takeo","water":false,"p98":24460,"p98a":24460,"p08":26055,"p19":24056,"est98":false,"est98_add":0,"g9808":6.5,"g0819":-7.7,"g9819":-1.7,"r19":178},{"id":"KH-24-04","name":"Doun Kaev","prov":"Takeo","water":false,"p98":40398,"p98a":40398,"p08":41383,"p19":45086,"est98":false,"est98_add":0,"g9808":2.4,"g0819":8.9,"g9819":11.6,"r19":134},{"id":"KH-24-05","name":"Kaoh Andaet","prov":"Takeo","water":false,"p98":45650,"p98a":45650,"p08":48039,"p19":43197,"est98":false,"est98_add":0,"g9808":5.2,"g0819":-10.1,"g9819":-5.4,"r19":141},{"id":"KH-24-06","name":"Kiri Vong","prov":"Takeo","water":false,"p98":92446,"p98a":92446,"p08":97711,"p19":88220,"est98":false,"est98_add":0,"g9808":5.7,"g0819":-9.7,"g9819":-4.6,"r19":73},{"id":"KH-24-07","name":"Prey Kabbas","prov":"Takeo","water":false,"p98":87522,"p98a":87522,"p08":95416,"p19":98682,"est98":false,"est98_add":0,"g9808":9.0,"g0819":3.4,"g9819":12.8,"r19":65},{"id":"KH-24-08","name":"Samraong","prov":"Takeo","water":false,"p98":100150,"p98a":100150,"p08":107807,"p19":127295,"est98":false,"est98_add":0,"g9808":7.6,"g0819":18.1,"g9819":27.1,"r19":31},{"id":"KH-24-09","name":"Tram Kak","prov":"Takeo","water":false,"p98":141333,"p98a":141333,"p08":152170,"p19":171985,"est98":false,"est98_add":0,"g9808":7.7,"g0819":13.0,"g9819":21.7,"r19":12},{"id":"KH-24-10","name":"Treang","prov":"Takeo","water":false,"p98":82108,"p98a":82108,"p08":99033,"p19":101869,"est98":false,"est98_add":0,"g9808":20.6,"g0819":2.9,"g9819":24.1,"r19":60},{"id":"KH-25-01","name":"Dambae","prov":"Tbong Khmum","water":false,"p98":49457,"p98a":49457,"p08":80490,"p19":102778,"est98":false,"est98_add":0,"g9808":62.7,"g0819":27.7,"g9819":107.8,"r19":55},{"id":"KH-25-02","name":"Krouch Chhmar","prov":"Tbong Khmum","water":false,"p98":97114,"p98a":97114,"p08":92845,"p19":185260,"est98":false,"est98_add":0,"g9808":-4.4,"g0819":99.5,"g9819":90.8,"r19":9},{"id":"KH-25-03","name":"Memot","prov":"Tbong Khmum","water":false,"p98":107099,"p98a":107099,"p08":148463,"p19":142294,"est98":false,"est98_add":0,"g9808":38.6,"g0819":-4.2,"g9819":32.9,"r19":24},{"id":"KH-25-04","name":"Ou Reang Ov","prov":"Tbong Khmum","water":false,"p98":74179,"p98a":74179,"p08":80947,"p19":60648,"est98":false,"est98_add":0,"g9808":9.1,"g0819":-25.1,"g9819":-18.2,"r19":107},{"id":"KH-25-05","name":"Ponhea Kraek","prov":"Tbong Khmum","water":false,"p98":110271,"p98a":110271,"p08":135318,"p19":24559,"est98":false,"est98_add":0,"g9808":22.7,"g0819":-81.9,"g9819":-77.7,"r19":177},{"id":"KH-25-06","name":"Suong","prov":"Tbong Khmum","water":false,"p98":28736,"p98a":28736,"p08":35896,"p19":164550,"est98":false,"est98_add":0,"g9808":24.9,"g0819":358.4,"g9819":472.6,"r19":16},{"id":"KH-25-07","name":"Tboung Khmum","prov":"Tbong Khmum","water":false,"p98":176058,"p98a":176058,"p08":180041,"p19":96752,"est98":false,"est98_add":0,"g9808":2.3,"g0819":-46.3,"g9819":-45.0,"r19":66}];
-const BY_ID = Object.fromEntries(DATA.map(d => [d.id, d]));
+const MV = window.CAMBODIA_MULTIVAR;
+const DISTRICTS = MV.districts;
+const BY_ID = Object.fromEntries(DISTRICTS.map((d, i) => [d.id, { ...d, idx: i }]));
+const VARS_BY_ID = Object.fromEntries(MV.variables.map(v => [v.id, v]));
+const BLOCKS_BY_ID = Object.fromEntries(MV.blocks.map(b => [b.id, b]));
 
 const I18N = {
   es: {
-    brandSub: "Panel 202 · Población 1998–2019",
+    brandSub: "Panel 202 · Censo Multi-Variable 1998–2019",
     navExplore: "Explorar", navRefs: "Mapas y datos", navMethod: "Método",
-    eyebrow: "Observatorio Subnacional · 202 distritos armonizados",
+    eyebrow: "Observatorio Subnacional · 202 distritos armonizados · 69 indicadores",
     heroTitle: "Camboya en tres<br><em>censos de población</em>",
     heroAuthor: "<strong>Favio Leiva</strong><span class='sep'>·</span><span class='pow'>Powered by Gemini 4 Neon via Antigravity</span>",
+    heroLead: "Panel censal multi-variable armonizado para las 202 unidades de Quarcs Cambodia shapefile 202 (GDO-Cambodia), reconstruido desde el nivel de comuna (ADM3) para 1998, 2008 y 2019 (100% REDATAM).",
+    ctaDownload: "Descargar Panel 3 Olas CSV ↗", ctaDict: "Diccionario (ES/EN/ខ្មែរ) ↗",
+    ribUnits: "distritos (Quarcs Cambodia shapefile 202)", ribPop: "hab.",
+    heroCaption: "Ilustración editorial generada con IA; no es una fotografía satelital.",
+    lblBlock: "Bloque", lblVar: "Variable",
+    modeAdj: "1998: con estimación NIS (+43k)", modeEnum: "1998: solo enumerado (NA conflicto)",
+    dlPng: "Mapa PNG ↗",
     refSummary: "Mapas estáticos de referencia (1998 · 2008 · 2019) y descargas CSV",
     methSummary: "Fuentes, metodología de armonización y ecosistema de proyectos",
-    heroLead: "Panel demográfico armonizado para las 202 unidades de Quarcs Cambodia shapefile 202 (GDO-Cambodia), reconstruido desde el nivel de comuna (ADM3) para los censos nacionales de 1998, 2008 y 2019.",
-    ctaExplore: "Explorar el mapa ↓", ctaDownload: "Descargar datos CSV ↗",
-    ribUnits: "distritos (Quarcs Cambodia shapefile 202)", ribCensuses: "censos · 1998 / 2008 / 2019",
-    ribPop: "habitantes", ribMethod: "Crosswalk métrico ADM3 → ADM2 (EPSG:32648)",
-    expEyebrow: "Explorador interactivo", expTitle: "Población por <em>distrito</em> (1998–2019)",
-    expDesc: "Selecciona un año censal y haz clic sobre cualquiera de los 202 distritos para inspeccionar su población armonizada, crecimiento intercensal y trayectoria demográfica.",
-    modeAdj: "1998: con estimación NIS (+43k)", modeEnum: "1998: solo enumerado (NA conflicto)",
-    dlPng: "Mapa PNG ↗", legLabel: "Población por distrito (escala logarítmica común, 1998–2019)",
-    trajTitle: "Trayectoria demográfica", quickTop: "Distritos más poblados (2019):",
-    refEyebrow: "Mapas de referencia y descargas", refTitle: "Tres censos sobre la <em>misma geometría</em>",
-    refDesc: "Mapas estáticos de alta resolución con idéntica leyenda y escala logarítmica común, junto con bases descargables en formato largo, ancho y crosswalk.",
     cap98: "1998 · 202 distritos", cap08: "2008 · 202 distritos", cap19: "2019 · 202 distritos",
-    dlLong: "CSV Long (606 filas) ↗", dlWide: "CSV Wide (202 filas) ↗", dlCw: "Crosswalk ADM3 → 202 CSV ↗",
-    methEyebrow: "Metodología y trazabilidad", methTitle: "Armonización desde <em>comunas</em> a 202 distritos",
-    methDesc: "Todo el flujo es 100% reproducible, conserva los insumos originales inmutables y preserva exactamente los totales nacionales territoriales.",
-    m1Title: "1. Crosswalk métrico ADM3 → Quarcs Cambodia shapefile 202",
+    dlMultiLong: "Panel Multi-Var 3 Olas Long CSV (606×63) ↗",
+    dlMultiWide: "Panel Multi-Var Wide CSV (202×176) ↗",
+    dlAssets: "Activos & Mecanización 2019 CSV ↗",
+    dlDictCsv: "Diccionario Trilingüe CSV ↗",
+    dlCw: "Crosswalk ADM3 → 202 CSV ↗",
+    m1Title: "1. Crosswalk métrico discreto ADM3 → Quarcs Cambodia shapefile 202",
     m1Body: "Las comunas nativas de 1998 (1,609), 2008 (1,621) y 2019 (1,633 polígonos ADM3 + resolución por distrito padre de las 31 comunas territoriales sin polígono en khm_adm3_un) se proyectan a UTM Zona 48N (EPSG:32648) y se intersectan con Quarcs Cambodia shapefile 202. Cada comuna se asigna íntegramente (100%, sin partir comunas) al único distrito terrestre donde tiene mayor porcentaje de área, garantizando conteos enteros exactos y dejando los 5 sectores lacustres de Tonlé Sap en NA (cuerpo de agua).",
     m2Title: "2. Áreas excluidas por conflicto en 1998",
     m2Body: "En marzo de 1998, tres distritos fronterizos (Anlong Veaeng, Samlout y Veal Veng) no fueron enumerados por operaciones militares asociadas al Jemer Rojo (registrados como 0). El panel conserva la serie estrictamente enumerada (NA en esos territorios, total 11,437,656) y una serie ajustada con las estimaciones oficiales del NIS (+43,000; total 11,480,656).",
-    m3Title: "3. Censo 2019 y código especial 269999",
-    m3Body: "El Censo 2019 proviene de la base 100% REDATAM del NIS (15,552,211 habitantes). Se mapean 15,551,637 habitantes territoriales (99.996%); los 574 habitantes restantes corresponden al código institucional no territorial 269999 y se documentan aparte.",
-    heroCaption: "Ilustración editorial generada con IA; no es una fotografía satelital.",
+    m3Title: "3. Censo 2019 (100% REDATAM) y empalme multi-variable",
+    m3Body: "Los indicadores de 2019 se agregan en streaming directo desde la base 100% REDATAM del NIS (19,147,696 registros, 15,552,211 habitantes; cero microdatos publicados) usando el diccionario oficial Camb.dcf. Se mapean 15,551,637 habitantes territoriales (99.996%); los 574 restantes corresponden al código institucional no territorial 269999.",
     m4Title: "4. Fuentes exactas de datos y mapas",
-    m4List: "<li><strong>Censo 1998 (CSV y shapefiles):</strong> <a href='https://data.opendevelopmentcambodia.net/dataset/census-1998' target='_blank' rel='noopener'>Open Development Cambodia — Census 1998 ↗</a>.</li><li><strong>Censo 2008 (CSV y shapefiles):</strong> <a href='https://data.opendevelopmentcambodia.net/en/dataset/census-2008' target='_blank' rel='noopener'>Open Development Cambodia — Census 2008 ↗</a>.</li><li><strong>Censo 2019 (100% REDATAM y shapefiles):</strong> <a href='https://nis.gov.kh/en/statistical-table/' target='_blank' rel='noopener'>National Institute of Statistics (NIS Cambodia) — REDATAM 2019 ↗</a>.</li><li><strong>Geometría base (Quarcs Cambodia shapefile 202):</strong> <a href='https://github.com/quarcs-lab/geo4cambodia' target='_blank' rel='noopener'>QuaRCS Lab / GDO-Cambodia ↗</a>.</li><li><strong>Nota histórica sobre exclusión por conflicto 1998 (+43,000):</strong> <a href='https://nis.gov.kh/wp-content/uploads/2025/09/General-Population-Census1998.pdf' target='_blank' rel='noopener'>NIS 1998 Final Results</a>, <a href='https://nis.gov.kh/nis/census2008/GPC2008_Report_ENG.pdf' target='_blank' rel='noopener'>NIS 2008 National Report</a> y documentación <a href='https://international.ipums.org/international-action/variables/GEO2_KH1998' target='_blank' rel='noopener'>IPUMS GEO2_KH1998</a> (solo referencia documental; los mapas no provienen de IPUMS).</li>",
+    m4List: "<li><strong>Censo 1998 (CSV y shapefiles):</strong> <a href='https://data.opendevelopmentcambodia.net/dataset/census-1998' target='_blank' rel='noopener'>Open Development Cambodia — Census 1998 ↗</a>.</li><li><strong>Censo 2008 (CSV y shapefiles):</strong> <a href='https://data.opendevelopmentcambodia.net/en/dataset/census-2008' target='_blank' rel='noopener'>Open Development Cambodia — Census 2008 ↗</a>.</li><li><strong>Censo 2019 (100% REDATAM y shapefiles):</strong> <a href='https://nis.gov.kh/en/statistical-table/' target='_blank' rel='noopener'>National Institute of Statistics (NIS Cambodia) — REDATAM 2019 ↗</a>.</li><li><strong>Geometría base (Quarcs Cambodia shapefile 202):</strong> <a href='https://github.com/quarcs-lab/geo4cambodia' target='_blank' rel='noopener'>QuaRCS Lab / GDO-Cambodia ↗</a>.</li><li><strong>Nota histórica conflicto 1998 (+43,000):</strong> <a href='https://nis.gov.kh/wp-content/uploads/2025/09/General-Population-Census1998.pdf' target='_blank' rel='noopener'>NIS 1998 Final Results</a>, <a href='https://nis.gov.kh/nis/census2008/GPC2008_Report_ENG.pdf' target='_blank' rel='noopener'>NIS 2008 National Report</a> y <a href='https://international.ipums.org/international-action/variables/GEO2_KH1998' target='_blank' rel='noopener'>IPUMS GEO2_KH1998</a> (solo referencia documental).</li>",
     m5Title: "5. Ecosistema de proyectos y autoría",
     m5Body: "Este observatorio forma parte de la iniciativa <strong>Geo4Cambodia / GDO-Cambodia</strong> y sigue la arquitectura de observatorios subnacionales reproducibles desarrollados por <strong>Favio Leiva</strong> (con gobernanza contractual <code>AGENTS.md</code>), en diálogo con el repositorio abierto de QuaRCS Lab (Carlos Mendez) y los observatorios hermanos de Bolivia.",
     footAuthor: "Autor: <strong>Favio Leiva</strong> · Powered by <strong>Gemini 4 Neon via Antigravity</strong>",
     footNote: "Parte de GDO-Cambodia (QuaRCS Lab) &amp; familia Geo4Bolivia · Gobernanza AGENTS.md",
-    highestValues: "Mayores valores",
-    lowestValues: "Menores valores",
-    rankingCtx: "Ranking de población · Censo {y} · 197 distritos terrestres (excluye 5 sectores lacustres de Tonlé Sap) · Haz clic en cualquier fila para inspeccionar",
+    highestValues: "Mayores valores", lowestValues: "Menores valores",
+    rankingCtx: "{v} · Censo {y} · {n} distritos terrestres con dato (excluye 5 sectores lacustres de Tonlé Sap) · Haz clic para inspeccionar",
     searchPh: "Buscar distrito o provincia...",
-    rankLbl: "Ranking 2019",
-    mapTitleFmt: "Censo {y} · 202 distritos armonizados",
-    mapMetaFmt: "Total territorial: {n} hab.",
+    rankLbl: "Ranking {y}",
+    mapMetaCount: "Total territorial: {n} · {c} distritos",
+    mapMetaRate: "Promedio nacional ponderado: {n} · {c} distritos",
     estBadge: "Incluye estimación oficial NIS 1998 (+{n} hab. por exclusión de conflicto)",
-    naLabel: "NA (conflicto 1998)"
+    naLabel: "Sin dato", waterLabel: "Tonlé Sap (Cuerpo de agua)",
+    scaleLog: "escala logarítmica común", scaleLin: "escala lineal común",
+    trajLbl: "Trayectoria ({w})", only2019: "Solo Censo 2019", only9808: "Solo 1998 · 2008",
+    covWarn: "Cobertura módulo 1998: {p}%"
   },
   en: {
-    brandSub: "Panel 202 · Population 1998–2019",
+    brandSub: "Panel 202 · Multi-Variable Census 1998–2019",
     navExplore: "Explore", navRefs: "Maps & Data", navMethod: "Method",
-    eyebrow: "Subnational Observatory · 202 harmonized districts",
+    eyebrow: "Subnational Observatory · 202 harmonized districts · 69 indicators",
     heroTitle: "Cambodia in three<br><em>population censuses</em>",
     heroAuthor: "<strong>Favio Leiva</strong><span class='sep'>·</span><span class='pow'>Powered by Gemini 4 Neon via Antigravity</span>",
+    heroLead: "Harmonized multi-variable census panel across all 202 units of Quarcs Cambodia shapefile 202 (GDO-Cambodia), reconstructed from commune level (ADM3) for 1998, 2008, and 2019 (100% REDATAM).",
+    ctaDownload: "Download 3-Wave Panel CSV ↗", ctaDict: "Dictionary (ES/EN/ខ្មែរ) ↗",
+    ribUnits: "districts (Quarcs Cambodia shapefile 202)", ribPop: "inhabitants",
+    heroCaption: "AI-generated editorial illustration; not a satellite photograph.",
+    lblBlock: "Block", lblVar: "Variable",
+    modeAdj: "1998: with NIS estimates (+43k)", modeEnum: "1998: enumerated only (NA conflict)",
+    dlPng: "PNG Map ↗",
     refSummary: "Static reference maps (1998 · 2008 · 2019) & CSV downloads",
     methSummary: "Sources, harmonization methodology & project ecosystem",
-    heroLead: "Harmonized demographic panel across all 202 units of Quarcs Cambodia shapefile 202 (GDO-Cambodia), reconstructed from commune level (ADM3) for the 1998, 2008, and 2019 national censuses.",
-    ctaExplore: "Explore the map ↓", ctaDownload: "Download CSV data ↗",
-    ribUnits: "districts (Quarcs Cambodia shapefile 202)", ribCensuses: "censuses · 1998 / 2008 / 2019",
-    ribPop: "inhabitants", ribMethod: "Metric ADM3 → ADM2 crosswalk (EPSG:32648)",
-    expEyebrow: "Interactive explorer", expTitle: "Population by <em>district</em> (1998–2019)",
-    expDesc: "Select a census year and click any of the 202 districts to inspect harmonized population, intercensal growth rates, and demographic trajectory.",
-    modeAdj: "1998: with NIS estimates (+43k)", modeEnum: "1998: enumerated only (NA conflict)",
-    dlPng: "PNG Map ↗", legLabel: "District population (common log scale, 1998–2019)",
-    trajTitle: "Demographic trajectory", quickTop: "Most populous districts (2019):",
-    refEyebrow: "Reference maps & downloads", refTitle: "Three censuses on the <em>same geometry</em>",
-    refDesc: "High-resolution static maps sharing an identical legend and logarithmic scale alongside downloadable long, wide, and crosswalk CSV tables.",
     cap98: "1998 · 202 districts", cap08: "2008 · 202 districts", cap19: "2019 · 202 districts",
-    dlLong: "CSV Long (606 rows) ↗", dlWide: "CSV Wide (202 rows) ↗", dlCw: "Crosswalk ADM3 → 202 CSV ↗",
-    methEyebrow: "Methodology & provenance", methTitle: "Commune-to-202-district <em>harmonization</em>",
-    methDesc: "Fully reproducible pipeline preserving immutable raw sources and exact national territorial population totals.",
-    m1Title: "1. Metric ADM3 → Quarcs Cambodia shapefile 202 Crosswalk",
+    dlMultiLong: "3-Wave Multi-Var Panel Long CSV (606×63) ↗",
+    dlMultiWide: "Multi-Var Panel Wide CSV (202×176) ↗",
+    dlAssets: "2019 Assets & Agro-Mech CSV ↗",
+    dlDictCsv: "Trilingual Dictionary CSV ↗",
+    dlCw: "Crosswalk ADM3 → 202 CSV ↗",
+    m1Title: "1. Discrete Metric Crosswalk ADM3 → Quarcs Cambodia shapefile 202",
     m1Body: "Native communes from 1998 (1,609), 2008 (1,621), and 2019 (1,633 ADM3 polygons + parent-district allocation for the 31 territorial communes absent from khm_adm3_un) are projected to UTM Zone 48N (EPSG:32648) and intersected with Quarcs Cambodia shapefile 202. Each commune is assigned 100% discretely (no commune splitting) to the single inhabited land district containing the largest share of its area, preserving exact integer counts and keeping the 5 Tonlé Sap lake sectors as NA (water body).",
     m2Title: "2. Conflict-excluded areas in 1998",
     m2Body: "In March 1998, three border districts (Anlong Veaeng, Samlout, and Veal Veng) could not be enumerated due to Khmer Rouge military operations (recorded as 0). The panel preserves both the strictly enumerated series (NA for excluded areas, 11,437,656) and an NIS-adjusted series (+43,000; 11,480,656).",
-    m3Title: "3. 2019 Census & special code 269999",
-    m3Body: "The 2019 census is drawn from the 100% NIS REDATAM database (15,552,211 inhabitants). Territorial population mapped across the 202 districts totals 15,551,637 (99.996%); the remaining 574 belong to non-territorial institutional code 269999.",
-    heroCaption: "AI-generated editorial illustration; not a satellite photograph.",
+    m3Title: "3. 2019 Census (100% REDATAM) & multi-variable splicing",
+    m3Body: "All 2019 indicators are streamed directly from the 100% NIS REDATAM census (19,147,696 records, 15,552,211 inhabitants; zero individual microdata published) using the official Camb.dcf dictionary. Territorial population mapped totals 15,551,637 (99.996%); 574 belong to non-territorial code 269999.",
     m4Title: "4. Exact data & shapefile sources",
-    m4List: "<li><strong>1998 Census (CSVs &amp; shapefiles):</strong> <a href='https://data.opendevelopmentcambodia.net/dataset/census-1998' target='_blank' rel='noopener'>Open Development Cambodia — Census 1998 ↗</a>.</li><li><strong>2008 Census (CSVs &amp; shapefiles):</strong> <a href='https://data.opendevelopmentcambodia.net/en/dataset/census-2008' target='_blank' rel='noopener'>Open Development Cambodia — Census 2008 ↗</a>.</li><li><strong>2019 Census (100% REDATAM &amp; shapefiles):</strong> <a href='https://nis.gov.kh/en/statistical-table/' target='_blank' rel='noopener'>National Institute of Statistics (NIS Cambodia) — REDATAM 2019 ↗</a>.</li><li><strong>Reference geometry (Quarcs Cambodia shapefile 202):</strong> <a href='https://github.com/quarcs-lab/geo4cambodia' target='_blank' rel='noopener'>QuaRCS Lab / GDO-Cambodia ↗</a>.</li><li><strong>Historical documentation on 1998 conflict-excluded areas (+43,000 estimates only):</strong> <a href='https://nis.gov.kh/wp-content/uploads/2025/09/General-Population-Census1998.pdf' target='_blank' rel='noopener'>NIS 1998 Final Results</a>, <a href='https://nis.gov.kh/nis/census2008/GPC2008_Report_ENG.pdf' target='_blank' rel='noopener'>NIS 2008 National Report</a>, and <a href='https://international.ipums.org/international-action/variables/GEO2_KH1998' target='_blank' rel='noopener'>IPUMS GEO2_KH1998</a> note (documentation only; maps are not sourced from IPUMS).</li>",
+    m4List: "<li><strong>1998 Census (CSVs &amp; shapefiles):</strong> <a href='https://data.opendevelopmentcambodia.net/dataset/census-1998' target='_blank' rel='noopener'>Open Development Cambodia — Census 1998 ↗</a>.</li><li><strong>2008 Census (CSVs &amp; shapefiles):</strong> <a href='https://data.opendevelopmentcambodia.net/en/dataset/census-2008' target='_blank' rel='noopener'>Open Development Cambodia — Census 2008 ↗</a>.</li><li><strong>2019 Census (100% REDATAM &amp; shapefiles):</strong> <a href='https://nis.gov.kh/en/statistical-table/' target='_blank' rel='noopener'>National Institute of Statistics (NIS Cambodia) — REDATAM 2019 ↗</a>.</li><li><strong>Reference geometry (Quarcs Cambodia shapefile 202):</strong> <a href='https://github.com/quarcs-lab/geo4cambodia' target='_blank' rel='noopener'>QuaRCS Lab / GDO-Cambodia ↗</a>.</li><li><strong>Historical documentation on 1998 conflict exclusion (+43,000):</strong> <a href='https://nis.gov.kh/wp-content/uploads/2025/09/General-Population-Census1998.pdf' target='_blank' rel='noopener'>NIS 1998 Final Results</a>, <a href='https://nis.gov.kh/nis/census2008/GPC2008_Report_ENG.pdf' target='_blank' rel='noopener'>NIS 2008 National Report</a>, and <a href='https://international.ipums.org/international-action/variables/GEO2_KH1998' target='_blank' rel='noopener'>IPUMS GEO2_KH1998</a> (documentation only).</li>",
     m5Title: "5. Project ecosystem & authorship",
     m5Body: "This observatory belongs to the <strong>Geo4Cambodia / GDO-Cambodia</strong> initiative and follows the reproducible subnational observatory architecture developed by <strong>Favio Leiva</strong> (under <code>AGENTS.md</code> contractual governance), connected to QuaRCS Lab's open repository (Carlos Mendez) and the sister Bolivia observatories.",
     footAuthor: "Author: <strong>Favio Leiva</strong> · Powered by <strong>Gemini 4 Neon via Antigravity</strong>",
     footNote: "Part of GDO-Cambodia (QuaRCS Lab) &amp; Geo4Bolivia family · AGENTS.md governance",
-    highestValues: "Highest values",
-    lowestValues: "Lowest values",
-    rankingCtx: "Population ranking · {y} Census · 197 inhabited land districts (excludes 5 Tonlé Sap lake sectors) · Click any row to inspect",
+    highestValues: "Highest values", lowestValues: "Lowest values",
+    rankingCtx: "{v} · {y} Census · {n} inhabited land districts (excludes 5 Tonlé Sap lake sectors) · Click any row to inspect",
     searchPh: "Search district or province...",
-    rankLbl: "2019 Rank",
-    mapTitleFmt: "{y} Census · 202 harmonized districts",
-    mapMetaFmt: "Territorial total: {n} inhabitants",
+    rankLbl: "{y} Rank",
+    mapMetaCount: "Territorial total: {n} · {c} districts",
+    mapMetaRate: "Weighted national average: {n} · {c} districts",
     estBadge: "Includes official 1998 NIS estimate (+{n} conflict-excluded)",
-    naLabel: "NA (1998 conflict)"
+    naLabel: "No data", waterLabel: "Tonlé Sap (Water body)",
+    scaleLog: "common log scale", scaleLin: "common linear scale",
+    trajLbl: "Trajectory ({w})", only2019: "2019 Census only", only9808: "1998 · 2008 only",
+    covWarn: "1998 module coverage: {p}%"
   },
   km: {
-    brandSub: "បន្ទះ ២០២ · ប្រជាជន ១៩៩៨–២០១៩",
+    brandSub: "បន្ទះ ២០២ · ទិន្នន័យជំរឿនពហុអថេរ ១៩៩៨–២០១៩",
     navExplore: "រុករក", navRefs: "ផែនទី និងទិន្នន័យ", navMethod: "វិធីសាស្ត្រ",
-    eyebrow: "ស្ថានីយ៍អង្កេតថ្នាក់ក្រោមជាតិ · ស្រុក/ខណ្ឌចំនួន ២០២",
+    eyebrow: "ស្ថានីយ៍អង្កេតថ្នាក់ក្រោមជាតិ · ស្រុក/ខណ្ឌ ២០២ · សូចនាករ ៦៩",
     heroTitle: "កម្ពុជាក្នុងជំរឿន<br><em>ប្រជាជនទាំងបីលើក</em>",
     heroAuthor: "<strong>Favio Leiva</strong><span class='sep'>·</span><span class='pow'>Powered by Gemini 4 Neon via Antigravity</span>",
+    heroLead: "បន្ទះទិន្នន័យជំរឿនពហុអថេរសម្រាប់ស្រុក/ក្រុង/ខណ្ឌចំនួន ២០២ នៃ Quarcs Cambodia shapefile 202 (GDO-Cambodia) ដោយផ្អែកលើទិន្នន័យថ្នាក់ឃុំ/សង្កាត់ (ADM3) ឆ្នាំ ១៩៩៨, ២០០៨ និង ២០១៩ (100% REDATAM)។",
+    ctaDownload: "ទាញយកទិន្នន័យ ៣ លើក CSV ↗", ctaDict: "វចនានុក្រម (ES/EN/ខ្មែរ) ↗",
+    ribUnits: "ស្រុក/ខណ្ឌ (Quarcs Cambodia shapefile 202)", ribPop: "នាក់",
+    heroCaption: "រូបភាពបង្កើតដោយ AI សម្រាប់រចនាបថគេហទំព័រ មិនមែនជារូបភាពផ្កាយរណបទេ។",
+    lblBlock: "ក្រុម", lblVar: "អថេរ",
+    modeAdj: "១៩៩៨៖ រួមបញ្ចូលការប៉ាន់ស្មាន NIS (+៤៣ពាន់)", modeEnum: "១៩៩៨៖ តែតំបន់បានជំរឿន (NA តំបន់ជម្លោះ)",
+    dlPng: "ផែនទី PNG ↗",
     refSummary: "ផែនទីយោង (១៩៩៨ · ២០០៨ · ២០១៩) និងការទាញយក CSV",
     methSummary: "ប្រភព វិធីសាស្ត្រសំយោគ និងប្រព័ន្ធគម្រោង",
-    heroLead: "ទិន្នន័យប្រជាសាស្ត្រដែលបានសំយោគសម្រាប់ស្រុក/ក្រុង/ខណ្ឌចំនួន ២០២ នៃ Quarcs Cambodia shapefile 202 (GDO-Cambodia) ដោយផ្អែកលើទិន្នន័យថ្នាក់ឃុំ/សង្កាត់ (ADM3) នៃជំរឿនជាតិឆ្នាំ ១៩៩៨, ២០០៨ និង ២០១៩។",
-    ctaExplore: "រុករកផែនទី ↓", ctaDownload: "ទាញយកទិន្នន័យ CSV ↗",
-    ribUnits: "ស្រុក/ខណ្ឌ (Quarcs Cambodia shapefile 202)", ribCensuses: "ជំរឿន · ១៩៩៨ / ២០០៨ / ២០១៩",
-    ribPop: "នាក់", ribMethod: "ការសំយោគផ្ទៃដី ADM3 → ADM2 (EPSG:32648)",
-    expEyebrow: "ផែនទីអន្តរកម្ម", expTitle: "ប្រជាជនតាម <em>ស្រុក/ខណ្ឌ</em> (១៩៩៨–២០១៩)",
-    expDesc: "ជ្រើសរើសឆ្នាំជំរឿន ហើយចុចលើស្រុក/ខណ្ឌណាមួយក្នុងចំណោម ២០២ ដើម្បីពិនិត្យចំនួនប្រជាជន អត្រាកំណើន និងនិន្នាការប្រជាសាស្ត្រ។",
-    modeAdj: "១៩៩៨៖ រួមបញ្ចូលការប៉ាន់ស្មាន NIS (+៤៣ពាន់)", modeEnum: "១៩៩៨៖ តែតំបន់បានជំរឿន (NA តំបន់ជម្លោះ)",
-    dlPng: "ផែនទី PNG ↗", legLabel: "ប្រជាជនតាមស្រុក (មាត្រដ្ឋានលោការីតរួម ១៩៩៨–២០១៩)",
-    trajTitle: "និន្នាការប្រជាជន", quickTop: "ស្រុក/ខណ្ឌមានប្រជាជនច្រើនជាងគេ (២០១៩)៖",
-    refEyebrow: "ផែនទីយោង និងការទាញយក", refTitle: "ជំរឿនទាំងបីលើ <em>ព្រំប្រទល់តែមួយ</em>",
-    refDesc: "ផែនទីគុណភាពខ្ពស់ដែលប្រើមាត្រដ្ឋាន និងសម្គាល់ពណ៌ដូចគ្នាទាំងស្រុង រួមជាមួយឯកសារ CSV សម្រាប់ទាញយក។",
     cap98: "១៩៩៨ · ២០២ ស្រុក/ខណ្ឌ", cap08: "២០០៨ · ២០២ ស្រុក/ខណ្ឌ", cap19: "២០១៩ · ២០២ ស្រុក/ខណ្ឌ",
-    dlLong: "ទាញយក CSV ទម្រង់វែង (៦០៦ ជួរ) ↗", dlWide: "ទាញយក CSV ទម្រង់ទូលាយ (២០២ ជួរ) ↗", dlCw: "តារាង Crosswalk ADM3 → 202 ↗",
-    methEyebrow: "វិធីសាស្ត្រ និងប្រភព", methTitle: "ការសំយោគពី <em>ឃុំ/សង្កាត់</em> ទៅ ២០២ ស្រុក/ខណ្ឌ",
-    methDesc: "ដំណើរការទាំងមូលអាចផ្ទៀងផ្ទាត់ឡើងវិញបាន ១០០% ដោយរក្សាទិន្នន័យដើម និងចំនួនប្រជាជនសរុបថ្នាក់ជាតិឱ្យត្រឹមត្រូវ។",
-    m1Title: "១. ការសំយោគផ្ទៃដី ADM3 → Quarcs Cambodia shapefile 202",
-    m1Body: "ព្រំប្រទល់ឃុំ/សង្កាត់ឆ្នាំ ១៩៩៨ (១,៦០៩), ២០០៨ (១,៦២១) និង ២០១៩ (១,៦៣៣ ឃុំ + ការបែងចែកតាមស្រុកមេសម្រាប់ ៣១ ឃុំដែលគ្មានក្នុង khm_adm3_un) ត្រូវបានបម្លែងទៅ UTM 48N (EPSG:32648) ដោយឃុំនីមួយៗត្រូវបានចាត់ចូល ១០០% ទៅស្រុកដីគោកតែមួយដែលមានភាគរយផ្ទៃដីច្រើនជាងគេ (មិនបំបែកឃុំ) ដើម្បីរក្សាចំនួនប្រជាជនជាចំនួនគត់ត្រឹមត្រូវ និងទុកផ្ទៃទឹកបឹងទន្លេសាប ៥ ជា NA។",
+    dlMultiLong: "ទិន្នន័យពហុអថេរ ៣ លើក Long CSV (606×63) ↗",
+    dlMultiWide: "ទិន្នន័យពហុអថេរ Wide CSV (202×176) ↗",
+    dlAssets: "ទ្រព្យសម្បត្តិ និងយន្តការកសិកម្ម ២០១៩ CSV ↗",
+    dlDictCsv: "វចនានុក្រមត្រីភាសា CSV ↗",
+    dlCw: "តារាង Crosswalk ADM3 → 202 ↗",
+    m1Title: "១. ការសំយោគផ្ទៃដីដាច់ដោយឡែក ADM3 → Quarcs Cambodia shapefile 202",
+    m1Body: "ព្រំប្រទល់ឃុំ/សង្កាត់ឆ្នាំ ១៩៩៨ (១,៦០៩), ២០០៨ (១,៦២១) និង ២០១៩ (១,៦៣៣ ឃុំ + ៣១ ឃុំតាមស្រុកមេ) ត្រូវបានបម្លែងទៅ UTM 48N (EPSG:32648) ដោយឃុំនីមួយៗត្រូវបានចាត់ចូល ១០០% ទៅស្រុកដីគោកតែមួយដែលមានភាគរយផ្ទៃដីច្រើនជាងគេ (មិនបំបែកឃុំ) និងទុកផ្ទៃទឹកបឹងទន្លេសាប ៥ ជា NA។",
     m2Title: "២. តំបន់មិនបានជំរឿនដោយសារជម្លោះឆ្នាំ ១៩៩៨",
-    m2Body: "នៅខែមីនា ឆ្នាំ ១៩៩៨ ស្រុកជាប់ព្រំដែនចំនួន ៣ (អន្លង់វែង សំឡូត និងវាលវែង) មិនអាចជំរឿនបានដោយសារប្រតិបត្តិការយោធា (កត់ត្រា ០)។ បន្ទះទិន្នន័យរក្សាទាំងតួលេខជំរឿនផ្ទាល់ (NA សម្រាប់តំបន់ជម្លោះ សរុប ១១,៤៣៧,៦៥៦ នាក់) និងតួលេខកែសម្រួលតាមការប៉ាន់ស្មានផ្លូវការរបស់ NIS (+៤៣,០០០ នាក់ សរុប ១១,៤៨០,៦៥៦ នាក់)។",
-    m3Title: "៣. ជំរឿនឆ្នាំ ២០១៩ និងលេខកូដពិសេស 269999",
-    m3Body: "ទិន្នន័យជំរឿនឆ្នាំ ២០១៩ មកពីមូលដ្ឋានទិន្នន័យ ១០០% REDATAM របស់ NIS (១៥,៥៥២,២១១ នាក់)។ ប្រជាជនតាមដែនដីចំនួន ១៥,៥៥១,៦៣៧ នាក់ (៩៩.៩៩៦%) ត្រូវបានបញ្ចូលក្នុងស្រុកទាំង ២០២ ចំណែក ៥៧៤ នាក់ទៀតជាលេខកូដពិសេស 269999។",
-    heroCaption: "រូបភាពបង្កើតដោយ AI សម្រាប់រចនាបថគេហទំព័រ មិនមែនជារូបភាពផ្កាយរណបទេ។",
+    m2Body: "នៅខែមីនា ឆ្នាំ ១៩៩៨ ស្រុកជាប់ព្រំដែនចំនួន ៣ (អន្លង់វែង សំឡូត និងវាលវែង) មិនអាចជំរឿនបានដោយសារប្រតិបត្តិការយោធា។ បន្ទះទិន្នន័យរក្សាទាំងតួលេខជំរឿនផ្ទាល់ (១១,៤៣៧,៦៥៦ នាក់) និងតួលេខកែសម្រួលតាម NIS (+៤៣,០០០ នាក់)។",
+    m3Title: "៣. ជំរឿនឆ្នាំ ២០១៩ (100% REDATAM) និងការភ្ជាប់ពហុអថេរ",
+    m3Body: "សូចនាករឆ្នាំ ២០១៩ ត្រូវបានគណនាដោយផ្ទាល់ពីមូលដ្ឋានទិន្នន័យ ១០០% REDATAM របស់ NIS (១៩,១៤៧,៦៩៦ កំណត់ត្រា; ១៥,៥៥២,២១១ នាក់; មិនបង្ហាញទិន្នន័យបុគ្គលទេ)។ ប្រជាជនតាមដែនដី ១៥,៥៥១,៦៣៧ នាក់ (៩៩.៩៩៦%) ត្រូវបានបញ្ចូលក្នុងស្រុកទាំង ២០២។",
     m4Title: "៤. ប្រភពទិន្នន័យ និងផែនទីពិតប្រាកដ",
-    m4List: "<li><strong>ជំរឿនឆ្នាំ ១៩៩៨ (CSV និង shapefiles)៖</strong> <a href='https://data.opendevelopmentcambodia.net/dataset/census-1998' target='_blank' rel='noopener'>Open Development Cambodia — Census 1998 ↗</a>។</li><li><strong>ជំរឿនឆ្នាំ ២០០៨ (CSV និង shapefiles)៖</strong> <a href='https://data.opendevelopmentcambodia.net/en/dataset/census-2008' target='_blank' rel='noopener'>Open Development Cambodia — Census 2008 ↗</a>។</li><li><strong>ជំរឿនឆ្នាំ ២០១៩ (100% REDATAM និង shapefiles)៖</strong> <a href='https://nis.gov.kh/en/statistical-table/' target='_blank' rel='noopener'>វិទ្យាស្ថានជាតិស្ថិតិ (NIS Cambodia) — REDATAM 2019 ↗</a>។</li><li><strong>ព្រំប្រទល់យោង (Quarcs Cambodia shapefile 202)៖</strong> <a href='https://github.com/quarcs-lab/geo4cambodia' target='_blank' rel='noopener'>QuaRCS Lab / GDO-Cambodia ↗</a>។</li><li><strong>ឯកសារប្រវត្តិសាស្ត្រអំពីតំបន់ជម្លោះឆ្នាំ ១៩៩៨ (សម្រាប់ការប៉ាន់ស្មាន +៤៣,០០០ ប៉ុណ្ណោះ)៖</strong> <a href='https://nis.gov.kh/wp-content/uploads/2025/09/General-Population-Census1998.pdf' target='_blank' rel='noopener'>NIS 1998 Final Results</a>, <a href='https://nis.gov.kh/nis/census2008/GPC2008_Report_ENG.pdf' target='_blank' rel='noopener'>NIS 2008 National Report</a> និងកំណត់ចំណាំ <a href='https://international.ipums.org/international-action/variables/GEO2_KH1998' target='_blank' rel='noopener'>IPUMS GEO2_KH1998</a> (ផែនទីមិនបានមកពី IPUMS ទេ)។</li>",
+    m4List: "<li><strong>ជំរឿនឆ្នាំ ១៩៩៨ (CSV និង shapefiles)៖</strong> <a href='https://data.opendevelopmentcambodia.net/dataset/census-1998' target='_blank' rel='noopener'>Open Development Cambodia — Census 1998 ↗</a>។</li><li><strong>ជំរឿនឆ្នាំ ២០០៨ (CSV និង shapefiles)៖</strong> <a href='https://data.opendevelopmentcambodia.net/en/dataset/census-2008' target='_blank' rel='noopener'>Open Development Cambodia — Census 2008 ↗</a>។</li><li><strong>ជំរឿនឆ្នាំ ២០១៩ (100% REDATAM និង shapefiles)៖</strong> <a href='https://nis.gov.kh/en/statistical-table/' target='_blank' rel='noopener'>វិទ្យាស្ថានជាតិស្ថិតិ (NIS Cambodia) — REDATAM 2019 ↗</a>។</li><li><strong>ព្រំប្រទល់យោង (Quarcs Cambodia shapefile 202)៖</strong> <a href='https://github.com/quarcs-lab/geo4cambodia' target='_blank' rel='noopener'>QuaRCS Lab / GDO-Cambodia ↗</a>។</li>",
     m5Title: "៥. ប្រព័ន្ធគម្រោង និងអ្នកនិពន្ធ",
     m5Body: "ស្ថានីយ៍អង្កេតនេះជាផ្នែកមួយនៃគម្រោង <strong>Geo4Cambodia / GDO-Cambodia</strong> ដែលបង្កើតឡើងដោយ <strong>Favio Leiva</strong> ក្រោមអភិបាលកិច្ចកិច្ចសន្យា <code>AGENTS.md</code> ដោយភ្ជាប់ជាមួយ QuaRCS Lab (Carlos Mendez) និងស្ថានីយ៍អង្កេត Geo4Bolivia។",
     footAuthor: "អ្នកនិពន្ធ៖ <strong>Favio Leiva</strong> · ដំណើរការដោយ <strong>Gemini 4 Neon via Antigravity</strong>",
     footNote: "ផ្នែកមួយនៃ GDO-Cambodia (QuaRCS Lab) និងគ្រួសារ Geo4Bolivia · អភិបាលកិច្ច AGENTS.md",
-    highestValues: "តម្លៃខ្ពស់បំផុត",
-    lowestValues: "តម្លៃទាបបំផុត",
-    rankingCtx: "ចំណាត់ថ្នាក់ប្រជាជន · ជំរឿនឆ្នាំ {y} · ស្រុក/ខណ្ឌដីគោក ១៩៧ (មិនរាប់បញ្ចូលផ្ទៃទឹកបឹងទន្លេសាប ៥) · ចុចលើជួរណាមួយដើម្បីពិនិត្យ",
+    highestValues: "តម្លៃខ្ពស់បំផុត", lowestValues: "តម្លៃទាបបំផុត",
+    rankingCtx: "{v} · ជំរឿនឆ្នាំ {y} · ស្រុក/ខណ្ឌដីគោក {n} (មិនរាប់បញ្ចូលបឹងទន្លេសាប ៥) · ចុចលើជួរណាមួយដើម្បីពិនិត្យ",
     searchPh: "ស្វែងរកស្រុក ឬខេត្ត...",
-    rankLbl: "ចំណាត់ថ្នាក់ ២០១៩",
-    mapTitleFmt: "ជំរឿនឆ្នាំ {y} · ២០២ ស្រុក/ខណ្ឌ",
-    mapMetaFmt: "ប្រជាជនសរុបតាមដែនដី៖ {n} នាក់",
+    rankLbl: "ចំណាត់ថ្នាក់ {y}",
+    mapMetaCount: "សរុបតាមដែនដី៖ {n} · {c} ស្រុក/ខណ្ឌ",
+    mapMetaRate: "មធ្យមភាគជាតិមានទម្ងន់៖ {n} · {c} ស្រុក/ខណ្ឌ",
     estBadge: "រួមបញ្ចូលការប៉ាន់ស្មាន NIS ១៩៩៨ (+{n} នាក់ តំបន់ជម្លោះ)",
-    naLabel: "NA (ជម្លោះ ១៩៩៨)"
+    naLabel: "គ្មានទិន្នន័យ", waterLabel: "បឹងទន្លេសាប (ផ្ទៃទឹក)",
+    scaleLog: "មាត្រដ្ឋានលោការីតរួម", scaleLin: "មាត្រដ្ឋានលីនេអ៊ែររួម",
+    trajLbl: "និន្នាការ ({w})", only2019: "ជំរឿនឆ្នាំ ២០១៩ តែប៉ុណ្ណោះ", only9808: "១៩៩៨ · ២០០៨ តែប៉ុណ្ណោះ",
+    covWarn: "វិសាលភាពទិន្នន័យ ១៩៩៨៖ {p}%"
   }
 };
 
 let lang = "es";
+let activeBlock = "Demography";
+let activeVar = "pop_total";
 let activeYear = 2019;
 let useNisAdj = true;
-let selectedId = [...DATA].filter(d => !d.water).sort((a,b) => (b.p19||0) - (a.p19||0))[0].id;
-
-// Fixed identical log scale matching all 3 static PNGs (3,500 to 320,000)
-const LOG_MIN = Math.log10(3500);
-const LOG_MAX = Math.log10(320000);
+let selectedId = "KH-16-09"; // Pur Sen Chey (#1 in 2019)
 
 const STOPS = [
   [0.00, [43,92,159]],
@@ -592,11 +613,57 @@ const STOPS = [
   [0.75, [244,109,67]],
   [1.00, [215,48,39]]
 ];
-function colorScale(val) {
-  if (val === null || val === undefined || val <= 0) return "#1e293b";
-  const t = Math.max(0, Math.min(1, (Math.log10(val) - LOG_MIN) / (LOG_MAX - LOG_MIN)));
+
+function getVarMeta() {
+  return VARS_BY_ID[activeVar];
+}
+
+function getVal(d, y, varId = activeVar) {
+  if (d.water) return null;
+  if (varId === "pop_total" && y === 1998 && useNisAdj) return d.p98a;
+  const arr = MV.values[varId]?.[String(y)];
+  return arr ? arr[d.idx] : null;
+}
+
+function fmtVal(v, meta = getVarMeta(), compact = false) {
+  if (v === null || v === undefined) return "NA";
+  if (meta.kind === "count") {
+    if (compact && Math.abs(v) >= 1000000) return (v / 1000000).toFixed(2) + "M";
+    return Math.round(v).toLocaleString();
+  }
+  if (meta.kind === "pct") return v.toFixed(1) + "%";
+  return v.toFixed(2);
+}
+
+function fmtDelta(vPrev, vCurr, meta = getVarMeta()) {
+  if (vPrev === null || vCurr === null || vPrev === undefined || vCurr === undefined) return "";
+  if (meta.kind === "pct") {
+    const d = vCurr - vPrev;
+    return `${d >= 0 ? "+" : ""}${d.toFixed(1)} pp`;
+  }
+  if (meta.kind === "count") {
+    if (vPrev <= 0) return "";
+    const pct = ((vCurr - vPrev) / vPrev) * 100;
+    return `${pct >= 0 ? "+" : ""}${pct.toFixed(1)}%`;
+  }
+  const d = vCurr - vPrev;
+  return `${d >= 0 ? "+" : ""}${d.toFixed(2)}`;
+}
+
+function colorScale(val, meta = getVarMeta()) {
+  if (val === null || val === undefined) return "#1e293b";
+  let t;
+  if (meta.scale === "log") {
+    if (val <= 0) return "#1e293b";
+    const lmin = Math.log10(Math.max(1, meta.min));
+    const lmax = Math.log10(Math.max(meta.min + 1, meta.max));
+    t = Math.max(0, Math.min(1, (Math.log10(val) - lmin) / (lmax - lmin)));
+  } else {
+    const span = Math.max(1e-9, meta.max - meta.min);
+    t = Math.max(0, Math.min(1, (val - meta.min) / span));
+  }
   for (let i = 0; i < STOPS.length - 1; i++) {
-    const [t0, c0] = STOPS[i], [t1, c1] = STOPS[i+1];
+    const [t0, c0] = STOPS[i], [t1, c1] = STOPS[i + 1];
     if (t >= t0 && t <= t1) {
       const u = (t - t0) / (t1 - t0);
       const r = Math.round(c0[0] + u * (c1[0] - c0[0]));
@@ -608,10 +675,53 @@ function colorScale(val) {
   return "rgb(215,48,39)";
 }
 
-function getVal(d, y) {
-  if (y === 1998) return useNisAdj ? d.p98a : d.p98;
-  if (y === 2008) return d.p08;
-  return d.p19;
+function populateBlocks() {
+  const sel = document.getElementById("blockSelect");
+  sel.innerHTML = MV.blocks.map(b => `<option value="${b.id}">${b[lang]}</option>`).join("");
+  sel.value = activeBlock;
+}
+
+function populateVariables() {
+  const sel = document.getElementById("varSelect");
+  const list = MV.variables.filter(v => v.block === activeBlock);
+  sel.innerHTML = list.map(v => `<option value="${v.id}">${v[lang]}</option>`).join("");
+  if (!list.some(v => v.id === activeVar)) {
+    activeVar = list[0].id;
+  }
+  sel.value = activeVar;
+  syncYearAvailability();
+}
+
+function syncYearAvailability() {
+  const meta = getVarMeta();
+  const t = I18N[lang];
+  if (!meta.years.includes(activeYear)) {
+    activeYear = meta.years[meta.years.length - 1];
+  }
+  document.querySelectorAll(".years button").forEach(btn => {
+    const y = Number(btn.dataset.year);
+    const ok = meta.years.includes(y);
+    btn.disabled = !ok;
+    btn.setAttribute("aria-pressed", ok && y === activeYear);
+  });
+  const nisWrap = document.getElementById("nisToggleWrap");
+  const waveBadge = document.getElementById("waveBadge");
+  if (activeVar === "pop_total") {
+    nisWrap.style.display = "flex";
+    waveBadge.style.display = "none";
+  } else {
+    nisWrap.style.display = "none";
+    if (meta.years.length === 1 && meta.years[0] === 2019) {
+      waveBadge.textContent = t.only2019;
+      waveBadge.style.display = "inline-flex";
+    } else if (meta.years.length === 2) {
+      waveBadge.textContent = t.only9808;
+      waveBadge.style.display = "inline-flex";
+    } else {
+      waveBadge.style.display = "none";
+    }
+  }
+  document.getElementById("downloadMap").style.display = activeVar === "pop_total" ? "inline-flex" : "none";
 }
 
 // Map zoom & pan state
@@ -657,7 +767,6 @@ function updateFocusBox() {
   const inner = document.getElementById("focusBoxInner");
   if (!el || !box || !inner) return;
   try {
-    // Bring active polygon to top of districtsLayer so contrast fill & stroke are never occluded
     el.parentNode.appendChild(el);
     const bb = el.getBBox();
     const side = Math.max(28, Math.max(bb.width, bb.height) + 12);
@@ -683,62 +792,147 @@ function selectDistrict(id) {
   requestAnimationFrame(updateFocusBox);
 }
 
+function renderLegend() {
+  const meta = getVarMeta();
+  const t = I18N[lang];
+  const ticksEl = document.getElementById("legendTicks");
+  let ticks = [];
+  if (activeVar === "pop_total") {
+    ticks = ["5,000", "10,000", "25,000", "50,000", "100,000", "250,000"];
+  } else if (meta.scale === "log") {
+    const lmin = Math.log10(Math.max(1, meta.min));
+    const lmax = Math.log10(Math.max(meta.min + 1, meta.max));
+    for (let i = 0; i < 6; i++) {
+      const v = Math.pow(10, lmin + (i / 5) * (lmax - lmin));
+      ticks.push(fmtVal(v, meta, true));
+    }
+  } else {
+    for (let i = 0; i < 6; i++) {
+      const v = meta.min + (i / 5) * (meta.max - meta.min);
+      ticks.push(fmtVal(v, meta, true));
+    }
+  }
+  ticksEl.innerHTML = ticks.map(s => `<span>${s}</span>`).join("");
+  const scaleDesc = meta.scale === "log" ? t.scaleLog : t.scaleLin;
+  const wStr = meta.years.length > 1 ? `${meta.years[0]}–${meta.years[meta.years.length - 1]}` : String(meta.years[0]);
+  document.getElementById("legendLabel").textContent = `${meta[lang]} (${scaleDesc}, ${wStr})`;
+  document.getElementById("legendRange").textContent = `${fmtVal(meta.min, meta)} – ${fmtVal(meta.max, meta)}`;
+}
+
 function renderMap() {
+  const meta = getVarMeta();
+  const t = I18N[lang];
   let total = 0;
+  let validCount = 0;
   document.querySelectorAll(".district").forEach(el => {
     const d = BY_ID[el.dataset.id];
     const v = getVal(d, activeYear);
-    if (v) total += v;
-    el.setAttribute("fill", d.water ? "#123463" : colorScale(v));
+    if (!d.water && v !== null) {
+      validCount += 1;
+      if (meta.kind === "count") total += v;
+    }
+    el.setAttribute("fill", d.water ? "#123463" : colorScale(v, meta));
     el.classList.toggle("active", d.id === selectedId);
-    el.classList.toggle("est-hatched", activeYear === 1998 && useNisAdj && d.est98);
+    el.classList.toggle("est-hatched", activeVar === "pop_total" && activeYear === 1998 && useNisAdj && d.est98);
   });
-  const t = I18N[lang];
-  document.getElementById("mapTitle").textContent = t.mapTitleFmt.replace("{y}", activeYear);
-  document.getElementById("mapMeta").textContent = t.mapMetaFmt.replace("{n}", total.toLocaleString());
-  document.getElementById("downloadMap").setAttribute("href", `population_${activeYear}.png`);
+  document.getElementById("mapTitle").textContent = `${meta[lang]} · ${activeYear}`;
+  if (meta.kind === "count") {
+    document.getElementById("mapMeta").textContent = t.mapMetaCount
+      .replace("{n}", Math.round(total).toLocaleString())
+      .replace("{c}", validCount);
+  } else {
+    const natVal = meta.nat[String(activeYear)];
+    document.getElementById("mapMeta").textContent = t.mapMetaRate
+      .replace("{n}", fmtVal(natVal, meta))
+      .replace("{c}", validCount);
+  }
+  if (activeVar === "pop_total") {
+    document.getElementById("downloadMap").setAttribute("href", `population_${activeYear}.png`);
+  }
+  renderLegend();
   requestAnimationFrame(updateFocusBox);
 }
 
 function renderInspector() {
   const d = BY_ID[selectedId];
+  const meta = getVarMeta();
   const t = I18N[lang];
-  const v98 = useNisAdj ? d.p98a : d.p98;
-  document.getElementById("inspGeoId").textContent = d.water ? `${d.id} · Tonlé Sap (Water)` : `${d.id} · ${t.rankLbl} #${d.r19}`;
+  const v98 = getVal(d, 1998);
+  const v08 = getVal(d, 2008);
+  const v19 = getVal(d, 2019);
+
+  // Compute live rank in activeYear
+  const ranked = DISTRICTS
+    .filter(x => !x.water)
+    .map(x => ({ id: x.id, v: getVal(BY_ID[x.id], activeYear) }))
+    .filter(x => x.v !== null)
+    .sort((a, b) => b.v - a.v);
+  const rkIdx = ranked.findIndex(x => x.id === d.id);
+  const rkStr = rkIdx >= 0 ? `#${rkIdx + 1}/${ranked.length}` : "NA";
+
+  document.getElementById("inspGeoId").textContent = d.water
+    ? `${d.id} · ${t.waterLabel}`
+    : `${d.id} · ${t.rankLbl.replace("{y}", activeYear)} ${rkStr}`;
   document.getElementById("inspName").textContent = d.name;
   document.getElementById("inspProv").textContent = d.prov;
-  document.getElementById("inspBadge").innerHTML = d.est98
-    ? `<span class="badge-est">${t.estBadge.replace("{n}", d.est98_add.toLocaleString())}</span>`
-    : "";
 
-  document.getElementById("v98").textContent = v98 === null ? "NA" : v98.toLocaleString();
+  let badgeHtml = "";
+  if (activeVar === "pop_total" && d.est98) {
+    badgeHtml = `<span class="badge-est">${t.estBadge.replace("{n}", d.est98_add.toLocaleString())}</span>`;
+  } else if (activeYear === 1998 && !d.water && activeVar.startsWith("light_")) {
+    const cov = MV.cov98.light[d.idx];
+    if (cov !== null && cov < 95) badgeHtml = `<span class="badge-est">${t.covWarn.replace("{p}", cov.toFixed(1))}</span>`;
+  } else if (activeYear === 1998 && !d.water && (activeVar.startsWith("fuel_") || activeVar.startsWith("toilet_") || activeVar.startsWith("water_"))) {
+    const cov = MV.cov98.fuel[d.idx];
+    if (cov !== null && cov < 95) badgeHtml = `<span class="badge-est">${t.covWarn.replace("{p}", cov.toFixed(1))}</span>`;
+  }
+  document.getElementById("inspBadge").innerHTML = badgeHtml;
+
+  document.getElementById("v98").textContent = fmtVal(v98, meta);
   document.getElementById("s98").textContent = v98 === null ? t.naLabel : "";
-  document.getElementById("v08").textContent = d.p08 === null ? "NA" : d.p08.toLocaleString();
-  document.getElementById("s08").textContent = (v98 && v98 > 0) ? `${(((d.p08 - v98)/v98)*100 >= 0 ? "+" : "") + (((d.p08 - v98)/v98)*100).toFixed(1)}%` : "";
-  document.getElementById("v19").textContent = d.p19 === null ? "NA" : d.p19.toLocaleString();
-  document.getElementById("s19").textContent = d.g0819 !== null ? `${(d.g0819 >= 0 ? "+" : "") + d.g0819}%` : "";
+  document.getElementById("v08").textContent = fmtVal(v08, meta);
+  document.getElementById("s08").textContent = v08 === null ? t.naLabel : fmtDelta(v98, v08, meta);
+  document.getElementById("v19").textContent = fmtVal(v19, meta);
+  document.getElementById("s19").textContent = v19 === null ? t.naLabel : fmtDelta(v08, v19, meta);
 
-  const gTot = (v98 && v98 > 0) ? (((d.p19 - v98) / v98) * 100).toFixed(1) : null;
-  document.getElementById("inspGrowth").textContent = gTot !== null ? `1998→2019: ${(+gTot >= 0 ? "+" : "") + gTot}%` : `2008→2019: ${(d.g0819 >= 0 ? "+" : "") + d.g0819}%`;
+  const wStr = meta.years.join(" · ");
+  document.getElementById("trajTitle").textContent = `${meta[lang]} (${wStr})`;
+  let growthTxt = "—";
+  if (v98 !== null && v19 !== null) {
+    growthTxt = `1998→2019: ${fmtDelta(v98, v19, meta)}`;
+  } else if (v08 !== null && v19 !== null) {
+    growthTxt = `2008→2019: ${fmtDelta(v08, v19, meta)}`;
+  } else if (v98 !== null && v08 !== null) {
+    growthTxt = `1998→2008: ${fmtDelta(v98, v08, meta)}`;
+  } else if (v19 !== null) {
+    growthTxt = `2019: ${fmtVal(v19, meta)}`;
+  }
+  document.getElementById("inspGrowth").textContent = growthTxt;
 
-  const mx = Math.max(v98 || 0, d.p08 || 0, d.p19 || 0, 1);
-  document.getElementById("b98").style.height = `${Math.max(4, ((v98 || 0) / mx) * 100)}%`;
-  document.getElementById("b08").style.height = `${Math.max(4, ((d.p08 || 0) / mx) * 100)}%`;
-  document.getElementById("b19").style.height = `${Math.max(4, ((d.p19 || 0) / mx) * 100)}%`;
+  const mx = Math.max(v98 || 0, v08 || 0, v19 || 0, meta.kind === "pct" ? 100 : 1);
+  document.getElementById("b98").style.height = v98 === null ? "3%" : `${Math.max(5, (v98 / mx) * 100)}%`;
+  document.getElementById("b08").style.height = v08 === null ? "3%" : `${Math.max(5, (v08 / mx) * 100)}%`;
+  document.getElementById("b19").style.height = v19 === null ? "3%" : `${Math.max(5, (v19 / mx) * 100)}%`;
 }
 
 function renderRankings() {
+  const meta = getVarMeta();
   const t = I18N[lang];
-  document.getElementById("rankingContext").textContent = t.rankingCtx.replace("{y}", activeYear);
-  const land = DATA
-    .filter(d => !d.name.toLowerCase().includes("tonl"))
-    .map(d => ({ d, v: getVal(d, activeYear) }))
-    .filter(x => x.v !== null && x.v > 0);
+  const land = DISTRICTS
+    .filter(d => !d.water)
+    .map(d => ({ d: BY_ID[d.id], v: getVal(BY_ID[d.id], activeYear) }))
+    .filter(x => x.v !== null);
+
+  document.getElementById("rankingContext").textContent = t.rankingCtx
+    .replace("{v}", meta[lang])
+    .replace("{y}", activeYear)
+    .replace("{n}", land.length);
+
   const sortedDesc = [...land].sort((a, b) => b.v - a.v);
   const top10 = sortedDesc.slice(0, 10);
   const bottom10 = [...sortedDesc].reverse().slice(0, 10);
-  const maxTop = top10.length ? top10[0].v : 1;
-  const maxBot = bottom10.length ? bottom10[bottom10.length - 1].v : 1;
+  const maxTop = top10.length ? Math.max(top10[0].v, 1e-6) : 1;
+  const maxBot = bottom10.length ? Math.max(bottom10[bottom10.length - 1].v, 1e-6) : 1;
 
   function renderList(elId, rows, denom, startRank, ascending) {
     const el = document.getElementById(elId);
@@ -746,14 +940,14 @@ function renderRankings() {
       const rk = ascending ? (sortedDesc.length - idx) : (startRank + idx);
       const pct = Math.max(4, Math.min(100, (item.v / denom) * 100));
       const act = item.d.id === selectedId ? "active" : "";
-      const col = colorScale(item.v);
+      const col = colorScale(item.v, meta);
       return `<li class="${act}" data-id="${item.d.id}" tabindex="0" title="${item.d.name} (${item.d.prov})">
         <span class="rnum">#${rk}</span>
         <div class="rinfo">
           <div class="rname">${item.d.name}</div>
           <div class="rbar-wrap"><div class="rbar" style="width:${pct.toFixed(1)}%;background:${col}"></div></div>
         </div>
-        <span class="rval">${item.v.toLocaleString()}</span>
+        <span class="rval">${fmtVal(item.v, meta)}</span>
       </li>`;
     }).join("");
     el.querySelectorAll("li").forEach(li => {
@@ -775,6 +969,8 @@ function applyLang() {
     if (t[k]) el.innerHTML = t[k];
   });
   document.getElementById("searchInput").placeholder = t.searchPh;
+  populateBlocks();
+  populateVariables();
   renderMap();
   renderInspector();
   renderRankings();
@@ -789,11 +985,29 @@ document.querySelectorAll(".lang button").forEach(btn => {
   });
 });
 
+document.getElementById("blockSelect").addEventListener("change", e => {
+  activeBlock = e.target.value;
+  populateVariables();
+  renderMap();
+  renderInspector();
+  renderRankings();
+});
+
+document.getElementById("varSelect").addEventListener("change", e => {
+  activeVar = e.target.value;
+  syncYearAvailability();
+  renderMap();
+  renderInspector();
+  renderRankings();
+});
+
 document.querySelectorAll(".years button").forEach(btn => {
   btn.addEventListener("click", () => {
+    if (btn.disabled) return;
     activeYear = Number(btn.dataset.year);
     document.querySelectorAll(".years button").forEach(b => b.setAttribute("aria-pressed", b === btn));
     renderMap();
+    renderInspector();
     renderRankings();
   });
 });
@@ -852,8 +1066,10 @@ document.querySelectorAll(".district").forEach(el => {
   el.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); selectDistrict(el.dataset.id); } });
   el.addEventListener("mousemove", e => {
     const d = BY_ID[el.dataset.id];
+    const meta = getVarMeta();
     const v = getVal(d, activeYear);
-    tip.innerHTML = `<strong>${d.name}</strong> (${d.prov})<br>${activeYear}: ${v === null ? "NA" : v.toLocaleString()}`;
+    const valStr = d.water ? I18N[lang].waterLabel : fmtVal(v, meta);
+    tip.innerHTML = `<strong>${d.name}</strong> (${d.prov})<br><span style="color:var(--sky)">${meta[lang]}</span><br>${activeYear}: <strong>${valStr}</strong>`;
     tip.style.display = "block";
     tip.style.left = (e.clientX + 14) + "px";
     tip.style.top = (e.clientY + 14) + "px";
@@ -867,7 +1083,7 @@ const sRes = document.getElementById("searchResults");
 sIn.addEventListener("input", () => {
   const q = sIn.value.trim().toLowerCase();
   if (!q) { sRes.style.display = "none"; return; }
-  const hits = DATA.filter(d => d.name.toLowerCase().includes(q) || d.prov.toLowerCase().includes(q) || d.id.toLowerCase().includes(q)).slice(0, 12);
+  const hits = DISTRICTS.filter(d => d.name.toLowerCase().includes(q) || d.prov.toLowerCase().includes(q) || d.id.toLowerCase().includes(q)).slice(0, 12);
   sRes.innerHTML = hits.map(d => `<button data-id="${d.id}"><span>${d.name}</span><span style="color:var(--muted)">${d.prov}</span></button>`).join("");
   sRes.style.display = hits.length ? "block" : "none";
   sRes.querySelectorAll("button").forEach(b => b.addEventListener("click", () => {

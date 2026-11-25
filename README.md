@@ -19,6 +19,22 @@ It combines:
 
 ---
 
+
+---
+
+## v3 Release Highlights — Complete 3-Wave Multi-Variable Observatory (`1998 · 2008 · 2019`)
+
+- **Interactive Trilingual Variable Selector (`ES` · `EN` · `ខ្មែរ`):** Explore **69 harmonized indicators** across **10 thematic blocks** (Demography, Age Structure, Education, Labor Market, Housing & Services, Agro-Mechanization, ICT & Assets, Transport Assets, Religion, and Marital Status) directly on `index.html`, with all labels, legends, tooltips, trajectories, and Top 10 / Bottom 10 rankings dynamically localized in Spanish, English, and Khmer.
+- **New Harmonized Open Datasets:**
+  - [`data/harmonized_panel202/panel202_multivar_1998_2008_2019_long.csv`](data/harmonized_panel202/panel202_multivar_1998_2008_2019_long.csv) (`606` rows × `63` cols)
+  - [`data/harmonized_panel202/panel202_multivar_1998_2008_2019_wide.csv`](data/harmonized_panel202/panel202_multivar_1998_2008_2019_wide.csv) (`202` rows × `176` cols)
+  - [`data/harmonized_panel202/panel202_assets_agromech_2019.csv`](data/harmonized_panel202/panel202_assets_agromech_2019.csv) (`202` rows × `20` cols: tractors, koyaon, cellphone, home internet, motorbike, car, TV)
+  - [`data/census_2019/commune_2019_multivar_aggregated.csv`](data/census_2019/commune_2019_multivar_aggregated.csv) (`1,648` communes × `72` aggregated counters; zero microdata)
+  - [`docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.md`](docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.md) & [`docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.csv`](docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.csv) (78 variables documented in `EN`, `ES`, and `ខ្មែរ`)
+  - [`data/panel202_multivar_web.json`](data/panel202_multivar_web.json) (compact JSON payload powering the web observatory)
+
+---
+
 ## Repository Structure (41 files · 70.72 MB)
 
 ```text

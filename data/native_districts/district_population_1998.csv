@@ -1,0 +1,185 @@
+poly_id,code_4,district_name,Name,population,male,female,LAND_AREA,DENSITY,population_recorded,population_enumerated_na,is_nis_estimate,population_source,join_status
+1998_000,1903,Siem Pang,Siem Pang,13517,6601,6916,4207.8,3.2,13517,13517.0,False,census_1998_enumerated,matched
+1998_001,1601,Andoung Meas,Andoung Meas,6896,3419,3477,766.1,9.0,6896,6896.0,False,census_1998_enumerated,matched
+1998_002,1607,Ou Ya Dav,Ou Ya Dav,10898,5410,5488,1527.1,7.1,10898,10898.0,False,census_1998_enumerated,matched
+1998_003,1603,Bar Kaev,Bar Kaev,11758,5754,6004,427.6,27.5,11758,11758.0,False,census_1998_enumerated,matched
+1998_004,1605,Lumphat,Lumphat,10301,5054,5247,1671.3,6.2,10301,10301.0,False,census_1998_enumerated,matched
+1998_005,1102,Kaoh Nheaek,Kaoh Nheaek,8919,4380,4539,5521.2,1.6,8919,8919.0,False,census_1998_enumerated,matched
+1998_006,1904,Stueng Traeng,Stueng Traeng,24493,12321,12172,636.6,38.5,24493,24493.0,False,census_1998_enumerated,matched
+1998_007,1905,Thala Barivat,Thala Barivat,21577,10572,11005,2405.1,9.0,21577,21577.0,False,census_1998_enumerated,matched
+1998_008,1302,Chhaeb,Chhaeb,12450,6017,6433,2494.0,5.0,12450,12450.0,False,census_1998_enumerated,matched
+1998_009,1901,Sesan,Sesan,11252,5545,5707,2495.1,4.5,11252,11252.0,False,census_1998_enumerated,matched
+1998_010,1104,Pechr Chenda,Pechr Chenda,5129,2556,2573,3755.3,1.4,5129,5129.0,False,census_1998_enumerated,matched
+1998_011,1004,Sambour,Sambour,41732,20635,21097,4975.2,8.4,41732,41732.0,False,census_1998_enumerated,matched
+1998_012,0606,Sandan,Sandan,38574,18679,19895,3289.4,11.7,38574,38574.0,False,census_1998_enumerated,matched
+1998_013,0604,Prasat Balangk,Prasat Balangk,40516,19318,21198,1524.8,26.6,40516,40516.0,False,census_1998_enumerated,matched
+1998_014,1005,Snuol,Snuol,35156,17596,17560,2611.0,13.5,35156,35156.0,False,census_1998_enumerated,matched
+1998_015,0310,Memot,Memot,111296,54078,57218,1588.2,70.1,111296,111296.0,False,census_1998_enumerated,matched
+1998_016,0312,Ponhea Kraek,Ponhea Kraek,123879,59797,64082,785.6,157.7,123879,123879.0,False,census_1998_enumerated,matched
+1998_017,2004,Romeas Haek,Romeas Haek,111505,52419,59086,788.9,141.3,111505,111505.0,False,census_1998_enumerated,matched
+1998_018,1402,Kamchay Mear,Kamchay Mear,71284,33184,38100,475.4,149.9,71284,71284.0,False,census_1998_enumerated,matched
+1998_019,0304,Dambae,Dambae,51650,25233,26417,756.6,68.3,51650,51650.0,False,census_1998_enumerated,matched
+1998_020,1001,Chhloung,Chhloung,50407,24748,25659,802.6,62.8,50407,50407.0,False,census_1998_enumerated,matched
+1998_021,1002,Kracheh,Kracheh,79123,39235,39888,1433.1,55.2,79123,79123.0,False,census_1998_enumerated,matched
+1998_022,1902,Siem Bouk,Siem Bouk,10235,5085,5150,1347.3,7.6,10235,10235.0,False,census_1998_enumerated,matched
+1998_023,1301,Chey Saen,Chey Saen,15004,7346,7658,1080.2,13.9,15004,15004.0,False,census_1998_enumerated,matched
+1998_024,1305,Rovieng,Rovieng,26552,13263,13289,2145.8,12.4,26552,26552.0,False,census_1998_enumerated,matched
+1998_025,0605,Prasat Sambour,Prasat Sambour,36983,17684,19299,818.9,45.2,36983,36983.0,False,census_1998_enumerated,matched
+1998_026,0302,Chamkar Leu,Chamkar Leu,125862,61500,64362,620.1,203.0,125862,125862.0,False,census_1998_enumerated,matched
+1998_027,0311,Ou Reang Ov,Ou Reang Ov,82806,39327,43479,353.2,234.4,82806,82806.0,False,census_1998_enumerated,matched
+1998_028,1404,Kanhchriech,Kanhchriech,56036,25626,30410,324.4,172.7,56036,56036.0,False,census_1998_enumerated,matched
+1998_029,2003,Rumduol,Rumduol,49384,23246,26138,284.2,173.8,49384,49384.0,False,census_1998_enumerated,matched
+1998_030,1101,Kaev Seima,Kaev Seima,8854,4655,4199,3336.7,2.7,8854,8854.0,False,census_1998_enumerated,matched
+1998_031,1103,Ou Reang,Ou Reang,2473,1200,1273,1163.8,2.1,2473,2473.0,False,census_1998_enumerated,matched
+1998_032,1606,Ou Chum,Ou Chum,11863,5737,6126,510.6,23.2,11863,11863.0,False,census_1998_enumerated,matched
+1998_033,1604,Koun Mom,Koun Mom,8814,4325,4489,1919.5,4.6,8814,8814.0,False,census_1998_enumerated,matched
+1998_034,1602,Ban Lung,Ban Lung,16999,8577,8422,184.5,92.1,16999,16999.0,False,census_1998_enumerated,matched
+1998_035,1307,Tbaeng Mean Chey,Tbaeng Mean Chey,21580,10719,10861,912.8,23.6,21580,21580.0,False,census_1998_enumerated,matched
+1998_036,1304,Kuleaen,Kuleaen,13829,6805,7024,2150.2,6.4,13829,13829.0,False,census_1998_enumerated,matched
+1998_037,1306,Sangkom Thmei,Sangkom Thmei,13773,6705,7068,1300.8,10.6,13773,13773.0,False,census_1998_enumerated,matched
+1998_038,0601,Baray,Baray,159586,76865,82721,1453.5,109.8,159586,159586.0,False,census_1998_enumerated,matched
+1998_039,1403,Kampong Trabaek,Kampong Trabaek,106555,50178,56377,517.4,205.9,106555,106555.0,False,census_1998_enumerated,matched
+1998_040,1409,Preah Sdach,Preah Sdach,106459,50420,56039,494.7,215.2,106459,106459.0,False,census_1998_enumerated,matched
+1998_041,2001,Chantrea,Chantrea,45439,21835,23604,429.0,105.9,45439,45439.0,False,census_1998_enumerated,matched
+1998_042,2007,Svay Teab,Svay Teab,59650,28001,31649,442.4,134.8,59650,59650.0,False,census_1998_enumerated,matched
+1998_043,2005,Svay Chrum,Svay Chrum,129573,60319,69254,569.9,227.4,129573,129573.0,False,census_1998_enumerated,matched
+1998_044,2002,Kampong Rou,Kampong Rou,61496,29050,32446,429.1,143.3,61496,61496.0,False,census_1998_enumerated,matched
+1998_045,1405,Me Sang,Me Sang,92359,42720,49639,418.1,220.9,92359,92359.0,False,census_1998_enumerated,matched
+1998_046,1406,Peam Chor,Peam Chor,66413,32445,33968,448.3,148.1,66413,66413.0,False,census_1998_enumerated,matched
+1998_047,2105,Kaoh Andaet,Kaoh Andaet,45650,21940,23710,357.5,127.7,45650,45650.0,False,census_1998_enumerated,matched
+1998_048,2103,Bourei Cholsar,Bourei Cholsar,24460,12150,12310,249.4,98.1,24460,24460.0,False,census_1998_enumerated,matched
+1998_049,2101,Angkor Borei,Angkor Borei,44980,21805,23175,307.1,146.5,44980,44980.0,False,census_1998_enumerated,matched
+1998_050,2110,Treang,Treang,98386,46996,51390,418.9,234.9,98386,98386.0,False,census_1998_enumerated,matched
+1998_051,2104,Kiri Vong,Kiri Vong,92446,44386,48060,605.0,152.8,92446,92446.0,False,census_1998_enumerated,matched
+1998_052,0702,Banteay Meas,Banteay Meas,81542,38939,42603,414.2,196.9,81542,81542.0,False,census_1998_enumerated,matched
+1998_053,0706,Kampong Trach,Kampong Trach,83061,39936,43125,389.2,213.4,83061,83061.0,False,census_1998_enumerated,matched
+1998_054,0701,Angkor Chey,Angkor Chey,72459,34466,37993,326.9,221.7,72459,72459.0,False,census_1998_enumerated,matched
+1998_055,0804,Kaoh Thum,Kaoh Thum,136542,65885,70657,483.1,282.6,136542,136542.0,False,census_1998_enumerated,matched
+1998_056,0810,Sa Ang,Sa Ang,169792,82134,87658,519.3,327.0,169792,169792.0,False,census_1998_enumerated,matched
+1998_057,1401,Ba Phnum,Ba Phnum,71662,33479,38183,351.1,204.1,71662,71662.0,False,census_1998_enumerated,matched
+1998_058,1407,Peam Ro,Peam Ro,63534,30162,33372,198.4,320.2,63534,63534.0,False,census_1998_enumerated,matched
+1998_059,1410,Prey Veaeng,Prey Veaeng,86932,40480,46452,484.6,179.4,86932,86932.0,False,census_1998_enumerated,matched
+1998_060,1412,Sithor Kandal,Sithor Kandal,61796,28814,32982,320.9,192.6,61796,61796.0,False,census_1998_enumerated,matched
+1998_061,0308,Kaoh Soutin,Kaoh Soutin,70672,33392,37280,192.7,366.7,70672,70672.0,False,census_1998_enumerated,matched
+1998_062,1408,Pea Reang,Pea Reang,107958,51361,56597,581.0,185.8,107958,107958.0,False,census_1998_enumerated,matched
+1998_063,1411,Kampong Leav,Kampong Leav,55054,26271,28783,268.7,204.9,55054,55054.0,False,census_1998_enumerated,matched
+1998_064,0501,Basedth,Basedth,108648,51175,57473,512.8,211.9,108648,108648.0,False,census_1998_enumerated,matched
+1998_065,0503,Kong Pisei,Kong Pisei,97006,46556,50450,383.7,252.8,97006,97006.0,False,census_1998_enumerated,matched
+1998_066,0811,Ta Khmau,Ta Khmau,58264,28701,29563,31.5,1849.7,58264,58264.0,False,census_1998_enumerated,matched
+1998_067,0708,Kampong Bay,Kampong Bay,33126,15915,17211,55.5,596.9,33126,33126.0,False,census_1998_enumerated,matched
+1998_068,0506,Phnum Sruoch,Phnum Sruoch,74651,36844,37807,1659.8,45.0,74651,74651.0,False,census_1998_enumerated,matched
+1998_069,0908,Kampong Seila,Kampong Seila,14965,7636,7329,901.3,16.6,14965,14965.0,False,census_1998_enumerated,matched
+1998_070,0906,Srae Ambel,Srae Ambel,38435,19333,19102,2187.1,17.6,38435,38435.0,False,census_1998_enumerated,matched
+1998_071,1801,Mittakpheap,Mittakpheap,67440,33576,33864,109.9,613.6,67440,67440.0,False,census_1998_enumerated,matched
+1998_072,1802,Prey Nob,Prey Nob,75142,36686,38456,680.0,110.5,75142,75142.0,False,census_1998_enumerated,matched
+1998_073,0902,Kiri Sakor,Kiri Sakor,6289,3259,3030,623.0,10.1,6289,6289.0,False,census_1998_enumerated,matched
+1998_074,0903,Kaoh Kong,Kaoh Kong,8817,4768,4049,1549.2,5.7,8817,8817.0,False,census_1998_enumerated,matched
+1998_075,0905,Mondol Seima,Mondol Seima,12569,6372,6197,1352.8,9.3,12569,12569.0,False,census_1998_enumerated,matched
+1998_076,0904,Smach Mean Chey,Smach Mean Chey,29329,15194,14135,91.7,319.8,29329,29329.0,False,census_1998_enumerated,matched
+1998_077,0504,Aoral,Aoral,15668,7568,8100,2398.1,6.5,15668,15668.0,False,census_1998_enumerated,matched
+1998_078,0507,Samraoung Tong,Samraoung Tong,118142,56395,61747,740.3,159.6,118142,118142.0,False,census_1998_enumerated,matched
+1998_079,0508,Thpong,Thpong,43516,20698,22818,716.6,60.7,43516,43516.0,False,census_1998_enumerated,matched
+1998_080,0405,Kampong Tralach,Kampong Tralach,74541,35460,39081,480.3,155.2,74541,74541.0,False,census_1998_enumerated,matched
+1998_081,0407,Sameakki Mean Chey,Sameakki Mean Chey,57170,27014,30156,694.4,82.3,57170,57170.0,False,census_1998_enumerated,matched
+1998_082,0505,Odongk,Odongk,99773,47840,51933,525.3,189.9,99773,99773.0,False,census_1998_enumerated,matched
+1998_083,0502,Chbar Mon,Chbar Mon,41478,20316,21162,80.3,516.5,41478,41478.0,False,census_1998_enumerated,matched
+1998_084,0809,Ponhea Lueu,Ponhea Lueu,95087,45432,49655,336.6,282.5,95087,95087.0,False,census_1998_enumerated,matched
+1998_085,0301,Batheay,Batheay,90920,43382,47538,688.3,132.1,90920,90920.0,False,census_1998_enumerated,matched
+1998_086,0402,Chol Kiri,Chol Kiri,28300,13883,14417,340.0,83.2,28300,28300.0,False,census_1998_enumerated,matched
+1998_087,0406,Rolea B'ier,Rolea B'ier,81134,37190,43944,731.1,111.0,81134,81134.0,False,census_1998_enumerated,matched
+1998_088,0404,Kampong Leaeng,Kampong Leaeng,37379,18010,19369,1012.6,36.9,37379,37379.0,False,census_1998_enumerated,matched
+1998_089,0403,Kampong Chhnang,Kampong Chhnang,41703,20133,21570,48.3,863.4,41703,41703.0,False,census_1998_enumerated,matched
+1998_090,0103,Phnum Srok,Phnum Srok,45251,21768,23483,828.4,54.6,45251,45251.0,False,census_1998_enumerated,matched
+1998_091,0208,Sangkae,Sangkae,106267,51269,54998,1154.0,92.1,106267,106267.0,False,census_1998_enumerated,matched
+1998_092,0205,Aek Phnum,Aek Phnum,65408,31584,33824,1054.1,62.1,65408,65408.0,False,census_1998_enumerated,matched
+1998_093,0202,Bat Dambang,Bat Dambang,116793,56816,59977,844.8,138.2,116793,116793.0,False,census_1998_enumerated,matched
+1998_094,0201,Banan,Banan,85277,41530,43747,862.7,98.8,85277,85277.0,False,census_1998_enumerated,matched
+1998_095,0203,Svay Pao,Svay Pao,139964,67607,72357,114.2,1225.6,139964,139964.0,False,census_1998_enumerated,matched
+1998_096,1706,Kralanh,Kralanh,56915,27252,29663,488.7,116.5,56915,56915.0,False,census_1998_enumerated,matched
+1998_097,1703,Banteay Srei,Banteay Srei,32271,16736,15535,517.1,62.4,32271,32271.0,False,census_1998_enumerated,matched
+1998_098,1711,Soutr Nikom,Soutr Nikom,90080,43365,46715,671.2,134.2,90080,90080.0,False,census_1998_enumerated,matched
+1998_099,1704,Chi Kraeng,Chi Kraeng,106727,50937,55790,2033.9,52.5,106727,106727.0,False,census_1998_enumerated,matched
+1998_100,0608,Stoung,Stoung,94119,43825,50294,1894.5,49.7,94119,94119.0,False,census_1998_enumerated,matched
+1998_101,1501,Bakan,Bakan,121229,58211,63018,1711.3,70.8,121229,121229.0,False,census_1998_enumerated,matched
+1998_102,0108,Svay Chek,Svay Chek,47960,23491,24469,889.9,53.9,47960,47960.0,False,census_1998_enumerated,matched
+1998_103,1712,Srei Snam,Srei Snam,26738,12557,14181,479.8,55.7,26738,26738.0,False,census_1998_enumerated,matched
+1998_104,1701,Angkor Chum,Angkor Chum,48476,22671,25805,412.2,117.6,48476,48476.0,False,census_1998_enumerated,matched
+1998_105,1702,Angkor Thum,Angkor Thum,17750,8611,9139,307.5,57.7,17750,17750.0,False,census_1998_enumerated,matched
+1998_106,0204,Bavel,Bavel,79035,39751,39284,950.8,83.1,79035,79035.0,False,census_1998_enumerated,matched
+1998_107,0106,Serei Saophoan,Serei Saophoan,98848,48056,50792,415.1,238.1,98848,98848.0,False,census_1998_enumerated,matched
+1998_108,0104,Preah Netr Preah,Preah Netr Preah,70673,33944,36729,1065.6,66.3,70673,70673.0,False,census_1998_enumerated,matched
+1998_109,1503,Krakor,Krakor,74222,35387,38835,1460.6,50.8,74222,74222.0,False,census_1998_enumerated,matched
+1998_110,0401,Baribour,Baribour,51516,24212,27304,462.1,111.5,51516,51516.0,False,census_1998_enumerated,matched
+1998_111,0602,Kampong Svay,Kampong Svay,74834,36176,38658,1492.2,50.2,74834,74834.0,False,census_1998_enumerated,matched
+1998_112,1505,Sampov Meas,Sampov Meas,57523,27385,30138,401.1,143.4,57523,57523.0,False,census_1998_enumerated,matched
+1998_113,1201,Chamkar Mon,Chamkar Mon,187082,91850,95232,7.5,24944.3,187082,187082.0,False,census_1998_enumerated,matched
+1998_114,1105,Saen Monourom,Saen Monourom,7032,3589,3443,511.1,13.8,7032,7032.0,False,census_1998_enumerated,matched
+1998_115,2006,Svay Rieng,Svay Rieng,21205,10235,10970,22.4,946.7,21205,21205.0,False,census_1998_enumerated,matched
+1998_116,1202,Doun Penh,Doun Penh,131913,64011,67902,5.6,23555.9,131913,131913.0,False,census_1998_enumerated,matched
+1998_117,1204,Tuol Kouk,Tuol Kouk,154968,75364,79604,6.1,25404.6,154968,154968.0,False,census_1998_enumerated,matched
+1998_118,1203,Prampir Meakkakra,Prampir Meakkakra,96192,46010,50182,1.8,53440.0,96192,96192.0,False,census_1998_enumerated,matched
+1998_119,0803,Khsach Kandal,Khsach Kandal,105345,50133,55212,362.1,290.9,105345,105345.0,False,census_1998_enumerated,matched
+1998_120,1205,Dangkao,Dangkao,92461,44791,47670,145.8,634.2,92461,92461.0,False,census_1998_enumerated,matched
+1998_121,0808,Angk Snuol,Angk Snuol,88921,42844,46077,303.1,293.4,88921,88921.0,False,census_1998_enumerated,matched
+1998_122,0801,Kandal Stueng,Kandal Stueng,76549,35937,40612,263.7,290.3,76549,76549.0,False,census_1998_enumerated,matched
+1998_123,2102,Bati,Bati,113693,54126,59567,381.2,298.3,113693,113693.0,False,census_1998_enumerated,matched
+1998_124,2107,Samraong,Samraong,22361,11651,10710,1683.0,13.3,22361,22361.0,False,census_1998_enumerated,matched
+1998_125,2106,Prey Kabbas,Prey Kabbas,85880,40832,45048,271.4,316.4,85880,85880.0,False,census_1998_enumerated,matched
+1998_126,2109,Tram Kak,Tram Kak,144032,67959,76073,572.3,251.7,144032,144032.0,False,census_1998_enumerated,matched
+1998_127,2108,Doun Kaev,Doun Kaev,39186,19013,20173,96.5,406.1,39186,39186.0,False,census_1998_enumerated,matched
+1998_128,0314,Srei Santhor,Srei Santhor,91765,43969,47796,354.9,258.6,91765,91765.0,False,census_1998_enumerated,matched
+1998_129,0307,Kang Meas,Kang Meas,91212,43502,47710,397.3,229.6,91212,91212.0,False,census_1998_enumerated,matched
+1998_130,0303,Cheung Prey,Cheung Prey,74859,35181,39678,381.8,196.1,74859,74859.0,False,census_1998_enumerated,matched
+1998_131,0313,Prey Chhor,Prey Chhor,127683,61635,66048,468.2,272.7,127683,127683.0,False,census_1998_enumerated,matched
+1998_132,0316,Tboung Khmum,Tboung Khmum,214780,104306,110474,1033.1,207.9,214780,214780.0,False,census_1998_enumerated,matched
+1998_133,0309,Krouch Chhmar,Krouch Chhmar,99695,48111,51584,578.7,172.3,99695,99695.0,False,census_1998_enumerated,matched
+1998_134,0315,Stueng Trang,Stueng Trang,107425,52822,54603,1132.9,94.8,107425,107425.0,False,census_1998_enumerated,matched
+1998_135,1003,Preaek Prasab,Preaek Prasab,56757,28040,28717,1272.0,44.6,56757,56757.0,False,census_1998_enumerated,matched
+1998_136,0703,Chhuk,Chhuk,78951,37984,40967,709.2,111.3,78951,78951.0,False,census_1998_enumerated,matched
+1998_137,0704,Chum Kiri,Chum Kiri,39320,18689,20631,1042.6,37.7,39320,39320.0,False,census_1998_enumerated,matched
+1998_138,0707,Kampot,Kampot,89779,43172,46607,1608.7,55.8,89779,89779.0,False,census_1998_enumerated,matched
+1998_139,0705,Dang Tong,Dang Tong,50167,23984,26183,326.6,153.6,50167,50167.0,False,census_1998_enumerated,matched
+1998_140,2302,Kaeb,Kaeb,10319,5151,5168,86.4,119.4,10319,10319.0,False,census_1998_enumerated,matched
+1998_141,2301,Damnak Chang'aeur,Damnak Chang'aeur,18341,8863,9478,249.6,73.5,18341,18341.0,False,census_1998_enumerated,matched
+1998_142,0209,Samlout,Samlout,23000,0,0,1292.6,0.0,0,,True,nis_official_estimate_1998_conflict_excluded,matched
+1998_143,0206,Mong Ruessei,Mong Ruessei,138190,67821,70369,776.9,177.9,138190,138190.0,False,census_1998_enumerated,matched
+1998_144,0207,Rotonak Mondol,Rotonak Mondol,23919,12157,11762,957.7,25.0,23919,23919.0,False,census_1998_enumerated,matched
+1998_145,2401,Pailin,Pailin,15800,8632,7168,422.9,37.4,15800,15800.0,False,census_1998_enumerated,matched
+1998_146,2402,Sala Krau,Sala Krau,7106,3760,3346,380.1,18.7,7106,7106.0,False,census_1998_enumerated,matched
+1998_147,0212,Kamrieng,Kamrieng,14215,7361,6854,506.4,28.1,14215,14215.0,False,census_1998_enumerated,matched
+1998_148,0109,Malai,Malai,22724,11697,11027,610.9,37.2,22724,22724.0,False,census_1998_enumerated,matched
+1998_149,0105,Ou Chrov,Ou Chrov,100590,49990,50600,908.5,110.7,100590,100590.0,False,census_1998_enumerated,matched
+1998_150,0102,Mongkol Borei,Mongkol Borei,134378,65356,69022,2879.3,46.7,134378,134378.0,False,census_1998_enumerated,matched
+1998_151,1608,Ta Veaeng,Ta Veaeng,4325,2065,2260,2084.0,2.1,4325,4325.0,False,census_1998_enumerated,matched
+1998_152,1609,Veun Sai,Veun Sai,12389,6055,6334,1691.4,7.3,12389,12389.0,False,census_1998_enumerated,matched
+1998_153,2201,Anlong Veaeng,Anlong Veaeng,10000,0,0,2050.7,0.0,0,,True,nis_official_estimate_1998_conflict_excluded,matched
+1998_154,2204,Samraong,Samraong,101455,47704,53751,303.5,334.3,101455,101455.0,False,census_1998_enumerated,matched
+1998_155,1714,Varin,Varin,19818,10178,9640,1569.8,12.6,19818,19818.0,False,census_1998_enumerated,matched
+1998_156,1713,Svay Leu,Svay Leu,12869,6716,6153,2248.5,5.7,12869,12869.0,False,census_1998_enumerated,matched
+1998_157,0901,Botum Sakor,Botum Sakor,18822,9727,9095,1079.6,17.4,18822,18822.0,False,census_1998_enumerated,matched
+1998_158,0907,Thma Bang,Thma Bang,2880,1411,1469,3375.2,0.9,2880,2880.0,False,census_1998_enumerated,matched
+1998_159,1504,Phnum Kravanh,Phnum Kravanh,54136,26454,27682,3743.9,14.5,54136,54136.0,False,census_1998_enumerated,matched
+1998_160,1506,Veal Veng,Veal Veng,10000,0,0,4774.7,0.0,0,,True,nis_official_estimate_1998_conflict_excluded,matched
+1998_161,1207,Ruessei Kaev,Ruessei Kaev,180076,85385,94691,83.8,2148.9,180076,180076.0,False,census_1998_enumerated,matched
+1998_162,0807,Mukh Kampul,Mukh Kampul,77456,37302,40154,250.8,308.8,77456,77456.0,False,census_1998_enumerated,matched
+1998_163,0305,Kampong Cham,Kampong Cham,45354,22089,23265,24.1,1881.9,45354,45354.0,False,census_1998_enumerated,matched
+1998_164,0306,Kampong Siem,Kampong Siem,99056,47472,51584,443.4,223.4,99056,99056.0,False,census_1998_enumerated,matched
+1998_165,1303,Choam Khsant,Choam Khsant,16073,8478,7595,3704.2,4.3,16073,16073.0,False,census_1998_enumerated,matched
+1998_166,0210,Sampov Lun,Sampov Lun,12518,7274,5244,446.3,28.0,12518,12518.0,False,census_1998_enumerated,matched
+1998_167,0211,Phnum Proek,Phnum Proek,15355,7894,7461,639.0,24.0,15355,15355.0,False,census_1998_enumerated,matched
+1998_168,0603,Stueng Saen,Stueng Saen,66014,32047,33967,503.9,131.0,66014,66014.0,False,census_1998_enumerated,matched
+1998_169,0607,Santuk,Santuk,58434,28250,30184,2836.9,20.6,58434,58434.0,False,census_1998_enumerated,matched
+1998_170,1707,Puok,Puok,110863,53091,57772,935.5,118.5,110863,110863.0,False,census_1998_enumerated,matched
+1998_171,1710,Siem Reab,Siem Reab,119528,58551,60977,292.8,408.2,119528,119528.0,False,census_1998_enumerated,matched
+1998_172,1709,Prasat Bakong,Prasat Bakong,54129,26020,28109,341.9,158.3,54129,54129.0,False,census_1998_enumerated,matched
+1998_173,1502,Kandieng,Kandieng,53335,25453,27882,600.4,88.8,53335,53335.0,False,census_1998_enumerated,matched
+1998_174,0802,Kien Svay,Kien Svay,148358,70930,77428,382.8,387.6,148358,148358.0,False,census_1998_enumerated,matched
+1998_175,0805,Leuk Daek,Leuk Daek,52976,25487,27489,376.4,140.7,52976,52976.0,False,census_1998_enumerated,matched
+1998_176,0806,Lvea Aem,Lvea Aem,65835,31211,34624,258.7,254.5,65835,65835.0,False,census_1998_enumerated,matched
+1998_177,1206,Mean Chey,Mean Chey,157112,74500,82612,39.5,3977.5,157112,157112.0,False,census_1998_enumerated,matched
+1998_178,0408,Tuek Phos,Tuek Phos,45950,21789,24161,1752.3,26.2,45950,45950.0,False,census_1998_enumerated,matched
+1998_179,2203,Chong Kal,Chong Kal,18843,9428,9415,962.7,19.6,18843,18843.0,False,census_1998_enumerated,matched
+1998_180,2202,Banteay Ampil,Banteay Ampil,27075,13393,13682,1461.7,18.5,27075,27075.0,False,census_1998_enumerated,matched
+1998_181,0107,Thma Puok,Thma Puok,53536,26591,26945,1183.8,45.2,53536,53536.0,False,census_1998_enumerated,matched
+1998_182,1803,Stueng Hav,Stueng Hav,13108,6678,6430,78.0,168.1,13108,13108.0,False,census_1998_enumerated,matched
+1998_183,1803,Stueng Hav,Stueng Hav,13108,6678,6430,78.0,168.1,13108,13108.0,False,census_1998_enumerated,matched

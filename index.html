@@ -393,7 +393,6 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
               <a class="proj-pill" href="docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.md" target="_blank">3-Wave Trilingual Dictionary (MD) ↗</a>
               <a class="proj-pill" href="docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.csv" download>3-Wave Trilingual Dictionary (CSV) ↗</a>
               <a class="proj-pill" href="data/panel202_multivar_web.json" target="_blank">Web Observatory JSON ↗</a>
-              <a class="proj-pill" href="docs/redatam_spc/README.md" target="_blank">REDATAM 7 .spc Scripts ↗</a>
               <a class="proj-pill" href="docs/METHODOLOGY.md" target="_blank">Methodology &amp; Audit (MD) ↗</a>
               <a class="proj-pill" href="maps/cambodia_district_population_1998_2008_2019.html" target="_blank">Native Districts 1998–2019 Map ↗</a>
               <a class="proj-pill" href="maps/cambodia_commune_pop_sex_2019.html" target="_blank">2019 Communes Pop &amp; Sex Map ↗</a>
@@ -433,7 +432,7 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
         </div>
         <div class="method-card wide">
           <h3 data-i18n="mLimTitle">5. Limitaciones por acceso pendiente a microdatos REDATAM (1998 y 2008)</h3>
-          <p data-i18n="mLimBody">Mientras que los indicadores de 2019 provienen directamente del censo 100% REDATAM (con scripts <code>.spc</code> replicables en <code>docs/redatam_spc/</code>), los censos de 1998 y 2008 se reconstruyen a partir de tablas comunales agregadas públicas (ODC) porque aún estamos gestionando el acceso institucional a los microdatos REDATAM de 1998 y 2008. Esto explica por qué ciertos indicadores clave —como años promedio de escolaridad (MoEYS 6–3–3–4), educación superior, desagüe conectado a red pública (alcantarillado), tenencia de vivienda y discapacidad— comienzan en 2008, por qué la mortalidad de 1998 (IMR/CMR) y 2019 (tasa bruta) no están presentes en 2008, y por qué el ajuste de hogares regulares en tamaño promedio del hogar solo puede aplicarse exactamente en 2019.</p>
+          <p data-i18n="mLimBody">Mientras que los indicadores de 2019 provienen directamente del censo 100% REDATAM (agregado en Python streaming sobre el archivo `.dat` y `Camb.dcf`), los censos de 1998 y 2008 se reconstruyen a partir de tablas comunales agregadas públicas (ODC) porque aún estamos gestionando el acceso institucional a los microdatos REDATAM de 1998 y 2008. Esto explica por qué ciertos indicadores clave —como años promedio de escolaridad (MoEYS 6–3–3–4), educación superior, desagüe conectado a red pública (alcantarillado), tenencia de vivienda y discapacidad— comienzan en 2008, por qué la mortalidad de 1998 (IMR/CMR) y 2019 (tasa bruta) no están presentes en 2008, y por qué el ajuste de hogares regulares en tamaño promedio del hogar solo puede aplicarse exactamente en 2019.</p>
         </div>
         <div class="method-card wide">
           <h3 data-i18n="m5Title">5. Ecosistema de proyectos y autoría</h3>
@@ -512,7 +511,7 @@ const I18N = {
     scaleLog: "escala logarítmica común", scaleLin: "escala lineal común",
     trajLbl: "Trayectoria ({w})", only2019: "Solo Censo 2019", only1998: "Solo Censo 1998", only9808: "Solo 1998 · 2008", only0819: "2008 · 2019 (sin microdata 1998)",
     mLimTitle: "5. Limitaciones por acceso pendiente a microdatos REDATAM (1998 y 2008)",
-    mLimBody: "Mientras que 2019 proviene del censo 100% REDATAM (con scripts <code>.spc</code> replicables en <code>docs/redatam_spc/</code>), 1998 y 2008 provienen de tablas comunales agregadas públicas porque aún estamos gestionando el acceso a los microdatos REDATAM de 1998 y 2008. Por eso indicadores como años promedio de escolaridad (MoEYS 6–3–3–4), educación superior, desagüe conectado a red pública, tenencia y discapacidad solo cubren 2008–2019, y la mortalidad de 1998 (IMR/CMR) no tiene equivalente en 2008.",
+    mLimBody: "Mientras que 2019 proviene del censo 100% REDATAM (agregado en Python streaming sobre el archivo `.dat` y `Camb.dcf`), 1998 y 2008 provienen de tablas comunales agregadas públicas porque aún estamos gestionando el acceso a los microdatos REDATAM de 1998 y 2008. Por eso indicadores como años promedio de escolaridad (MoEYS 6–3–3–4), educación superior, desagüe conectado a red pública, tenencia y discapacidad solo cubren 2008–2019, y la mortalidad de 1998 (IMR/CMR) no tiene equivalente en 2008.",
     covWarn: "Cobertura módulo 1998: {p}%"
   },
   en: {
@@ -559,7 +558,7 @@ const I18N = {
     scaleLog: "common log scale", scaleLin: "common linear scale",
     trajLbl: "Trajectory ({w})", only2019: "2019 Census only", only1998: "1998 Census only", only9808: "1998 · 2008 only", only0819: "2008 · 2019 (no 1998 microdata)",
     mLimTitle: "5. Limitations from pending REDATAM microdata access (1998 & 2008)",
-    mLimBody: "While 2019 is computed directly from the 100% REDATAM census (with reproducible <code>.spc</code> scripts in <code>docs/redatam_spc/</code>), 1998 and 2008 rely on public aggregated commune tables because institutional access to the 1998 and 2008 REDATAM microdata is still being pursued. This explains why mean years of schooling (MoEYS 6–3–3–4), higher education, public sewerage connection, housing tenure, and disability start in 2008, why 2008 lacks mortality, and why regular-household-only population denominators for average household size are exact only in 2019.",
+    mLimBody: "While 2019 is computed directly from the 100% REDATAM census (aggregated via Python streaming on the CSPro `.dat` and `Camb.dcf`), 1998 and 2008 rely on public aggregated commune tables because institutional access to the 1998 and 2008 REDATAM microdata is still being pursued. This explains why mean years of schooling (MoEYS 6–3–3–4), higher education, public sewerage connection, housing tenure, and disability start in 2008, why 2008 lacks mortality, and why regular-household-only population denominators for average household size are exact only in 2019.",
     covWarn: "1998 module coverage: {p}%"
   },
   km: {
@@ -606,7 +605,7 @@ const I18N = {
     scaleLog: "មាត្រដ្ឋានលោការីតរួម", scaleLin: "មាត្រដ្ឋានលីនេអ៊ែររួម",
     trajLbl: "និន្នាការ ({w})", only2019: "ជំរឿនឆ្នាំ ២០១៩ តែប៉ុណ្ណោះ", only1998: "ជំរឿនឆ្នាំ ១៩៩៨ តែប៉ុណ្ណោះ", only9808: "១៩៩៨ · ២០០៨ តែប៉ុណ្ណោះ", only0819: "២០០៨ · ២០១៩ (គ្មាន microdata ១៩៩៨)",
     mLimTitle: "៥. ដែនកំណត់ដោយសារមិនទាន់មានសិទ្ធិចូលប្រើ microdata REDATAM (១៩៩៨ និង ២០០៨)",
-    mLimBody: "ទិន្នន័យឆ្នាំ ២០១៩ ត្រូវបានគណនាដោយផ្ទាល់ពីជំរឿន 100% REDATAM (មានស្គ្រីប <code>.spc</code> ក្នុង <code>docs/redatam_spc/</code>) ចំណែកឆ្នាំ ១៩៩៨ និង ២០០៨ ពឹងផ្អែកលើតារាងសរុបសាធារណៈ ដោយសារយើងកំពុងស្នើសុំសិទ្ធិចូលប្រើ microdata REDATAM ឆ្នាំ ១៩៩៨ និង ២០០៨។ ហេតុនេះសូចនាករដូចជាមធ្យមភាគឆ្នាំសិក្សា ឧត្តមសិក្សា បណ្តាញលូសាធារណៈ និងពិការភាព ចាប់ផ្តើមពីឆ្នាំ ២០០៨។",
+    mLimBody: "ទិន្នន័យឆ្នាំ ២០១៩ ត្រូវបានគណនាដោយផ្ទាល់ពីជំរឿន 100% REDATAM (គណនាតាម Python streaming លើឯកសារ `.dat` និង `Camb.dcf`) ចំណែកឆ្នាំ ១៩៩៨ និង ២០០៨ ពឹងផ្អែកលើតារាងសរុបសាធារណៈ ដោយសារយើងកំពុងស្នើសុំសិទ្ធិចូលប្រើ microdata REDATAM ឆ្នាំ ១៩៩៨ និង ២០០៨។ ហេតុនេះសូចនាករដូចជាមធ្យមភាគឆ្នាំសិក្សា ឧត្តមសិក្សា បណ្តាញលូសាធារណៈ និងពិការភាព ចាប់ផ្តើមពីឆ្នាំ ២០០៨។",
     covWarn: "វិសាលភាពទិន្នន័យ ១៩៩៨៖ {p}%"
   }
 };

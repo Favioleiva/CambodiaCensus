@@ -29,7 +29,6 @@ It combines:
 - **Preah Sihanouk `avg_hh_size` 2019 Fix:** Uses regular-household population (`C8_HHTYPE = 1`) / regular households.
 - **1998 NIS `+43k` Map Fix:** Verified `11,480,656` total across all 197 land districts.
 - **Additional Indicators:** Housing tenure (`2008–2019`), disability (`2008–2019`), gendered unemployment & sectors, widowed/divorced, bought water, `IMR`/`CMR`/`ELIFE`/`TFR` (`1998`), and `crude_death_rate_2019` (`2019`).
-- **Reproducible REDATAM 7 `.spc` Scripts:** [`docs/redatam_spc/`](docs/redatam_spc/README.md).
 - **Trilingual Variable Dictionary (`EN` · `ES` · `ខ្មែរ`):** [`docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.md`](docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.md) · [`.csv`](docs/VARIABLE_DICTIONARY_3WAVE_PANEL202.csv).
 - **Microdata Limitation Notice:** Wave gaps in `1998` and `2008` reflect pending institutional access to the `1998` and `2008` REDATAM microdata (see [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md)).
 

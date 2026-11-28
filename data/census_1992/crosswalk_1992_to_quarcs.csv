@@ -1,0 +1,188 @@
+province_1992,district_1992,quarcs_geo_id,quarcs_district_name,quarcs_province_id,quarcs_province_name,mapping_type,weight_population,population_1992,men_1992,women_1992,communes_allocated
+Banteay Meanchey,Ampil,KH-15-02,Banteay Ampil,KH-15,Oddar Meanchey,1_to_1_exact,1.0,21157,10629,10528,ALL
+Banteay Meanchey,Mongkol Borei,KH-01-02,Mongkol Borei,KH-01,Banteay Meanchey,1_to_1_exact,1.0,114666,58959,55707,ALL
+Banteay Meanchey,Phnom Srok,KH-01-05,Phnum Srok,KH-01,Banteay Meanchey,1_to_1_exact,1.0,35412,16515,18897,ALL
+Banteay Meanchey,Preah Net Preah,KH-01-06,Preah Netr Preah,KH-01,Banteay Meanchey,1_to_1_exact,1.0,57434,27677,29757,ALL
+Banteay Meanchey,Serey Sophorn,KH-01-03,Ou Chrov,KH-01,Banteay Meanchey,commune_exact_split,0.791166,28838,13269,15569,Chang Ha; Kop; Kut Satt; Samrong; Sophi; Sung
+Banteay Meanchey,Serey Sophorn,KH-01-04,Paoy Paet,KH-01,Banteay Meanchey,commune_exact_split,0.208834,7612,4058,3554,Nimith
+Banteay Meanchey,Sisophon (PT),KH-01-07,Serei Saophoan,KH-01,Banteay Meanchey,1_to_1_exact,1.0,61819,30143,31676,ALL
+Banteay Meanchey,Thmar Puork,KH-01-08,Svay Chek,KH-01,Banteay Meanchey,commune_exact_split,0.632265,39784,18741,21043,Phakam; Sarung(Prasat Pheas); Slor Kram; Svay Chek; Ta Ben; Ta Pho; Taras
+Banteay Meanchey,Thmar Puork,KH-01-09,Thma Puok,KH-01,Banteay Meanchey,commune_exact_split,0.367735,23139,10445,12694,Kok Romeat; Phum Thmey; Thmar Puork
+Battambang,Banan,KH-02-02,Banan,KH-02,Battambang,1_to_1_exact,1.0,54096,25597,28499,ALL
+Battambang,Battambang (DC),KH-02-14,Thma Koul,KH-02,Battambang,1_to_1_exact,1.0,90142,43236,46906,ALL
+Battambang,Battambang (PT),KH-02-03,Battambang,KH-02,Battambang,1_to_1_exact,1.0,103657,49011,54646,ALL
+Battambang,Bavel,KH-02-04,Bavel,KH-02,Battambang,1_to_1_exact,1.0,56408,26208,30200,ALL
+Battambang,Ek Phnom,KH-02-01,Aek Phnum,KH-02,Battambang,1_to_1_exact,1.0,55088,24943,30145,ALL
+Battambang,Mong Russey,KH-02-06,Koas Krala,KH-02,Battambang,commune_exact_split,0.045783,3575,1477,2098,Thepadey
+Battambang,Mong Russey,KH-02-07,Moung Ruessei,KH-02,Battambang,commune_exact_split,0.923686,72126,32268,39858,Chrey; Kar Kors; Kear; Mung; Prey Svay; Prey Toch; Roboh Mongkul; Russey Krang; Ta Loh
+Battambang,Mong Russey,KH-02-10,Rukh Kiri,KH-02,Battambang,commune_exact_split,0.030531,2384,1130,1254,Prek Chik
+Battambang,Rattanak Mondul,KH-02-09,Rotonak Mondol,KH-02,Battambang,1_to_1_exact,1.0,17970,8500,9470,ALL
+Battambang,Sangke,KH-02-13,Sangkae,KH-02,Battambang,1_to_1_exact,1.0,78136,35207,42929,ALL
+City Sihanoukville,Mittapheap,KH-13-02,Preah Sihanouk,KH-13,Preah Sihanouk,1_to_1_exact,1.0,44814,22187,22627,ALL
+City Sihanoukville,Prey Nup,KH-13-03,Prey Nob,KH-13,Preah Sihanouk,1_to_1_exact,1.0,52700,24915,27785,ALL
+City Sihanoukville,Stung Hav,KH-13-04,Stueng Hav,KH-13,Preah Sihanouk,1_to_1_exact,1.0,9492,4587,4905,ALL
+Kampong Cham,Batheay,KH-03-01,Batheay,KH-03,Kampong Cham,1_to_1_exact,1.0,71609,32880,38729,ALL
+Kampong Cham,Chamkar Leu,KH-03-02,Chamkar Leu,KH-03,Kampong Cham,1_to_1_exact,1.0,101953,49449,52504,ALL
+Kampong Cham,Cheung Prey,KH-03-03,Cheung Prey,KH-03,Kampong Cham,1_to_1_exact,1.0,65661,31431,34230,ALL
+Kampong Cham,Dambe,KH-25-01,Dambae,KH-25,Tbong Khmum,1_to_1_exact,1.0,39814,19355,20459,ALL
+Kampong Cham,Kampong Cham (P,KH-03-04,Kampong Cham,KH-03,Kampong Cham,1_to_1_exact,1.0,30878,15119,15759,ALL
+Kampong Cham,Kampong Siem,KH-03-05,Kampong Siem,KH-03,Kampong Cham,1_to_1_exact,1.0,83890,39529,44361,ALL
+Kampong Cham,Kang Meas,KH-03-06,Kang Meas,KH-03,Kampong Cham,1_to_1_exact,1.0,77627,35747,41880,ALL
+Kampong Cham,Koh Sotin,KH-03-07,Kaoh Soutin,KH-03,Kampong Cham,1_to_1_exact,1.0,70172,33052,37120,ALL
+Kampong Cham,Kroch Chhmar,KH-25-02,Krouch Chhmar,KH-25,Tbong Khmum,1_to_1_exact,1.0,79607,38419,41188,ALL
+Kampong Cham,Memot,KH-25-03,Memot,KH-25,Tbong Khmum,1_to_1_exact,1.0,83111,40590,42521,ALL
+Kampong Cham,O Reang Ov,KH-25-04,Ou Reang Ov,KH-25,Tbong Khmum,1_to_1_exact,1.0,78227,35959,42268,ALL
+Kampong Cham,Ponhea Krek,KH-25-05,Ponhea Kraek,KH-25,Tbong Khmum,1_to_1_exact,1.0,102948,49107,53841,ALL
+Kampong Cham,Prey Chhor,KH-03-08,Prey Chhor,KH-03,Kampong Cham,1_to_1_exact,1.0,109857,52454,57403,ALL
+Kampong Cham,Srei Santhor,KH-03-09,Srei Santhor,KH-03,Kampong Cham,1_to_1_exact,1.0,97642,45568,52074,ALL
+Kampong Cham,Stung Trang,KH-03-10,Stueng Trang,KH-03,Kampong Cham,1_to_1_exact,1.0,74089,33945,40144,ALL
+Kampong Cham,Tbong Khmum,KH-25-06,Suong,KH-25,Tbong Khmum,commune_exact_split,0.136008,24277,12359,11918,Suong; Vihear Loung
+Kampong Cham,Tbong Khmum,KH-25-07,Tboung Khmum,KH-25,Tbong Khmum,commune_exact_split,0.863992,154220,74161,80059,Anhcheum; Beng Pruol; Chikor; Chiro 1; Chiro 2; Chup; Kor; Lo Ngieng; Muong Riev; Peam Chi Leang; RP 7 January HQ; RP Chrap; RP Chup; RP Dam Dos; RP Tapav; RP Thmor Pich; Roka Po Pram; Srolop; Thmar Pich; Tonle Bet
+Kampong Chhnang,Baribo,KH-04-01,Baribour,KH-04,Kampong Chhnang,1_to_1_exact,1.0,36807,17982,18825,ALL
+Kampong Chhnang,Chul Kiri,KH-04-02,Chol Kiri,KH-04,Kampong Chhnang,1_to_1_exact,1.0,17368,7704,9664,ALL
+Kampong Chhnang,Kampong Chhnang,KH-04-03,Kampong Chhnang,KH-04,Kampong Chhnang,1_to_1_exact,1.0,27087,12686,14401,ALL
+Kampong Chhnang,Kampong Leng,KH-04-04,Kampong Leaeng,KH-04,Kampong Chhnang,1_to_1_exact,1.0,26049,12011,14038,ALL
+Kampong Chhnang,Kampong Tralach,KH-04-05,Kampong Tralach,KH-04,Kampong Chhnang,1_to_1_exact,1.0,58569,26233,32336,ALL
+Kampong Chhnang,Rolea Phiear,KH-04-06,Rolea B'ier,KH-04,Kampong Chhnang,1_to_1_exact,1.0,63334,29158,34176,ALL
+Kampong Chhnang,Samaki Meanchey,KH-04-07,Sameakki Mean Chey,KH-04,Kampong Chhnang,1_to_1_exact,1.0,45195,20601,24594,ALL
+Kampong Chhnang,Tuk Phos,KH-04-09,Tuek Phos,KH-04,Kampong Chhnang,1_to_1_exact,1.0,29599,12920,16679,ALL
+Kampong Speu,Baset,KH-05-02,Basedth,KH-05,Kampong Speu,1_to_1_exact,1.0,89219,41578,47641,ALL
+Kampong Speu,Kampong Speu (PT),KH-05-03,Chbar Mon,KH-05,Kampong Speu,1_to_1_exact,1.0,27408,12334,15074,ALL
+Kampong Speu,Kong Pisey,KH-05-04,Kong Pisei,KH-05,Kampong Speu,1_to_1_exact,1.0,83497,38769,44728,ALL
+Kampong Speu,Oral,KH-05-01,Aoral,KH-05,Kampong Speu,1_to_1_exact,1.0,5949,2644,3305,ALL
+Kampong Speu,Oudong,KH-05-05,Odongk,KH-05,Kampong Speu,1_to_1_exact,1.0,82353,38607,43746,ALL
+Kampong Speu,Phnom Sruoch,KH-05-06,Phnum Sruoch,KH-05,Kampong Speu,1_to_1_exact,1.0,45041,21778,23263,ALL
+Kampong Speu,Samrong Tong,KH-05-07,Samraong Tong,KH-05,Kampong Speu,1_to_1_exact,1.0,98211,46253,51958,ALL
+Kampong Speu,Thpong,KH-05-08,Thpong,KH-05,Kampong Speu,1_to_1_exact,1.0,33779,15778,18001,ALL
+Kampong Thom,Baray,KH-06-01,Baray,KH-06,Kampong Thom,1_to_1_exact,1.0,138835,57278,81557,ALL
+Kampong Thom,Kampong Svay,KH-06-02,Kampong Svay,KH-06,Kampong Thom,1_to_1_exact,1.0,58452,25615,32837,ALL
+Kampong Thom,Kampong Thom(PT),KH-06-08,Stueng Saen,KH-06,Kampong Thom,1_to_1_exact,1.0,53410,25152,28258,ALL
+Kampong Thom,Prasat Balaing,KH-06-03,Prasat Ballangk,KH-06,Kampong Thom,1_to_1_exact,1.0,19155,9065,10090,ALL
+Kampong Thom,Prasat Sambo,KH-06-04,Prasat Sambour,KH-06,Kampong Thom,1_to_1_exact,1.0,33096,15441,17655,ALL
+Kampong Thom,Sandan,KH-06-05,Sandan,KH-06,Kampong Thom,1_to_1_exact,1.0,31959,15336,16623,ALL
+Kampong Thom,Santuk,KH-06-06,Santuk,KH-06,Kampong Thom,1_to_1_exact,1.0,48367,23104,25263,ALL
+Kampong Thom,Stong,KH-06-07,Stoung,KH-06,Kampong Thom,1_to_1_exact,1.0,86438,39997,46441,ALL
+Kampot,Angkor Chey,KH-07-01,Angkor Chey,KH-07,Kampot,1_to_1_exact,1.0,64042,29924,34118,ALL
+Kampot,Banteay Meas,KH-07-02,Banteay Meas,KH-07,Kampot,1_to_1_exact,1.0,74464,35014,39450,ALL
+Kampot,Chhouk,KH-07-03,Chhuk,KH-07,Kampot,1_to_1_exact,1.0,60744,28718,32026,ALL
+Kampot,Chum Kiri,KH-07-04,Chum Kiri,KH-07,Kampot,1_to_1_exact,1.0,29681,12812,16869,ALL
+Kampot,Dang Tung,KH-07-05,Dang Tong,KH-07,Kampot,1_to_1_exact,1.0,41310,19877,21433,ALL
+Kampot,Kampong Trach,KH-07-06,Kampong Trach,KH-07,Kampot,1_to_1_exact,1.0,86275,41093,45182,ALL
+Kampot,Kampot (DC),KH-07-08,Tuek Chhou,KH-07,Kampot,commune_exact_split,0.85969,65137,29518,35619,Beng Tuk; Chum Kriel; Kampong Kreng; Kampong Samrong; Kandaul; Koh Toch; Kone Sat; Mak Prang; Prek Thnot; Prey Khmom; Prey Thnong; Stung Keo; Thmey; Trapaing Pring; Trapaing Sangker; Trapaing Thom
+Kampot,Kampot (DC),KH-10-02,Kaeb,KH-10,Kep,commune_exact_split,0.14031,10631,4995,5636,Kep; O Kror Sa; Prey Thom
+Kampot,Kampot (PT),KH-07-07,Kampot,KH-07,Kampot,1_to_1_exact,1.0,21985,10376,11609,ALL
+Kandal,Kandal Stung,KH-08-02,Kandal Stueng,KH-08,Kandal,1_to_1_exact,1.0,62832,28222,34610,ALL
+Kandal,Kean Svay,KH-08-05,Kien Svay,KH-08,Kandal,1_to_1_exact,1.0,103225,47986,55239,ALL
+Kandal,Khsach Kandal,KH-08-04,Khsach Kandal,KH-08,Kandal,1_to_1_exact,1.0,94304,45037,49267,ALL
+Kandal,Koh Thom,KH-08-03,Kaoh Thum,KH-08,Kandal,1_to_1_exact,1.0,118554,56054,62500,ALL
+Kandal,Leuk Dek,KH-08-06,Leuk Daek,KH-08,Kandal,1_to_1_exact,1.0,40400,18564,21836,ALL
+Kandal,Lvea Em,KH-08-07,Lvea Aem,KH-08,Kandal,1_to_1_exact,1.0,54685,25577,29108,ALL
+Kandal,Muk Kampoul,KH-08-08,Mukh Kampul,KH-08,Kandal,1_to_1_exact,1.0,56041,25671,30370,ALL
+Kandal,Phnom Penh (DC),KH-08-01,Angk Snuol,KH-08,Kandal,1_to_1_exact,1.0,69949,32832,37117,ALL
+Kandal,Ponhea Leu,KH-08-09,Ponhea Lueu,KH-08,Kandal,1_to_1_exact,1.0,71622,32005,39617,ALL
+Kandal,Saang,KH-08-10,S'ang,KH-08,Kandal,1_to_1_exact,1.0,136089,64720,71369,ALL
+Kandal,Takhmau (PT),KH-08-11,Ta Khmau,KH-08,Kandal,1_to_1_exact,1.0,33913,17115,16798,ALL
+Koh Kong,Botum Sakor,KH-09-01,Botum Sakor,KH-09,Koh Kong,1_to_1_exact,1.0,10189,4871,5318,ALL
+Koh Kong,Kiri Sakor,KH-09-04,Kiri Sakor,KH-09,Koh Kong,1_to_1_exact,1.0,3409,1681,1728,ALL
+Koh Kong,Koh Kong (DC),KH-09-02,Kaoh Kong,KH-09,Koh Kong,1_to_1_exact,1.0,3719,1975,1744,ALL
+Koh Kong,Koh Kong (PT),KH-09-03,Khemara Phoumin,KH-09,Koh Kong,1_to_1_exact,1.0,15923,8083,7840,ALL
+Koh Kong,Mondul Sema,KH-09-05,Mondol Seima,KH-09,Koh Kong,1_to_1_exact,1.0,7566,3752,3814,ALL
+Koh Kong,Sre Ambel,KH-09-06,Srae Ambel,KH-09,Koh Kong,commune_exact_split,0.814627,21331,9634,11697,Boeng Preav; Chikhor Krom; Chikhor Leu; Chrouy Svay; Dang Peng; Sre Ambel
+Koh Kong,Sre Ambel,KH-13-01,Kampong Seila,KH-13,Preah Sihanouk,commune_exact_split,0.185373,4854,2358,2496,Kampong Seila
+Koh Kong,Thmar Baing,KH-09-07,Thma Bang,KH-09,Koh Kong,1_to_1_exact,1.0,2697,1230,1467,ALL
+Kratie,Chhlong,KH-11-02,Chhloung,KH-11,Kratie,1_to_1_exact,1.0,40672,19913,20759,ALL
+Kratie,Kratie,KH-11-01,Chetr Borei,KH-11,Kratie,commune_exact_split,0.661091,39247,18567,20680,Bos Leav; Chang Krang; Dar; Kantuot; Ko lo-ap; Koh Chreng; Sambok; Thmar Andoeuk; Thmar Kre; Thmey
+Kratie,Kratie,KH-11-03,Kracheh,KH-11,Kratie,commune_exact_split,0.338909,20120,9784,10336,Koh Trung; Krakor; Kratie; Orussey; Rokakandal
+Kratie,Prek Prasap,KH-11-04,Prek Prasab,KH-11,Kratie,1_to_1_exact,1.0,44812,21380,23432,ALL
+Kratie,Sambo,KH-11-05,Sambour,KH-11,Kratie,1_to_1_exact,1.0,32100,15198,16902,ALL
+Kratie,Snuol,KH-11-06,Snuol,KH-11,Kratie,1_to_1_exact,1.0,15872,8244,7628,ALL
+Mondulkiri,Keo Sema,KH-14-01,Kaev Seima,KH-14,Mondulkiri,1_to_1_exact,1.0,3719,1695,2024,ALL
+Mondulkiri,Koh Nhek,KH-14-02,Kaoh Nheaek,KH-14,Mondulkiri,1_to_1_exact,1.0,5957,2845,3112,ALL
+Mondulkiri,O Reang,KH-14-03,Ou Reang,KH-14,Mondulkiri,1_to_1_exact,1.0,1725,887,838,ALL
+Mondulkiri,Pich Roda,KH-14-04,Pech Chreada,KH-14,Mondulkiri,1_to_1_exact,1.0,3823,1697,2126,ALL
+Mondulkiri,Sen Monorom (PT),KH-14-05,Saen Monourom,KH-14,Mondulkiri,1_to_1_exact,1.0,6225,3144,3081,ALL
+Phnom Penh,Chamkar Mon,KH-16-01,Chamkar Mon,KH-16,Phnom Penh,1_to_1_exact,1.0,115468,55424,60044,ALL
+Phnom Penh,Dangkor,KH-16-04,Dangkao,KH-16,Phnom Penh,commune_exact_split,0.420135,26111,11920,14191,Chhueng Ek; Dang Kor; Kraing Pong Ro; Pong Teuk; Prateah Lang; Prey Sor; Prey Veng; Sak Sampoeu
+Phnom Penh,Dangkor,KH-16-07,Praek Pnov,KH-16,Phnom Penh,commune_exact_split,0.09231,5737,3608,2129,Kok Rokar
+Phnom Penh,Dangkor,KH-16-09,Pur Sen Chey,KH-16,Phnom Penh,commune_exact_split,0.453217,28167,13514,14653,Chom Chao; Ka Kab; Phleung Cheh Roteh; Sam Rong; Trapaing Krasaing
+Phnom Penh,Dangkor,KH-16-11,Saensokh,KH-16,Phnom Penh,commune_exact_split,0.034337,2134,1007,1127,Kraing Thnoung
+Phnom Penh,Don Penh,KH-16-05,Doun Penh,KH-16,Phnom Penh,1_to_1_exact,1.0,102045,48689,53356,ALL
+Phnom Penh,Mean Chey,KH-16-02,Chbar Ampov,KH-16,Phnom Penh,commune_exact_split,0.442492,42866,19759,23107,Chbar Ampeuo Pi; Niroth; Prek Pre
+Phnom Penh,Mean Chey,KH-16-06,Mean Chey,KH-16,Phnom Penh,commune_exact_split,0.557508,54008,26075,27933,Boeng Tumpun; Chak Angre Kraom; Chak Angre Leu; Stoeng Mean Chey
+Phnom Penh,Prampi Makara,KH-16-08,Prampir Meakkakra,KH-16,Phnom Penh,1_to_1_exact,1.0,88206,46181,42025,ALL
+Phnom Penh,Rusey Keo,KH-16-03,Chraoy Chongvar,KH-16,Phnom Penh,commune_exact_split,0.190138,21057,10095,10962,Chruoy Chang Var; Prek Leap; Prek Tasek
+Phnom Penh,Rusey Keo,KH-16-10,Russey Keo,KH-16,Phnom Penh,commune_exact_split,0.534195,59160,28984,30176,Chraing Chamreh II; Kilometrelek Pramuoy; Russey Keo; Svay Pak; Tuol Sangkae
+Phnom Penh,Rusey Keo,KH-16-11,Saensokh,KH-16,Phnom Penh,commune_exact_split,0.275667,30529,14560,15969,Khmuonh; Phnompenh Thmey; Tuk Thla
+Phnom Penh,Toul Kork,KH-16-12,Tuol Kouk,KH-16,Phnom Penh,1_to_1_exact,1.0,92326,43893,48433,ALL
+Preah Vihear,Chey Sen,KH-18-01,Chey Saen,KH-18,Preah Vihear,1_to_1_exact,1.0,11226,5137,6089,ALL
+Preah Vihear,Chhep,KH-18-02,Chhaeb,KH-18,Preah Vihear,1_to_1_exact,1.0,8480,3802,4678,ALL
+Preah Vihear,Chom Khsan,KH-18-03,Choam Ksant,KH-18,Preah Vihear,1_to_1_exact,1.0,12318,5121,7197,ALL
+Preah Vihear,Koulen,KH-18-04,Kuleaen,KH-18,Preah Vihear,1_to_1_exact,1.0,11726,5502,6224,ALL
+Preah Vihear,Rovieng,KH-18-06,Rovieng,KH-18,Preah Vihear,1_to_1_exact,1.0,21103,7166,13937,ALL
+Preah Vihear,Sangkum Thmey,KH-18-07,Sangkum Thmei,KH-18,Preah Vihear,1_to_1_exact,1.0,10633,2720,7913,ALL
+Preah Vihear,Tbeng Meanchey (P,KH-18-05,Preah Vihear,KH-18,Preah Vihear,commune_exact_split,0.593585,6514,3203,3311,Mittapheap; Pal Hal 2
+Preah Vihear,Tbeng Meanchey (P,KH-18-08,Tbaeng Mean Chey,KH-18,Preah Vihear,commune_exact_split,0.406415,4460,2081,2379,Chhien Muk; Po; Prame; Preah Khlaing
+Prey Veng,Ba Phnom,KH-19-01,Ba Phnum,KH-19,Prey Veng,1_to_1_exact,1.0,70960,33469,37491,ALL
+Prey Veng,Kamchay Mear,KH-19-02,Kamchay Mear,KH-19,Prey Veng,1_to_1_exact,1.0,66991,32071,34920,ALL
+Prey Veng,Kampong Trabek,KH-19-03,Kampong Trabaek,KH-19,Prey Veng,1_to_1_exact,1.0,105038,49612,55426,ALL
+Prey Veng,Kanh Chreach,KH-19-04,Kanhchriech,KH-19,Prey Veng,1_to_1_exact,1.0,57663,26795,30868,ALL
+Prey Veng,Mesang,KH-19-05,Me Sang,KH-19,Prey Veng,1_to_1_exact,1.0,88362,41707,46655,ALL
+Prey Veng,Peam Chor,KH-19-07,Peam Chor,KH-19,Prey Veng,1_to_1_exact,1.0,45427,22361,23066,ALL
+Prey Veng,Peam Ro,KH-19-08,Peam Ro,KH-19,Prey Veng,1_to_1_exact,1.0,44763,20842,23921,ALL
+Prey Veng,Peareang,KH-19-06,Pea Reang,KH-19,Prey Veng,1_to_1_exact,1.0,110295,52325,57970,ALL
+Prey Veng,Preah Sdech,KH-19-09,Preah Sdach,KH-19,Prey Veng,1_to_1_exact,1.0,102069,48127,53942,ALL
+Prey Veng,Prey Veng (DC),KH-19-13,Svay Antor,KH-19,Prey Veng,1_to_1_exact,1.0,83051,38691,44360,ALL
+Prey Veng,Prey Veng (PT),KH-19-10,Prey Veng,KH-19,Prey Veng,commune_exact_split,0.42885,18471,8895,9576,Baray; Cheung Tuk; Kampong Leav (QT)
+Prey Veng,Prey Veng (PT),KH-19-11,Pur Rieng,KH-19,Prey Veng,commune_exact_split,0.57115,24600,11239,13361,Po Rieng; Prek Anteah; Prek Chrey; Prey Kanlaung; Takor
+Prey Veng,Sithor Kandal,KH-19-12,Sithor Kandal,KH-19,Prey Veng,1_to_1_exact,1.0,63773,29908,33865,ALL
+Pursat,Bakan,KH-17-01,Bakan,KH-17,Pursat,1_to_1_exact,1.0,88227,41481,46746,ALL
+Pursat,Kandieng,KH-17-02,Kandieng,KH-17,Pursat,1_to_1_exact,1.0,42372,20160,22212,ALL
+Pursat,Krakor,KH-17-03,Krakor,KH-17,Pursat,1_to_1_exact,1.0,46062,18937,27125,ALL
+Pursat,Kravanh,KH-17-04,Phnum Kravanh,KH-17,Pursat,1_to_1_exact,1.0,35060,16476,18584,ALL
+Pursat,Pursat (PT),KH-17-05,Pursat,KH-17,Pursat,1_to_1_exact,1.0,42866,19736,23130,ALL
+Ratanakiri,Andong Meas,KH-20-01,Andoung Meas,KH-20,Ratanakiri,1_to_1_exact,1.0,5166,2462,2704,ALL
+Ratanakiri,Banlung (PT),KH-20-02,Ban Lung,KH-20,Ratanakiri,1_to_1_exact,1.0,9319,5160,4159,ALL
+Ratanakiri,Bo Keo,KH-20-03,Bar Kaev,KH-20,Ratanakiri,1_to_1_exact,1.0,8785,4111,4674,ALL
+Ratanakiri,Kon Mum,KH-20-04,Koun Mom,KH-20,Ratanakiri,1_to_1_exact,1.0,6114,2913,3201,ALL
+Ratanakiri,Lum Phat,KH-20-05,Lumphat,KH-20,Ratanakiri,1_to_1_exact,1.0,7707,3741,3966,ALL
+Ratanakiri,O Chum,KH-20-06,Ou Chum,KH-20,Ratanakiri,1_to_1_exact,1.0,9072,4145,4927,ALL
+Ratanakiri,O Ya Dav,KH-20-07,Ou Ya Dav,KH-20,Ratanakiri,1_to_1_exact,1.0,8330,4013,4317,ALL
+Ratanakiri,Ta Veng,KH-20-08,Ta Veaeng,KH-20,Ratanakiri,1_to_1_exact,1.0,3138,1447,1691,ALL
+Ratanakiri,Voen Sai,KH-20-09,Veun Sai,KH-20,Ratanakiri,1_to_1_exact,1.0,9133,4911,4222,ALL
+Siem Reap,Angkor Chum,KH-21-01,Angkor Chum,KH-21,Siem Reap,1_to_1_exact,1.0,40013,18440,21573,ALL
+Siem Reap,Angkor Thom,KH-21-02,Angkor Thum,KH-21,Siem Reap,1_to_1_exact,1.0,12686,5492,7194,ALL
+Siem Reap,Banteay Srey,KH-21-03,Banteay Srei,KH-21,Siem Reap,1_to_1_exact,1.0,19396,8828,10568,ALL
+Siem Reap,Chi Kreng,KH-21-04,Chi Kraeng,KH-21,Siem Reap,1_to_1_exact,1.0,90010,42563,47447,ALL
+Siem Reap,Chong Kal,KH-15-03,Chong Kal,KH-15,Oddar Meanchey,1_to_1_exact,1.0,9257,4406,4851,ALL
+Siem Reap,Kra Lanh,KH-21-05,Kralanh,KH-21,Siem Reap,1_to_1_exact,1.0,46999,22243,24756,ALL
+Siem Reap,Puork,KH-21-07,Puok,KH-21,Siem Reap,1_to_1_exact,1.0,89256,41748,47508,ALL
+Siem Reap,Samrong,KH-15-04,Samraong,KH-15,Oddar Meanchey,1_to_1_exact,1.0,12770,5873,6897,ALL
+Siem Reap,Siem Reap (DC),KH-21-06,Prasat Bakong,KH-21,Siem Reap,1_to_1_exact,1.0,43210,19518,23692,ALL
+Siem Reap,Siem Reap (PT),KH-21-08,Siem Reap,KH-21,Siem Reap,1_to_1_exact,1.0,70142,31823,38319,ALL
+Siem Reap,Sotr Nikum,KH-21-09,Soutr Nikom,KH-21,Siem Reap,1_to_1_exact,1.0,79146,36685,42461,ALL
+Siem Reap,Srey Snam,KH-21-10,Srei Snam,KH-21,Siem Reap,1_to_1_exact,1.0,20861,9576,11285,ALL
+Siem Reap,Svay Leu,KH-21-11,Svay Leu,KH-21,Siem Reap,1_to_1_exact,1.0,8218,3649,4569,ALL
+Siem Reap,Varin,KH-21-13,Varin,KH-21,Siem Reap,1_to_1_exact,1.0,13402,6360,7042,ALL
+Stung Treng,Sesan,KH-22-01,Sesan,KH-22,Stung Treng,1_to_1_exact,1.0,8923,4170,4753,ALL
+Stung Treng,Siem Bok,KH-22-02,Siem Bouk,KH-22,Stung Treng,1_to_1_exact,1.0,7879,3739,4140,ALL
+Stung Treng,Siem Pang,KH-22-03,Siem Pang,KH-22,Stung Treng,1_to_1_exact,1.0,11121,5388,5733,ALL
+Stung Treng,Stung Treng (PT),KH-22-04,Stueng Traeng,KH-22,Stung Treng,1_to_1_exact,1.0,18350,9259,9091,ALL
+Stung Treng,Thala Bariwatt,KH-22-05,Thala Barivat,KH-22,Stung Treng,1_to_1_exact,1.0,17255,7477,9778,ALL
+Svay Rieng,Chan Trea,KH-23-01,Bavet,KH-23,Svay Rieng,commune_exact_split,0.62049,21652,10181,11471,Baty; Bavit; Chres; Prasat; Prey Angkunh
+Svay Rieng,Chan Trea,KH-23-02,Chantrea,KH-23,Svay Rieng,commune_exact_split,0.37951,13243,6309,6934,Chantrea; Mesthlork; Prey kaky; Samroung; Toulsdey
+Svay Rieng,Kampong Ro,KH-23-03,Kampong Rou,KH-23,Svay Rieng,1_to_1_exact,1.0,51889,24729,27160,ALL
+Svay Rieng,Ramduol,KH-23-05,Rumduol,KH-23,Svay Rieng,1_to_1_exact,1.0,42585,20264,22321,ALL
+Svay Rieng,Romeas Hek,KH-23-04,Romeas Haek,KH-23,Svay Rieng,1_to_1_exact,1.0,99409,48867,50542,ALL
+Svay Rieng,Svay Rieng (DC),KH-23-06,Svay Chrum,KH-23,Svay Rieng,1_to_1_exact,1.0,121764,57078,64686,ALL
+Svay Rieng,Svay Rieng (PT),KH-23-07,Svay Rieng,KH-23,Svay Rieng,1_to_1_exact,1.0,15858,7860,7998,ALL
+Svay Rieng,Svay Teap,KH-23-08,Svay Teab,KH-23,Svay Rieng,1_to_1_exact,1.0,49658,22244,27414,ALL
+Takeo,Angkor Borey,KH-24-01,Angkor Borei,KH-24,Takeo,1_to_1_exact,1.0,32169,15752,16417,ALL
+Takeo,Bati,KH-24-02,Bati,KH-24,Takeo,1_to_1_exact,1.0,92439,42330,50109,ALL
+Takeo,Borey Chulasar,KH-24-03,Borei Cholsar,KH-24,Takeo,1_to_1_exact,1.0,16958,8053,8905,ALL
+Takeo,Kiri Vong,KH-24-06,Kiri Vong,KH-24,Takeo,1_to_1_exact,1.0,73455,33646,39809,ALL
+Takeo,Koh Andet,KH-24-05,Kaoh Andaet,KH-24,Takeo,1_to_1_exact,1.0,38559,17810,20749,ALL
+Takeo,Prey Kabass,KH-24-07,Prey Kabbas,KH-24,Takeo,1_to_1_exact,1.0,70259,32529,37730,ALL
+Takeo,Samrong,KH-24-08,Samraong,KH-24,Takeo,1_to_1_exact,1.0,87672,40489,47183,ALL
+Takeo,Takeo (PT),KH-24-04,Doun Kaev,KH-24,Takeo,1_to_1_exact,1.0,24173,10922,13251,ALL
+Takeo,Tram Kak,KH-24-09,Tram Kak,KH-24,Takeo,1_to_1_exact,1.0,119476,54968,64508,ALL
+Takeo,Treang,KH-24-10,Treang,KH-24,Takeo,1_to_1_exact,1.0,81244,37515,43729,ALL

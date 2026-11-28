@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="author" content="Favio Leiva">
 <meta name="theme-color" content="#060d1f">
-<title>GDO-Cambodia · Panel 202 (1998–2019) · Multi-Variable Observatory · Favio Leiva</title>
+<title>GDO-Cambodia · Panel 202 (1992–2019) · Multi-Variable Observatory · Favio Leiva</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+Khmer:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -169,13 +169,25 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
 .tooltip{position:fixed;pointer-events:none;z-index:50;background:#060d1ff5;border:1px solid var(--sky);border-radius:8px;padding:8px 11px;font-size:12.5px;color:var(--cream);box-shadow:0 8px 24px #000a;display:none;max-width:290px}
 @media(max-width:1100px){.explore-grid{grid-template-columns:1fr}.ranking-pair{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:760px){.ranking-pair,.gallery,.method-grid{grid-template-columns:1fr}.topbar,.hero,main,footer{padding-inline:16px}.sel-group select{max-width:220px}}
+
+[hidden]{display:none!important}
+.source92-notice{margin:0 0 18px;padding:16px 20px;border:1px solid #92713a;border-left:4px solid #e9b86c;border-radius:10px;background:#1d2230;font-size:14px;line-height:1.6}
+.source92-notice strong{color:#f4ce96;font-size:16px}
+.source92-notice p{margin:6px 0}
+.stat-grid.four-years{grid-template-columns:repeat(2,minmax(0,1fr))}
+.stat-grid .lbl{font-size:12px}.stat-grid .sub{font-size:12px}
+.traj-bars.four-years{grid-template-columns:repeat(4,1fr)}
+#comparison92Note{font-size:12px;color:#f4ce96;line-height:1.5}
+#source1992{scroll-margin-top:110px}
+@media(max-width:600px){.stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.source92-notice{padding:12px}.topbar{flex-wrap:wrap}}
 </style>
+<link rel="stylesheet" href="assets/contract14/workspace.css">
 </head>
 <body>
 <nav class="topbar">
   <a class="brand" href="#">
     <span class="brand-dot"></span>
-    <span>GDO-Cambodia<span data-i18n="brandSub">Panel 202 · Censo Multi-Variable 1998–2019</span></span>
+    <span>GDO-Cambodia<span data-i18n="brandSub">Panel 202 · Datos de población 1992–2019</span></span>
   </a>
   <div class="navright">
     <a href="#explore" data-i18n="navExplore">Explorar</a>
@@ -192,9 +204,9 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
 <header class="hero">
   <div class="hero-left">
     <div class="eyebrow"><i></i><span data-i18n="eyebrow">Observatorio Subnacional · 202 distritos armonizados · 125 indicadores</span></div>
-    <h1 data-i18n="heroTitle">Camboya en tres<br><em>censos de población</em></h1>
+    <h1 data-i18n="heroTitle">Camboya: población<br><em>1992–2019</em></h1>
     <div class="hero-author" data-i18n="heroAuthor"><strong>Favio Leiva</strong><span class="sep">·</span><span class="pow">Powered by Gemini 4 Neon via Antigravity</span></div>
-    <p class="hero-lead" data-i18n="heroLead">Panel censal multi-variable armonizado para las 202 unidades de Quarcs Cambodia shapefile 202 (GDO-Cambodia), reconstruido desde el nivel de comuna (ADM3) para 1998, 2008 y 2019 (100% REDATAM).</p>
+    <p class="hero-lead" data-i18n="heroLead">Tres censos de población (1998, 2008 y 2019) y una fuente histórica distinta: datos administrativos de UNTAC de 1992 para planificación electoral. Armonizados a 202 unidades QuaRCS; 1992 no es un censo de población.</p>
   </div>
   <div class="hero-right">
     <div class="ribbon-inline">
@@ -222,7 +234,8 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
           <select id="varSelect" aria-label="Census variable"></select>
         </div>
       </div>
-      <div class="years" role="group" aria-label="Census year">
+      <div class="years" role="group" aria-label="Observation year">
+        <button data-year="1992" aria-pressed="false">1992 · UNTAC</button>
         <button data-year="1998" aria-pressed="false">1998</button>
         <button data-year="2008" aria-pressed="false">2008</button>
         <button data-year="2019" aria-pressed="true">2019</button>
@@ -234,6 +247,12 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
       <div id="waveBadge" class="wave-pill" style="display:none"></div>
     </div>
 
+    <aside id="source92Notice" class="source92-notice" hidden aria-live="polite">
+      <strong data-i18n="source92Title"></strong>
+      <p data-i18n="source92Short"></p>
+      <p data-i18n="coverage92"></p>
+      <a href="#source1992" data-i18n="source92Link"></a>
+    </aside>
     <div class="explore-grid">
       <div class="panel-card">
         <div class="map-header">
@@ -288,6 +307,7 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
           <div id="inspBadge"></div>
 
           <div class="stat-grid">
+            <div class="stat-box" id="stat92"><div class="lbl" data-i18n="historical92">1992 · UNTAC</div><div class="val" id="v92">—</div><div class="sub" id="s92"></div></div>
             <div class="stat-box"><div class="lbl">1998</div><div class="val" id="v98">—</div><div class="sub" id="s98"></div></div>
             <div class="stat-box"><div class="lbl">2008</div><div class="val" id="v08">—</div><div class="sub" id="s08"></div></div>
             <div class="stat-box"><div class="lbl">2019</div><div class="val" id="v19">—</div><div class="sub" id="s19"></div></div>
@@ -296,6 +316,7 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
 
         <div class="traj-inline">
           <div class="traj-bars">
+            <div class="traj-col" id="col92"><div class="traj-bar" id="b92" style="height:0"></div></div>
             <div class="traj-col"><div class="traj-bar" id="b98" style="height:20%"></div></div>
             <div class="traj-col"><div class="traj-bar" id="b08" style="height:50%"></div></div>
             <div class="traj-col"><div class="traj-bar" id="b19" style="height:90%"></div></div>
@@ -303,6 +324,7 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
           <div class="traj-meta">
             <span id="trajTitle">Trayectoria (1998 · 2008 · 2019)</span>
             <strong id="inspGrowth">—</strong>
+            <span id="comparison92Note" data-i18n="comparison92" hidden></span>
           </div>
         </div>
 
@@ -329,10 +351,14 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
     </div>
   </section>
 
-  <details class="drawer" id="references" open>
-    <summary data-i18n="refSummary">Mapas estáticos de referencia (1998 · 2008 · 2019) y descargas CSV</summary>
+  <details class="drawer" id="references">
+    <summary data-i18n="refSummary">Mapas de referencia y descargas · UNTAC 1992 y censos 1998 · 2008 · 2019</summary>
     <div class="drawer-body">
       <div class="gallery">
+        <div class="ref-card">
+          <a href="assets/1992/cambodia1992_harmonized_quarcs_map.png" target="_blank"><img loading="lazy" src="assets/1992/cambodia1992_harmonized_quarcs_map.png" alt="UNTAC 1992: population and sex ratio, two reference panels"></a>
+          <div class="cap"><strong data-i18n="cap92"></strong><a href="assets/1992/cambodia1992_harmonized_quarcs_map.png" download>PNG</a></div>
+        </div>
         <div class="ref-card">
           <a href="population_1998.png" target="_blank"><img src="population_1998.png" alt="Cambodia 1998 harmonized population"></a>
           <div class="cap"><strong data-i18n="cap98">1998 · 202 distritos</strong><a href="population_1998.png" download>PNG ↗</a></div>
@@ -347,6 +373,8 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
         </div>
       </div>
       <div class="downloads-row">
+        <a class="button secondary" href="data/census_1992/cambodia1992_harmonized_quarcs_district.csv" download data-i18n="dl92"></a>
+        <a class="button secondary" href="assets/1992/cambodia_sex_ratio_evolution_1992_2019.png" download data-i18n="dlEvolution92"></a>
         <a class="button primary" href="data/harmonized_panel202/panel202_multivar_1998_2008_2019_long.csv" download data-i18n="dlMultiLong">Panel Multi-Var 3 Olas Long CSV (606×63) ↗</a>
         <a class="button secondary" href="data/harmonized_panel202/panel202_multivar_1998_2008_2019_wide.csv" download data-i18n="dlMultiWide">Panel Multi-Var Wide CSV (202×176) ↗</a>
         <a class="button secondary" href="data/harmonized_panel202/panel202_assets_agromech_2019.csv" download data-i18n="dlAssets">Activos &amp; Mecanización 2019 CSV ↗</a>
@@ -408,6 +436,13 @@ footer{width:100%;max-width:1680px;margin:20px auto 0;padding:18px 28px 32px;bor
     <summary data-i18n="methSummary">Fuentes, metodología de armonización y ecosistema de proyectos</summary>
     <div class="drawer-body">
       <div class="method-grid">
+        <article class="method-card" id="source1992">
+          <h3 data-i18n="source92Title"></h3>
+          <p data-i18n="source92Body"></p>
+          <p>Aschmoneit, Walter &amp; Thoma, Jochen (1995). <cite>Village Population Statistics of Cambodia: The UNTAC Electoral Data of 1992 processed for Development Planning</cite>. Phnom Penh. pp. IV–V, XII.</p>
+          <a href="https://www.academia.edu/68662673/Village_population_statistics_of_Cambodia_the_UNTAC_electoral_data_of_1992_processed_for_development_planning" target="_blank" rel="noopener" data-i18n="source92Read"></a>
+        </article>
+
         <div class="method-card">
           <h3 data-i18n="m1Title">1. Crosswalk métrico discreto ADM3 → Quarcs Cambodia shapefile 202</h3>
           <p data-i18n="m1Body">Las comunas nativas de 1998 (1,609), 2008 (1,621) y 2019 (1,633 polígonos ADM3 + resolución por distrito padre de las 31 comunas territoriales sin polígono en khm_adm3_un) se proyectan a UTM Zona 48N (EPSG:32648) y se intersectan con Quarcs Cambodia shapefile 202. Cada comuna se asigna íntegramente (100%, sin partir comunas) al único distrito terrestre donde tiene mayor porcentaje de área, garantizando conteos enteros exactos y dejando los 5 sectores lacustres de Tonlé Sap en NA (cuerpo de agua).</p>
@@ -610,6 +645,89 @@ const I18N = {
   }
 };
 
+
+const HISTORICAL_I18N = {
+  "es": {
+    "brandSub": "Panel 202 · Datos de población 1992–2019",
+    "heroTitle": "Camboya: población<br><em>1992–2019</em>",
+    "heroLead": "Tres censos de población (1998, 2008 y 2019) y una fuente histórica distinta: datos administrativos de UNTAC de 1992 para planificación electoral. Armonizados a 202 unidades QuaRCS; 1992 no es un censo de población.",
+    "source92Title": "1992 · Fuente administrativa UNTAC, no un censo",
+    "source92Short": "Datos recopilados por la Unidad de Planificación Electoral Avanzada (AEPU) de UNTAC en 1992 y publicados por Aschmoneit y Thoma (1995). Cobertura y método distintos de los censos posteriores.",
+    "source92Body": "La AEPU de la Autoridad Provisional de las Naciones Unidas en Camboya (UNTAC) reunió información de las administraciones provinciales, distritales, comunales y de aldeas en 1992 para planificación electoral. Aschmoneit y Thoma la publicaron en 1995. No es un censo de población ni un recuento exclusivamente de electores: las tablas distinguen población total, mujeres y personas de 18 años o más. Las fechas y cifras varían entre niveles administrativos; la introducción documenta inconsistencias y localidades bajo control de los Jemeres Rojos. Aquí se reutiliza la armonización histórica aceptada, sin imputar datos faltantes. Las comparaciones con 1998–2019 son descriptivas y no constituyen una serie censal plenamente comparable.",
+    "coverage92": "186 distritos con valores · 10 sin cobertura UNTAC · 1 con población retenida en el distrito de origen · 5 sectores de agua.",
+    "source92Link": "Referencia y límites de comparabilidad",
+    "source92Read": "Consultar publicación original",
+    "coverage92Missing": "Sin cobertura en la fuente UNTAC de 1992; no equivale a población cero.",
+    "coverage92Retained": "Sin cifra separada en 1992: población retenida en el distrito de origen por una división subcomunal.",
+    "coverage92Observed": "Dato administrativo UNTAC de 1992 (no censal).",
+    "coverage92Water": "Sector de agua de Tonlé Sap; sin dato demográfico.",
+    "coverage92NA": "Sin dato de 1992 para este indicador.",
+    "historical92": "1992 · UNTAC",
+    "comparison92": "Comparación descriptiva entre fuentes y coberturas distintas.",
+    "mapMeta92Count": "Población registrada en la fuente: {n} · {c} distritos con datos",
+    "mapMeta92Rate": "Razón agregada de la población registrada: {n} · {c} distritos con datos",
+    "rankingCtx": "{v} · {y} · {n} distritos terrestres con datos · Clic para explorar",
+    "refSummary": "Mapas de referencia y descargas · UNTAC 1992 y censos 1998 · 2008 · 2019",
+    "cap92": "1992 · UNTAC · Población e índice de masculinidad",
+    "dl92": "Datos agregados UNTAC 1992 (CSV)",
+    "dl92Map": "Mapa de referencia 1992 (2 paneles)",
+    "dlEvolution92": "Referencia: masculinidad 1992–2019 (PNG)"
+  },
+  "en": {
+    "brandSub": "Panel 202 · Population data 1992–2019",
+    "heroTitle": "Cambodia: population<br><em>1992–2019</em>",
+    "heroLead": "Three population censuses (1998, 2008 and 2019) and a distinct historical source: UNTAC administrative data collected in 1992 for electoral planning. Harmonized to 202 QuaRCS units; 1992 is not a population census.",
+    "source92Title": "1992 · UNTAC administrative source, not a census",
+    "source92Short": "Data collected by UNTAC’s Advanced Electoral Planning Unit (AEPU) in 1992 and published by Aschmoneit and Thoma (1995). Coverage and methods differ from later censuses.",
+    "source92Body": "The Advanced Electoral Planning Unit (AEPU) of the United Nations Transitional Authority in Cambodia (UNTAC) gathered data from provincial, district, commune and village administrations in 1992 for electoral planning. Aschmoneit and Thoma published them in 1995. This is neither a population census nor a count of voters alone: the tables distinguish total population, women and people aged 18 or above. Dates and figures differ across administrative levels; the introduction describes inconsistencies and Khmer Rouge controlled localities. This map reuses the accepted historical harmonization without imputing missing data. Comparisons with 1998–2019 are descriptive, not a fully comparable census series.",
+    "coverage92": "186 districts with values · 10 outside UNTAC coverage · 1 with population retained in its parent district · 5 water sectors.",
+    "source92Link": "Reference and comparability limits",
+    "source92Read": "Read original publication",
+    "coverage92Missing": "Not covered by the 1992 UNTAC source; this does not mean zero population.",
+    "coverage92Retained": "No separate 1992 count: population retained in the parent district after a sub-commune split.",
+    "coverage92Observed": "UNTAC administrative observation for 1992 (not a census).",
+    "coverage92Water": "Tonlé Sap water sector; no demographic observation.",
+    "coverage92NA": "No 1992 data for this indicator.",
+    "historical92": "1992 · UNTAC",
+    "comparison92": "Descriptive comparison across different sources and coverage.",
+    "mapMeta92Count": "Population recorded in the source: {n} · {c} districts with data",
+    "mapMeta92Rate": "Aggregate ratio of recorded population: {n} · {c} districts with data",
+    "rankingCtx": "{v} · {y} · {n} land districts with data · Click to explore",
+    "refSummary": "Reference maps and downloads · UNTAC 1992 and censuses 1998 · 2008 · 2019",
+    "cap92": "1992 · UNTAC · Population and sex ratio",
+    "dl92": "UNTAC 1992 aggregated data (CSV)",
+    "dl92Map": "1992 reference map (2 panels)",
+    "dlEvolution92": "Reference: sex ratio 1992–2019 (PNG)"
+  },
+  "km": {
+    "brandSub": "Panel 202 · ទិន្នន័យប្រជាជន ១៩៩២–២០១៩",
+    "heroTitle": "កម្ពុជា៖ ប្រជាជន<br><em>១៩៩២–២០១៩</em>",
+    "heroLead": "ជំរឿនប្រជាជនបីលើក (១៩៩៨, ២០០៨ និង ២០១៩) និងប្រភពប្រវត្តិសាស្ត្រផ្សេងមួយ៖ ទិន្នន័យរដ្ឋបាល UNTAC ឆ្នាំ១៩៩២ សម្រាប់ផែនការបោះឆ្នោត។ ទិន្នន័យត្រូវបានផ្គូផ្គងទៅនឹងតំបន់ QuaRCS ចំនួន២០២។ ទិន្នន័យឆ្នាំ១៩៩២ មិនមែនជាជំរឿនប្រជាជនទេ។",
+    "source92Title": "១៩៩២ · ប្រភពរដ្ឋបាល UNTAC មិនមែនជាជំរឿន",
+    "source92Short": "ទិន្នន័យប្រមូលដោយអង្គភាពផែនការបោះឆ្នោតជាមុន (AEPU) របស់ UNTAC ក្នុងឆ្នាំ១៩៩២ និងបោះពុម្ពដោយ Aschmoneit និង Thoma (១៩៩៥)។ វិសាលភាព និងវិធីសាស្ត្រខុសពីជំរឿនក្រោយៗ។",
+    "source92Body": "អង្គភាពផែនការបោះឆ្នោតជាមុន (AEPU) របស់អាជ្ញាធរបណ្តោះអាសន្នអង្គការសហប្រជាជាតិនៅកម្ពុជា (UNTAC) បានប្រមូលទិន្នន័យពីរដ្ឋបាលខេត្ត ស្រុក ឃុំ និងភូមិ ក្នុងឆ្នាំ១៩៩២ សម្រាប់ផែនការបោះឆ្នោត។ Aschmoneit និង Thoma បានបោះពុម្ពទិន្នន័យនេះនៅឆ្នាំ១៩៩៥។ នេះមិនមែនជាជំរឿនប្រជាជន ឬជាចំនួនអ្នកបោះឆ្នោតតែប៉ុណ្ណោះទេ៖ តារាងបែងចែកប្រជាជនសរុប ស្ត្រី និងអ្នកមានអាយុ១៨ឆ្នាំឡើង។ កាលបរិច្ឆេទ និងតួលេខខុសគ្នាតាមកម្រិតរដ្ឋបាល។ សេចក្តីផ្តើមរៀបរាប់ភាពមិនស៊ីគ្នា និងតំបន់គ្រប់គ្រងដោយខ្មែរក្រហម។ ផែនទីនេះប្រើការផ្គូផ្គងភូមិសាស្ត្រដែលបានអនុម័ត ដោយមិនប៉ាន់ស្មានទិន្នន័យដែលបាត់។ ការប្រៀបធៀបនឹងឆ្នាំ១៩៩៨–២០១៩ គឺសម្រាប់ពិពណ៌នា មិនមែនជាស៊េរីជំរឿនដែលអាចប្រៀបធៀបគ្នាបានពេញលេញទេ។",
+    "coverage92": "ស្រុក១៨៦ មានទិន្នន័យ · ១០ គ្មានទិន្នន័យ UNTAC · ១ រក្សាចំនួនប្រជាជននៅស្រុកដើម · តំបន់ទឹក៥។",
+    "source92Link": "ឯកសារយោង និងដែនកំណត់នៃការប្រៀបធៀប",
+    "source92Read": "អានឯកសារដើម",
+    "coverage92Missing": "គ្មានទិន្នន័យក្នុងប្រភព UNTAC ឆ្នាំ១៩៩២។ នេះមិនមានន័យថាគ្មានប្រជាជនទេ។",
+    "coverage92Retained": "គ្មានតួលេខដាច់ដោយឡែកសម្រាប់ឆ្នាំ១៩៩២៖ ចំនួនប្រជាជនត្រូវបានរក្សានៅស្រុកដើម បន្ទាប់ពីការបែងចែកក្រោមកម្រិតឃុំ។",
+    "coverage92Observed": "ទិន្នន័យរដ្ឋបាល UNTAC ឆ្នាំ១៩៩២ (មិនមែនជាជំរឿន)។",
+    "coverage92Water": "តំបន់ទឹកបឹងទន្លេសាប គ្មានទិន្នន័យប្រជាសាស្ត្រ។",
+    "coverage92NA": "គ្មានទិន្នន័យឆ្នាំ១៩៩២ សម្រាប់សូចនាករនេះ។",
+    "historical92": "១៩៩២ · UNTAC",
+    "comparison92": "ការប្រៀបធៀបពិពណ៌នារវាងប្រភព និងវិសាលភាពខុសគ្នា។",
+    "mapMeta92Count": "ប្រជាជនដែលកត់ត្រាក្នុងប្រភព៖ {n} · ស្រុកមានទិន្នន័យ {c}",
+    "mapMeta92Rate": "ផលធៀបសរុបនៃប្រជាជនដែលកត់ត្រា៖ {n} · ស្រុកមានទិន្នន័យ {c}",
+    "rankingCtx": "{v} · {y} · ស្រុកដីគោកមានទិន្នន័យ {n} · ចុចដើម្បីពិនិត្យ",
+    "refSummary": "ផែនទីយោង និងការទាញយក · UNTAC ១៩៩២ និងជំរឿន ១៩៩៨ · ២០០៨ · ២០១៩",
+    "cap92": "១៩៩២ · UNTAC · ប្រជាជន និងផលធៀបភេទ",
+    "dl92": "ទិន្នន័យសរុប UNTAC ១៩៩២ (CSV)",
+    "dl92Map": "ផែនទីយោង ១៩៩២ (២ផ្ទាំង)",
+    "dlEvolution92": "យោង៖ ផលធៀបភេទ ១៩៩២–២០១៩ (PNG)"
+  }
+};
+for (const [code, entries] of Object.entries(HISTORICAL_I18N)) Object.assign(I18N[code], entries);
+
 let lang = "es";
 let activeBlock = "Demography";
 let activeVar = "pop_total";
@@ -624,6 +742,16 @@ const STOPS = [
   [0.75, [244,109,67]],
   [1.00, [215,48,39]]
 ];
+
+function coverage92Text(d) {
+  const t = I18N[lang];
+  if (!getVarMeta().years.includes(1992)) return t.coverage92NA;
+  const type = MV.historical_1992.coverage[d.id].mapping_type;
+  return type === "water_body" ? t.coverage92Water
+    : type === "not_covered_in_1992_untac" ? t.coverage92Missing
+    : type === "sub_commune_parent_retained" ? t.coverage92Retained
+    : t.coverage92Observed;
+}
 
 function getVarMeta() {
   return VARS_BY_ID[activeVar];
@@ -814,9 +942,7 @@ function renderLegend() {
   const t = I18N[lang];
   const ticksEl = document.getElementById("legendTicks");
   let ticks = [];
-  if (activeVar === "pop_total") {
-    ticks = ["5,000", "10,000", "25,000", "50,000", "100,000", "250,000"];
-  } else if (meta.scale === "log") {
+  if (meta.scale === "log") {
     const lmin = Math.log10(Math.max(1, meta.min));
     const lmax = Math.log10(Math.max(meta.min + 1, meta.max));
     for (let i = 0; i < 6; i++) {
@@ -839,6 +965,8 @@ function renderLegend() {
 function renderMap() {
   const meta = getVarMeta();
   const t = I18N[lang];
+  document.getElementById("source92Notice").hidden = activeYear !== 1992;
+  document.getElementById("nisToggleWrap").style.display = activeVar === "pop_total" && activeYear === 1998 ? "flex" : "none";
   let total = 0;
   let validCount = 0;
   document.querySelectorAll(".district").forEach(el => {
@@ -854,17 +982,19 @@ function renderMap() {
   });
   document.getElementById("mapTitle").textContent = `${meta[lang]} · ${activeYear}`;
   if (meta.kind === "count") {
-    document.getElementById("mapMeta").textContent = t.mapMetaCount
+    document.getElementById("mapMeta").textContent = (activeYear === 1992 ? t.mapMeta92Count : t.mapMetaCount)
       .replace("{n}", Math.round(total).toLocaleString())
       .replace("{c}", validCount);
   } else {
     const natVal = meta.nat[String(activeYear)];
-    document.getElementById("mapMeta").textContent = t.mapMetaRate
+    document.getElementById("mapMeta").textContent = (activeYear === 1992 ? t.mapMeta92Rate : t.mapMetaRate)
       .replace("{n}", fmtVal(natVal, meta))
       .replace("{c}", validCount);
   }
   if (activeVar === "pop_total") {
-    document.getElementById("downloadMap").setAttribute("href", `population_${activeYear}.png`);
+    const download = document.getElementById("downloadMap");
+    download.setAttribute("href", activeYear === 1992 ? "assets/1992/cambodia1992_harmonized_quarcs_map.png" : `population_${activeYear}.png`);
+    download.textContent = activeYear === 1992 ? t.dl92Map : t.dlPng;
   }
   renderLegend();
   requestAnimationFrame(updateFocusBox);
@@ -894,7 +1024,9 @@ function renderInspector() {
   document.getElementById("inspProv").textContent = d.prov;
 
   let badgeHtml = "";
-  if (activeVar === "pop_total" && d.est98) {
+  if (activeYear === 1992) {
+    badgeHtml = `<span class="badge-est">${coverage92Text(d)}</span>`;
+  } else if (activeYear === 1998 && activeVar === "pop_total" && useNisAdj && d.est98) {
     badgeHtml = `<span class="badge-est">${t.estBadge.replace("{n}", d.est98_add.toLocaleString())}</span>`;
   } else if (activeYear === 1998 && !d.water && activeVar.startsWith("light_")) {
     const cov = MV.cov98.light[d.idx];
@@ -905,31 +1037,40 @@ function renderInspector() {
   }
   document.getElementById("inspBadge").innerHTML = badgeHtml;
 
-  document.getElementById("v98").textContent = fmtVal(v98, meta);
-  document.getElementById("s98").textContent = v98 === null ? t.naLabel : "";
-  document.getElementById("v08").textContent = fmtVal(v08, meta);
-  document.getElementById("s08").textContent = v08 === null ? t.naLabel : fmtDelta(v98, v08, meta);
-  document.getElementById("v19").textContent = fmtVal(v19, meta);
-  document.getElementById("s19").textContent = v19 === null ? t.naLabel : fmtDelta(v08, v19, meta);
+  const years = meta.years.includes(1992) ? [1992, 1998, 2008, 2019] : [1998, 2008, 2019];
+  const has92 = meta.years.includes(1992);
+  document.getElementById("stat92").hidden = !has92;
+  document.getElementById("col92").hidden = !has92;
+  document.querySelector(".stat-grid").classList.toggle("four-years", has92);
+  document.querySelector(".traj-bars").classList.toggle("four-years", has92);
+  const observations = years.map(y => ({year:y, value:getVal(d,y)}));
+  const mx = Math.max(...observations.map(o => o.value || 0), meta.kind === "pct" ? 100 : 1);
+  observations.forEach((o,i) => {
+    const suffix = String(o.year).slice(-2);
+    document.getElementById("v"+suffix).textContent = fmtVal(o.value,meta);
+    document.getElementById("s"+suffix).textContent = o.value === null
+      ? (o.year === 1992 ? coverage92Text(d) : t.naLabel)
+      : (i > 0 ? fmtDelta(observations[i-1].value,o.value,meta) : "");
+    const bar = document.getElementById("b"+suffix);
+    bar.style.height = o.value === null ? "0%" : `${Math.max(5,o.value/mx*100)}%`;
+    bar.parentElement.title = `${o.year}: ${fmtVal(o.value,meta)}`;
+    bar.parentElement.setAttribute("aria-label",bar.parentElement.title);
+  });
+  document.getElementById("trajTitle").textContent = `${meta[lang]} (${meta.years.join(" · ")})`;
+  // Compare only within an unbroken run of observed years. Never bridge a gap.
+  let run=[], longest=[];
+  observations.forEach(o => {
+    if(o.value === null) run=[]; else run.push(o);
+    if(run.length >= longest.length) longest=[...run];
+  });
+  let growthTxt="—";
+  if(longest.length > 1) {
+    const first=longest[0], last=longest[longest.length-1];
+    growthTxt=`${first.year}→${last.year}: ${fmtDelta(first.value,last.value,meta)}`;
+  } else if(longest.length) growthTxt=`${longest[0].year}: ${fmtVal(longest[0].value,meta)}`;
+  document.getElementById("inspGrowth").textContent=growthTxt;
+  document.getElementById("comparison92Note").hidden=!has92;
 
-  const wStr = meta.years.join(" · ");
-  document.getElementById("trajTitle").textContent = `${meta[lang]} (${wStr})`;
-  let growthTxt = "—";
-  if (v98 !== null && v19 !== null) {
-    growthTxt = `1998→2019: ${fmtDelta(v98, v19, meta)}`;
-  } else if (v08 !== null && v19 !== null) {
-    growthTxt = `2008→2019: ${fmtDelta(v08, v19, meta)}`;
-  } else if (v98 !== null && v08 !== null) {
-    growthTxt = `1998→2008: ${fmtDelta(v98, v08, meta)}`;
-  } else if (v19 !== null) {
-    growthTxt = `2019: ${fmtVal(v19, meta)}`;
-  }
-  document.getElementById("inspGrowth").textContent = growthTxt;
-
-  const mx = Math.max(v98 || 0, v08 || 0, v19 || 0, meta.kind === "pct" ? 100 : 1);
-  document.getElementById("b98").style.height = v98 === null ? "3%" : `${Math.max(5, (v98 / mx) * 100)}%`;
-  document.getElementById("b08").style.height = v08 === null ? "3%" : `${Math.max(5, (v08 / mx) * 100)}%`;
-  document.getElementById("b19").style.height = v19 === null ? "3%" : `${Math.max(5, (v19 / mx) * 100)}%`;
 }
 
 function renderRankings() {
@@ -993,122 +1134,7 @@ function applyLang() {
   renderRankings();
 }
 
-// Events
-document.querySelectorAll(".lang button").forEach(btn => {
-  btn.addEventListener("click", () => {
-    lang = btn.dataset.lang;
-    document.querySelectorAll(".lang button").forEach(b => b.setAttribute("aria-pressed", b === btn));
-    applyLang();
-  });
-});
-
-document.getElementById("blockSelect").addEventListener("change", e => {
-  activeBlock = e.target.value;
-  populateVariables();
-  renderMap();
-  renderInspector();
-  renderRankings();
-});
-
-document.getElementById("varSelect").addEventListener("change", e => {
-  activeVar = e.target.value;
-  syncYearAvailability();
-  renderMap();
-  renderInspector();
-  renderRankings();
-});
-
-document.querySelectorAll(".years button").forEach(btn => {
-  btn.addEventListener("click", () => {
-    if (btn.disabled) return;
-    activeYear = Number(btn.dataset.year);
-    document.querySelectorAll(".years button").forEach(b => b.setAttribute("aria-pressed", b === btn));
-    renderMap();
-    renderInspector();
-    renderRankings();
-  });
-});
-
-document.getElementById("btnNisAdj").addEventListener("click", () => {
-  useNisAdj = true;
-  document.getElementById("btnNisAdj").setAttribute("aria-pressed", "true");
-  document.getElementById("btnNisEnum").setAttribute("aria-pressed", "false");
-  renderMap(); renderInspector(); renderRankings();
-});
-document.getElementById("btnNisEnum").addEventListener("click", () => {
-  useNisAdj = false;
-  document.getElementById("btnNisAdj").setAttribute("aria-pressed", "false");
-  document.getElementById("btnNisEnum").setAttribute("aria-pressed", "true");
-  renderMap(); renderInspector(); renderRankings();
-});
-
-const tip = document.getElementById("tooltip");
-let isDragging = false, dragMoved = false, dragStartX = 0, dragStartY = 0, panStartX = 0, panStartY = 0;
-const svgEl = document.getElementById("mapSvg");
-
-document.getElementById("zoomIn").addEventListener("click", () => zoomAt(1.45));
-document.getElementById("zoomOut").addEventListener("click", () => zoomAt(1 / 1.45));
-document.getElementById("zoomFocus").addEventListener("click", zoomToSelected);
-document.getElementById("zoomReset").addEventListener("click", () => { zoomK = 1; panX = 0; panY = 0; applyTransform(); });
-
-svgEl.addEventListener("wheel", e => {
-  e.preventDefault();
-  const rect = svgEl.getBoundingClientRect();
-  const mx = ((e.clientX - rect.left) / rect.width) * VB_W;
-  const my = ((e.clientY - rect.top) / rect.height) * VB_H;
-  zoomAt(e.deltaY < 0 ? 1.25 : 1 / 1.25, mx, my);
-}, { passive: false });
-
-svgEl.addEventListener("pointerdown", e => {
-  if (e.button !== 0) return;
-  isDragging = true; dragMoved = false;
-  dragStartX = e.clientX; dragStartY = e.clientY;
-  panStartX = panX; panStartY = panY;
-  svgEl.classList.add("dragging");
-});
-window.addEventListener("pointermove", e => {
-  if (!isDragging) return;
-  const dx = e.clientX - dragStartX, dy = e.clientY - dragStartY;
-  if (Math.abs(dx) > 4 || Math.abs(dy) > 4) dragMoved = true;
-  if (!dragMoved || zoomK <= 1) return;
-  const rect = svgEl.getBoundingClientRect();
-  panX = panStartX + (dx / rect.width) * VB_W;
-  panY = panStartY + (dy / rect.height) * VB_H;
-  applyTransform();
-});
-window.addEventListener("pointerup", () => { isDragging = false; svgEl.classList.remove("dragging"); });
-
-document.querySelectorAll(".district").forEach(el => {
-  el.addEventListener("click", () => { if (dragMoved) return; selectDistrict(el.dataset.id); });
-  el.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); selectDistrict(el.dataset.id); } });
-  el.addEventListener("mousemove", e => {
-    const d = BY_ID[el.dataset.id];
-    const meta = getVarMeta();
-    const v = getVal(d, activeYear);
-    const valStr = d.water ? I18N[lang].waterLabel : fmtVal(v, meta);
-    tip.innerHTML = `<strong>${d.name}</strong> (${d.prov})<br><span style="color:var(--sky)">${meta[lang]}</span><br>${activeYear}: <strong>${valStr}</strong>`;
-    tip.style.display = "block";
-    tip.style.left = (e.clientX + 14) + "px";
-    tip.style.top = (e.clientY + 14) + "px";
-  });
-  el.addEventListener("mouseleave", () => { tip.style.display = "none"; });
-});
-
-// Search
-const sIn = document.getElementById("searchInput");
-const sRes = document.getElementById("searchResults");
-sIn.addEventListener("input", () => {
-  const q = sIn.value.trim().toLowerCase();
-  if (!q) { sRes.style.display = "none"; return; }
-  const hits = DISTRICTS.filter(d => d.name.toLowerCase().includes(q) || d.prov.toLowerCase().includes(q) || d.id.toLowerCase().includes(q)).slice(0, 12);
-  sRes.innerHTML = hits.map(d => `<button data-id="${d.id}"><span>${d.name}</span><span style="color:var(--muted)">${d.prov}</span></button>`).join("");
-  sRes.style.display = hits.length ? "block" : "none";
-  sRes.querySelectorAll("button").forEach(b => b.addEventListener("click", () => {
-    sRes.style.display = "none"; sIn.value = ""; selectDistrict(b.dataset.id);
-  }));
-});
-
-applyLang();
 </script>
+<script src="assets/contract14/workspace.js"></script>
 </body>
 </html>

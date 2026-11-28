@@ -10,10 +10,13 @@ window.C14_KR92=["KH-01-01", "KH-02-05", "KH-02-08", "KH-02-11", "KH-02-12", "KH
     en:{intro:'Overview',map:'Map',detail:'Detail',ranking:'Ranking',selected:'Selected district',districtValue:'District',districtMean:'District average',nationalRef:'National reference',gap:'Difference',count:'{n} districts with data',partial:'1992 · UNTAC, not a census · partial coverage',populationOnly:'1992: total population, population by sex and derived indicators only.',unavailable:'No data for {y}. Choose an enabled year.',source:'Source and coverage',normal:'{y} · {n} districts with data',chartNote:'Reference for each year; missing observations are not connected.',historicalNote:'1992: different source and coverage; descriptive comparison.',referenceInfo:'Reference from the original panel; weighting documented in Methodology.',meanInfo:'Sum over districts with data / number of districts with data. Excludes water and missing observations.',noReference:'Reference unavailable',focus:'Focus district',reset:'Reset map',zoomIn:'Zoom in',zoomOut:'Zoom out',rank:'Rank',coverage:'Coverage',total:'Recorded total',na:'No data',top:'Highest',bottom:'Lowest',series:'District trajectory and comparison reference',detailOf:'View details for',ratioGap:'in indicator units',unchangedYear:'The selected year is retained.'},
     km:{intro:'ទិដ្ឋភាពទូទៅ',map:'ផែនទី',detail:'ព័ត៌មានលម្អិត',ranking:'ចំណាត់ថ្នាក់',selected:'ស្រុកដែលបានជ្រើស',districtValue:'ស្រុក',districtMean:'មធ្យមភាគតាមស្រុក',nationalRef:'តម្លៃយោងជាតិ',gap:'ភាពខុសគ្នា',count:'ស្រុកមានទិន្នន័យ {n}',partial:'១៩៩២ · UNTAC មិនមែនជាជំរឿន · វិសាលភាពមិនពេញលេញ',populationOnly:'ឆ្នាំ១៩៩២៖ មានតែប្រជាជនសរុប តាមភេទ និងសូចនាករដែលគណនាពីទិន្នន័យទាំងនេះ។',unavailable:'គ្មានទិន្នន័យឆ្នាំ {y}។ សូមជ្រើសឆ្នាំដែលមានទិន្នន័យ។',source:'ប្រភព និងវិសាលភាព',normal:'{y} · ស្រុកមានទិន្នន័យ {n}',chartNote:'តម្លៃយោងតាមឆ្នាំ។ មិនភ្ជាប់ចំណុចឆ្លងកាត់ទិន្នន័យដែលបាត់ទេ។',historicalNote:'១៩៩២៖ ប្រភព និងវិសាលភាពខុសគ្នា។ ការប្រៀបធៀបសម្រាប់ពិពណ៌នា។',referenceInfo:'តម្លៃយោងពីបន្ទះទិន្នន័យដើម។ វិធីសាស្ត្រផ្តល់ទម្ងន់មានក្នុងឯកសារវិធីសាស្ត្រ។',meanInfo:'ផលបូកតាមស្រុកមានទិន្នន័យ ចែកនឹងចំនួនស្រុកមានទិន្នន័យ។ មិនរាប់តំបន់ទឹក និងទិន្នន័យដែលបាត់។',noReference:'គ្មានតម្លៃយោង',focus:'ផ្តោតលើស្រុក',reset:'កំណត់ផែនទីឡើងវិញ',zoomIn:'ពង្រីក',zoomOut:'បង្រួម',rank:'ចំណាត់ថ្នាក់',coverage:'វិសាលភាព',total:'សរុបដែលកត់ត្រា',na:'គ្មានទិន្នន័យ',top:'ខ្ពស់បំផុត',bottom:'ទាបបំផុត',series:'និន្នាការស្រុក និងតម្លៃយោងសម្រាប់ប្រៀបធៀប',detailOf:'មើលព័ត៌មានលម្អិត',ratioGap:'តាមឯកតាសូចនាករ',unchangedYear:'រក្សាឆ្នាំដែលបានជ្រើស។'}
   };
+  Object.assign(L.es,{clear:'Limpiar selección',noSelection:'Sin selección',selectHint:'Selecciona un distrito en el mapa, la búsqueda o el ranking.'});
+  Object.assign(L.en,{clear:'Clear selection',noSelection:'No selection',selectHint:'Select a district on the map, in search or in the ranking.'});
+  Object.assign(L.km,{clear:'លុបការជ្រើសរើស',noSelection:'គ្មានការជ្រើសរើស',selectHint:'ជ្រើសស្រុកលើផែនទី តាមការស្វែងរក ឬចំណាត់ថ្នាក់។'});
   const t = () => L[lang];
   const names=window.C14_LABELS;
-  const districtName=d=>lang==='km'?names[d.id].name:d.name;
-  const provinceName=d=>lang==='km'?names[d.id].prov:d.prov;
+  const districtName=d=>d?(lang==='km'?names[d.id].name:d.name):t().noSelection;
+  const provinceName=d=>d?(lang==='km'?names[d.id].prov:d.prov):'';
   const kr92=new Set(window.C14_KR92);
   const historyText={
     es:{label92:'Jemeres Rojos · 1992 · 10 distritos',note92:'Control de los Jemeres Rojos en 1992; sin registro UNTAC. Señalado en la base histórica sobre distritos armonizados, no como fronteras militares exactas.',label98:'Conflicto · 1998 · áreas no censadas',note98:'Áreas excluidas del censo de 1998 por operaciones de los Jemeres Rojos: tres distritos de origen, distribuidos entre cuatro distritos armonizados. La trama no altera el valor ni la opción NIS.',source:'Ver fuente'},
@@ -21,7 +24,12 @@ window.C14_KR92=["KH-01-01", "KH-02-05", "KH-02-08", "KH-02-11", "KH-02-12", "KH
     km:{label92:'ខ្មែរក្រហម · ១៩៩២ · ១០ ស្រុក',note92:'ក្រោមការគ្រប់គ្រងរបស់ខ្មែរក្រហមក្នុងឆ្នាំ១៩៩២។ គ្មានការចុះបញ្ជី UNTAC។ បង្ហាញតាមស្រុកដែលបានសម្របព្រំដែន មិនមែនជាព្រំដែនយោធាជាក់លាក់ទេ។',label98:'ជម្លោះ · ១៩៩៨ · តំបន់មិនបានធ្វើជំរឿន',note98:'តំបន់ដែលមិនបានធ្វើជំរឿនឆ្នាំ១៩៩៨ ដោយសារប្រតិបត្តិការខ្មែរក្រហម៖ ស្រុកដើម៣ ត្រូវបានបែងចែកទៅស្រុកដែលបានសម្របព្រំដែន៤។ ឆ្នូតមិនផ្លាស់ប្តូរតម្លៃ ឬជម្រើស NIS ទេ។',source:'មើលប្រភព'}
   };
   const isHistorical=d=>activeYear===1992?kr92.has(d.id):activeYear===1998&&d.est98;
-  const historyNote=d=>isHistorical(d)?historyText[lang][activeYear===1992?'note92':'note98']:'';
+  const historyNote=d=>d&&isHistorical(d)?historyText[lang][activeYear===1992?'note92':'note98']:'';
+  const historyFootnote={
+    es:'Jemeres Rojos · 1992: 10 distritos bajo control. 1998: 3 distritos no censados por conflicto (4 unidades armonizadas).',
+    en:'Khmer Rouge · 1992: 10 districts under control. 1998: 3 districts not enumerated due to conflict (4 harmonized units).',
+    km:'ខ្មែរក្រហម · ១៩៩២៖ គ្រប់គ្រងស្រុក១០។ ១៩៩៨៖ ស្រុក៣ មិនបានធ្វើជំរឿនដោយសារជម្លោះ (៤តំបន់ក្រោយសម្របព្រំដែន)។'
+  };
   const workspace = $('explore');
   const sidebar = $('inspector');
   const mapCard = document.querySelector('.explore-grid>.panel-card');
@@ -30,6 +38,17 @@ window.C14_KR92=["KH-01-01", "KH-02-05", "KH-02-08", "KH-02-11", "KH-02-12", "KH
   const viewport = $('mapViewport');
   const tooltip = $('tooltip');
   const paths = [...document.querySelectorAll('.district')];
+  const clearButton=document.createElement('button');
+  clearButton.id='c14-clear-selection';clearButton.type='button';
+  mapWrap.append(clearButton);
+  const legacyFocusBox=updateFocusBox;
+  updateFocusBox=function(){
+    if(!BY_ID[selectedId]){
+      for(const id of ['focusBox','focusBoxInner'])$(id)?.setAttribute('opacity','0');
+      return;
+    }
+    legacyFocusBox();
+  };
   const ns='http://www.w3.org/2000/svg';
   const defs=document.createElementNS(ns,'defs');
   defs.innerHTML='<pattern id="c14-history-hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V8" stroke="#ff7a7a" stroke-width="3"/></pattern>';
@@ -146,15 +165,14 @@ window.C14_KR92=["KH-01-01", "KH-02-05", "KH-02-08", "KH-02-11", "KH-02-12", "KH
       el.setAttribute('aria-label',`${districtName(d)} · ${activeYear}: ${fmtVal(value,meta)}${historyNote(d)?' · '+historyNote(d):''}`);
     });
     historicalLayer.querySelectorAll('path').forEach(el=>el.style.display=isHistorical(BY_ID[el.dataset.id])?'':'none');
-    const hasHistory=activeYear===1992||activeYear===1998;
-    historyLegend.hidden=!hasHistory;
-    mapCard.classList.toggle('has-history',hasHistory);
-    if(hasHistory){
-      $('c14-history-label').textContent=historyText[lang][activeYear===1992?'label92':'label98'];
-      historyLegend.title=historyText[lang][activeYear===1992?'note92':'note98'];
-      $('c14-history-source').textContent=historyText[lang].source;
-      $('c14-history-source').href=activeYear===1992?'#source1992':'#method';
-    }
+    $('c14-history-label').textContent=historyFootnote[lang];
+    historyLegend.title=historyText[lang].note92+' '+historyText[lang].note98;
+    $('c14-history-source').textContent='↗';
+    $('c14-history-source').setAttribute('aria-label',historyText[lang].source);
+    $('c14-history-source').title=historyText[lang].source;
+    $('c14-history-source').href='#method';
+    $('zoomFocus').disabled=!BY_ID[selectedId];
+    clearButton.disabled=!BY_ID[selectedId];
     updateFocusBox();
   };
 
@@ -169,7 +187,7 @@ window.C14_KR92=["KH-01-01", "KH-02-05", "KH-02-08", "KH-02-11", "KH-02-12", "KH
   function renderSeries(){
     const meta=getVarMeta(),d=BY_ID[selectedId];
     const years=meta.years.includes(1992)?[1992,1998,2008,2019]:[1998,2008,2019];
-    const observations=years.map(year=>({year,value:getVal(d,year)}));
+    const observations=years.map(year=>({year,value:d?getVal(d,year):null}));
     const refs=years.map(year=>({year,...reference(year)}));
     const values=[...observations,...refs].map(p=>p.value).filter(finite);
     const lo=Math.min(0,...values),hi=Math.max(1,...values),span=hi-lo||1;
@@ -180,6 +198,7 @@ window.C14_KR92=["KH-01-01", "KH-02-05", "KH-02-08", "KH-02-11", "KH-02-12", "KH
     const refLabel=meta.kind==='count'?t().districtMean:t().nationalRef;
     $('c14-series-selected').textContent=districtName(d);
     $('c14-series-selected').title=districtName(d);
+    $('c14-series-selected').hidden=!d;
     $('c14-series-reference').textContent=refLabel;
     $('c14-series-reference').title=meta.kind==='count'?t().meanInfo:t().referenceInfo;
     $('c14-chart-note').textContent=meta.years.includes(1992)?t().historicalNote:t().chartNote;
@@ -198,13 +217,14 @@ window.C14_KR92=["KH-01-01", "KH-02-05", "KH-02-08", "KH-02-11", "KH-02-12", "KH
     graph.dataset.series=JSON.stringify({observations,references:refs});
   }
   renderInspector=function(){
-    const d=BY_ID[selectedId],meta=getVarMeta(),value=getVal(d,activeYear),ref=reference(activeYear);
+    const d=BY_ID[selectedId],meta=getVarMeta(),value=d?getVal(d,activeYear):null,ref=reference(activeYear);
     const rank=DISTRICTS.filter(x=>!x.water).map(x=>({id:x.id,value:getVal(BY_ID[x.id],activeYear)})).filter(x=>finite(x.value)).sort((a,b)=>b.value-a.value);
-    const i=rank.findIndex(x=>x.id===d.id);
+    const i=rank.findIndex(x=>x.id===d?.id);
     $('inspName').textContent=districtName(d);$('inspProv').textContent=provinceName(d);
-    $('inspGeoId').textContent=`${d.id} · ${t().rank} ${i<0?'NA':`${i+1}/${rank.length}`}`;
+    $('inspGeoId').textContent=d?`${d.id} · ${t().rank} ${i<0?'NA':`${i+1}/${rank.length}`}`:'';
     let note='';
-    if(activeYear===1992)note=coverage92Text(d);
+    if(!d)note=t().selectHint;
+    else if(activeYear===1992)note=coverage92Text(d);
     else if(d.water)note=I18N[lang].waterLabel;
     else if(activeVar==='pop_total'&&activeYear===1998&&d.est98&&useNisAdj)note=I18N[lang].estBadge.replace('{n}',d.est98_add.toLocaleString());
     else if(activeYear===1998){
@@ -215,7 +235,7 @@ window.C14_KR92=["KH-01-01", "KH-02-05", "KH-02-08", "KH-02-11", "KH-02-12", "KH
     note=[historyNote(d),note].filter(Boolean).join(' ');
     $('inspBadge').textContent=note;$('inspBadge').title=note;
     $('c14-value-label').textContent=`${t().districtValue} · ${activeYear}`;
-    $('c14-value').textContent=fmtVal(value,meta);
+    $('c14-value').textContent=d?fmtVal(value,meta):'—';
     $('c14-reference-label').textContent=meta.kind==='count'?t().districtMean:t().nationalRef;
     $('c14-reference').textContent=refFormat(ref.value,meta);
     $('c14-reference').title=meta.kind==='count'?t().meanInfo:t().referenceInfo;
@@ -242,10 +262,18 @@ window.C14_KR92=["KH-01-01", "KH-02-05", "KH-02-08", "KH-02-11", "KH-02-12", "KH
     if(!BY_ID[id])return;
     selectedId=id;render();
   };
+  function clearSelection(){
+    selectedId=null;
+    tooltip.style.display='none';
+    $('searchInput').value='';$('searchResults').style.display='none';
+    render();
+  }
+  clearButton.addEventListener('click',clearSelection);
   const originalLang=applyLang;
   applyLang=function(){
     originalLang();
     $('c14-intro').textContent=t().intro;
+    clearButton.textContent=t().clear;clearButton.setAttribute('aria-label',t().clear);
     tabs.querySelectorAll('button').forEach(btn=>btn.textContent=t()[btn.dataset.view]);
     for(const [id,key] of [['zoomIn','zoomIn'],['zoomOut','zoomOut'],['zoomFocus','focus'],['zoomReset','reset']]){
       $(id).title=t()[key];$(id).setAttribute('aria-label',t()[key]);

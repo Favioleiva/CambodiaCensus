@@ -292,6 +292,13 @@ census exclusion due to conflict: three original districts mapped to four
 harmonized districts, identified by the existing `est98` flag. This is distinct
 from the 1992 classification; neither is extrapolated to 2008 or 2019.
 The overlay preserves the choropleth values, NA mask and NIS comparison mode.
+One permanent footnote gives both the 1992 and 1998 counts in every year.
+The legend reserves the same space across all four years so switching year
+does not resize or reposition the map within its card. Only the historical
+overlay changes with the year, not this footnote.
+The Clear selection button removes the selected district and focus outline
+without changing year, indicator or zoom. Its empty state retains the reference
+statistics and reference time series; map, search and rankings can select again.
 
 Khmer district and province labels come from the supplied 1998/2008 census
 tables (`Khmer` column), matched by reviewed name aliases within province.
